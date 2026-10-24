@@ -2,12 +2,14 @@
 - [📜 **TODOS OS CRAFTS DO MODPACK**](crafts/todos-os-crafts.md)
 - [🔥 **FORNALHAS, MULTIBLOCOS & PROCESSOS**](crafts/forjas-multiblocos-processos.md)
 - [🪙 **ITENS COMERCIAIS & MILLÉNAIRE**](crafts/itens-comerciais.md)
+- [⚔️ **CHEFES ESSENCIAIS & LENDÁRIOS**](guias/chefes-essenciais-progresso.md)
 
 - 📖 **História**
   - [I. A Criação e o Selo Primordial](historia/01-a-era-primordial.md)
   - [II. A Fratura e a Lua de Sangue](historia/02-o-rompimento-do-selo.md)
   - [III. Os Pilões e os Seis Atos](historia/03-os-seis-atos.md)
   - [IV. O Chaos Guardian](historia/04-o-chaos-guardian.md)
+  - [⚔️ Chefes da História & Conquistas](guias/chefes-essenciais-progresso.md)
 
 - 🌲 **Guias — Sobrevivência**
   - [Primeiros Minutos no TFC](guias/01-primeiros-passos.md)
