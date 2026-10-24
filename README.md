@@ -1,5 +1,9 @@
 # TFC: Arcanum & Empires
 
+> [!WARNING]
+> **AVISO — PROJETO EM BETA FECHADO DE DESENVOLVIMENTO:**
+> O modpack **TFC: Arcanum & Empires** encontra-se atualmente em **estágio de Beta Fechado**. Esta Wiki é pública para consulta e documentação, mas receitas, sistemas, árvores de progressão e balanceamentos estão em desenvolvimento ativo e sujeitos a alterações antes do lançamento público.
+
 > Modpack hardcore medieval/fantasia para **Minecraft 1.21.1 (NeoForge)** — sobrevivência geológica do **TerraFirmaCraft**, magia de **Ars Nouveau** e **Iron's Spells**, civilizações vivas do **Millénaire**, dimensões ancestrais e chefes titânicos.
 
 Bem-vindo à **Wiki & Guias oficiais**! Aqui você encontra tudo o que precisa para sobreviver, evoluir e dominar o mundo.
