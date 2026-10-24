@@ -53,6 +53,31 @@
     .app-name-link img { max-width: 64px; }
 
     /* === MINECRAFT / JEI VISUAL RECIPE CARDS === */
+    .mc-grid-gallery, .crafts-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(335px, 1fr));
+      gap: 18px;
+      margin: 18px 0 28px 0;
+    }
+    .category-header {
+      width: 100%;
+      grid-column: 1 / -1;
+      margin: 24px 0 14px 0;
+      padding: 12px 16px;
+      background: #25282c;
+      border-left: 4px solid #ea6f5a;
+      border-radius: 4px;
+    }
+    .category-title {
+      font-size: 1.15rem;
+      font-weight: bold;
+      color: #f1f1f1;
+    }
+    .category-desc {
+      font-size: 0.9rem;
+      color: #b0b0b0;
+      margin-top: 4px;
+    }
     .mc-grid-gallery {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(335px, 1fr));

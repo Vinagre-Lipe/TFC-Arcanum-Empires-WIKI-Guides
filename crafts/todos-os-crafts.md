@@ -36,7 +36,8 @@
 25. [🏛️ Ponte TFC ➔ Millénaire (Blocos para Construtores)](#25-ponte-tfc--millénaire-blocos-para-construtores)
 26. [🔄 Conversões Vanilla ➔ TFC (Loot de Dungeons)](#26-conversões-vanilla--tfc-loot-de-dungeons)
 27. [👑 Endgame Supremo & Chaos Guardian (Ato VI)](#27-endgame-supremo--chaos-guardian-ato-vi)
-28. [🚫 Receitas Desativadas / Removidas (Anti-Exploit)](#28-receitas-desativadas--removidas-anti-exploit)
+28. [🔮 Alquimia do Eclipse, Joias Arcanas & Expedição (v1.2.7)](#28-alquimia-do-eclipse-joias-arcanas--expedição-v127)
+29. [🚫 Receitas Desativadas / Removidas (Anti-Exploit)](#29-receitas-desativadas--removidas-anti-exploit)
 
 ---
 
@@ -1307,12 +1308,15 @@ Substitutos realistas das fornalhas automáticas: covas de queima (*Pit Kiln*), 
   </div>
   <div class="mc-card-footer"><code>draconicevolution:chaos_shard</code><span>Pequeno ➔ Médio ➔ Grande ➔ Shard</span></div>
 </div>
-
-<div class="category-header" id="cat-alquimia-eclipse">
-    <div class="category-title">🔮 Seção 7: Alquimia do Eclipse, Joias Arcanas & Expedição (v1.2.7)</div>
-    <div class="category-desc">Metais do eclipse, lapidação de gemas brutas do TFC para anéis, transmutação de entulho de mobtrap em frascos de XP e utilidades de exploração rústica.</div>
 </div>
-<div class="crafts-grid">
+
+---
+
+## 28. Alquimia do Eclipse, Joias Arcanas & Expedição (v1.2.7)
+
+Metais do eclipse (*Ferricore*, *Blazegold*, *Celestina* e *Liga do Eclipse*), bancada de joalheria para lapidação de gemas brutas do TFC em anéis mágicos, transmutação necromântica de resíduos de monstros em frascos de experiência e equipamentos rústicos de expedição.
+
+<div class="mc-grid-gallery">
 
 <div class="mc-card">
   <div class="mc-card-header"><span class="mc-card-title">Lingote de Ferricore</span><span class="mc-card-badge">Alquimia do Eclipse</span></div>
@@ -1399,7 +1403,7 @@ Substitutos realistas das fornalhas automáticas: covas de queima (*Pit Kiln*), 
 
 ---
 
-## 28. Receitas Desativadas / Removidas (Anti-Exploit)
+## 29. Receitas Desativadas / Removidas (Anti-Exploit)
 
 | Categoria | Itens Bloqueados | Motivo |
 |---|---|---|
