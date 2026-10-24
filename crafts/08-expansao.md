@@ -107,3 +107,17 @@ Válido para os 20 tipos de madeira TFC: acacia, ash, aspen, birch, blackwood, c
 | `bettercombat:swords` | Espadas TFC de metal |
 | `bettercombat:maces` | Maças TFC de metal |
 | `bettercombat:two_handed` | Dardos (javelins) TFC de pedra e metal |
+
+---
+
+## 🔮 11. Transmutação Alquímica de Recursos Místicos (v1.2.4)
+
+Para garantir acesso a **Waystones**, **Olhos do Fim** e rituais arcanos antes de entrar no Nether ou The End, o script adiciona rotas de transmutação química e moagem:
+
+### Pérolas do End Alquímicas
+- **Via Ametista:** 2x Componentes de Ametista (`#tfc_arcanum:amethyst_components` — fragmento ou pó) + 2x Aglutinantes (`#tfc_arcanum:alchemical_binders` — cola vegetal TFC, gosma de slime ou mel) + 1x Pó de Enxofre (`#tfc_arcanum:sulfur_powders`) em formato de cruz ➔ 1x **Pérola do End** (`minecraft:ender_pearl`).
+- **Via Lápis-Lazúli:** 2x Componentes de Lápis-Lazúli (`#tfc_arcanum:lapis_components` — lápis ou pó) + 2x Aglutinantes + 1x Pó de Enxofre em formato de cruz ➔ 1x **Pérola do End** (`minecraft:ender_pearl`).
+
+### Síntese de Pó de Blaze
+- **Pó de Blaze sem Nether:** 1x Pó de Enxofre (`#tfc_arcanum:sulfur_powders`) + 1x Cinzas de Madeira de Fogueira (`tfc:powder/wood_ash`) + 1x Pó de Carvão Vegetal (`tfc:powder/charcoal`) ➔ 2x **Pó de Blaze** (`minecraft:blaze_powder`).
+

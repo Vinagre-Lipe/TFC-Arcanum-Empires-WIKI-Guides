@@ -2,35 +2,39 @@
 
 > [!WARNING]
 > **AVISO — PROJETO EM BETA FECHADO DE DESENVOLVIMENTO:**
-> O modpack **TFC: Arcanum & Empires** encontra-se atualmente em **estágio de Beta Fechado**. Esta Wiki é pública para consulta e documentação, mas receitas, sistemas, árvores de progressão e balanceamentos estão em desenvolvimento ativo e sujeitos a alterações antes do lançamento público.
+> O modpack **TFC: Arcanum & Empires** encontra-se atualmente em **estágio de Beta Fechado**. Esta Wiki é pública para consulta e documentação dos jogadores e testadores, mas receitas, sistemas, árvores de progressão e balanceamentos estão em desenvolvimento ativo e sujeitos a alterações contínuas.
 
-> Modpack hardcore medieval/fantasia para **Minecraft 1.21.1 (NeoForge)** — sobrevivência geológica do **TerraFirmaCraft**, magia de **Ars Nouveau** e **Iron's Spells**, civilizações vivas do **Millénaire**, dimensões ancestrais e chefes titânicos.
+> Modpack hardcore medieval/fantasia para **Minecraft 1.21.1 (NeoForge)** — sobrevivência geológica do **TerraFirmaCraft**, magia de **Ars Nouveau** e **Iron's Spells**, civilizações vivas do **Millénaire**, defesa militar com **Millager**, dimensões ancestrais e chefes titânicos.
 
 Bem-vindo à **Wiki & Guias oficiais**! Aqui você encontra tudo o que precisa para sobreviver, evoluir e dominar o mundo.
 
 | Seção | O que tem |
 |---|---|
-| ⚒️ [**TODOS OS CRAFTS DO MODPACK**](crafts/todos-os-crafts.md) | **Catálogo Geral em página única** com todas as receitas customizadas, conversões e integrações! |
-| 📜 [História](historia/01-a-era-primordial.md) | A lore do mundo: o Selo Primordial, a Lua de Sangue, os Pilões e o Chaos Guardian. |
-| 🧭 [Guias](guias/01-primeiros-passos.md) | Do primeiro minuto (pedra e graveto) até a magia e os impérios. |
-| 🏹 [Progressão dos 6 Atos](guias/progressao-6-atos.md) | Todas as missões do FTB Quests, ato por ato. |
-| ⚒️ [Crafts & Integrações](crafts/README.md) | Tabelas com **todas** as receitas customizadas, conversões e integrações entre mods. |
-| 📘 [Documentação & Mods](documentacao/arquitetura.md) | Visão geral do projeto, lista completa dos **118 mods**, requisitos e comandos úteis. |
+| 🌟 [**TODOS OS CRAFTS DO MODPACK**](crafts/todos-os-crafts.md) | **Painel Visual JEI Interativo** com todas as receitas em grades 3×3 e Knapping com pop-ups dinâmicos! |
+| 📖 [História](historia/01-a-era-primordial.md) | A lore do mundo: o Selo Primordial, a Lua de Sangue, os Pilões e o Chaos Guardian. |
+| 🌲 [Guias de Sobrevivência](guias/01-primeiros-passos.md) | Do primeiro minuto (pedra e graveto) até a metalurgia avançada, magia e os impérios. |
+| 🗺️ [Progressão dos 6 Atos](guias/progressao-6-atos.md) | Todas as missões do FTB Quests, ato por ato. |
+| 📜 [Crafts & Integrações](crafts/README.md) | Catálogo analítico de todas as integrações KubeJS, utilidades Vanilla, Millager e receitas rústicas. |
+| 📋 [Documentação & Mods](documentacao/arquitetura.md) | Visão geral da arquitetura, lista completa dos **119 mods**, requisitos de hardware e comandos úteis. |
 
 ## Informações rápidas
 
-| | |
+| Propriedade | Valor |
 |---|---|
 | **Minecraft** | 1.21.1 |
 | **Loader** | NeoForge 21.1.249+ |
-| **Versão do pack** | 1.2.3 |
+| **Versão do pack** | `v1.2.6` |
+| **Total de Mods** | **119 Mods** |
 | **Autor** | Vinagre |
 
 ## Comandos úteis no jogo
 
-| Comando / Tecla | Função |
-|---|---|
-| `/consagrar` ou `/proteger_vila` | Ergue um santuário (Waystone + Pilões) onde você está. |
-| `/ftbquests open` | Abre o livro de missões dos 6 Atos. |
-| `[K]` | Árvore de habilidades (Puffish Skills). |
-| `[V]` | Informações da vila (Millénaire). |
+| Comando / Tecla | Função | Custo / Requisito |
+|---|---|---|
+| `/consagrar` ou `/proteger_vila` | Ergue um santuário (Waystone + Pilões) onde você está | Zona neutra de civilização |
+| `/home` / `/sethome` | Marca e teleporta para seu abrigo pessoal | Consome 50 de Mana |
+| `/tpa` / `/tpaccept` | Solicitação de teleporte para outros jogadores | Consome 50 de Mana |
+| `/back` | Retorna ao local da morte ou teleporte anterior | Consome 50 de Mana |
+| `/ftbquests open` | Abre o livro de missões e recompensas dos 6 Atos | Tecla padrão ou livro |
+| `[K]` | Abre a árvore de habilidades e talentos (Puffish Skills) | Nível de experiência |
+| `[V]` | Informações diplomáticas e comerciais da vila (Millénaire) | Dentro de território |

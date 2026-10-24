@@ -1,24 +1,27 @@
-# Receitas e Integrações (KubeJS)
+# 📜 Receitas e Integrações (KubeJS)
 
-> 👉 **[Clique aqui para abrir a aba TODOS OS CRAFTS DO MODPACK (Catálogo Geral em Página Única)](todos-os-crafts.md)**
+> 🌟 **[Clique aqui para abrir TODOS OS CRAFTS DO MODPACK (Painel Visual JEI Interativo)](todos-os-crafts.md)**
 
-Documentação detalhada por script KubeJS do modpack **TFC: Arcanum & Empires**.
+Documentação analítica por script do modpack **TFC: Arcanum & Empires** (`v1.2.6`).
 
-| Página | Resumo |
+| Página | Conteúdo / Script KubeJS |
 |---|---|
-| [01 · Knapping e Cerâmica Arcana](01-knapping.md) | Catalisadores de argila, queima no Pit Kiln, primeiro livro de magia e pilão, ponte de blocos TFC → Millénaire, biomas e estruturas |
-| [02 · Kit Inicial](02-kit-inicial.md) | Itens entregues no primeiro login (guia, pedras, gravetos, tochas, livro de missões) |
-| [04 · Consagração de Vilas](04-millenaire.md) | Comandos `/consagrar` e `/proteger_vila` para colocar Waystones |
-| [05 · Vulcões Vivos](05-vulcoes.md) | Erupções ao minerar rochas vulcânicas e drops bônus |
-| [06 · Spawns Noturnos](06-spawns-noturnos.md) | Monstros temáticos à noite na superfície, exceto perto de vilas |
-| [07 · TFC ⇄ Vanilla](07-tfc-vanilla.md) | Remoção de ferramentas/fornalhas vanilla, conversões de blocos/loot para TFC, Nether → Undergarden |
-| [08 · Expansão](08-expansao.md) | Tom's Storage, mochilas, Mob Grinding Utils, fogueiras e receitas rústicas (machado, faca, martelo, moldes) |
-| [09 · Grande Integração](09-grande-integracao.md) | Armaduras de dragão, sigilos do Apotheosis, tags de armaria/comida, Lua de Sangue e Sculk |
-| [10 · Fauna e Culinária](10-fauna.md) | Farmer's Delight, Aquaculture, Naturalist e HerbalBrews com materiais TFC |
-| [11 · Chaos Guardian](11-chaos-guardian.md) | Poda do Draconic Evolution, fragmentos do Caos e receitas de endgame |
-| [12 · Sculk e Warden](12-sculk-warden.md) | Punição por minerar sculk, desabamentos do Warden e loot das Cidades Ancestrais |
-| [13 · Teleporte por Mana](13-teleporte-mana.md) | `/home`, `/sethome`, `/tpa` e afins custando 50 de Mana |
-| [14 · Scripts de Cliente](14-cliente.md) | Tooltips educativos e itens ocultos no JEI/EMI |
+| [**Painel Visual JEI (Geral)**](todos-os-crafts.md) | **Catálogo visual completo com todas as receitas, grades 3×3, Knapping 5×5 e pop-up interativo JEI** |
+| [01 — Knapping e Cerâmica Arcana](01-knapping.md) | Vasos arcanos, queima no Pit Kiln, primeiro grimório, pilão protetor, ponte TFC ➔ Millénaire |
+| [02 — Kit Inicial](02-kit-inicial.md) | Itens entregues no primeiro login (guias, pedras, gravetos, tochas, questbook) |
+| [04 — Consagração de Vilas](04-millenaire.md) | Comandos `/consagrar` e `/proteger_vila` para Waystones seguras em civilizações |
+| [05 — Vulcões Vivos](05-vulcoes.md) | Erupções e eventos geológicos ao minerar rochas vulcânicas e drops ígneos |
+| [06 — Spawns Noturnos & Safezones](06-spawns-noturnos.md) | Tensão noturna, safezones de 40 blocos de Millénaire e Millager, drops de Ender Pearl |
+| [07 — TFC ➔ Vanilla](07-tfc-vanilla.md) | Bloqueio de fornalhas e ferramentas vanilla, conversões de itens de masmorra |
+| [08 — Expansão & Alquimia](08-expansao.md) | Tom's Storage, mochilas, farms, receitas rústicas e transmutação alquímica de Pérolas e Pó de Blaze |
+| [09 — Grande Integração](09-grande-integracao.md) | Armaduras de dragão (Wyrmroost), sigilos (Apotheosis), tags de combate e eventos de Lua de Sangue |
+| [10 — Fauna e Culinária](10-fauna.md) | Farmer's Delight, Aquaculture, preservação com sal e infusões de ervas |
+| [11 — Chaos Guardian](11-chaos-guardian.md) | Poda de máquinas sci-fi do Draconic Evolution e jornada contra o Dragão do Caos |
+| [12 — Sculk e Warden](12-sculk-warden.md) | Físicas acústicas de desabamento do Warden e mineração de sculk ancestral |
+| [13 — Teleporte por Mana](13-teleporte-mana.md) | Sistema canônico de teleporte (`/home`, `/tpa`, `/back`) consumindo reservas de Mana |
+| [14 — Utilidades Vanilla & Redstone](14-utilidades-vanilla.md) | 5 rotas de papel, livros, estantes, vidros, baldes, caldeirões, bigorna vanilla, pistões e trilhos |
+| [15 — Millager & Exércitos Mercenários](15-millager-exercitos.md) | Defensores de vilas, ordens militares, mesa tática e recrutamento com Deniers do Millénaire |
+| [16 — Tooltips Educativos & JEI](16-cliente-tooltips.md) | Dicas de sobrevivência no inventário e filtros de limpeza no JEI/EMI |
 
 > [!NOTE]
-> Os itens customizados (`tfc_arcanum:*`) são registrados em `startup_scripts/01_arcanum_items.js` e estão listados na página [01](01-knapping.md).
+> Os itens customizados (`tfc_arcanum:*` e `kubejs:*`) são registrados nos scripts de inicialização do KubeJS e integrados universalmente às tags do NeoForge.
