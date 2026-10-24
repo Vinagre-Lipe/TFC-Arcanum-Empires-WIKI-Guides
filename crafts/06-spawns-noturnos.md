@@ -4,7 +4,7 @@ Script: `kubejs/server_scripts/06_surface_hostile_spawns.js`
 
 > [!NOTE]
 > **Mecânica de Tensão Noturna:**
-> À noite (tempo de jogo entre `13000` e `23000`) no Overworld, a cada 10 segundos, cada jogador exposto na superfície (Y ≥ 60) tem **30% de chance** de atrair uma criatura hostil temática entre 24 e 36 blocos de distância, em locais com nível de luz ≤ 7.
+> À noite (tempo de jogo entre `13000` e `23000`) no Overworld, a cada 8 segundos, cada jogador exposto na superfície (Y ≥ 55) tem **40% de chance** (taxa aumentada em mais de 30% em relação ao padrão) de atrair uma criatura hostil temática entre 22 e 38 blocos de distância, em locais com nível de luz ≤ 7.
 
 ---
 
@@ -16,23 +16,19 @@ O script verifica ativamente a proximidade do jogador com civilizações e guarn
 
 ---
 
-## 👾 Tabela de Spawns Noturnos
+## 👾 Catálogo Amplo de Monstros Noturnos (Born in Chaos, Iron's Spells & Mowzie's)
 
-| Criatura | Mod de Origem | Chance Relativa | Observação |
+Substitui a esterilidade vanilla por uma seleção balanceada e aterradora de criaturas dos mods instalados:
+
+| Categoria | Criaturas Noturnas | Mod de Origem | Comportamento |
 |---|---|---|---|
-| **Zumbi em Decomposição** | `born_in_chaos_v1:decaying_zombie` | 20% | Lento, mas causa infecção persistente |
-| **Esqueleto Decrépito** | `born_in_chaos_v1:decrepit_skeleton` | 15% | Arqueiro primitivo agressivo |
-| **Carniçal (Ghoul)** | `graveyard:ghoul` | 13% | Carnívoro faminto, salta sobre presas |
-| **Espectro (Wraith)** | `graveyard:wraith` | 12% | Voador etéreo imune a empurrões comuns |
-| **Revenant** | `graveyard:revenant` | 12% | Cadáver blindado resistente |
-| **Cão do Pavor (Dread Hound)** | `born_in_chaos_v1:dread_hound` | 10% | Rápido, caça em matilha |
-| **Enderman Noturno** | `minecraft:enderman` | 8% | **Garante drop de 1 a 2 Pérolas do End!** |
-| **Wilden Stalker** | `ars_nouveau:wilden_stalker` | 8% | Fera arcana, dropa chifres e asas |
-| **Necromante Sombrio** | `irons_spellbooks:necromancer` | 6% | Conjura feitiços de sangue e esqueletos |
-| **Koboleton** | `cataclysm:koboleton` | 4% | Guerreiro de ossos com escudo |
+| **Tropas do Caos (50%)** | `born_in_chaos_v1:decaying_zombie`<br>`born_in_chaos_v1:decrepit_skeleton`<br>`born_in_chaos_v1:dread_hound`<br>`born_in_chaos_v1:barrel_zombie`<br>`born_in_chaos_v1:zombie_lumberjack`<br>`minecraft:skeleton`<br>`minecraft:zombie` | Born in Chaos & TFC | Hordas persistentes; zumbis lenhadores com machado, cães rápidos e arqueiros decrépitos. |
+| **Especialistas & Emboscadores (30%)** | `born_in_chaos_v1:bone_imp`<br>`born_in_chaos_v1:baby_spider`<br>`born_in_chaos_v1:zombie_fisherman`<br>`born_in_chaos_v1:restless_spirit`<br>`minecraft:creeper`<br>`minecraft:witch` | Born in Chaos & Vanilla | Diabretes velozes, espíritos intangíveis, pescadores com anzol e bruxas alquímicas. |
+| **Brutamontes & Caçadores (14%)** | `born_in_chaos_v1:skeleton_thrasher`<br>`born_in_chaos_v1:nightmare_stalker`<br>`mowziesmobs:naga`<br>`minecraft:enderman` | Born in Chaos & Mowzie's | Gigantes blindados que atordoam com golpes pesados, Nagas aladas e Endermans ancestrais. |
+| **Arcanistas Sombrios (6%)** | `irons_spellbooks:necromancer`<br>`irons_spellbooks:pyromancer`<br>`irons_spellbooks:cryomancer` | Iron's Spells | Magos hostis que lançam rajadas de chamas, estacas de gelo e ressuscitam mortos. |
 
 ---
 
 ## 👁️ Drop de Pérolas do End Garantido
 
-Na atualização **v1.2.4**, os Endermen receberam garantia absoluta de drop de **1 a 2 Pérolas do End** ao serem abatidos pelo jogador (`loot_tables.modify`), acabando com a frustração do drop zerado comum do Vanilla e viabilizando o crafting de Waystones e teleporte rápido.
+Os Endermen possuem garantia absoluta de drop de **1 a 2 Pérolas do End** ao serem abatidos pelo jogador, viabilizando o crafting de Waystones e teleporte rápido sem depender de raras masmorras.

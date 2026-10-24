@@ -68,3 +68,18 @@ Integra Naturalist, Aquaculture 2, Critters and Companions, HerbalBrews e Farmer
 | Gatilho | Efeito |
 |---|---|
 | Urso, leão, tigre ou jacaré do Naturalist a até 8 blocos, sem tocha/dardo/lanterna/lança na mão | Mensagem na action bar a cada 2 s pedindo para empunhar tocha ou lança |
+
+---
+
+## 🐾 Expansão Ecológica: Fauna Selvagem nos Biomas TFC (+30% de Densidade)
+
+Todos os animais dos mods **Naturalist** e **Critters and Companions** foram integrados aos biomas e climas específicos do TerraFirmaCraft via NeoForge Biome Modifiers, com **taxas de spawn aumentadas em 30%**:
+
+| Ecossistema TFC | Biomas Compatíveis | Criaturas Presentes |
+|---|---|---|
+| **Savanas & Planícies Quentes** | `#c:is_plains`, `#c:is_dry`, `#c:is_hot/overworld` | Zebras, Elefantes, Girafas, Leões, Rinocerontes, Avestruzes e Abutres. |
+| **Florestas Temperadas** | `#c:is_sparse_vegetation/overworld`, `#c:is_plains` | Cervos, Javalis, Ursos Pardos, Ursos Negros, Pássaros Canoros, Borboletas, Ouriços e Caracóis. |
+| **Pântanos, Lagos & Rios** | `#c:is_swamp`, `#c:is_river`, `#c:is_surface_lake` | Jacarés/Aligátores, Patos Selvagens, Cobras, Lagartos, Tartarugas, Hipopótamos, Libélulas e Vaga-lumes. |
+| **Tundras & Picos Gelados** | `#c:is_cold/overworld`, `#c:is_snowy`, `#c:is_mountain` | Ursos Polares, Pinguins, Mamutes Peludos e Ursos das Cavernas. |
+| **Litorais & Oceanos Profundos** | `#c:is_ocean`, `#c:is_beach` | Caranguejos, Robalos, Bagres, Tubarões-Brancos, Baleias, Águas-vivas, Lontras (*Otters*) e Carpas Koi. |
+

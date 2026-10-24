@@ -1,15 +1,19 @@
-# 04 · Consagração de Vilas (Waystones)
+# 04 · Consagração de Vilas & Waystones Místicas
 
-Script: `server_scripts/04_millenaire_features.js`
+Script: `kubejs/server_scripts/04_millenaire_features.js`
 
-Comandos que o próprio jogador usa para colocar uma Waystone aos seus pés (por exemplo, em uma vila Millénaire). Não há receitas.
+Permite ao jogador consagrar novos assentamentos, vilas descobertas do Millénaire ou bases distantes canalizando uma **Waystone sagrada** diretamente aos seus pés mediante custo místico de Mana.
 
-## Comandos
+---
 
-| Comando | Permissão | Efeito |
-|---|---|---|
-| `/consagrar` | todos (nível 0) | Coloca uma `waystones:waystone` na posição do jogador ("Santuário de &lt;nome&gt;") com som de beacon |
-| `/proteger_vila` | todos (nível 0) | Igual, nomeada "Vila de &lt;nome&gt;" |
+## 🔮 Comandos de Consagração
 
-> [!WARNING]
-> No script atual as linhas de `setblock` estão com as coordenadas ausentes (template literal quebrado), então os comandos podem apenas exibir a mensagem sem colocar o bloco.
+| Comando | Permissão | Custo Místico | Efeito & Ponto de Transporte |
+|---|---|---|---|
+| `/consagrar` | Todos (nível 0) | **100 de Mana** *(ou 4 níveis de XP)* | Canaliza uma `waystones:waystone` consagrada ("Santuário de &lt;nome&gt;") aos seus pés com efeitos de Totem e Beacon. |
+| `/proteger_vila` | Todos (nível 0) | **100 de Mana** *(ou 4 níveis de XP)* | Igual ao anterior, identificada como "Vila de &lt;nome&gt;". |
+
+> [!NOTE]
+> - **Integração Mágica Orgânica:** Detecta automaticamente as reservas de mana do **Iron's Spells 'n Spellbooks**.
+> - **Fallback Justo de Early Game:** Caso o jogador ainda não tenha desbloqueado o sistema de magia, o ritual consome **4 níveis de experiência (XP)** como energia vital substituta.
+> - **Proteção contra Spam:** Possui cooldown de segurança de 15 segundos entre consagrações consecutivas para evitar gastos acidentais de mana.
