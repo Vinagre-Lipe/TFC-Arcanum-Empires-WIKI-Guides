@@ -1,6 +1,8 @@
 # Receitas e Integrações (KubeJS)
 
-Documentação de todos os scripts KubeJS do modpack **TFC: Arcanum & Empires**.
+> 👉 **[Clique aqui para abrir a aba TODOS OS CRAFTS DO MODPACK (Catálogo Geral em Página Única)](todos-os-crafts.md)**
+
+Documentação detalhada por script KubeJS do modpack **TFC: Arcanum & Empires**.
 
 | Página | Resumo |
 |---|---|

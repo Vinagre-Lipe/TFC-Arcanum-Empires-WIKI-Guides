@@ -1,4 +1,5 @@
 - [🏠 Início](/)
+- [⚒️ **TODOS OS CRAFTS DO MODPACK**](crafts/todos-os-crafts.md)
 
 - 📜 **História**
   - [I. A Criação e o Selo Primordial](historia/01-a-era-primordial.md)
@@ -30,6 +31,7 @@
 - 🏹 [**Progressão: Os 6 Atos**](guias/progressao-6-atos.md)
 
 - ⚒️ [**Crafts & Integrações**](crafts/README.md)
+  - [📋 **Catálogo Completo (Todos os Crafts)**](crafts/todos-os-crafts.md)
   - [01 · Knapping, Cerâmica Arcana e Ponte Millénaire](crafts/01-knapping.md)
   - [02 · Kit Inicial e Guia](crafts/02-kit-inicial.md)
   - [04 · Consagração de Vilas (Waystones)](crafts/04-millenaire.md)

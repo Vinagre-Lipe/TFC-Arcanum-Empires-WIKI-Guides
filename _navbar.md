@@ -1,0 +1,6 @@
+- [🏠 Início](/)
+- [⚒️ **Todos os Crafts**](crafts/todos-os-crafts.md)
+- [📜 História](historia/01-a-era-primordial.md)
+- [🧭 Guias](guias/01-primeiros-passos.md)
+- [🏹 Os 6 Atos](guias/progressao-6-atos.md)
+- [📘 Documentação](documentacao/arquitetura.md)

@@ -6,6 +6,7 @@ Bem-vindo à **Wiki & Guias oficiais**! Aqui você encontra tudo o que precisa p
 
 | Seção | O que tem |
 |---|---|
+| ⚒️ [**TODOS OS CRAFTS DO MODPACK**](crafts/todos-os-crafts.md) | **Catálogo Geral em página única** com todas as receitas customizadas, conversões e integrações! |
 | 📜 [História](historia/01-a-era-primordial.md) | A lore do mundo: o Selo Primordial, a Lua de Sangue, os Pilões e o Chaos Guardian. |
 | 🧭 [Guias](guias/01-primeiros-passos.md) | Do primeiro minuto (pedra e graveto) até a magia e os impérios. |
 | 🏹 [Progressão dos 6 Atos](guias/progressao-6-atos.md) | Todas as missões do FTB Quests, ato por ato. |
