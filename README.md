@@ -15,7 +15,7 @@ Bem-vindo à **Wiki & Guias oficiais**! Aqui você encontra tudo o que precisa p
 | 🧭 [Guias](guias/01-primeiros-passos.md) | Do primeiro minuto (pedra e graveto) até a magia e os impérios. |
 | 🏹 [Progressão dos 6 Atos](guias/progressao-6-atos.md) | Todas as missões do FTB Quests, ato por ato. |
 | ⚒️ [Crafts & Integrações](crafts/README.md) | Tabelas com **todas** as receitas customizadas, conversões e integrações entre mods. |
-| 📘 [Documentação](documentacao/arquitetura.md) | Arquitetura técnica, mods, versões, comandos e build. |
+| 📘 [Documentação & Mods](documentacao/arquitetura.md) | Visão geral do projeto, lista completa dos **118 mods**, requisitos e comandos úteis. |
 
 ## Informações rápidas
 

@@ -47,5 +47,5 @@
   - [14 · Scripts de Cliente (Tooltips e JEI/EMI)](crafts/14-cliente.md)
 
 - 📘 **Documentação**
-  - [Arquitetura & Desenvolvimento](documentacao/arquitetura.md)
-  - [Mods & Compatibilidade](documentacao/mods-compatibilidade.md)
+  - [Visão Geral & Mods por Categoria](documentacao/arquitetura.md)
+  - [Catálogo A–Z (118 Mods) & Requisitos](documentacao/mods-compatibilidade.md)
