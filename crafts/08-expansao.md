@@ -47,15 +47,17 @@ Adapta mods de armazenamento (Tom's Simple Storage, Sophisticated Backpacks) e a
 
 ## Madeira rústica com machado
 
-Válido para os 20 tipos de madeira TFC: acacia, ash, aspen, birch, blackwood, chestnut, douglas_fir, hickory, kapok, mangrove, maple, oak, palm, pine, rosewood, sequoia, spruce, sycamore, white_cedar, willow (`<madeira>` abaixo). O machado (`#c:tools/axe`) **perde durabilidade** e não é consumido.
+Válido para os 20 tipos de madeira TFC: acacia, ash, aspen, birch, blackwood, chestnut, douglas_fir, hickory, kapok, mangrove, maple, oak, palm, pine, rosewood, sequoia, spruce, sycamore, white_cedar, willow (`<madeira>` abaixo). O machado (`#minecraft:axes`, `#c:tools/axe`, `#c:tools/axes` - pedra, metal ou obsidiana) **perde durabilidade** e não é consumido.
 
 | Resultado | Tipo | Ingredientes/Padrão | Observações |
 |---|---|---|---|
 | 2× Tábua `tfc:wood/lumber/<madeira>` | shapeless | Tronco `tfc:wood/log/<madeira>` + Machado | A serra rende 8 |
-| Viga de Suporte `tfc:wood/support/<madeira>` | shapeless | Tronco + Machado | |
-| Baú `tfc:wood/chest/<madeira>` | shaped | `'LLL'`, `'LAL'`, `'LLL'` — L = Tábua, A = Machado | |
+| 2× Viga de Suporte `tfc:wood/support/<madeira>` | shapeless | 2× Tronco + Machado | Evita colisão com tábuas |
+| **Bancada de Trabalho** `tfc:wood/workbench/<madeira>` | shapeless / shaped | 3× Troncos + Machado (`'WW'`, `'AW'`) | **Pode ser feito no 2×2 direto com troncos!** |
+| **Bancada de Trabalho** `tfc:wood/workbench/<madeira>` | shapeless | 3× Tábuas + Machado | Feito no inventário 2×2 |
+| **Bancada de Trabalho** `tfc:wood/workbench/<madeira>` | shaped | 4× Tábuas (`'LL'`, `'LL'`) | Estilo Vanilla sem ferramenta |
+| Baú `tfc:wood/chest/<madeira>` | shaped | `'LLL'`, `'LAL'`, `'LLL'` — L = Tábua, A = Machado | Na Bancada 3×3 |
 | Barril `tfc:wood/barrel/<madeira>` | shaped | `'L L'`, `'LAL'`, `'LLL'` | |
-| Bancada `tfc:wood/workbench/<madeira>` | shaped | `'LL'`, `'AL'` | |
 | Porta `tfc:wood/door/<madeira>` | shaped | `'LL'`, `'LL'`, `'LA'` | 1 porta (serra rende 3) |
 | Alçapão `tfc:wood/trapdoor/<madeira>` | shaped | `'LLL'`, `' A '` | |
 | Barco `tfc:wood/boat/<madeira>` | shaped | `'L L'`, `'LAL'`, `' L '` | |
