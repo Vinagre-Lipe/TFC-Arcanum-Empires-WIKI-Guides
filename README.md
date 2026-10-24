@@ -10,7 +10,8 @@ Bem-vindo à **Wiki & Guias oficiais**! Aqui você encontra tudo o que precisa p
 
 | Seção | O que tem |
 |---|---|
-| 🌟 [**TODOS OS CRAFTS DO MODPACK**](crafts/todos-os-crafts.md) | **Painel Visual JEI Interativo** com todas as receitas em grades 3×3 e Knapping com pop-ups dinâmicos! |
+| 🌟 [**TODOS OS CRAFTS DO MODPACK**](crafts/todos-os-crafts.md) | **Painel Visual JEI Interativo** com 106+ receitas em grades 3×3 e Knapping com pop-ups dinâmicos! |
+| 🪙 [**ITENS EXCLUSIVOS DE COMÉRCIO**](crafts/itens-comerciais.md) | **Guia Econômico & Mercadorias de Deniers**: alimentos, armas, armaduras e contratos obtidos apenas por comércio! |
 | 📖 [História](historia/01-a-era-primordial.md) | A lore do mundo: o Selo Primordial, a Lua de Sangue, os Pilões e o Chaos Guardian. |
 | 🌲 [Guias de Sobrevivência](guias/01-primeiros-passos.md) | Do primeiro minuto (pedra e graveto) até a metalurgia avançada, magia e os impérios. |
 | 🗺️ [Progressão dos 6 Atos](guias/progressao-6-atos.md) | Todas as missões do FTB Quests, ato por ato. |
@@ -23,7 +24,7 @@ Bem-vindo à **Wiki & Guias oficiais**! Aqui você encontra tudo o que precisa p
 |---|---|
 | **Minecraft** | 1.21.1 |
 | **Loader** | NeoForge 21.1.249+ |
-| **Versão do pack** | `v1.2.6` |
+| **Versão do pack** | `v1.2.7` |
 | **Total de Mods** | **119 Mods** |
 | **Autor** | Vinagre |
 

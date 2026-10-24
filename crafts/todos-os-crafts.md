@@ -1,7 +1,7 @@
 # 📜 Todos os Crafts do Modpack (Painel Visual JEI)
 
 > [!WARNING]
-> **AVISO — MODPACK EM ESTÁGIO BETA FECHADO DE DESENVOLVIMENTO:**
+> **AVISO — MODPACK EM ESTÁGIO BETA FECHADO DE DESENVOLVIMENTO (v1.2.7):**
 > Todas as receitas, mecânicas e integrações abaixo pertencem à build atual de desenvolvimento (**Beta Fechado**) e podem receber ajustes contínuos de balanceamento.
 > 💡 **Dica Interativa JEI:** Clique em **qualquer item ou ingrediente** dentro de qualquer receita para abrir a janela pop-up (**DIV JEI**) mostrando como fabricá-lo ou em quais receitas ele é utilizado como ingrediente!
 
@@ -16,26 +16,30 @@
 5. [⚙️ Mecanismos, Redstone, Trilhos & Carrinhos Integrados](#5-mecanismos-redstone-trilhos--carrinhos-integrados)
 6. [🔨 Bigorna Vanilla (Apotheosis) & Mesas de Ofício](#6-bigorna-vanilla-apotheosis--mesas-de-ofício)
 7. [🎨 Decoração, Mobília, Slime & Utilidades Domésticas](#7-decoração-mobília-slime--utilidades-domésticas)
-8. [🏺 Cerâmica Arcana, Knapping 5×5 & Queima (Pit Kiln)](#8-cerâmica-arcana-knapping-5x5--queima-pit-kiln)
-9. [✨ Magia, Grimórios & Pilões de Proteção](#9-magia-grimórios--pilões-de-proteção)
-10. [🔥 Sobrevivência, Fogo & Qualidade de Vida (QoL)](#10-sobrevivência-fogo--qualidade-de-vida-qol)
-11. [🪵 Carpintaria Rústica com Machado (20 Madeiras TFC)](#11-carpintaria-rústica-com-machado-20-madeiras-tfc)
-12. [🧵 Couro, Fibras, Britagem com Martelo & Moagem](#12-couro-fibras-britagem-com-martelo--moagem)
-13. [🥣 Moldes de Cerâmica na Bancada (Sem Knapping)](#13-moldes-de-cerâmica-na-bancada-sem-knapping)
-14. [🎒 Armazenamento & Mochilas (Tom's Storage & Sophisticated Backpacks)](#14-armazenamento--mochilas-toms-storage--sophisticated-backpacks)
-15. [🌾 Automação & Farms (Mob Grinding Utils)](#15-automação--farms-mob-grinding-utils)
-16. [🐉 Dragões (Wyrmroost) & Sigilos (Apotheosis)](#16-dragões-wyrmroost--sigilos-apotheosis)
-17. [🍲 Culinária, Pesca, Salga & Apicultura](#17-culinária-pesca-salga--apicultura)
-18. [🏛️ Ponte TFC ➔ Millénaire (Blocos para Construtores)](#18-ponte-tfc--millénaire-blocos-para-construtores)
-19. [🔄 Conversões Vanilla ➔ TFC (Loot de Dungeons)](#19-conversões-vanilla--tfc-loot-de-dungeons)
-20. [👑 Endgame Supremo & Chaos Guardian (Ato VI)](#20-endgame-supremo--chaos-guardian-ato-vi)
-21. [🚫 Receitas Desativadas / Removidas (Anti-Exploit)](#21-receitas-desativadas--removidas-anti-exploit)
+8. [🔥 Química Ígnea, Nether & Dimensões (v1.2.7)](#8-química-ígnea-nether--dimensões-v127)
+9. [🪨 Ardósia Profunda (Deepslate), Pedra Negra & Rochas (v1.2.7)](#9-ardósia-profunda-deepslate-pedra-negra--rochas-v127)
+10. [✨ Bancadas de Magia, Iron's Spells & Waystones (v1.2.7)](#10-bancadas-de-magia-irons-spells--waystones-v127)
+11. [🛡️ Mesas do Apotheosis: Reforja, Salvaging & Lapidação (v1.2.7)](#11-mesas-do-apotheosis-reforja-salvaging--lapidação-v127)
+12. [⚙️ Engenharia Create & Casings de Bancada (v1.2.7)](#12-engenharia-create--casings-de-bancada-v127)
+13. [🐎 Exploração, Cavalaria & Final (v1.2.7)](#13-exploração-cavalaria--final-v127)
+14. [🏺 Cerâmica Arcana, Knapping 5×5 & Queima (Pit Kiln)](#14-cerâmica-arcana-knapping-5x5--queima-pit-kiln)
+15. [✨ Grimórios & Pilões de Proteção de Aldeia](#15-grimórios--pilões-de-proteção-de-aldeia)
+16. [🔥 Sobrevivência, Fogo & Qualidade de Vida (QoL)](#16-sobrevivência-fogo--qualidade-de-vida-qol)
+17. [🪵 Carpintaria Rústica com Machado (20 Madeiras TFC)](#17-carpintaria-rústica-com-machado-20-madeiras-tfc)
+18. [🧵 Couro, Fibras, Britagem com Martelo & Moagem](#18-couro-fibras-britagem-com-martelo--moagem)
+19. [🥣 Moldes de Cerâmica na Bancada (Sem Knapping)](#19-moldes-de-cerâmica-na-bancada-sem-knapping)
+20. [🎒 Armazenamento & Mochilas (Tom's Storage & Sophisticated Backpacks)](#20-armazenamento--mochilas-toms-storage--sophisticated-backpacks)
+21. [🌾 Automação & Farms (Mob Grinding Utils)](#21-automação--farms-mob-grinding-utils)
+22. [🐉 Dragões (Wyrmroost) & Sigilos (Apotheosis)](#22-dragões-wyrmroost--sigilos-apotheosis)
+23. [🍲 Culinária, Pesca, Salga & Apicultura](#23-culinária-pesca-salga--apicultura)
+24. [🏛️ Ponte TFC ➔ Millénaire (Blocos para Construtores)](#24-ponte-tfc--millénaire-blocos-para-construtores)
+25. [🔄 Conversões Vanilla ➔ TFC (Loot de Dungeons)](#25-conversões-vanilla--tfc-loot-de-dungeons)
+26. [👑 Endgame Supremo & Chaos Guardian (Ato VI)](#26-endgame-supremo--chaos-guardian-ato-vi)
+27. [🚫 Receitas Desativadas / Removidas (Anti-Exploit)](#27-receitas-desativadas--removidas-anti-exploit)
 
 ---
 
 ## 1. Alquimia Mística & Transmutação de Recursos
-
-Caminho de progressão mística do TFC para garantir acesso a Waystones, Olhos do Fim e feitiços arcanos sem depender de portais arriscados logo no início.
 
 <div class="mc-grid-gallery">
 
@@ -71,8 +75,6 @@ Caminho de progressão mística do TFC para garantir acesso a Waystones, Olhos d
 ---
 
 ## 2. Exércitos do Millager & Contratos Mercenários do Millénaire
-
-Unificação do mod **Millager (Village Defenders)** com **TerraFirmaCraft** e **Millénaire**: crie defensores para suas vilas e contrate regimentos mercenários usando moedas históricas (*Deniers*).
 
 <div class="mc-grid-gallery">
 
@@ -149,78 +151,6 @@ Unificação do mod **Millager (Village Defenders)** com **TerraFirmaCraft** e *
   <div class="mc-card-footer"><code>tfc_arcanum:tnt_stick_from_tfc</code><span>Demolição tática à distância</span></div>
 </div>
 <div class="mc-card">
-  <div class="mc-card-header"><span class="mc-card-title">Ordem: Mestre das Espadas (Swordmaster)</span><span class="mc-card-badge">Shaped 3×3</span></div>
-  <div class="mc-card-body">
-    <div class="mc-grid-3x3"><div class="mc-slot"></div><div class="mc-slot" data-tip="Bloco de Esmeralda"><img src="assets/icons/mc_emerald_block.png" alt="Bloco de Esmeralda"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Espada de Ferro Forjado TFC"><img src="assets/icons/tfc_sword_wrought_iron.png" alt="Espada de Ferro Forjado TFC"></div><div class="mc-slot" data-tip="Papel (#c:paper)"><img src="assets/icons/mc_paper.png" alt="Papel (#c:paper)"></div><div class="mc-slot" data-tip="Escudo de Ferro TFC"><img src="assets/icons/tfc_wrought_iron_shield.png" alt="Escudo de Ferro TFC"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Tábua TFC (#tfc:lumber)"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC (#tfc:lumber)"></div><div class="mc-slot"></div></div>
-    <div class="mc-arrow">➜</div>
-    <div class="mc-slot large" data-tip="Ordem de Mestre das Espadas"><img src="assets/icons/millager_swordmaster_profession_order.png" alt="Ordem de Mestre das Espadas"></div>
-  </div>
-  <div class="mc-card-footer"><code>tfc_arcanum:swordmaster_order_from_tfc</code><span>Treina campeão espadachim</span></div>
-</div>
-<div class="mc-card">
-  <div class="mc-card-header"><span class="mc-card-title">Ordem: Rompedor de Linha (Breacher)</span><span class="mc-card-badge">Shaped 3×3</span></div>
-  <div class="mc-card-body">
-    <div class="mc-grid-3x3"><div class="mc-slot"></div><div class="mc-slot" data-tip="Bloco de Esmeralda"><img src="assets/icons/mc_emerald_block.png" alt="Bloco de Esmeralda"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Maça de Ferro TFC (#c:tools/maces)"><img src="assets/icons/tfc_wrought_iron_mace.png" alt="Maça de Ferro TFC (#c:tools/maces)"></div><div class="mc-slot" data-tip="Papel (#c:paper)"><img src="assets/icons/mc_paper.png" alt="Papel (#c:paper)"></div><div class="mc-slot" data-tip="Peitoral de Bronze TFC"><img src="assets/icons/tfc_bronze_chestplate.png" alt="Peitoral de Bronze TFC"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Tábua TFC (#tfc:lumber)"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC (#tfc:lumber)"></div><div class="mc-slot"></div></div>
-    <div class="mc-arrow">➜</div>
-    <div class="mc-slot large" data-tip="Ordem de Rompedor de Linha"><img src="assets/icons/millager_breacher_profession_order.png" alt="Ordem de Rompedor de Linha"></div>
-  </div>
-  <div class="mc-card-footer"><code>tfc_arcanum:breacher_order_from_tfc</code><span>Guerreiro de choque pesado</span></div>
-</div>
-<div class="mc-card">
-  <div class="mc-card-header"><span class="mc-card-title">Ordem: Arqueiro Real (Archer)</span><span class="mc-card-badge">Shaped 3×3</span></div>
-  <div class="mc-card-body">
-    <div class="mc-grid-3x3"><div class="mc-slot"></div><div class="mc-slot" data-tip="Bloco de Esmeralda"><img src="assets/icons/mc_emerald_block.png" alt="Bloco de Esmeralda"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Arco TFC (#c:tools/bows)"><img src="assets/icons/mc_bow.png" alt="Arco TFC (#c:tools/bows)"></div><div class="mc-slot" data-tip="Papel (#c:paper)"><img src="assets/icons/mc_paper.png" alt="Papel (#c:paper)"></div><div class="mc-slot" data-tip="Pena (#c:feathers)"><img src="assets/icons/mc_feather.png" alt="Pena (#c:feathers)"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Tábua TFC (#tfc:lumber)"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC (#tfc:lumber)"></div><div class="mc-slot"></div></div>
-    <div class="mc-arrow">➜</div>
-    <div class="mc-slot large" data-tip="Ordem de Arqueiro"><img src="assets/icons/millager_archer_profession_order.png" alt="Ordem de Arqueiro"></div>
-  </div>
-  <div class="mc-card-footer"><code>tfc_arcanum:archer_order_from_tfc</code><span>Suporte de longo alcance</span></div>
-</div>
-<div class="mc-card">
-  <div class="mc-card-header"><span class="mc-card-title">Ordem: Lanceiro Montado (Lancer)</span><span class="mc-card-badge">Shaped 3×3</span></div>
-  <div class="mc-card-body">
-    <div class="mc-grid-3x3"><div class="mc-slot"></div><div class="mc-slot" data-tip="Bloco de Esmeralda"><img src="assets/icons/mc_emerald_block.png" alt="Bloco de Esmeralda"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Lança de Cavalaria"><img src="assets/icons/millager_iron_lancer_spear.png" alt="Lança de Cavalaria"></div><div class="mc-slot" data-tip="Papel (#c:paper)"><img src="assets/icons/mc_paper.png" alt="Papel (#c:paper)"></div><div class="mc-slot" data-tip="Sela (#c:saddles)"><img src="assets/icons/mc_saddle.png" alt="Sela (#c:saddles)"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Tábua TFC (#tfc:lumber)"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC (#tfc:lumber)"></div><div class="mc-slot"></div></div>
-    <div class="mc-arrow">➜</div>
-    <div class="mc-slot large" data-tip="Ordem de Lanceiro"><img src="assets/icons/millager_lancer_profession_order.png" alt="Ordem de Lanceiro"></div>
-  </div>
-  <div class="mc-card-footer"><code>tfc_arcanum:lancer_order_from_tfc</code><span>Investidas devastadoras</span></div>
-</div>
-<div class="mc-card">
-  <div class="mc-card-header"><span class="mc-card-title">Ordem: Médico de Campo (Doctor)</span><span class="mc-card-badge">Shaped 3×3</span></div>
-  <div class="mc-card-body">
-    <div class="mc-grid-3x3"><div class="mc-slot"></div><div class="mc-slot" data-tip="Bloco de Esmeralda"><img src="assets/icons/mc_emerald_block.png" alt="Bloco de Esmeralda"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Frasco / Bandagem"><img src="assets/icons/mc_glass_bottle.png" alt="Frasco / Bandagem"></div><div class="mc-slot" data-tip="Papel (#c:paper)"><img src="assets/icons/mc_paper.png" alt="Papel (#c:paper)"></div><div class="mc-slot" data-tip="Gordura / Alquimia"><img src="assets/icons/mc_flower_pot.png" alt="Gordura / Alquimia"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Tábua TFC (#tfc:lumber)"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC (#tfc:lumber)"></div><div class="mc-slot"></div></div>
-    <div class="mc-arrow">➜</div>
-    <div class="mc-slot large" data-tip="Ordem de Médico"><img src="assets/icons/millager_doctor_profession_order.png" alt="Ordem de Médico"></div>
-  </div>
-  <div class="mc-card-footer"><code>tfc_arcanum:doctor_order_from_tfc</code><span>Cura e revigora soldados</span></div>
-</div>
-<div class="mc-card">
-  <div class="mc-card-header"><span class="mc-card-title">Ordem: Espancador Pesado (Mauler)</span><span class="mc-card-badge">Shaped 3×3</span></div>
-  <div class="mc-card-body">
-    <div class="mc-grid-3x3"><div class="mc-slot"></div><div class="mc-slot" data-tip="Bloco de Esmeralda"><img src="assets/icons/mc_emerald_block.png" alt="Bloco de Esmeralda"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Martelo de Metal TFC (#c:tools/hammer)"><img src="assets/icons/tfc_stone_hammer.png" alt="Martelo de Metal TFC (#c:tools/hammer)"></div><div class="mc-slot" data-tip="Papel (#c:paper)"><img src="assets/icons/mc_paper.png" alt="Papel (#c:paper)"></div><div class="mc-slot" data-tip="Lingote Pesado"><img src="assets/icons/tfc_ingot_wrought_iron.png" alt="Lingote Pesado"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Tábua TFC (#tfc:lumber)"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC (#tfc:lumber)"></div><div class="mc-slot"></div></div>
-    <div class="mc-arrow">➜</div>
-    <div class="mc-slot large" data-tip="Ordem de Espancador"><img src="assets/icons/millager_mauler_profession_order.png" alt="Ordem de Espancador"></div>
-  </div>
-  <div class="mc-card-footer"><code>tfc_arcanum:mauler_order_from_tfc</code><span>Atordoa e esmaga escudos</span></div>
-</div>
-<div class="mc-card">
-  <div class="mc-card-header"><span class="mc-card-title">Ordem: Batedor Avançado (Scouter)</span><span class="mc-card-badge">Shaped 3×3</span></div>
-  <div class="mc-card-body">
-    <div class="mc-grid-3x3"><div class="mc-slot"></div><div class="mc-slot" data-tip="Bloco de Esmeralda"><img src="assets/icons/mc_emerald_block.png" alt="Bloco de Esmeralda"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Besta de Caça (#c:tools/crossbows)"><img src="assets/icons/mc_crossbow.png" alt="Besta de Caça (#c:tools/crossbows)"></div><div class="mc-slot" data-tip="Papel (#c:paper)"><img src="assets/icons/mc_paper.png" alt="Papel (#c:paper)"></div><div class="mc-slot" data-tip="Foguete de Sinalização"><img src="assets/icons/mc_firework_rocket.png" alt="Foguete de Sinalização"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Sela (#c:saddles)"><img src="assets/icons/mc_saddle.png" alt="Sela (#c:saddles)"></div><div class="mc-slot"></div></div>
-    <div class="mc-arrow">➜</div>
-    <div class="mc-slot large" data-tip="Ordem de Batedor"><img src="assets/icons/millager_scouter_profession_order.png" alt="Ordem de Batedor"></div>
-  </div>
-  <div class="mc-card-footer"><code>tfc_arcanum:scouter_order_from_tfc</code><span>Reconhecimento e sentinela</span></div>
-</div>
-<div class="mc-card">
-  <div class="mc-card-header"><span class="mc-card-title">Ordem: Tropa de Choque (Rioter)</span><span class="mc-card-badge">Shaped 3×3</span></div>
-  <div class="mc-card-body">
-    <div class="mc-grid-3x3"><div class="mc-slot"></div><div class="mc-slot" data-tip="Bloco de Esmeralda"><img src="assets/icons/mc_emerald_block.png" alt="Bloco de Esmeralda"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="TNT na Vara"><img src="assets/icons/millager_tnt_on_a_stick.png" alt="TNT na Vara"></div><div class="mc-slot" data-tip="Papel (#c:paper)"><img src="assets/icons/mc_paper.png" alt="Papel (#c:paper)"></div><div class="mc-slot" data-tip="Coquetel Molotov"><img src="assets/icons/millager_molotov_cocktail.png" alt="Coquetel Molotov"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Escudo de Ferro TFC"><img src="assets/icons/tfc_wrought_iron_shield.png" alt="Escudo de Ferro TFC"></div><div class="mc-slot"></div></div>
-    <div class="mc-arrow">➜</div>
-    <div class="mc-slot large" data-tip="Ordem de Defensor de Choque"><img src="assets/icons/millager_rioter_profession_order.png" alt="Ordem de Defensor de Choque"></div>
-  </div>
-  <div class="mc-card-footer"><code>tfc_arcanum:rioter_order_from_tfc</code><span>Contenção de hordas violentas</span></div>
-</div>
-<div class="mc-card">
   <div class="mc-card-header"><span class="mc-card-title">Contrato Mercenário: Infantaria (Millénaire)</span><span class="mc-card-badge">Shaped 3×3</span></div>
   <div class="mc-card-body">
     <div class="mc-grid-3x3"><div class="mc-slot"></div><div class="mc-slot" data-tip="Denier de Prata do Millénaire (millenaire:denier_argent)"><img src="assets/icons/millenaire_denier_argent.png" alt="Denier de Prata do Millénaire (millenaire:denier_argent)"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Espada de Ferro Forjado TFC"><img src="assets/icons/tfc_sword_wrought_iron.png" alt="Espada de Ferro Forjado TFC"></div><div class="mc-slot" data-tip="Papel Vanilla (#c:paper)"><img src="assets/icons/mc_paper.png" alt="Papel Vanilla (#c:paper)"></div><div class="mc-slot" data-tip="Escudo de Ferro TFC"><img src="assets/icons/tfc_wrought_iron_shield.png" alt="Escudo de Ferro TFC"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Tábua TFC (#tfc:lumber)"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC (#tfc:lumber)"></div><div class="mc-slot"></div></div>
@@ -252,8 +182,6 @@ Unificação do mod **Millager (Village Defenders)** com **TerraFirmaCraft** e *
 ---
 
 ## 3. Papel TFC, Livros, Estantes & Encantamentos Integrados
-
-Eliminação do bloqueio artificial de papel no TFC. Você pode produzir papel por **5 rotas diferentes** (cana, papiro, palha com água, juta e polpa de madeira) e encadernar livros com múltiplos materiais.
 
 <div class="mc-grid-gallery">
 
@@ -312,33 +240,6 @@ Eliminação do bloqueio artificial de papel no TFC. Você pode produzir papel p
   <div class="mc-card-footer"><code>tfc_arcanum:book_from_tfc_leather</code><span>Couro TFC</span></div>
 </div>
 <div class="mc-card">
-  <div class="mc-card-header"><span class="mc-card-title">Livro com Pele Tratada (Soaked Hide)</span><span class="mc-card-badge">Shapeless</span></div>
-  <div class="mc-card-body">
-    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Papel (#c:paper)"><img src="assets/icons/mc_paper.png" alt="Papel (#c:paper)"></div><div class="mc-slot" data-tip="Papel (#c:paper)"><img src="assets/icons/mc_paper.png" alt="Papel (#c:paper)"></div><div class="mc-slot" data-tip="Papel (#c:paper)"><img src="assets/icons/mc_paper.png" alt="Papel (#c:paper)"></div><div class="mc-slot" data-tip="Pele Tratada TFC (#tfc_arcanum:tfc_hides)"><img src="assets/icons/tfc_soaked_hide.png" alt="Pele Tratada TFC (#tfc_arcanum:tfc_hides)"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div></div>
-    <div class="mc-arrow">➜</div>
-    <div class="mc-slot large" data-tip="Livro (minecraft:book)"><img src="assets/icons/mc_book.png" alt="Livro (minecraft:book)"></div>
-  </div>
-  <div class="mc-card-footer"><code>tfc_arcanum:book_from_tfc_hides</code><span>Economiza curtimento</span></div>
-</div>
-<div class="mc-card">
-  <div class="mc-card-header"><span class="mc-card-title">Livro com Capa de Estopa (Burlap)</span><span class="mc-card-badge">Shapeless</span></div>
-  <div class="mc-card-body">
-    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Papel (#c:paper)"><img src="assets/icons/mc_paper.png" alt="Papel (#c:paper)"></div><div class="mc-slot" data-tip="Papel (#c:paper)"><img src="assets/icons/mc_paper.png" alt="Papel (#c:paper)"></div><div class="mc-slot" data-tip="Papel (#c:paper)"><img src="assets/icons/mc_paper.png" alt="Papel (#c:paper)"></div><div class="mc-slot" data-tip="Tecido de Estopa TFC (tfc:burlap_cloth)"><img src="assets/icons/tfc_burlap_cloth.png" alt="Tecido de Estopa TFC (tfc:burlap_cloth)"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div></div>
-    <div class="mc-arrow">➜</div>
-    <div class="mc-slot large" data-tip="Livro (minecraft:book)"><img src="assets/icons/mc_book.png" alt="Livro (minecraft:book)"></div>
-  </div>
-  <div class="mc-card-footer"><code>tfc_arcanum:book_from_tfc_burlap</code><span>Vegano / Primitivo</span></div>
-</div>
-<div class="mc-card">
-  <div class="mc-card-header"><span class="mc-card-title">Livro com Encadernação de Madeira</span><span class="mc-card-badge">Shapeless</span></div>
-  <div class="mc-card-body">
-    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Papel (#c:paper)"><img src="assets/icons/mc_paper.png" alt="Papel (#c:paper)"></div><div class="mc-slot" data-tip="Papel (#c:paper)"><img src="assets/icons/mc_paper.png" alt="Papel (#c:paper)"></div><div class="mc-slot" data-tip="Papel (#c:paper)"><img src="assets/icons/mc_paper.png" alt="Papel (#c:paper)"></div><div class="mc-slot" data-tip="Tábua TFC (#tfc:lumber)"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC (#tfc:lumber)"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div></div>
-    <div class="mc-arrow">➜</div>
-    <div class="mc-slot large" data-tip="Livro (minecraft:book)"><img src="assets/icons/mc_book.png" alt="Livro (minecraft:book)"></div>
-  </div>
-  <div class="mc-card-footer"><code>tfc_arcanum:book_from_wood_binding</code><span>Capa de madeira rústica</span></div>
-</div>
-<div class="mc-card">
   <div class="mc-card-header"><span class="mc-card-title">Estante de Livros Vanilla</span><span class="mc-card-badge">Shaped 3×3</span></div>
   <div class="mc-card-body">
     <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Tábua TFC (#tfc:lumber)"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC (#tfc:lumber)"></div><div class="mc-slot" data-tip="Tábua TFC (#tfc:lumber)"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC (#tfc:lumber)"></div><div class="mc-slot" data-tip="Tábua TFC (#tfc:lumber)"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC (#tfc:lumber)"></div><div class="mc-slot" data-tip="Livro (minecraft:book)"><img src="assets/icons/mc_book.png" alt="Livro (minecraft:book)"></div><div class="mc-slot" data-tip="Livro (minecraft:book)"><img src="assets/icons/mc_book.png" alt="Livro (minecraft:book)"></div><div class="mc-slot" data-tip="Livro (minecraft:book)"><img src="assets/icons/mc_book.png" alt="Livro (minecraft:book)"></div><div class="mc-slot" data-tip="Tábua TFC (#tfc:lumber)"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC (#tfc:lumber)"></div><div class="mc-slot" data-tip="Tábua TFC (#tfc:lumber)"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC (#tfc:lumber)"></div><div class="mc-slot" data-tip="Tábua TFC (#tfc:lumber)"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC (#tfc:lumber)"></div></div>
@@ -346,24 +247,6 @@ Eliminação do bloqueio artificial de papel no TFC. Você pode produzir papel p
     <div class="mc-slot large" data-tip="Estante de Livros (minecraft:bookshelf)"><img src="assets/icons/mc_bookshelf.png" alt="Estante de Livros (minecraft:bookshelf)"></div>
   </div>
   <div class="mc-card-footer"><code>tfc_arcanum:bookshelf_from_tfc_lumber</code><span>Potencializa encantamento</span></div>
-</div>
-<div class="mc-card">
-  <div class="mc-card-header"><span class="mc-card-title">Estante Cinzelada (Chiseled Bookshelf)</span><span class="mc-card-badge">Shaped 3×3</span></div>
-  <div class="mc-card-body">
-    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Tábua TFC (#tfc:lumber)"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC (#tfc:lumber)"></div><div class="mc-slot" data-tip="Tábua TFC (#tfc:lumber)"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC (#tfc:lumber)"></div><div class="mc-slot" data-tip="Tábua TFC (#tfc:lumber)"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC (#tfc:lumber)"></div><div class="mc-slot" data-tip="Laje / Tábua TFC"><img src="assets/icons/tfc_lumber.png" alt="Laje / Tábua TFC"></div><div class="mc-slot" data-tip="Laje / Tábua TFC"><img src="assets/icons/tfc_lumber.png" alt="Laje / Tábua TFC"></div><div class="mc-slot" data-tip="Laje / Tábua TFC"><img src="assets/icons/tfc_lumber.png" alt="Laje / Tábua TFC"></div><div class="mc-slot" data-tip="Tábua TFC (#tfc:lumber)"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC (#tfc:lumber)"></div><div class="mc-slot" data-tip="Tábua TFC (#tfc:lumber)"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC (#tfc:lumber)"></div><div class="mc-slot" data-tip="Tábua TFC (#tfc:lumber)"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC (#tfc:lumber)"></div></div>
-    <div class="mc-arrow">➜</div>
-    <div class="mc-slot large" data-tip="Estante Cinzelada (minecraft:chiseled_bookshelf)"><img src="assets/icons/mc_chiseled_bookshelf.png" alt="Estante Cinzelada (minecraft:chiseled_bookshelf)"></div>
-  </div>
-  <div class="mc-card-footer"><code>tfc_arcanum:chiseled_bookshelf_from_tfc</code><span>Guarda 6 grimórios</span></div>
-</div>
-<div class="mc-card">
-  <div class="mc-card-header"><span class="mc-card-title">Atril de Leitura (Lectern)</span><span class="mc-card-badge">Shaped 3×3</span></div>
-  <div class="mc-card-body">
-    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Laje / Tábua TFC"><img src="assets/icons/tfc_lumber.png" alt="Laje / Tábua TFC"></div><div class="mc-slot" data-tip="Laje / Tábua TFC"><img src="assets/icons/tfc_lumber.png" alt="Laje / Tábua TFC"></div><div class="mc-slot" data-tip="Laje / Tábua TFC"><img src="assets/icons/tfc_lumber.png" alt="Laje / Tábua TFC"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Estante de Livros"><img src="assets/icons/mc_bookshelf.png" alt="Estante de Livros"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Laje / Tábua TFC"><img src="assets/icons/tfc_lumber.png" alt="Laje / Tábua TFC"></div><div class="mc-slot"></div></div>
-    <div class="mc-arrow">➜</div>
-    <div class="mc-slot large" data-tip="Atril de Leitura (minecraft:lectern)"><img src="assets/icons/mc_lectern.png" alt="Atril de Leitura (minecraft:lectern)"></div>
-  </div>
-  <div class="mc-card-footer"><code>tfc_arcanum:lectern_from_tfc</code><span>Suporte para livros</span></div>
 </div>
 <div class="mc-card">
   <div class="mc-card-header"><span class="mc-card-title">Mesa de Encantamentos com Gemas TFC</span><span class="mc-card-badge">Shaped 3×3</span></div>
@@ -379,8 +262,6 @@ Eliminação do bloqueio artificial de papel no TFC. Você pode produzir papel p
 ---
 
 ## 4. Vidraria, Baldes, Caldeirões & Utilidades Vanilla
-
-Substituição das receitas automáticas e unificação de ferramentas de ferro com a forja do TFC.
 
 <div class="mc-grid-gallery">
 
@@ -403,15 +284,6 @@ Substituição das receitas automáticas e unificação de ferramentas de ferro 
   <div class="mc-card-footer"><code>tfc_arcanum:convert_tfc_glass_bottle</code><span>Compatibilidade total</span></div>
 </div>
 <div class="mc-card">
-  <div class="mc-card-header"><span class="mc-card-title">16× Painéis de Vidro</span><span class="mc-card-badge">Shaped 3×3</span></div>
-  <div class="mc-card-body">
-    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Bloco de Vidro TFC (#c:glass_blocks)"><img src="assets/icons/mc_glass.png" alt="Bloco de Vidro TFC (#c:glass_blocks)"></div><div class="mc-slot" data-tip="Bloco de Vidro TFC"><img src="assets/icons/mc_glass.png" alt="Bloco de Vidro TFC"></div><div class="mc-slot" data-tip="Bloco de Vidro TFC"><img src="assets/icons/mc_glass.png" alt="Bloco de Vidro TFC"></div><div class="mc-slot" data-tip="Bloco de Vidro TFC"><img src="assets/icons/mc_glass.png" alt="Bloco de Vidro TFC"></div><div class="mc-slot" data-tip="Bloco de Vidro TFC"><img src="assets/icons/mc_glass.png" alt="Bloco de Vidro TFC"></div><div class="mc-slot" data-tip="Bloco de Vidro TFC"><img src="assets/icons/mc_glass.png" alt="Bloco de Vidro TFC"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div></div>
-    <div class="mc-arrow">➜</div>
-    <div class="mc-slot large" data-tip="16x Painel de Vidro (minecraft:glass_pane)"><img src="assets/icons/mc_glass_pane.png" alt="16x Painel de Vidro (minecraft:glass_pane)"><span class="mc-count">16</span></div>
-  </div>
-  <div class="mc-card-footer"><code>tfc_arcanum:glass_pane_from_tfc_glass</code><span>Decoração e janelas</span></div>
-</div>
-<div class="mc-card">
   <div class="mc-card-header"><span class="mc-card-title">Balde de Ferro (Chapas de Ferro Forjado)</span><span class="mc-card-badge">Shaped 3×3</span></div>
   <div class="mc-card-body">
     <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Chapa de Ferro Forjado TFC (#c:sheets/iron)"><img src="assets/icons/tfc_sheet_wrought_iron.png" alt="Chapa de Ferro Forjado TFC (#c:sheets/iron)"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Chapa de Ferro Forjado TFC"><img src="assets/icons/tfc_sheet_wrought_iron.png" alt="Chapa de Ferro Forjado TFC"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Chapa de Ferro Forjado TFC"><img src="assets/icons/tfc_sheet_wrought_iron.png" alt="Chapa de Ferro Forjado TFC"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div></div>
@@ -428,15 +300,6 @@ Substituição das receitas automáticas e unificação de ferramentas de ferro 
     <div class="mc-slot large" data-tip="Caldeirão de Ferro (minecraft:cauldron)"><img src="assets/icons/mc_cauldron.png" alt="Caldeirão de Ferro (minecraft:cauldron)"></div>
   </div>
   <div class="mc-card-footer"><code>tfc_arcanum:cauldron_from_iron_sheets</code><span>Fervura e alquimia</span></div>
-</div>
-<div class="mc-card">
-  <div class="mc-card-header"><span class="mc-card-title">Caldeirão de Cobre TFC</span><span class="mc-card-badge">Shaped 3×3</span></div>
-  <div class="mc-card-body">
-    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Chapa de Cobre TFC (#c:sheets/copper)"><img src="assets/icons/tfc_sheet_copper.png" alt="Chapa de Cobre TFC (#c:sheets/copper)"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Chapa de Cobre TFC"><img src="assets/icons/tfc_sheet_copper.png" alt="Chapa de Cobre TFC"></div><div class="mc-slot" data-tip="Chapa de Cobre TFC"><img src="assets/icons/tfc_sheet_copper.png" alt="Chapa de Cobre TFC"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Chapa de Cobre TFC"><img src="assets/icons/tfc_sheet_copper.png" alt="Chapa de Cobre TFC"></div><div class="mc-slot" data-tip="Chapa de Cobre TFC"><img src="assets/icons/tfc_sheet_copper.png" alt="Chapa de Cobre TFC"></div><div class="mc-slot" data-tip="Chapa de Cobre TFC"><img src="assets/icons/tfc_sheet_copper.png" alt="Chapa de Cobre TFC"></div><div class="mc-slot" data-tip="Chapa de Cobre TFC"><img src="assets/icons/tfc_sheet_copper.png" alt="Chapa de Cobre TFC"></div></div>
-    <div class="mc-arrow">➜</div>
-    <div class="mc-slot large" data-tip="Caldeirão (minecraft:cauldron)"><img src="assets/icons/mc_cauldron.png" alt="Caldeirão (minecraft:cauldron)"></div>
-  </div>
-  <div class="mc-card-footer"><code>tfc_arcanum:cauldron_from_copper_sheets</code><span>Alternativa de Cobre</span></div>
 </div>
 <div class="mc-card">
   <div class="mc-card-header"><span class="mc-card-title">Tesoura de Tosa (Shears)</span><span class="mc-card-badge">Shaped 3×3</span></div>
@@ -461,8 +324,6 @@ Substituição das receitas automáticas e unificação de ferramentas de ferro 
 ---
 
 ## 5. Mecanismos, Redstone, Trilhos & Carrinhos Integrados
-
-Automações complexas, portas blindadas e redes ferroviárias usando materiais e chapas do TFC.
 
 <div class="mc-grid-gallery">
 
@@ -494,51 +355,6 @@ Automações complexas, portas blindadas e redes ferroviárias usando materiais 
   <div class="mc-card-footer"><code>tfc_arcanum:hopper_from_tfc</code><span>Transferência de itens</span></div>
 </div>
 <div class="mc-card">
-  <div class="mc-card-header"><span class="mc-card-title">Ejetor (Dispenser)</span><span class="mc-card-badge">Shaped 3×3</span></div>
-  <div class="mc-card-body">
-    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Pedra TFC"><img src="assets/icons/tfc_rock_granite.png" alt="Pedra TFC"></div><div class="mc-slot" data-tip="Pedra TFC"><img src="assets/icons/tfc_rock_granite.png" alt="Pedra TFC"></div><div class="mc-slot" data-tip="Pedra TFC"><img src="assets/icons/tfc_rock_granite.png" alt="Pedra TFC"></div><div class="mc-slot" data-tip="Pedra TFC"><img src="assets/icons/tfc_rock_granite.png" alt="Pedra TFC"></div><div class="mc-slot" data-tip="Arco (#c:tools/bows)"><img src="assets/icons/mc_bow.png" alt="Arco (#c:tools/bows)"></div><div class="mc-slot" data-tip="Pedra TFC"><img src="assets/icons/tfc_rock_granite.png" alt="Pedra TFC"></div><div class="mc-slot" data-tip="Pedra TFC"><img src="assets/icons/tfc_rock_granite.png" alt="Pedra TFC"></div><div class="mc-slot" data-tip="Redstone"><img src="assets/icons/mc_redstone.png" alt="Redstone"></div><div class="mc-slot" data-tip="Pedra TFC"><img src="assets/icons/tfc_rock_granite.png" alt="Pedra TFC"></div></div>
-    <div class="mc-arrow">➜</div>
-    <div class="mc-slot large" data-tip="Ejetor (minecraft:dispenser)"><img src="assets/icons/mc_dispenser.png" alt="Ejetor (minecraft:dispenser)"></div>
-  </div>
-  <div class="mc-card-footer"><code>tfc_arcanum:dispenser_from_tfc</code><span>Dispara projéteis</span></div>
-</div>
-<div class="mc-card">
-  <div class="mc-card-header"><span class="mc-card-title">Liberador (Dropper)</span><span class="mc-card-badge">Shaped 3×3</span></div>
-  <div class="mc-card-body">
-    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Pedra TFC"><img src="assets/icons/tfc_rock_granite.png" alt="Pedra TFC"></div><div class="mc-slot" data-tip="Pedra TFC"><img src="assets/icons/tfc_rock_granite.png" alt="Pedra TFC"></div><div class="mc-slot" data-tip="Pedra TFC"><img src="assets/icons/tfc_rock_granite.png" alt="Pedra TFC"></div><div class="mc-slot" data-tip="Pedra TFC"><img src="assets/icons/tfc_rock_granite.png" alt="Pedra TFC"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Pedra TFC"><img src="assets/icons/tfc_rock_granite.png" alt="Pedra TFC"></div><div class="mc-slot" data-tip="Pedra TFC"><img src="assets/icons/tfc_rock_granite.png" alt="Pedra TFC"></div><div class="mc-slot" data-tip="Redstone"><img src="assets/icons/mc_redstone.png" alt="Redstone"></div><div class="mc-slot" data-tip="Pedra TFC"><img src="assets/icons/tfc_rock_granite.png" alt="Pedra TFC"></div></div>
-    <div class="mc-arrow">➜</div>
-    <div class="mc-slot large" data-tip="Liberador (minecraft:dropper)"><img src="assets/icons/mc_dropper.png" alt="Liberador (minecraft:dropper)"></div>
-  </div>
-  <div class="mc-card-footer"><code>tfc_arcanum:dropper_from_tfc</code><span>Ejeta itens no chão</span></div>
-</div>
-<div class="mc-card">
-  <div class="mc-card-header"><span class="mc-card-title">Repetidor de Redstone</span><span class="mc-card-badge">Shaped 3×3</span></div>
-  <div class="mc-card-body">
-    <div class="mc-grid-3x3"><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Tocha de Redstone"><img src="assets/icons/mc_redstone_torch.png" alt="Tocha de Redstone"></div><div class="mc-slot" data-tip="Redstone"><img src="assets/icons/mc_redstone.png" alt="Redstone"></div><div class="mc-slot" data-tip="Tocha de Redstone"><img src="assets/icons/mc_redstone_torch.png" alt="Tocha de Redstone"></div><div class="mc-slot" data-tip="Pedra Lisa TFC (#tfc:rock/smooth)"><img src="assets/icons/tfc_rock_granite.png" alt="Pedra Lisa TFC (#tfc:rock/smooth)"></div><div class="mc-slot" data-tip="Pedra Lisa TFC"><img src="assets/icons/tfc_rock_granite.png" alt="Pedra Lisa TFC"></div><div class="mc-slot" data-tip="Pedra Lisa TFC"><img src="assets/icons/tfc_rock_granite.png" alt="Pedra Lisa TFC"></div></div>
-    <div class="mc-arrow">➜</div>
-    <div class="mc-slot large" data-tip="Repetidor de Redstone (minecraft:repeater)"><img src="assets/icons/mc_repeater.png" alt="Repetidor de Redstone (minecraft:repeater)"></div>
-  </div>
-  <div class="mc-card-footer"><code>tfc_arcanum:repeater_from_tfc</code><span>Amplifica e atrasa sinal</span></div>
-</div>
-<div class="mc-card">
-  <div class="mc-card-header"><span class="mc-card-title">Comparador de Redstone</span><span class="mc-card-badge">Shaped 3×3</span></div>
-  <div class="mc-card-body">
-    <div class="mc-grid-3x3"><div class="mc-slot"></div><div class="mc-slot" data-tip="Tocha de Redstone"><img src="assets/icons/mc_redstone_torch.png" alt="Tocha de Redstone"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Tocha de Redstone"><img src="assets/icons/mc_redstone_torch.png" alt="Tocha de Redstone"></div><div class="mc-slot" data-tip="Quartzo Vanilla ou TFC"><img src="assets/icons/mc_quartz.png" alt="Quartzo Vanilla ou TFC"></div><div class="mc-slot" data-tip="Tocha de Redstone"><img src="assets/icons/mc_redstone_torch.png" alt="Tocha de Redstone"></div><div class="mc-slot" data-tip="Pedra Lisa TFC (#tfc:rock/smooth)"><img src="assets/icons/tfc_rock_granite.png" alt="Pedra Lisa TFC (#tfc:rock/smooth)"></div><div class="mc-slot" data-tip="Pedra Lisa TFC"><img src="assets/icons/tfc_rock_granite.png" alt="Pedra Lisa TFC"></div><div class="mc-slot" data-tip="Pedra Lisa TFC"><img src="assets/icons/tfc_rock_granite.png" alt="Pedra Lisa TFC"></div></div>
-    <div class="mc-arrow">➜</div>
-    <div class="mc-slot large" data-tip="Comparador de Redstone (minecraft:comparator)"><img src="assets/icons/mc_comparator.png" alt="Comparador de Redstone (minecraft:comparator)"></div>
-  </div>
-  <div class="mc-card-footer"><code>tfc_arcanum:comparator_from_tfc</code><span>Lógica e filtros</span></div>
-</div>
-<div class="mc-card">
-  <div class="mc-card-header"><span class="mc-card-title">Observador (Observer)</span><span class="mc-card-badge">Shaped 3×3</span></div>
-  <div class="mc-card-body">
-    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Pedra TFC"><img src="assets/icons/tfc_rock_granite.png" alt="Pedra TFC"></div><div class="mc-slot" data-tip="Pedra TFC"><img src="assets/icons/tfc_rock_granite.png" alt="Pedra TFC"></div><div class="mc-slot" data-tip="Pedra TFC"><img src="assets/icons/tfc_rock_granite.png" alt="Pedra TFC"></div><div class="mc-slot" data-tip="Redstone"><img src="assets/icons/mc_redstone.png" alt="Redstone"></div><div class="mc-slot" data-tip="Redstone"><img src="assets/icons/mc_redstone.png" alt="Redstone"></div><div class="mc-slot" data-tip="Quartzo Vanilla ou TFC"><img src="assets/icons/mc_quartz.png" alt="Quartzo Vanilla ou TFC"></div><div class="mc-slot" data-tip="Pedra TFC"><img src="assets/icons/tfc_rock_granite.png" alt="Pedra TFC"></div><div class="mc-slot" data-tip="Pedra TFC"><img src="assets/icons/tfc_rock_granite.png" alt="Pedra TFC"></div><div class="mc-slot" data-tip="Pedra TFC"><img src="assets/icons/tfc_rock_granite.png" alt="Pedra TFC"></div></div>
-    <div class="mc-arrow">➜</div>
-    <div class="mc-slot large" data-tip="Observador (minecraft:observer)"><img src="assets/icons/mc_observer.png" alt="Observador (minecraft:observer)"></div>
-  </div>
-  <div class="mc-card-footer"><code>tfc_arcanum:observer_from_tfc</code><span>Detecta updates de bloco</span></div>
-</div>
-<div class="mc-card">
   <div class="mc-card-header"><span class="mc-card-title">16× Trilhos Comuns</span><span class="mc-card-badge">Shaped 3×3</span></div>
   <div class="mc-card-body">
     <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Lingote de Ferro Forjado TFC"><img src="assets/icons/tfc_ingot_wrought_iron.png" alt="Lingote de Ferro Forjado TFC"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Lingote de Ferro Forjado TFC"><img src="assets/icons/tfc_ingot_wrought_iron.png" alt="Lingote de Ferro Forjado TFC"></div><div class="mc-slot" data-tip="Lingote de Ferro Forjado TFC"><img src="assets/icons/tfc_ingot_wrought_iron.png" alt="Lingote de Ferro Forjado TFC"></div><div class="mc-slot" data-tip="Haste de Madeira TFC (#c:rods/wooden)"><img src="assets/icons/tfc_twig.png" alt="Haste de Madeira TFC (#c:rods/wooden)"></div><div class="mc-slot" data-tip="Lingote de Ferro Forjado TFC"><img src="assets/icons/tfc_ingot_wrought_iron.png" alt="Lingote de Ferro Forjado TFC"></div><div class="mc-slot" data-tip="Lingote de Ferro Forjado TFC"><img src="assets/icons/tfc_ingot_wrought_iron.png" alt="Lingote de Ferro Forjado TFC"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Lingote de Ferro Forjado TFC"><img src="assets/icons/tfc_ingot_wrought_iron.png" alt="Lingote de Ferro Forjado TFC"></div></div>
@@ -546,15 +362,6 @@ Automações complexas, portas blindadas e redes ferroviárias usando materiais 
     <div class="mc-slot large" data-tip="16x Trilho Comum (minecraft:rail)"><img src="assets/icons/mc_rail.png" alt="16x Trilho Comum (minecraft:rail)"><span class="mc-count">16</span></div>
   </div>
   <div class="mc-card-footer"><code>tfc_arcanum:rail_from_tfc_iron</code><span>Ferrovias e transporte</span></div>
-</div>
-<div class="mc-card">
-  <div class="mc-card-header"><span class="mc-card-title">6× Trilhos Elétricos (Powered Rail)</span><span class="mc-card-badge">Shaped 3×3</span></div>
-  <div class="mc-card-body">
-    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Lingote de Ouro TFC (#c:ingots/gold)"><img src="assets/icons/mc_gold_ingot.png" alt="Lingote de Ouro TFC (#c:ingots/gold)"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Lingote de Ouro TFC"><img src="assets/icons/mc_gold_ingot.png" alt="Lingote de Ouro TFC"></div><div class="mc-slot" data-tip="Lingote de Ouro TFC"><img src="assets/icons/mc_gold_ingot.png" alt="Lingote de Ouro TFC"></div><div class="mc-slot" data-tip="Haste de Madeira TFC (#c:rods/wooden)"><img src="assets/icons/tfc_twig.png" alt="Haste de Madeira TFC (#c:rods/wooden)"></div><div class="mc-slot" data-tip="Lingote de Ouro TFC"><img src="assets/icons/mc_gold_ingot.png" alt="Lingote de Ouro TFC"></div><div class="mc-slot" data-tip="Lingote de Ouro TFC"><img src="assets/icons/mc_gold_ingot.png" alt="Lingote de Ouro TFC"></div><div class="mc-slot" data-tip="Redstone"><img src="assets/icons/mc_redstone.png" alt="Redstone"></div><div class="mc-slot" data-tip="Lingote de Ouro TFC"><img src="assets/icons/mc_gold_ingot.png" alt="Lingote de Ouro TFC"></div></div>
-    <div class="mc-arrow">➜</div>
-    <div class="mc-slot large" data-tip="6x Trilho Elétrico (minecraft:powered_rail)"><img src="assets/icons/mc_powered_rail.png" alt="6x Trilho Elétrico (minecraft:powered_rail)"><span class="mc-count">6</span></div>
-  </div>
-  <div class="mc-card-footer"><code>tfc_arcanum:powered_rail_from_tfc</code><span>Aceleração de carrinhos</span></div>
 </div>
 <div class="mc-card">
   <div class="mc-card-header"><span class="mc-card-title">Carrinho de Mina (Minecart)</span><span class="mc-card-badge">Shaped 3×3</span></div>
@@ -565,49 +372,11 @@ Automações complexas, portas blindadas e redes ferroviárias usando materiais 
   </div>
   <div class="mc-card-footer"><code>tfc_arcanum:minecart_from_tfc_iron</code><span>Transporte sobre trilhos</span></div>
 </div>
-<div class="mc-card">
-  <div class="mc-card-header"><span class="mc-card-title">Carrinho com Baú</span><span class="mc-card-badge">Shapeless</span></div>
-  <div class="mc-card-body">
-    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Carrinho de Mina (minecraft:minecart)"><img src="assets/icons/mc_minecart.png" alt="Carrinho de Mina (minecraft:minecart)"></div><div class="mc-slot" data-tip="Baú de Madeira TFC (#c:chests/wooden)"><img src="assets/icons/mc_chest.png" alt="Baú de Madeira TFC (#c:chests/wooden)"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div></div>
-    <div class="mc-arrow">➜</div>
-    <div class="mc-slot large" data-tip="Carrinho com Baú (minecraft:chest_minecart)"><img src="assets/icons/mc_chest_minecart.png" alt="Carrinho com Baú (minecraft:chest_minecart)"></div>
-  </div>
-  <div class="mc-card-footer"><code>tfc_arcanum:chest_minecart_from_tfc</code><span>Logística de mineração</span></div>
-</div>
-<div class="mc-card">
-  <div class="mc-card-header"><span class="mc-card-title">Carrinho com Funil</span><span class="mc-card-badge">Shapeless</span></div>
-  <div class="mc-card-body">
-    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Carrinho de Mina (minecraft:minecart)"><img src="assets/icons/mc_minecart.png" alt="Carrinho de Mina (minecraft:minecart)"></div><div class="mc-slot" data-tip="Funil de Carga (minecraft:hopper)"><img src="assets/icons/mc_hopper.png" alt="Funil de Carga (minecraft:hopper)"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div></div>
-    <div class="mc-arrow">➜</div>
-    <div class="mc-slot large" data-tip="Carrinho com Funil (minecraft:hopper_minecart)"><img src="assets/icons/mc_hopper_minecart.png" alt="Carrinho com Funil (minecraft:hopper_minecart)"></div>
-  </div>
-  <div class="mc-card-footer"><code>tfc_arcanum:hopper_minecart_from_tfc</code><span>Coleta automática de itens</span></div>
-</div>
-<div class="mc-card">
-  <div class="mc-card-header"><span class="mc-card-title">Porta de Ferro Blindada</span><span class="mc-card-badge">Shaped 3×3</span></div>
-  <div class="mc-card-body">
-    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Chapa de Ferro Forjado TFC"><img src="assets/icons/tfc_sheet_wrought_iron.png" alt="Chapa de Ferro Forjado TFC"></div><div class="mc-slot" data-tip="Chapa de Ferro Forjado TFC"><img src="assets/icons/tfc_sheet_wrought_iron.png" alt="Chapa de Ferro Forjado TFC"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Chapa de Ferro Forjado TFC"><img src="assets/icons/tfc_sheet_wrought_iron.png" alt="Chapa de Ferro Forjado TFC"></div><div class="mc-slot" data-tip="Chapa de Ferro Forjado TFC"><img src="assets/icons/tfc_sheet_wrought_iron.png" alt="Chapa de Ferro Forjado TFC"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Chapa de Ferro Forjado TFC"><img src="assets/icons/tfc_sheet_wrought_iron.png" alt="Chapa de Ferro Forjado TFC"></div><div class="mc-slot" data-tip="Chapa de Ferro Forjado TFC"><img src="assets/icons/tfc_sheet_wrought_iron.png" alt="Chapa de Ferro Forjado TFC"></div><div class="mc-slot"></div></div>
-    <div class="mc-arrow">➜</div>
-    <div class="mc-slot large" data-tip="3x Porta de Ferro (minecraft:iron_door)"><img src="assets/icons/mc_iron_door.png" alt="3x Porta de Ferro (minecraft:iron_door)"><span class="mc-count">3</span></div>
-  </div>
-  <div class="mc-card-footer"><code>tfc_arcanum:iron_door_from_tfc_sheets</code><span>Porta à prova de monstros</span></div>
-</div>
-<div class="mc-card">
-  <div class="mc-card-header"><span class="mc-card-title">Create: Liga de Andesito (Andesite Alloy)</span><span class="mc-card-badge">Shapeless</span></div>
-  <div class="mc-card-body">
-    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Andesito TFC (tfc:rock/loose/andesite)"><img src="assets/icons/tfc_loose_rock.png" alt="Andesito TFC (tfc:rock/loose/andesite)"></div><div class="mc-slot" data-tip="Andesito TFC (tfc:rock/loose/andesite)"><img src="assets/icons/tfc_loose_rock.png" alt="Andesito TFC (tfc:rock/loose/andesite)"></div><div class="mc-slot" data-tip="Pepita de Ferro ou Zinco (#c:nuggets/iron)"><img src="assets/icons/mc_iron_nugget.png" alt="Pepita de Ferro ou Zinco (#c:nuggets/iron)"></div><div class="mc-slot" data-tip="Pepita de Ferro ou Zinco (#c:nuggets/iron)"><img src="assets/icons/mc_iron_nugget.png" alt="Pepita de Ferro ou Zinco (#c:nuggets/iron)"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div></div>
-    <div class="mc-arrow">➜</div>
-    <div class="mc-slot large" data-tip="Liga de Andesito (create:andesite_alloy)"><img src="assets/icons/create_andesite_alloy.png" alt="Liga de Andesito (create:andesite_alloy)"></div>
-  </div>
-  <div class="mc-card-footer"><code>tfc_arcanum:andesite_alloy_from_tfc</code><span>Engrenagens do Create</span></div>
-</div>
 </div>
 
 ---
 
 ## 6. Bigorna Vanilla (Apotheosis) & Mesas de Ofício
-
-A bigorna vanilla tradicional é necessária para aplicar infusões e encantamentos de alto escalão do mod **Apotheosis**.
 
 <div class="mc-grid-gallery">
 
@@ -628,60 +397,6 @@ A bigorna vanilla tradicional é necessária para aplicar infusões e encantamen
     <div class="mc-slot large" data-tip="Bancada de Ferraria (minecraft:smithing_table)"><img src="assets/icons/mc_smithing_table.png" alt="Bancada de Ferraria (minecraft:smithing_table)"></div>
   </div>
   <div class="mc-card-footer"><code>tfc_arcanum:smithing_table_from_tfc</code><span>Upgrades e moldes netherite</span></div>
-</div>
-<div class="mc-card">
-  <div class="mc-card-header"><span class="mc-card-title">Bancada de Arquearia (Fletching Table)</span><span class="mc-card-badge">Shaped 3×3</span></div>
-  <div class="mc-card-body">
-    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Sílex TFC (#c:gems/flint)"><img src="assets/icons/mc_flint.png" alt="Sílex TFC (#c:gems/flint)"></div><div class="mc-slot" data-tip="Sílex TFC"><img src="assets/icons/mc_flint.png" alt="Sílex TFC"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Tábua TFC (#tfc:lumber)"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC (#tfc:lumber)"></div><div class="mc-slot" data-tip="Tábua TFC"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Tábua TFC"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC"></div><div class="mc-slot" data-tip="Tábua TFC"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC"></div><div class="mc-slot"></div></div>
-    <div class="mc-arrow">➜</div>
-    <div class="mc-slot large" data-tip="Bancada de Arquearia (minecraft:fletching_table)"><img src="assets/icons/mc_fletching_table.png" alt="Bancada de Arquearia (minecraft:fletching_table)"></div>
-  </div>
-  <div class="mc-card-footer"><code>tfc_arcanum:fletching_table_from_tfc</code><span>Produção de flechas</span></div>
-</div>
-<div class="mc-card">
-  <div class="mc-card-header"><span class="mc-card-title">Mesa de Cartografia (Cartography Table)</span><span class="mc-card-badge">Shaped 3×3</span></div>
-  <div class="mc-card-body">
-    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Papel Vanilla (#c:paper)"><img src="assets/icons/mc_paper.png" alt="Papel Vanilla (#c:paper)"></div><div class="mc-slot" data-tip="Papel Vanilla"><img src="assets/icons/mc_paper.png" alt="Papel Vanilla"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Tábua TFC (#tfc:lumber)"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC (#tfc:lumber)"></div><div class="mc-slot" data-tip="Tábua TFC"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Tábua TFC"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC"></div><div class="mc-slot" data-tip="Tábua TFC"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC"></div><div class="mc-slot"></div></div>
-    <div class="mc-arrow">➜</div>
-    <div class="mc-slot large" data-tip="Mesa de Cartografia (minecraft:cartography_table)"><img src="assets/icons/mc_cartography_table.png" alt="Mesa de Cartografia (minecraft:cartography_table)"></div>
-  </div>
-  <div class="mc-card-footer"><code>tfc_arcanum:cartography_table_from_tfc</code><span>Mapas e exploração</span></div>
-</div>
-<div class="mc-card">
-  <div class="mc-card-header"><span class="mc-card-title">Rebolo (Grindstone)</span><span class="mc-card-badge">Shaped 3×3</span></div>
-  <div class="mc-card-body">
-    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Haste de Madeira TFC (#c:rods/wooden)"><img src="assets/icons/tfc_twig.png" alt="Haste de Madeira TFC (#c:rods/wooden)"></div><div class="mc-slot" data-tip="Laje de Pedra TFC (#tfc:rock/smooth)"><img src="assets/icons/tfc_rock_granite.png" alt="Laje de Pedra TFC (#tfc:rock/smooth)"></div><div class="mc-slot" data-tip="Haste de Madeira TFC"><img src="assets/icons/tfc_twig.png" alt="Haste de Madeira TFC"></div><div class="mc-slot" data-tip="Tábua TFC (#tfc:lumber)"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC (#tfc:lumber)"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Tábua TFC"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div></div>
-    <div class="mc-arrow">➜</div>
-    <div class="mc-slot large" data-tip="Rebolo (minecraft:grindstone)"><img src="assets/icons/mc_grindstone.png" alt="Rebolo (minecraft:grindstone)"></div>
-  </div>
-  <div class="mc-card-footer"><code>tfc_arcanum:grindstone_from_tfc</code><span>Desencantar e reparar</span></div>
-</div>
-<div class="mc-card">
-  <div class="mc-card-header"><span class="mc-card-title">Tear (Loom)</span><span class="mc-card-badge">Shaped 3×3</span></div>
-  <div class="mc-card-body">
-    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Fio / Linha de Lã TFC (#c:strings)"><img src="assets/icons/tfc_string.png" alt="Fio / Linha de Lã TFC (#c:strings)"></div><div class="mc-slot" data-tip="Fio / Linha de Lã TFC"><img src="assets/icons/tfc_string.png" alt="Fio / Linha de Lã TFC"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Tábua TFC (#tfc:lumber)"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC (#tfc:lumber)"></div><div class="mc-slot" data-tip="Tábua TFC"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div></div>
-    <div class="mc-arrow">➜</div>
-    <div class="mc-slot large" data-tip="Tear (minecraft:loom)"><img src="assets/icons/mc_loom.png" alt="Tear (minecraft:loom)"></div>
-  </div>
-  <div class="mc-card-footer"><code>tfc_arcanum:loom_from_tfc</code><span>Padrões de estandartes</span></div>
-</div>
-<div class="mc-card">
-  <div class="mc-card-header"><span class="mc-card-title">Cortador de Pedras (Stonecutter)</span><span class="mc-card-badge">Shaped 3×3</span></div>
-  <div class="mc-card-body">
-    <div class="mc-grid-3x3"><div class="mc-slot"></div><div class="mc-slot" data-tip="Chapa de Ferro Forjado TFC"><img src="assets/icons/tfc_sheet_wrought_iron.png" alt="Chapa de Ferro Forjado TFC"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Pedra Lisa TFC (#tfc:rock/smooth)"><img src="assets/icons/tfc_rock_granite.png" alt="Pedra Lisa TFC (#tfc:rock/smooth)"></div><div class="mc-slot" data-tip="Pedra Lisa TFC"><img src="assets/icons/tfc_rock_granite.png" alt="Pedra Lisa TFC"></div><div class="mc-slot" data-tip="Pedra Lisa TFC"><img src="assets/icons/tfc_rock_granite.png" alt="Pedra Lisa TFC"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div></div>
-    <div class="mc-arrow">➜</div>
-    <div class="mc-slot large" data-tip="Cortador de Pedras (minecraft:stonecutter)"><img src="assets/icons/mc_stonecutter.png" alt="Cortador de Pedras (minecraft:stonecutter)"></div>
-  </div>
-  <div class="mc-card-footer"><code>tfc_arcanum:stonecutter_from_tfc</code><span>Cortes geométricos de blocos</span></div>
-</div>
-<div class="mc-card">
-  <div class="mc-card-header"><span class="mc-card-title">Composteira Rústica (Composter)</span><span class="mc-card-badge">Shaped 3×3</span></div>
-  <div class="mc-card-body">
-    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Tábua TFC (#tfc:lumber)"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC (#tfc:lumber)"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Tábua TFC"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC"></div><div class="mc-slot" data-tip="Tábua TFC"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Tábua TFC"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC"></div><div class="mc-slot" data-tip="Tábua TFC"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC"></div><div class="mc-slot" data-tip="Tábua TFC"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC"></div><div class="mc-slot" data-tip="Tábua TFC"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC"></div></div>
-    <div class="mc-arrow">➜</div>
-    <div class="mc-slot large" data-tip="Composteira (minecraft:composter)"><img src="assets/icons/mc_composter.png" alt="Composteira (minecraft:composter)"></div>
-  </div>
-  <div class="mc-card-footer"><code>tfc_arcanum:composter_from_tfc</code><span>Adubo orgânico</span></div>
 </div>
 </div>
 
@@ -710,24 +425,6 @@ A bigorna vanilla tradicional é necessária para aplicar infusões e encantamen
   <div class="mc-card-footer"><code>tfc_arcanum:tnt_from_tfc</code><span>Demolição e mineração</span></div>
 </div>
 <div class="mc-card">
-  <div class="mc-card-header"><span class="mc-card-title">Lingote de Ferro TFC ➔ 9× Pepitas</span><span class="mc-card-badge">Shapeless</span></div>
-  <div class="mc-card-body">
-    <div class="mc-slot large" data-tip="Lingote de Ferro Forjado TFC (#c:ingots/iron)"><img src="assets/icons/tfc_ingot_wrought_iron.png" alt="Lingote de Ferro Forjado TFC (#c:ingots/iron)"></div>
-    <div class="mc-arrow">➜<span class="mc-arrow-sub">Fracionar</span></div>
-    <div class="mc-slot large" data-tip="9x Pepitas de Ferro (minecraft:iron_nugget)"><img src="assets/icons/mc_iron_nugget.png" alt="9x Pepitas de Ferro (minecraft:iron_nugget)"><span class="mc-count">9</span></div>
-  </div>
-  <div class="mc-card-footer"><code>tfc_arcanum:iron_nuggets_from_tfc</code><span>Correntes e lanternas</span></div>
-</div>
-<div class="mc-card">
-  <div class="mc-card-header"><span class="mc-card-title">Corrente de Ferro Forjado</span><span class="mc-card-badge">Shaped 3×3</span></div>
-  <div class="mc-card-body">
-    <div class="mc-grid-3x3"><div class="mc-slot"></div><div class="mc-slot" data-tip="Pepita de Ferro"><img src="assets/icons/mc_iron_nugget.png" alt="Pepita de Ferro"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Lingote ou Haste de Ferro Forjado"><img src="assets/icons/tfc_ingot_wrought_iron.png" alt="Lingote ou Haste de Ferro Forjado"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Pepita de Ferro"><img src="assets/icons/mc_iron_nugget.png" alt="Pepita de Ferro"></div><div class="mc-slot"></div></div>
-    <div class="mc-arrow">➜</div>
-    <div class="mc-slot large" data-tip="Corrente (minecraft:chain)"><img src="assets/icons/mc_chain.png" alt="Corrente (minecraft:chain)"></div>
-  </div>
-  <div class="mc-card-footer"><code>tfc_arcanum:chain_from_tfc</code><span>Lustres e pontes suspensas</span></div>
-</div>
-<div class="mc-card">
   <div class="mc-card-header"><span class="mc-card-title">Lanterna de Ferro</span><span class="mc-card-badge">Shaped 3×3</span></div>
   <div class="mc-card-body">
     <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Pepita de Ferro"><img src="assets/icons/mc_iron_nugget.png" alt="Pepita de Ferro"></div><div class="mc-slot" data-tip="Pepita de Ferro"><img src="assets/icons/mc_iron_nugget.png" alt="Pepita de Ferro"></div><div class="mc-slot" data-tip="Pepita de Ferro"><img src="assets/icons/mc_iron_nugget.png" alt="Pepita de Ferro"></div><div class="mc-slot" data-tip="Pepita de Ferro"><img src="assets/icons/mc_iron_nugget.png" alt="Pepita de Ferro"></div><div class="mc-slot" data-tip="Tocha TFC ou Lâmpada"><img src="assets/icons/tfc_torch.png" alt="Tocha TFC ou Lâmpada"></div><div class="mc-slot" data-tip="Pepita de Ferro"><img src="assets/icons/mc_iron_nugget.png" alt="Pepita de Ferro"></div><div class="mc-slot" data-tip="Pepita de Ferro"><img src="assets/icons/mc_iron_nugget.png" alt="Pepita de Ferro"></div><div class="mc-slot" data-tip="Pepita de Ferro"><img src="assets/icons/mc_iron_nugget.png" alt="Pepita de Ferro"></div><div class="mc-slot" data-tip="Pepita de Ferro"><img src="assets/icons/mc_iron_nugget.png" alt="Pepita de Ferro"></div></div>
@@ -736,112 +433,423 @@ A bigorna vanilla tradicional é necessária para aplicar infusões e encantamen
   </div>
   <div class="mc-card-footer"><code>tfc_arcanum:lantern_from_tfc</code><span>Iluminação permanente</span></div>
 </div>
+</div>
+
+---
+
+## 8. Química Ígnea, Nether & Dimensões (v1.2.7)
+
+Receitas completas adicionadas no **Script 16 (v1.2.7)** para permitir a progressão dimensional e química do Nether de forma totalmente acessível com o ecossistema mineral do TFC.
+
+<div class="mc-grid-gallery">
+
 <div class="mc-card">
-  <div class="mc-card-header"><span class="mc-card-title">Tocha das Almas (Soul Torch)</span><span class="mc-card-badge">Shaped 3×3</span></div>
+  <div class="mc-card-header"><span class="mc-card-title">4× Netherrack Alquímico</span><span class="mc-card-badge">Shaped 3×3</span></div>
   <div class="mc-card-body">
-    <div class="mc-grid-3x3"><div class="mc-slot"></div><div class="mc-slot" data-tip="Carvão Vegetal TFC (#minecraft:coals)"><img src="assets/icons/tfc_powder_charcoal.png" alt="Carvão Vegetal TFC (#minecraft:coals)"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Haste de Madeira TFC (#c:rods/wooden)"><img src="assets/icons/tfc_twig.png" alt="Haste de Madeira TFC (#c:rods/wooden)"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Terra / Areia das Almas (#minecraft:soul_fire_base_blocks)"><img src="assets/icons/tfc_loose_rock.png" alt="Terra / Areia das Almas (#minecraft:soul_fire_base_blocks)"></div><div class="mc-slot"></div></div>
+    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Pedra Solta TFC (#tfc:rock_knapping)"><img src="assets/icons/tfc_loose_rock.png" alt="Pedra Solta TFC (#tfc:rock_knapping)"></div><div class="mc-slot" data-tip="Cinzas de Fogueira (tfc:powder/wood_ash)"><img src="assets/icons/tfc_powder_wood_ash.png" alt="Cinzas de Fogueira (tfc:powder/wood_ash)"></div><div class="mc-slot" data-tip="Pedra Solta TFC"><img src="assets/icons/tfc_loose_rock.png" alt="Pedra Solta TFC"></div><div class="mc-slot" data-tip="Pó de Enxofre (#tfc_arcanum:sulfur_powders)"><img src="assets/icons/tfc_powder_flux.png" alt="Pó de Enxofre (#tfc_arcanum:sulfur_powders)"></div><div class="mc-slot" data-tip="Pedra Solta TFC"><img src="assets/icons/tfc_loose_rock.png" alt="Pedra Solta TFC"></div><div class="mc-slot" data-tip="Pó de Enxofre"><img src="assets/icons/tfc_powder_flux.png" alt="Pó de Enxofre"></div><div class="mc-slot" data-tip="Pedra Solta TFC"><img src="assets/icons/tfc_loose_rock.png" alt="Pedra Solta TFC"></div><div class="mc-slot" data-tip="Cinzas de Fogueira"><img src="assets/icons/tfc_powder_wood_ash.png" alt="Cinzas de Fogueira"></div><div class="mc-slot" data-tip="Pedra Solta TFC"><img src="assets/icons/tfc_loose_rock.png" alt="Pedra Solta TFC"></div></div>
     <div class="mc-arrow">➜</div>
-    <div class="mc-slot large" data-tip="4x Tocha das Almas (minecraft:soul_torch)"><img src="assets/icons/mc_soul_torch.png" alt="4x Tocha das Almas (minecraft:soul_torch)"><span class="mc-count">4</span></div>
+    <div class="mc-slot large" data-tip="4x Netherrack (minecraft:netherrack)"><img src="assets/icons/mc_netherrack.png" alt="4x Netherrack (minecraft:netherrack)"><span class="mc-count">4</span></div>
   </div>
-  <div class="mc-card-footer"><code>tfc_arcanum:soul_torch_from_tfc</code><span>Repele piglins</span></div>
+  <div class="mc-card-footer"><code>tfc_arcanum:netherrack_from_sulfur</code><span>Pedra ígnea dimensional</span></div>
 </div>
 <div class="mc-card">
-  <div class="mc-card-header"><span class="mc-card-title">Lanterna das Almas (Soul Lantern)</span><span class="mc-card-badge">Shaped 3×3</span></div>
+  <div class="mc-card-header"><span class="mc-card-title">2× Tijolos do Nether (Nether Brick)</span><span class="mc-card-badge">Shapeless</span></div>
   <div class="mc-card-body">
-    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Pepita de Ferro"><img src="assets/icons/mc_iron_nugget.png" alt="Pepita de Ferro"></div><div class="mc-slot" data-tip="Pepita de Ferro"><img src="assets/icons/mc_iron_nugget.png" alt="Pepita de Ferro"></div><div class="mc-slot" data-tip="Pepita de Ferro"><img src="assets/icons/mc_iron_nugget.png" alt="Pepita de Ferro"></div><div class="mc-slot" data-tip="Pepita de Ferro"><img src="assets/icons/mc_iron_nugget.png" alt="Pepita de Ferro"></div><div class="mc-slot" data-tip="Tocha das Almas"><img src="assets/icons/mc_soul_torch.png" alt="Tocha das Almas"></div><div class="mc-slot" data-tip="Pepita de Ferro"><img src="assets/icons/mc_iron_nugget.png" alt="Pepita de Ferro"></div><div class="mc-slot" data-tip="Pepita de Ferro"><img src="assets/icons/mc_iron_nugget.png" alt="Pepita de Ferro"></div><div class="mc-slot" data-tip="Pepita de Ferro"><img src="assets/icons/mc_iron_nugget.png" alt="Pepita de Ferro"></div><div class="mc-slot" data-tip="Pepita de Ferro"><img src="assets/icons/mc_iron_nugget.png" alt="Pepita de Ferro"></div></div>
+    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Netherrack (minecraft:netherrack)"><img src="assets/icons/mc_netherrack.png" alt="Netherrack (minecraft:netherrack)"></div><div class="mc-slot" data-tip="Argila TFC (#c:clay_balls)"><img src="assets/icons/tfc_clay_ball.png" alt="Argila TFC (#c:clay_balls)"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div></div>
     <div class="mc-arrow">➜</div>
-    <div class="mc-slot large" data-tip="Lanterna das Almas (minecraft:soul_lantern)"><img src="assets/icons/mc_soul_lantern.png" alt="Lanterna das Almas (minecraft:soul_lantern)"></div>
+    <div class="mc-slot large" data-tip="2x Tijolo do Nether (minecraft:nether_brick)"><img src="assets/icons/mc_nether_brick.png" alt="2x Tijolo do Nether (minecraft:nether_brick)"><span class="mc-count">2</span></div>
   </div>
-  <div class="mc-card-footer"><code>tfc_arcanum:soul_lantern_from_tfc</code><span>Luz azul mística</span></div>
+  <div class="mc-card-footer"><code>tfc_arcanum:nether_brick_craft</code><span>Material para forjas</span></div>
 </div>
 <div class="mc-card">
-  <div class="mc-card-header"><span class="mc-card-title">Moldura de Item (Item Frame)</span><span class="mc-card-badge">Shaped 3×3</span></div>
+  <div class="mc-card-header"><span class="mc-card-title">Bloco de Tijolos do Nether</span><span class="mc-card-badge">Shaped 2×2</span></div>
   <div class="mc-card-body">
-    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Haste de Madeira TFC"><img src="assets/icons/tfc_twig.png" alt="Haste de Madeira TFC"></div><div class="mc-slot" data-tip="Haste de Madeira TFC"><img src="assets/icons/tfc_twig.png" alt="Haste de Madeira TFC"></div><div class="mc-slot" data-tip="Haste de Madeira TFC"><img src="assets/icons/tfc_twig.png" alt="Haste de Madeira TFC"></div><div class="mc-slot" data-tip="Haste de Madeira TFC"><img src="assets/icons/tfc_twig.png" alt="Haste de Madeira TFC"></div><div class="mc-slot" data-tip="Couro TFC (#c:leather)"><img src="assets/icons/tfc_large_prepared_hide.png" alt="Couro TFC (#c:leather)"></div><div class="mc-slot" data-tip="Haste de Madeira TFC"><img src="assets/icons/tfc_twig.png" alt="Haste de Madeira TFC"></div><div class="mc-slot" data-tip="Haste de Madeira TFC"><img src="assets/icons/tfc_twig.png" alt="Haste de Madeira TFC"></div><div class="mc-slot" data-tip="Haste de Madeira TFC"><img src="assets/icons/tfc_twig.png" alt="Haste de Madeira TFC"></div><div class="mc-slot" data-tip="Haste de Madeira TFC"><img src="assets/icons/tfc_twig.png" alt="Haste de Madeira TFC"></div></div>
+    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Tijolo do Nether"><img src="assets/icons/mc_nether_brick.png" alt="Tijolo do Nether"></div><div class="mc-slot" data-tip="Tijolo do Nether"><img src="assets/icons/mc_nether_brick.png" alt="Tijolo do Nether"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Tijolo do Nether"><img src="assets/icons/mc_nether_brick.png" alt="Tijolo do Nether"></div><div class="mc-slot" data-tip="Tijolo do Nether"><img src="assets/icons/mc_nether_brick.png" alt="Tijolo do Nether"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div></div>
     <div class="mc-arrow">➜</div>
-    <div class="mc-slot large" data-tip="Moldura (minecraft:item_frame)"><img src="assets/icons/mc_item_frame.png" alt="Moldura (minecraft:item_frame)"></div>
+    <div class="mc-slot large" data-tip="Tijolos do Nether (minecraft:nether_bricks)"><img src="assets/icons/mc_nether_bricks.png" alt="Tijolos do Nether (minecraft:nether_bricks)"></div>
   </div>
-  <div class="mc-card-footer"><code>tfc_arcanum:item_frame_from_tfc</code><span>Exibição de itens</span></div>
+  <div class="mc-card-footer"><code>tfc_arcanum:nether_bricks_block_craft</code><span>Estrutura resistente a fogo</span></div>
 </div>
 <div class="mc-card">
-  <div class="mc-card-header"><span class="mc-card-title">Quadro de Pintura (Painting)</span><span class="mc-card-badge">Shaped 3×3</span></div>
+  <div class="mc-card-header"><span class="mc-card-title">2× Areia das Almas (Soul Sand)</span><span class="mc-card-badge">Shapeless</span></div>
   <div class="mc-card-body">
-    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Haste de Madeira TFC"><img src="assets/icons/tfc_twig.png" alt="Haste de Madeira TFC"></div><div class="mc-slot" data-tip="Haste de Madeira TFC"><img src="assets/icons/tfc_twig.png" alt="Haste de Madeira TFC"></div><div class="mc-slot" data-tip="Haste de Madeira TFC"><img src="assets/icons/tfc_twig.png" alt="Haste de Madeira TFC"></div><div class="mc-slot" data-tip="Haste de Madeira TFC"><img src="assets/icons/tfc_twig.png" alt="Haste de Madeira TFC"></div><div class="mc-slot" data-tip="Tecido de Lã ou Estopa TFC (#c:wool)"><img src="assets/icons/tfc_burlap_cloth.png" alt="Tecido de Lã ou Estopa TFC (#c:wool)"></div><div class="mc-slot" data-tip="Haste de Madeira TFC"><img src="assets/icons/tfc_twig.png" alt="Haste de Madeira TFC"></div><div class="mc-slot" data-tip="Haste de Madeira TFC"><img src="assets/icons/tfc_twig.png" alt="Haste de Madeira TFC"></div><div class="mc-slot" data-tip="Haste de Madeira TFC"><img src="assets/icons/tfc_twig.png" alt="Haste de Madeira TFC"></div><div class="mc-slot" data-tip="Haste de Madeira TFC"><img src="assets/icons/tfc_twig.png" alt="Haste de Madeira TFC"></div></div>
+    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Areia TFC (#c:sands)"><img src="assets/icons/tfc_loose_rock.png" alt="Areia TFC (#c:sands)"></div><div class="mc-slot" data-tip="Areia TFC (#c:sands)"><img src="assets/icons/tfc_loose_rock.png" alt="Areia TFC (#c:sands)"></div><div class="mc-slot" data-tip="Pó de Túmulo / Essência de Alma (#tombstone:grave_dusts)"><img src="assets/icons/irons_arcane_salvage.png" alt="Pó de Túmulo / Essência de Alma (#tombstone:grave_dusts)"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div></div>
     <div class="mc-arrow">➜</div>
-    <div class="mc-slot large" data-tip="Pintura (minecraft:painting)"><img src="assets/icons/mc_painting.png" alt="Pintura (minecraft:painting)"></div>
+    <div class="mc-slot large" data-tip="2x Areia das Almas (minecraft:soul_sand)"><img src="assets/icons/mc_soul_sand.png" alt="2x Areia das Almas (minecraft:soul_sand)"><span class="mc-count">2</span></div>
   </div>
-  <div class="mc-card-footer"><code>tfc_arcanum:painting_from_tfc</code><span>Obras de arte murais</span></div>
+  <div class="mc-card-footer"><code>tfc_arcanum:soul_sand_from_grave_dust</code><span>Retém almas e desacelera</span></div>
 </div>
 <div class="mc-card">
-  <div class="mc-card-header"><span class="mc-card-title">Suporte de Armaduras (Armor Stand)</span><span class="mc-card-badge">Shaped 3×3</span></div>
+  <div class="mc-card-header"><span class="mc-card-title">2× Terra das Almas (Soul Soil)</span><span class="mc-card-badge">Shapeless</span></div>
   <div class="mc-card-body">
-    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Haste de Madeira TFC"><img src="assets/icons/tfc_twig.png" alt="Haste de Madeira TFC"></div><div class="mc-slot" data-tip="Haste de Madeira TFC"><img src="assets/icons/tfc_twig.png" alt="Haste de Madeira TFC"></div><div class="mc-slot" data-tip="Haste de Madeira TFC"><img src="assets/icons/tfc_twig.png" alt="Haste de Madeira TFC"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Haste de Madeira TFC"><img src="assets/icons/tfc_twig.png" alt="Haste de Madeira TFC"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Haste de Madeira TFC"><img src="assets/icons/tfc_twig.png" alt="Haste de Madeira TFC"></div><div class="mc-slot" data-tip="Laje de Pedra Lisa TFC"><img src="assets/icons/tfc_rock_granite.png" alt="Laje de Pedra Lisa TFC"></div><div class="mc-slot" data-tip="Haste de Madeira TFC"><img src="assets/icons/tfc_twig.png" alt="Haste de Madeira TFC"></div></div>
+    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Terra / Lodo TFC (#minecraft:dirt)"><img src="assets/icons/tfc_loose_rock.png" alt="Terra / Lodo TFC (#minecraft:dirt)"></div><div class="mc-slot" data-tip="Terra / Lodo TFC (#minecraft:dirt)"><img src="assets/icons/tfc_loose_rock.png" alt="Terra / Lodo TFC (#minecraft:dirt)"></div><div class="mc-slot" data-tip="Pó de Túmulo / Essência de Alma"><img src="assets/icons/irons_arcane_salvage.png" alt="Pó de Túmulo / Essência de Alma"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div></div>
     <div class="mc-arrow">➜</div>
-    <div class="mc-slot large" data-tip="Suporte de Armaduras (minecraft:armor_stand)"><img src="assets/icons/mc_armor_stand.png" alt="Suporte de Armaduras (minecraft:armor_stand)"></div>
+    <div class="mc-slot large" data-tip="2x Terra das Almas (minecraft:soul_soil)"><img src="assets/icons/mc_soul_soil.png" alt="2x Terra das Almas (minecraft:soul_soil)"><span class="mc-count">2</span></div>
   </div>
-  <div class="mc-card-footer"><code>tfc_arcanum:armor_stand_from_tfc</code><span>Exibição de armaduras</span></div>
+  <div class="mc-card-footer"><code>tfc_arcanum:soul_soil_from_grave_dust</code><span>Fogo azul perpétuo</span></div>
 </div>
 <div class="mc-card">
-  <div class="mc-card-header"><span class="mc-card-title">Vaso de Flores (Cerâmica TFC)</span><span class="mc-card-badge">Shapeless 1:1</span></div>
+  <div class="mc-card-header"><span class="mc-card-title">2× Fungo do Nether (Nether Wart)</span><span class="mc-card-badge">Shapeless</span></div>
   <div class="mc-card-body">
-    <div class="mc-slot large" data-tip="Pote de Cerâmica TFC (tfc:ceramic/pot)"><img src="assets/icons/tfc_ceramic_pot.png" alt="Pote de Cerâmica TFC (tfc:ceramic/pot)"></div>
-    <div class="mc-arrow">➜<span class="mc-arrow-sub">Converter</span></div>
-    <div class="mc-slot large" data-tip="Vaso de Flores (minecraft:flower_pot)"><img src="assets/icons/mc_flower_pot.png" alt="Vaso de Flores (minecraft:flower_pot)"></div>
+    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Cogumelo Silvestre (#c:mushrooms)"><img src="assets/icons/mc_red_dye.png" alt="Cogumelo Silvestre (#c:mushrooms)"></div><div class="mc-slot" data-tip="Pó de Enxofre (#tfc_arcanum:sulfur_powders)"><img src="assets/icons/tfc_powder_flux.png" alt="Pó de Enxofre (#tfc_arcanum:sulfur_powders)"></div><div class="mc-slot" data-tip="Frasco de Sangue ou Carne Podre"><img src="assets/icons/mc_glass_bottle.png" alt="Frasco de Sangue ou Carne Podre"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div></div>
+    <div class="mc-arrow">➜</div>
+    <div class="mc-slot large" data-tip="2x Fungo do Nether (minecraft:nether_wart)"><img src="assets/icons/mc_nether_wart.png" alt="2x Fungo do Nether (minecraft:nether_wart)"><span class="mc-count">2</span></div>
   </div>
-  <div class="mc-card-footer"><code>tfc_arcanum:flower_pot_from_tfc_pot</code><span>Decoração floral</span></div>
+  <div class="mc-card-footer"><code>tfc_arcanum:nether_wart_synthesis</code><span>Base para alquimia e poções</span></div>
 </div>
 <div class="mc-card">
-  <div class="mc-card-header"><span class="mc-card-title">Laço de Condução (Lead)</span><span class="mc-card-badge">Shaped 3×3</span></div>
+  <div class="mc-card-header"><span class="mc-card-title">4× Pó de Glowstone</span><span class="mc-card-badge">Shapeless</span></div>
   <div class="mc-card-body">
-    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Fio / Corda TFC (#c:strings)"><img src="assets/icons/tfc_string.png" alt="Fio / Corda TFC (#c:strings)"></div><div class="mc-slot" data-tip="Fio / Corda TFC"><img src="assets/icons/tfc_string.png" alt="Fio / Corda TFC"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Fio / Corda TFC"><img src="assets/icons/tfc_string.png" alt="Fio / Corda TFC"></div><div class="mc-slot" data-tip="Gosma de Slime (#c:slimeballs)"><img src="assets/icons/mc_slime_ball.png" alt="Gosma de Slime (#c:slimeballs)"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Fio / Corda TFC"><img src="assets/icons/tfc_string.png" alt="Fio / Corda TFC"></div></div>
+    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Pó de Enxofre (#tfc_arcanum:sulfur_powders)"><img src="assets/icons/tfc_powder_flux.png" alt="Pó de Enxofre (#tfc_arcanum:sulfur_powders)"></div><div class="mc-slot" data-tip="Tinta Brilhante (#c:dyes/glow_ink)"><img src="assets/icons/mc_glow_item_frame.png" alt="Tinta Brilhante (#c:dyes/glow_ink)"></div><div class="mc-slot" data-tip="Cinzas de Fogueira"><img src="assets/icons/tfc_powder_wood_ash.png" alt="Cinzas de Fogueira"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div></div>
     <div class="mc-arrow">➜</div>
-    <div class="mc-slot large" data-tip="2x Laço (minecraft:lead)"><img src="assets/icons/mc_lead.png" alt="2x Laço (minecraft:lead)"><span class="mc-count">2</span></div>
+    <div class="mc-slot large" data-tip="4x Pó de Pedra Luminosa"><img src="assets/icons/mc_glowstone_dust.png" alt="4x Pó de Pedra Luminosa"><span class="mc-count">4</span></div>
   </div>
-  <div class="mc-card-footer"><code>tfc_arcanum:lead_from_tfc</code><span>Condução de animais</span></div>
+  <div class="mc-card-footer"><code>tfc_arcanum:glowstone_dust_from_glow_ink</code><span>Luz fosforescente</span></div>
 </div>
 <div class="mc-card">
-  <div class="mc-card-header"><span class="mc-card-title">Vara de Pesca (Fishing Rod)</span><span class="mc-card-badge">Shaped 3×3</span></div>
+  <div class="mc-card-header"><span class="mc-card-title">Vara de Blaze (Blaze Rod)</span><span class="mc-card-badge">Shaped 3×3</span></div>
   <div class="mc-card-body">
-    <div class="mc-grid-3x3"><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Haste de Madeira TFC (#c:rods/wooden)"><img src="assets/icons/tfc_twig.png" alt="Haste de Madeira TFC (#c:rods/wooden)"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Haste de Madeira TFC"><img src="assets/icons/tfc_twig.png" alt="Haste de Madeira TFC"></div><div class="mc-slot" data-tip="Fio / Linha TFC (#c:strings)"><img src="assets/icons/tfc_string.png" alt="Fio / Linha TFC (#c:strings)"></div><div class="mc-slot" data-tip="Haste de Madeira TFC"><img src="assets/icons/tfc_twig.png" alt="Haste de Madeira TFC"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Fio / Linha TFC"><img src="assets/icons/tfc_string.png" alt="Fio / Linha TFC"></div></div>
+    <div class="mc-grid-3x3"><div class="mc-slot"></div><div class="mc-slot" data-tip="Pó de Blaze Alquímico"><img src="assets/icons/mc_blaze_powder.png" alt="Pó de Blaze Alquímico"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Haste de Ferro ou Madeira TFC"><img src="assets/icons/tfc_ingot_wrought_iron.png" alt="Haste de Ferro ou Madeira TFC"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Pó de Blaze Alquímico"><img src="assets/icons/mc_blaze_powder.png" alt="Pó de Blaze Alquímico"></div><div class="mc-slot"></div></div>
     <div class="mc-arrow">➜</div>
-    <div class="mc-slot large" data-tip="Vara de Pesca (minecraft:fishing_rod)"><img src="assets/icons/mc_fishing_rod.png" alt="Vara de Pesca (minecraft:fishing_rod)"></div>
+    <div class="mc-slot large" data-tip="Vara de Blaze (minecraft:blaze_rod)"><img src="assets/icons/mc_blaze_rod.png" alt="Vara de Blaze (minecraft:blaze_rod)"></div>
   </div>
-  <div class="mc-card-footer"><code>tfc_arcanum:fishing_rod_from_tfc</code><span>Pescaria em rios e oceanos</span></div>
+  <div class="mc-card-footer"><code>tfc_arcanum:blaze_rod_from_powder</code><span>Suportes de poções e calor</span></div>
 </div>
 <div class="mc-card">
-  <div class="mc-card-header"><span class="mc-card-title">Sino do Povoado (Bell)</span><span class="mc-card-badge">Shaped 3×3</span></div>
+  <div class="mc-card-header"><span class="mc-card-title">Lágrima de Ghast (Ghast Tear)</span><span class="mc-card-badge">Shapeless</span></div>
   <div class="mc-card-body">
-    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Tábua TFC (#tfc:lumber)"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC (#tfc:lumber)"></div><div class="mc-slot" data-tip="Tábua TFC"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC"></div><div class="mc-slot" data-tip="Tábua TFC"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC"></div><div class="mc-slot" data-tip="Lingote de Ferro Forjado TFC"><img src="assets/icons/tfc_ingot_wrought_iron.png" alt="Lingote de Ferro Forjado TFC"></div><div class="mc-slot" data-tip="Bloco / Lingote de Ouro (#c:storage_blocks/gold)"><img src="assets/icons/tfc_double_ingot_gold.png" alt="Bloco / Lingote de Ouro (#c:storage_blocks/gold)"></div><div class="mc-slot" data-tip="Lingote de Ferro Forjado TFC"><img src="assets/icons/tfc_ingot_wrought_iron.png" alt="Lingote de Ferro Forjado TFC"></div><div class="mc-slot" data-tip="Lingote de Ferro Forjado TFC"><img src="assets/icons/tfc_ingot_wrought_iron.png" alt="Lingote de Ferro Forjado TFC"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Lingote de Ferro Forjado TFC"><img src="assets/icons/tfc_ingot_wrought_iron.png" alt="Lingote de Ferro Forjado TFC"></div></div>
+    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Quartzo Vanilla ou TFC (#c:gems/quartz)"><img src="assets/icons/mc_quartz.png" alt="Quartzo Vanilla ou TFC (#c:gems/quartz)"></div><div class="mc-slot" data-tip="Balde de Água Doce (#tfc_arcanum:water_buckets)"><img src="assets/icons/tfc_wooden_bucket.png" alt="Balde de Água Doce (#tfc_arcanum:water_buckets)"></div><div class="mc-slot" data-tip="Cola Vegetal TFC (tfc:glue)"><img src="assets/icons/tfc_glue.png" alt="Cola Vegetal TFC (tfc:glue)"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div></div>
     <div class="mc-arrow">➜</div>
-    <div class="mc-slot large" data-tip="Sino (minecraft:bell)"><img src="assets/icons/mc_bell.png" alt="Sino (minecraft:bell)"></div>
+    <div class="mc-slot large" data-tip="Lágrima de Ghast (minecraft:ghast_tear)"><img src="assets/icons/mc_ghast_tear.png" alt="Lágrima de Ghast (minecraft:ghast_tear)"></div>
   </div>
-  <div class="mc-card-footer"><code>tfc_arcanum:bell_from_tfc</code><span>Alerta de invasões</span></div>
+  <div class="mc-card-footer"><code>tfc_arcanum:ghast_tear_alchemical</code><span>Regeneração e cristais do End</span></div>
 </div>
 <div class="mc-card">
-  <div class="mc-card-header"><span class="mc-card-title">Cama Rústica de Palha / Lã</span><span class="mc-card-badge">Shaped 3×3</span></div>
+  <div class="mc-card-header"><span class="mc-card-title">Suporte de Poções (Brewing Stand)</span><span class="mc-card-badge">Shaped 3×3</span></div>
   <div class="mc-card-body">
-    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Palha ou Tecido de Lã TFC (#c:wool)"><img src="assets/icons/tfc_thatch.png" alt="Palha ou Tecido de Lã TFC (#c:wool)"></div><div class="mc-slot" data-tip="Palha ou Tecido de Lã TFC"><img src="assets/icons/tfc_thatch.png" alt="Palha ou Tecido de Lã TFC"></div><div class="mc-slot" data-tip="Palha ou Tecido de Lã TFC"><img src="assets/icons/tfc_thatch.png" alt="Palha ou Tecido de Lã TFC"></div><div class="mc-slot" data-tip="Tábua TFC (#tfc:lumber)"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC (#tfc:lumber)"></div><div class="mc-slot" data-tip="Tábua TFC"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC"></div><div class="mc-slot" data-tip="Tábua TFC"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div></div>
+    <div class="mc-grid-3x3"><div class="mc-slot"></div><div class="mc-slot" data-tip="Vara de Blaze (minecraft:blaze_rod)"><img src="assets/icons/mc_blaze_rod.png" alt="Vara de Blaze (minecraft:blaze_rod)"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Pedra / Cobblestone TFC"><img src="assets/icons/tfc_rock_granite.png" alt="Pedra / Cobblestone TFC"></div><div class="mc-slot" data-tip="Pedra / Cobblestone TFC"><img src="assets/icons/tfc_rock_granite.png" alt="Pedra / Cobblestone TFC"></div><div class="mc-slot" data-tip="Pedra / Cobblestone TFC"><img src="assets/icons/tfc_rock_granite.png" alt="Pedra / Cobblestone TFC"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div></div>
     <div class="mc-arrow">➜</div>
-    <div class="mc-slot large" data-tip="Cama Confortável (minecraft:red_bed)"><img src="assets/icons/mc_red_bed.png" alt="Cama Confortável (minecraft:red_bed)"></div>
+    <div class="mc-slot large" data-tip="Suporte de Poções (minecraft:brewing_stand)"><img src="assets/icons/mc_brewing_stand.png" alt="Suporte de Poções (minecraft:brewing_stand)"></div>
   </div>
-  <div class="mc-card-footer"><code>tfc_arcanum:bed_from_tfc</code><span>Descanso seguro</span></div>
+  <div class="mc-card-footer"><code>tfc_arcanum:brewing_stand_restored</code><span>Alquimia e poções completas</span></div>
 </div>
 <div class="mc-card">
-  <div class="mc-card-header"><span class="mc-card-title">Fogão a Lenha do Farmer's Delight</span><span class="mc-card-badge">Shaped 3×3</span></div>
+  <div class="mc-card-header"><span class="mc-card-title">Lingote de Netherite</span><span class="mc-card-badge">Shaped 3×3</span></div>
   <div class="mc-card-body">
-    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Chapa de Ferro Forjado TFC"><img src="assets/icons/tfc_sheet_wrought_iron.png" alt="Chapa de Ferro Forjado TFC"></div><div class="mc-slot" data-tip="Chapa de Ferro Forjado TFC"><img src="assets/icons/tfc_sheet_wrought_iron.png" alt="Chapa de Ferro Forjado TFC"></div><div class="mc-slot" data-tip="Chapa de Ferro Forjado TFC"><img src="assets/icons/tfc_sheet_wrought_iron.png" alt="Chapa de Ferro Forjado TFC"></div><div class="mc-slot" data-tip="Tijolo Refratário / Cerâmica TFC"><img src="assets/icons/tfc_fire_brick.png" alt="Tijolo Refratário / Cerâmica TFC"></div><div class="mc-slot" data-tip="Fogueira TFC (#minecraft:campfires)"><img src="assets/icons/tfc_torch.png" alt="Fogueira TFC (#minecraft:campfires)"></div><div class="mc-slot" data-tip="Tijolo Refratário TFC"><img src="assets/icons/tfc_fire_brick.png" alt="Tijolo Refratário TFC"></div><div class="mc-slot" data-tip="Tijolo Refratário TFC"><img src="assets/icons/tfc_fire_brick.png" alt="Tijolo Refratário TFC"></div><div class="mc-slot" data-tip="Tijolo Refratário TFC"><img src="assets/icons/tfc_fire_brick.png" alt="Tijolo Refratário TFC"></div><div class="mc-slot" data-tip="Tijolo Refratário TFC"><img src="assets/icons/tfc_fire_brick.png" alt="Tijolo Refratário TFC"></div></div>
+    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Pepita de Ouro TFC"><img src="assets/icons/mc_gold_nugget.png" alt="Pepita de Ouro TFC"></div><div class="mc-slot" data-tip="Pepita de Ouro TFC"><img src="assets/icons/mc_gold_nugget.png" alt="Pepita de Ouro TFC"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Pepita de Ouro TFC"><img src="assets/icons/mc_gold_nugget.png" alt="Pepita de Ouro TFC"></div><div class="mc-slot" data-tip="Pepita de Ouro TFC"><img src="assets/icons/mc_gold_nugget.png" alt="Pepita de Ouro TFC"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Lingote de Aço Negro TFC"><img src="assets/icons/tfc_sheet_black_steel.png" alt="Lingote de Aço Negro TFC"></div><div class="mc-slot"></div><div class="mc-slot"></div></div>
     <div class="mc-arrow">➜</div>
-    <div class="mc-slot large" data-tip="Fogão a Lenha (farmersdelight:stove)"><img src="assets/icons/fd_stove.png" alt="Fogão a Lenha (farmersdelight:stove)"></div>
+    <div class="mc-slot large" data-tip="Lingote de Netherite (minecraft:netherite_ingot)"><img src="assets/icons/mc_netherite_ingot.png" alt="Lingote de Netherite (minecraft:netherite_ingot)"></div>
   </div>
-  <div class="mc-card-footer"><code>tfc_arcanum:fd_stove_from_tfc</code><span>Cozimento avançado FD</span></div>
+  <div class="mc-card-footer"><code>tfc_arcanum:netherite_from_black_steel</code><span>Liga extrema de reforja</span></div>
+</div>
+<div class="mc-card">
+  <div class="mc-card-header"><span class="mc-card-title">Catalisador do Undergarden</span><span class="mc-card-badge">Shaped 3×3</span></div>
+  <div class="mc-card-body">
+    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Chapa de Cobre TFC"><img src="assets/icons/tfc_sheet_copper.png" alt="Chapa de Cobre TFC"></div><div class="mc-slot" data-tip="Pedra TFC"><img src="assets/icons/tfc_rock_granite.png" alt="Pedra TFC"></div><div class="mc-slot" data-tip="Chapa de Cobre TFC"><img src="assets/icons/tfc_sheet_copper.png" alt="Chapa de Cobre TFC"></div><div class="mc-slot" data-tip="Pedra TFC"><img src="assets/icons/tfc_rock_granite.png" alt="Pedra TFC"></div><div class="mc-slot" data-tip="Pérola do End"><img src="assets/icons/mc_ender_pearl.png" alt="Pérola do End"></div><div class="mc-slot" data-tip="Pedra TFC"><img src="assets/icons/tfc_rock_granite.png" alt="Pedra TFC"></div><div class="mc-slot" data-tip="Chapa de Cobre TFC"><img src="assets/icons/tfc_sheet_copper.png" alt="Chapa de Cobre TFC"></div><div class="mc-slot" data-tip="Pedra TFC"><img src="assets/icons/tfc_rock_granite.png" alt="Pedra TFC"></div><div class="mc-slot" data-tip="Chapa de Cobre TFC"><img src="assets/icons/tfc_sheet_copper.png" alt="Chapa de Cobre TFC"></div></div>
+    <div class="mc-arrow">➜</div>
+    <div class="mc-slot large" data-tip="Catalisador do Undergarden (undergarden:catalyst)"><img src="assets/icons/undergarden_catalyst.png" alt="Catalisador do Undergarden (undergarden:catalyst)"></div>
+  </div>
+  <div class="mc-card-footer"><code>tfc_arcanum:undergarden_catalyst_tfc</code><span>Abre a fenda subterrânea</span></div>
 </div>
 </div>
 
 ---
 
-## 8. Cerâmica Arcana, Knapping 5×5 & Queima (Pit Kiln)
+## 9. Ardósia Profunda (Deepslate), Pedra Negra & Rochas (v1.2.7)
 
-O molde de cerâmica arcana desbloqueia os grimórios do mod **Iron's Spells 'n Spellbooks**.
+<div class="mc-grid-gallery">
+
+<div class="mc-card">
+  <div class="mc-card-header"><span class="mc-card-title">4× Ardósia Profunda (Deepslate)</span><span class="mc-card-badge">Shaped 2×2</span></div>
+  <div class="mc-card-body">
+    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Ardósia TFC (tfc:rock/raw/slate)"><img src="assets/icons/tfc_rock_granite.png" alt="Ardósia TFC (tfc:rock/raw/slate)"></div><div class="mc-slot" data-tip="Ardósia TFC"><img src="assets/icons/tfc_rock_granite.png" alt="Ardósia TFC"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Ardósia TFC"><img src="assets/icons/tfc_rock_granite.png" alt="Ardósia TFC"></div><div class="mc-slot" data-tip="Ardósia TFC"><img src="assets/icons/tfc_rock_granite.png" alt="Ardósia TFC"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div></div>
+    <div class="mc-arrow">➜</div>
+    <div class="mc-slot large" data-tip="4x Ardósia Profunda (minecraft:deepslate)"><img src="assets/icons/mc_deepslate.png" alt="4x Ardósia Profunda (minecraft:deepslate)"><span class="mc-count">4</span></div>
+  </div>
+  <div class="mc-card-footer"><code>tfc_arcanum:deepslate_from_tfc_slate</code><span>Pedra densa das profundezas</span></div>
+</div>
+<div class="mc-card">
+  <div class="mc-card-header"><span class="mc-card-title">4× Deepslate Polido (Polished)</span><span class="mc-card-badge">Shaped 2×2</span></div>
+  <div class="mc-card-body">
+    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Cobbled Deepslate ou Ardósia Lisa"><img src="assets/icons/mc_deepslate.png" alt="Cobbled Deepslate ou Ardósia Lisa"></div><div class="mc-slot" data-tip="Cobbled Deepslate"><img src="assets/icons/mc_deepslate.png" alt="Cobbled Deepslate"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Cobbled Deepslate"><img src="assets/icons/mc_deepslate.png" alt="Cobbled Deepslate"></div><div class="mc-slot" data-tip="Cobbled Deepslate"><img src="assets/icons/mc_deepslate.png" alt="Cobbled Deepslate"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div></div>
+    <div class="mc-arrow">➜</div>
+    <div class="mc-slot large" data-tip="4x Deepslate Polido (minecraft:polished_deepslate)"><img src="assets/icons/mc_polished_deepslate.png" alt="4x Deepslate Polido (minecraft:polished_deepslate)"><span class="mc-count">4</span></div>
+  </div>
+  <div class="mc-card-footer"><code>tfc_arcanum:polished_deepslate_from_cobbled</code><span>Base para bancadas mágicas</span></div>
+</div>
+<div class="mc-card">
+  <div class="mc-card-header"><span class="mc-card-title">4× Pedra Negra (Blackstone)</span><span class="mc-card-badge">Shaped 3×3</span></div>
+  <div class="mc-card-body">
+    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Basalto TFC (tfc:rock/raw/basalt)"><img src="assets/icons/tfc_rock_granite.png" alt="Basalto TFC (tfc:rock/raw/basalt)"></div><div class="mc-slot" data-tip="Carvão TFC (#minecraft:coals)"><img src="assets/icons/tfc_powder_charcoal.png" alt="Carvão TFC (#minecraft:coals)"></div><div class="mc-slot" data-tip="Basalto TFC"><img src="assets/icons/tfc_rock_granite.png" alt="Basalto TFC"></div><div class="mc-slot" data-tip="Basalto TFC"><img src="assets/icons/tfc_rock_granite.png" alt="Basalto TFC"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Basalto TFC"><img src="assets/icons/tfc_rock_granite.png" alt="Basalto TFC"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div></div>
+    <div class="mc-arrow">➜</div>
+    <div class="mc-slot large" data-tip="4x Pedra Negra (minecraft:blackstone)"><img src="assets/icons/mc_blackstone.png" alt="4x Pedra Negra (minecraft:blackstone)"><span class="mc-count">4</span></div>
+  </div>
+  <div class="mc-card-footer"><code>tfc_arcanum:blackstone_from_basalt</code><span>Rochas escuras resistentes</span></div>
+</div>
+<div class="mc-card">
+  <div class="mc-card-header"><span class="mc-card-title">Obsidiana Chorosa (Crying Obsidian)</span><span class="mc-card-badge">Shapeless</span></div>
+  <div class="mc-card-body">
+    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Bloco de Obsidiana (minecraft:obsidian)"><img src="assets/icons/tfc_rock_granite.png" alt="Bloco de Obsidiana (minecraft:obsidian)"></div><div class="mc-slot" data-tip="Fragmento de Ametista (minecraft:amethyst_shard)"><img src="assets/icons/mc_amethyst_shard.png" alt="Fragmento de Ametista (minecraft:amethyst_shard)"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div></div>
+    <div class="mc-arrow">➜</div>
+    <div class="mc-slot large" data-tip="Obsidiana Chorosa (minecraft:crying_obsidian)"><img src="assets/icons/mc_crying_obsidian.png" alt="Obsidiana Chorosa (minecraft:crying_obsidian)"></div>
+  </div>
+  <div class="mc-card-footer"><code>tfc_arcanum:crying_obsidian_amethyst</code><span>Energia dimensional pulsante</span></div>
+</div>
+<div class="mc-card">
+  <div class="mc-card-header"><span class="mc-card-title">2× Sílex Garantido (Flint)</span><span class="mc-card-badge">Shapeless</span></div>
+  <div class="mc-card-body">
+    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Pedra Solta de Chert (tfc:rock/loose/chert)"><img src="assets/icons/tfc_loose_rock.png" alt="Pedra Solta de Chert (tfc:rock/loose/chert)"></div><div class="mc-slot" data-tip="Martelo TFC (#c:tools/hammer)"><img src="assets/icons/tfc_stone_hammer.png" alt="Martelo TFC (#c:tools/hammer)"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div></div>
+    <div class="mc-arrow">➜</div>
+    <div class="mc-slot large" data-tip="2x Sílex (minecraft:flint)"><img src="assets/icons/mc_flint.png" alt="2x Sílex (minecraft:flint)"><span class="mc-count">2</span></div>
+  </div>
+  <div class="mc-card-footer"><code>tfc_arcanum:chert_to_flint</code><span>Quebra rochas de sílex</span></div>
+</div>
+<div class="mc-card">
+  <div class="mc-card-header"><span class="mc-card-title">2× Quartzo via Quartzite</span><span class="mc-card-badge">Shapeless</span></div>
+  <div class="mc-card-body">
+    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Pedra Solta de Quartzite (tfc:rock/loose/quartzite)"><img src="assets/icons/tfc_loose_rock.png" alt="Pedra Solta de Quartzite (tfc:rock/loose/quartzite)"></div><div class="mc-slot" data-tip="Martelo TFC (#c:tools/hammer)"><img src="assets/icons/tfc_stone_hammer.png" alt="Martelo TFC (#c:tools/hammer)"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div></div>
+    <div class="mc-arrow">➜</div>
+    <div class="mc-slot large" data-tip="2x Quartzo (minecraft:quartz)"><img src="assets/icons/mc_quartz.png" alt="2x Quartzo (minecraft:quartz)"><span class="mc-count">2</span></div>
+  </div>
+  <div class="mc-card-footer"><code>tfc_arcanum:quartzite_to_quartz</code><span>Cristais de quartzo puros</span></div>
+</div>
+</div>
+
+---
+
+## 10. Bancadas de Magia, Iron's Spells & Waystones (v1.2.7)
+
+<div class="mc-grid-gallery">
+
+<div class="mc-card">
+  <div class="mc-card-header"><span class="mc-card-title">Pele de Hoglin (Hogskin)</span><span class="mc-card-badge">Shapeless</span></div>
+  <div class="mc-card-body">
+    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Couro Grande Preparado TFC"><img src="assets/icons/tfc_large_prepared_hide.png" alt="Couro Grande Preparado TFC"></div><div class="mc-slot" data-tip="Carne Crua de Porco (#c:raw_pork)"><img src="assets/icons/tfc_food_beef.png" alt="Carne Crua de Porco (#c:raw_pork)"></div><div class="mc-slot" data-tip="Pó de Enxofre (#tfc_arcanum:sulfur_powders)"><img src="assets/icons/tfc_powder_flux.png" alt="Pó de Enxofre (#tfc_arcanum:sulfur_powders)"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div></div>
+    <div class="mc-arrow">➜</div>
+    <div class="mc-slot large" data-tip="Pele de Hoglin (irons_spellbooks:hogskin)"><img src="assets/icons/irons_hogskin.png" alt="Pele de Hoglin (irons_spellbooks:hogskin)"></div>
+  </div>
+  <div class="mc-card-footer"><code>tfc_arcanum:hogskin_from_large_hide</code><span>Grimórios de Ouro e Diamante</span></div>
+</div>
+<div class="mc-card">
+  <div class="mc-card-header"><span class="mc-card-title">Mesa de Inscrição (Inscription Table)</span><span class="mc-card-badge">Shaped 3×3</span></div>
+  <div class="mc-card-body">
+    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Pena (#c:feathers)"><img src="assets/icons/mc_feather.png" alt="Pena (#c:feathers)"></div><div class="mc-slot" data-tip="Livro Mágico"><img src="assets/icons/mc_book.png" alt="Livro Mágico"></div><div class="mc-slot" data-tip="Pena"><img src="assets/icons/mc_feather.png" alt="Pena"></div><div class="mc-slot" data-tip="Tábua TFC"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC"></div><div class="mc-slot" data-tip="Tábua TFC"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC"></div><div class="mc-slot" data-tip="Tábua TFC"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC"></div><div class="mc-slot" data-tip="Tábua TFC"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Tábua TFC"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC"></div></div>
+    <div class="mc-arrow">➜</div>
+    <div class="mc-slot large" data-tip="Mesa de Inscrição (irons_spellbooks:inscription_table)"><img src="assets/icons/irons_inscription_table.png" alt="Mesa de Inscrição (irons_spellbooks:inscription_table)"></div>
+  </div>
+  <div class="mc-card-footer"><code>tfc_arcanum:inscription_table_tfc</code><span>Criação e cópia de feitiços</span></div>
+</div>
+<div class="mc-card">
+  <div class="mc-card-header"><span class="mc-card-title">Bigorna Arcana (Arcane Anvil)</span><span class="mc-card-badge">Shaped 3×3</span></div>
+  <div class="mc-card-body">
+    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Chapa de Aço TFC"><img src="assets/icons/tfc_sheet_steel.png" alt="Chapa de Aço TFC"></div><div class="mc-slot" data-tip="Chapa de Aço TFC"><img src="assets/icons/tfc_sheet_steel.png" alt="Chapa de Aço TFC"></div><div class="mc-slot" data-tip="Chapa de Aço TFC"><img src="assets/icons/tfc_sheet_steel.png" alt="Chapa de Aço TFC"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Essência Arcana"><img src="assets/icons/irons_arcane_essence.png" alt="Essência Arcana"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Lingote de Ferro"><img src="assets/icons/tfc_ingot_wrought_iron.png" alt="Lingote de Ferro"></div><div class="mc-slot" data-tip="Lingote de Ferro"><img src="assets/icons/tfc_ingot_wrought_iron.png" alt="Lingote de Ferro"></div><div class="mc-slot" data-tip="Lingote de Ferro"><img src="assets/icons/tfc_ingot_wrought_iron.png" alt="Lingote de Ferro"></div></div>
+    <div class="mc-arrow">➜</div>
+    <div class="mc-slot large" data-tip="Bigorna Arcana (irons_spellbooks:arcane_anvil)"><img src="assets/icons/irons_arcane_anvil.png" alt="Bigorna Arcana (irons_spellbooks:arcane_anvil)"></div>
+  </div>
+  <div class="mc-card-footer"><code>tfc_arcanum:arcane_anvil_tfc</code><span>Aprimoramento de feitiços</span></div>
+</div>
+<div class="mc-card">
+  <div class="mc-card-header"><span class="mc-card-title">Forja de Pergaminhos (Scroll Forge)</span><span class="mc-card-badge">Shaped 3×3</span></div>
+  <div class="mc-card-body">
+    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Obsidiana Chorosa"><img src="assets/icons/mc_crying_obsidian.png" alt="Obsidiana Chorosa"></div><div class="mc-slot" data-tip="Bancada de Trabalho"><img src="assets/icons/mc_crafting_table.png" alt="Bancada de Trabalho"></div><div class="mc-slot" data-tip="Obsidiana Chorosa"><img src="assets/icons/mc_crying_obsidian.png" alt="Obsidiana Chorosa"></div><div class="mc-slot" data-tip="Deepslate Polido"><img src="assets/icons/mc_polished_deepslate.png" alt="Deepslate Polido"></div><div class="mc-slot" data-tip="Essência Arcana"><img src="assets/icons/irons_arcane_essence.png" alt="Essência Arcana"></div><div class="mc-slot" data-tip="Deepslate Polido"><img src="assets/icons/mc_polished_deepslate.png" alt="Deepslate Polido"></div><div class="mc-slot" data-tip="Deepslate Polido"><img src="assets/icons/mc_polished_deepslate.png" alt="Deepslate Polido"></div><div class="mc-slot" data-tip="Deepslate Polido"><img src="assets/icons/mc_polished_deepslate.png" alt="Deepslate Polido"></div><div class="mc-slot" data-tip="Deepslate Polido"><img src="assets/icons/mc_polished_deepslate.png" alt="Deepslate Polido"></div></div>
+    <div class="mc-arrow">➜</div>
+    <div class="mc-slot large" data-tip="Forja de Pergaminhos (irons_spellbooks:scroll_forge)"><img src="assets/icons/irons_scroll_forge.png" alt="Forja de Pergaminhos (irons_spellbooks:scroll_forge)"></div>
+  </div>
+  <div class="mc-card-footer"><code>tfc_arcanum:scroll_forge_tfc</code><span>Forja de pergaminhos ancestrais</span></div>
+</div>
+<div class="mc-card">
+  <div class="mc-card-header"><span class="mc-card-title">Pedra de Retorno (Warp Stone)</span><span class="mc-card-badge">Shaped 3×3</span></div>
+  <div class="mc-card-body">
+    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Ametista TFC"><img src="assets/icons/mc_amethyst_shard.png" alt="Ametista TFC"></div><div class="mc-slot" data-tip="Pérola do End"><img src="assets/icons/mc_ender_pearl.png" alt="Pérola do End"></div><div class="mc-slot" data-tip="Ametista TFC"><img src="assets/icons/mc_amethyst_shard.png" alt="Ametista TFC"></div><div class="mc-slot" data-tip="Pérola do End"><img src="assets/icons/mc_ender_pearl.png" alt="Pérola do End"></div><div class="mc-slot" data-tip="Gema de Esmeralda TFC"><img src="assets/icons/mc_emerald_block.png" alt="Gema de Esmeralda TFC"></div><div class="mc-slot" data-tip="Pérola do End"><img src="assets/icons/mc_ender_pearl.png" alt="Pérola do End"></div><div class="mc-slot" data-tip="Ametista TFC"><img src="assets/icons/mc_amethyst_shard.png" alt="Ametista TFC"></div><div class="mc-slot" data-tip="Pérola do End"><img src="assets/icons/mc_ender_pearl.png" alt="Pérola do End"></div><div class="mc-slot" data-tip="Ametista TFC"><img src="assets/icons/mc_amethyst_shard.png" alt="Ametista TFC"></div></div>
+    <div class="mc-arrow">➜</div>
+    <div class="mc-slot large" data-tip="Pedra de Retorno (waystones:warp_stone)"><img src="assets/icons/waystones_warp_stone.png" alt="Pedra de Retorno (waystones:warp_stone)"></div>
+  </div>
+  <div class="mc-card-footer"><code>tfc_arcanum:warp_stone_tfc_restored</code><span>Teleporte pessoal recarregável</span></div>
+</div>
+<div class="mc-card">
+  <div class="mc-card-header"><span class="mc-card-title">Waystone (Monólito de Teleporte)</span><span class="mc-card-badge">Shaped 3×3</span></div>
+  <div class="mc-card-body">
+    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Tijolo de Pedra TFC"><img src="assets/icons/tfc_rock_granite.png" alt="Tijolo de Pedra TFC"></div><div class="mc-slot" data-tip="Pedra de Retorno"><img src="assets/icons/waystones_warp_stone.png" alt="Pedra de Retorno"></div><div class="mc-slot" data-tip="Tijolo de Pedra TFC"><img src="assets/icons/tfc_rock_granite.png" alt="Tijolo de Pedra TFC"></div><div class="mc-slot" data-tip="Tijolo de Pedra TFC"><img src="assets/icons/tfc_rock_granite.png" alt="Tijolo de Pedra TFC"></div><div class="mc-slot" data-tip="Bloco de Obsidiana"><img src="assets/icons/tfc_rock_granite.png" alt="Bloco de Obsidiana"></div><div class="mc-slot" data-tip="Tijolo de Pedra TFC"><img src="assets/icons/tfc_rock_granite.png" alt="Tijolo de Pedra TFC"></div><div class="mc-slot" data-tip="Bloco de Obsidiana"><img src="assets/icons/tfc_rock_granite.png" alt="Bloco de Obsidiana"></div><div class="mc-slot" data-tip="Bloco de Obsidiana"><img src="assets/icons/tfc_rock_granite.png" alt="Bloco de Obsidiana"></div><div class="mc-slot" data-tip="Bloco de Obsidiana"><img src="assets/icons/tfc_rock_granite.png" alt="Bloco de Obsidiana"></div></div>
+    <div class="mc-arrow">➜</div>
+    <div class="mc-slot large" data-tip="Waystone (waystones:waystone)"><img src="assets/icons/waystones_waystone.png" alt="Waystone (waystones:waystone)"></div>
+  </div>
+  <div class="mc-card-footer"><code>tfc_arcanum:waystone_tfc_restored</code><span>Ponto de ancoragem global</span></div>
+</div>
+</div>
+
+---
+
+## 11. Mesas do Apotheosis: Reforja, Salvaging & Lapidação (v1.2.7)
+
+<div class="mc-grid-gallery">
+
+<div class="mc-card">
+  <div class="mc-card-header"><span class="mc-card-title">Mesa de Desmanche (Salvaging Table)</span><span class="mc-card-badge">Shaped 3×3</span></div>
+  <div class="mc-card-body">
+    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Chapa de Cobre TFC"><img src="assets/icons/tfc_sheet_copper.png" alt="Chapa de Cobre TFC"></div><div class="mc-slot" data-tip="Chapa de Cobre TFC"><img src="assets/icons/tfc_sheet_copper.png" alt="Chapa de Cobre TFC"></div><div class="mc-slot" data-tip="Chapa de Cobre TFC"><img src="assets/icons/tfc_sheet_copper.png" alt="Chapa de Cobre TFC"></div><div class="mc-slot" data-tip="Machado de Ferro TFC"><img src="assets/icons/tfc_sword_wrought_iron.png" alt="Machado de Ferro TFC"></div><div class="mc-slot" data-tip="Mesa de Ferraria"><img src="assets/icons/mc_smithing_table.png" alt="Mesa de Ferraria"></div><div class="mc-slot" data-tip="Picareta de Ferro TFC"><img src="assets/icons/tfc_stone_hammer.png" alt="Picareta de Ferro TFC"></div><div class="mc-slot" data-tip="Tábua TFC"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC"></div><div class="mc-slot" data-tip="Balde de Lava"><img src="assets/icons/mc_bucket.png" alt="Balde de Lava"></div><div class="mc-slot" data-tip="Tábua TFC"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC"></div></div>
+    <div class="mc-arrow">➜</div>
+    <div class="mc-slot large" data-tip="Mesa de Desmanche (apotheosis:salvaging_table)"><img src="assets/icons/apoth_salvaging_table.png" alt="Mesa de Desmanche (apotheosis:salvaging_table)"></div>
+  </div>
+  <div class="mc-card-footer"><code>tfc_arcanum:apotheosis_salvaging_table_tfc</code><span>Desmonta afixos em materiais</span></div>
+</div>
+<div class="mc-card">
+  <div class="mc-card-header"><span class="mc-card-title">2× Areias Arcanas (Arcane Sands)</span><span class="mc-card-badge">Shapeless</span></div>
+  <div class="mc-card-body">
+    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Areia TFC (#c:sands)"><img src="assets/icons/tfc_loose_rock.png" alt="Areia TFC (#c:sands)"></div><div class="mc-slot" data-tip="Pó de Gemas (apotheosis:gem_dust)"><img src="assets/icons/apoth_gem_dust.png" alt="Pó de Gemas (apotheosis:gem_dust)"></div><div class="mc-slot" data-tip="Pó de Gemas (apotheosis:gem_dust)"><img src="assets/icons/apoth_gem_dust.png" alt="Pó de Gemas (apotheosis:gem_dust)"></div><div class="mc-slot" data-tip="Fragmento de Ametista"><img src="assets/icons/mc_amethyst_shard.png" alt="Fragmento de Ametista"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div></div>
+    <div class="mc-arrow">➜</div>
+    <div class="mc-slot large" data-tip="2x Areias Arcanas (apotheosis:arcane_sands)"><img src="assets/icons/apoth_arcane_sands.png" alt="2x Areias Arcanas (apotheosis:arcane_sands)"><span class="mc-count">2</span></div>
+  </div>
+  <div class="mc-card-footer"><code>tfc_arcanum:arcane_sands_craft</code><span>Material para reforja mística</span></div>
+</div>
+<div class="mc-card">
+  <div class="mc-card-header"><span class="mc-card-title">Mesa de Reforjamento Simples</span><span class="mc-card-badge">Shaped 3×3</span></div>
+  <div class="mc-card-body">
+    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Lingote de Ferro"><img src="assets/icons/tfc_ingot_wrought_iron.png" alt="Lingote de Ferro"></div><div class="mc-slot" data-tip="Pó de Gemas"><img src="assets/icons/apoth_gem_dust.png" alt="Pó de Gemas"></div><div class="mc-slot" data-tip="Lingote de Ferro"><img src="assets/icons/tfc_ingot_wrought_iron.png" alt="Lingote de Ferro"></div><div class="mc-slot" data-tip="Pedra Lisa TFC"><img src="assets/icons/mc_smooth_stone.png" alt="Pedra Lisa TFC"></div><div class="mc-slot" data-tip="Mesa de Encantamentos"><img src="assets/icons/mc_enchanting_table.png" alt="Mesa de Encantamentos"></div><div class="mc-slot" data-tip="Pedra Lisa TFC"><img src="assets/icons/mc_smooth_stone.png" alt="Pedra Lisa TFC"></div><div class="mc-slot" data-tip="Pedra Lisa TFC"><img src="assets/icons/mc_smooth_stone.png" alt="Pedra Lisa TFC"></div><div class="mc-slot" data-tip="Pedra Lisa TFC"><img src="assets/icons/mc_smooth_stone.png" alt="Pedra Lisa TFC"></div><div class="mc-slot" data-tip="Pedra Lisa TFC"><img src="assets/icons/mc_smooth_stone.png" alt="Pedra Lisa TFC"></div></div>
+    <div class="mc-arrow">➜</div>
+    <div class="mc-slot large" data-tip="Mesa de Reforjamento Simples"><img src="assets/icons/apoth_simple_reforging_table.png" alt="Mesa de Reforjamento Simples"></div>
+  </div>
+  <div class="mc-card-footer"><code>tfc_arcanum:apotheosis_simple_reforging_tfc</code><span>Reforja afixos de Tier 1</span></div>
+</div>
+<div class="mc-card">
+  <div class="mc-card-header"><span class="mc-card-title">Mesa de Reforjamento Mítica</span><span class="mc-card-badge">Shaped 3×3</span></div>
+  <div class="mc-card-body">
+    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Netherite ou Aço Negro TFC"><img src="assets/icons/mc_netherite_ingot.png" alt="Netherite ou Aço Negro TFC"></div><div class="mc-slot" data-tip="Areias Arcanas"><img src="assets/icons/apoth_arcane_sands.png" alt="Areias Arcanas"></div><div class="mc-slot" data-tip="Netherite ou Aço Negro"><img src="assets/icons/mc_netherite_ingot.png" alt="Netherite ou Aço Negro"></div><div class="mc-slot" data-tip="Tijolos do Nether"><img src="assets/icons/mc_nether_bricks.png" alt="Tijolos do Nether"></div><div class="mc-slot" data-tip="Mesa de Reforjamento Simples"><img src="assets/icons/apoth_simple_reforging_table.png" alt="Mesa de Reforjamento Simples"></div><div class="mc-slot" data-tip="Tijolos do Nether"><img src="assets/icons/mc_nether_bricks.png" alt="Tijolos do Nether"></div><div class="mc-slot" data-tip="Tijolos do Nether"><img src="assets/icons/mc_nether_bricks.png" alt="Tijolos do Nether"></div><div class="mc-slot" data-tip="Areias Arcanas"><img src="assets/icons/apoth_arcane_sands.png" alt="Areias Arcanas"></div><div class="mc-slot" data-tip="Tijolos do Nether"><img src="assets/icons/mc_nether_bricks.png" alt="Tijolos do Nether"></div></div>
+    <div class="mc-arrow">➜</div>
+    <div class="mc-slot large" data-tip="Mesa de Reforjamento Mítica"><img src="assets/icons/apoth_reforging_table.png" alt="Mesa de Reforjamento Mítica"></div>
+  </div>
+  <div class="mc-card-footer"><code>tfc_arcanum:apotheosis_reforging_table_tfc</code><span>Reforja itens ancestrais e míticos</span></div>
+</div>
+<div class="mc-card">
+  <div class="mc-card-header"><span class="mc-card-title">Mesa de Lapidação (Gem Cutting Table)</span><span class="mc-card-badge">Shaped 3×3</span></div>
+  <div class="mc-card-body">
+    <div class="mc-grid-3x3"><div class="mc-slot"></div><div class="mc-slot" data-tip="Tesoura de Tosa TFC"><img src="assets/icons/mc_shears.png" alt="Tesoura de Tosa TFC"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Tábua TFC"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC"></div><div class="mc-slot" data-tip="Pó de Gemas"><img src="assets/icons/apoth_gem_dust.png" alt="Pó de Gemas"></div><div class="mc-slot" data-tip="Tábua TFC"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC"></div><div class="mc-slot" data-tip="Pedra Lisa TFC"><img src="assets/icons/mc_smooth_stone.png" alt="Pedra Lisa TFC"></div><div class="mc-slot" data-tip="Pedra Lisa TFC"><img src="assets/icons/mc_smooth_stone.png" alt="Pedra Lisa TFC"></div><div class="mc-slot" data-tip="Pedra Lisa TFC"><img src="assets/icons/mc_smooth_stone.png" alt="Pedra Lisa TFC"></div></div>
+    <div class="mc-arrow">➜</div>
+    <div class="mc-slot large" data-tip="Mesa de Lapidação de Gemas"><img src="assets/icons/apoth_gem_cutting_table.png" alt="Mesa de Lapidação de Gemas"></div>
+  </div>
+  <div class="mc-card-footer"><code>tfc_arcanum:apotheosis_gem_cutting_table_tfc</code><span>Melhora pureza das gemas</span></div>
+</div>
+</div>
+
+---
+
+## 12. Engenharia Create & Casings de Bancada (v1.2.7)
+
+Receitas manuais de bancada para criar casings sem necessidade de clicar com ligas em troncos desfolhados no chão.
+
+<div class="mc-grid-gallery">
+
+<div class="mc-card">
+  <div class="mc-card-header"><span class="mc-card-title">Casing de Andesito na Bancada</span><span class="mc-card-badge">Shaped 3×3</span></div>
+  <div class="mc-card-body">
+    <div class="mc-grid-3x3"><div class="mc-slot"></div><div class="mc-slot" data-tip="Tábua TFC"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Tábua TFC"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC"></div><div class="mc-slot" data-tip="Liga de Andesito (create:andesite_alloy)"><img src="assets/icons/create_andesite_alloy.png" alt="Liga de Andesito (create:andesite_alloy)"></div><div class="mc-slot" data-tip="Tábua TFC"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Tábua TFC"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC"></div><div class="mc-slot"></div></div>
+    <div class="mc-arrow">➜</div>
+    <div class="mc-slot large" data-tip="Casing de Andesito (create:andesite_casing)"><img src="assets/icons/create_andesite_casing.png" alt="Casing de Andesito (create:andesite_casing)"></div>
+  </div>
+  <div class="mc-card-footer"><code>tfc_arcanum:create_andesite_casing_workbench</code><span>Mecanismos cinéticos básicos</span></div>
+</div>
+<div class="mc-card">
+  <div class="mc-card-header"><span class="mc-card-title">Casing de Cobre na Bancada</span><span class="mc-card-badge">Shaped 3×3</span></div>
+  <div class="mc-card-body">
+    <div class="mc-grid-3x3"><div class="mc-slot"></div><div class="mc-slot" data-tip="Tábua TFC"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Tábua TFC"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC"></div><div class="mc-slot" data-tip="Lingote de Cobre TFC"><img src="assets/icons/tfc_sheet_copper.png" alt="Lingote de Cobre TFC"></div><div class="mc-slot" data-tip="Tábua TFC"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Tábua TFC"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC"></div><div class="mc-slot"></div></div>
+    <div class="mc-arrow">➜</div>
+    <div class="mc-slot large" data-tip="Casing de Cobre (create:copper_casing)"><img src="assets/icons/create_copper_casing.png" alt="Casing de Cobre (create:copper_casing)"></div>
+  </div>
+  <div class="mc-card-footer"><code>tfc_arcanum:create_copper_casing_workbench</code><span>Tubulações de fluidos</span></div>
+</div>
+<div class="mc-card">
+  <div class="mc-card-header"><span class="mc-card-title">Casing de Latão na Bancada</span><span class="mc-card-badge">Shaped 3×3</span></div>
+  <div class="mc-card-body">
+    <div class="mc-grid-3x3"><div class="mc-slot"></div><div class="mc-slot" data-tip="Tábua TFC"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Tábua TFC"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC"></div><div class="mc-slot" data-tip="Lingote de Latão TFC"><img src="assets/icons/create_brass_ingot.png" alt="Lingote de Latão TFC"></div><div class="mc-slot" data-tip="Tábua TFC"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Tábua TFC"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC"></div><div class="mc-slot"></div></div>
+    <div class="mc-arrow">➜</div>
+    <div class="mc-slot large" data-tip="Casing de Latão (create:brass_casing)"><img src="assets/icons/create_brass_casing.png" alt="Casing de Latão (create:brass_casing)"></div>
+  </div>
+  <div class="mc-card-footer"><code>tfc_arcanum:create_brass_casing_workbench</code><span>Mecanismos de precisão</span></div>
+</div>
+<div class="mc-card">
+  <div class="mc-card-header"><span class="mc-card-title">Casing de Ferrovia na Bancada</span><span class="mc-card-badge">Shaped 3×3</span></div>
+  <div class="mc-card-body">
+    <div class="mc-grid-3x3"><div class="mc-slot"></div><div class="mc-slot" data-tip="Tábua TFC"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Tábua TFC"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC"></div><div class="mc-slot" data-tip="Bloco de Obsidiana"><img src="assets/icons/tfc_rock_granite.png" alt="Bloco de Obsidiana"></div><div class="mc-slot" data-tip="Tábua TFC"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Tábua TFC"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC"></div><div class="mc-slot"></div></div>
+    <div class="mc-arrow">➜</div>
+    <div class="mc-slot large" data-tip="Casing de Ferrovia (create:railway_casing)"><img src="assets/icons/create_railway_casing.png" alt="Casing de Ferrovia (create:railway_casing)"></div>
+  </div>
+  <div class="mc-card-footer"><code>tfc_arcanum:create_railway_casing_workbench</code><span>Trens e locomotivas</span></div>
+</div>
+<div class="mc-card">
+  <div class="mc-card-header"><span class="mc-card-title">Quartzo Rosa (Rose Quartz)</span><span class="mc-card-badge">Shapeless</span></div>
+  <div class="mc-card-body">
+    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Quartzo Vanilla ou TFC"><img src="assets/icons/mc_quartz.png" alt="Quartzo Vanilla ou TFC"></div><div class="mc-slot" data-tip="Pó de Redstone (8x)"><img src="assets/icons/mc_redstone.png" alt="Pó de Redstone (8x)"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div></div>
+    <div class="mc-arrow">➜</div>
+    <div class="mc-slot large" data-tip="Quartzo Rosa (create:rose_quartz)"><img src="assets/icons/create_rose_quartz.png" alt="Quartzo Rosa (create:rose_quartz)"></div>
+  </div>
+  <div class="mc-card-footer"><code>tfc_arcanum:create_rose_quartz_tfc</code><span>Tubos de elétrons</span></div>
+</div>
+</div>
+
+---
+
+## 13. Exploração, Cavalaria & Final (v1.2.7)
+
+<div class="mc-grid-gallery">
+
+<div class="mc-card">
+  <div class="mc-card-header"><span class="mc-card-title">Sela de Montaria (Saddle)</span><span class="mc-card-badge">Shaped 3×3</span></div>
+  <div class="mc-card-body">
+    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Couro TFC"><img src="assets/icons/tfc_large_prepared_hide.png" alt="Couro TFC"></div><div class="mc-slot" data-tip="Couro TFC"><img src="assets/icons/tfc_large_prepared_hide.png" alt="Couro TFC"></div><div class="mc-slot" data-tip="Couro TFC"><img src="assets/icons/tfc_large_prepared_hide.png" alt="Couro TFC"></div><div class="mc-slot" data-tip="Corda TFC"><img src="assets/icons/tfc_string.png" alt="Corda TFC"></div><div class="mc-slot" data-tip="Lingote de Ferro"><img src="assets/icons/tfc_ingot_wrought_iron.png" alt="Lingote de Ferro"></div><div class="mc-slot" data-tip="Corda TFC"><img src="assets/icons/tfc_string.png" alt="Corda TFC"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div></div>
+    <div class="mc-arrow">➜</div>
+    <div class="mc-slot large" data-tip="Sela (minecraft:saddle)"><img src="assets/icons/mc_saddle.png" alt="Sela (minecraft:saddle)"></div>
+  </div>
+  <div class="mc-card-footer"><code>tfc_arcanum:saddle_craft</code><span>Vital para cavalaria e exploração</span></div>
+</div>
+<div class="mc-card">
+  <div class="mc-card-header"><span class="mc-card-title">Armadura de Cavalo de Ferro</span><span class="mc-card-badge">Shaped 3×3</span></div>
+  <div class="mc-card-body">
+    <div class="mc-grid-3x3"><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Lingote de Ferro TFC"><img src="assets/icons/tfc_ingot_wrought_iron.png" alt="Lingote de Ferro TFC"></div><div class="mc-slot" data-tip="Lingote de Ferro TFC"><img src="assets/icons/tfc_ingot_wrought_iron.png" alt="Lingote de Ferro TFC"></div><div class="mc-slot" data-tip="Couro TFC"><img src="assets/icons/tfc_large_prepared_hide.png" alt="Couro TFC"></div><div class="mc-slot" data-tip="Lingote de Ferro TFC"><img src="assets/icons/tfc_ingot_wrought_iron.png" alt="Lingote de Ferro TFC"></div><div class="mc-slot" data-tip="Lingote de Ferro TFC"><img src="assets/icons/tfc_ingot_wrought_iron.png" alt="Lingote de Ferro TFC"></div><div class="mc-slot" data-tip="Lingote de Ferro TFC"><img src="assets/icons/tfc_ingot_wrought_iron.png" alt="Lingote de Ferro TFC"></div><div class="mc-slot" data-tip="Lingote de Ferro TFC"><img src="assets/icons/tfc_ingot_wrought_iron.png" alt="Lingote de Ferro TFC"></div></div>
+    <div class="mc-arrow">➜</div>
+    <div class="mc-slot large" data-tip="Armadura de Cavalo de Ferro"><img src="assets/icons/mc_iron_horse_armor.png" alt="Armadura de Cavalo de Ferro"></div>
+  </div>
+  <div class="mc-card-footer"><code>tfc_arcanum:iron_horse_armor_craft</code><span>Proteção para montarias</span></div>
+</div>
+<div class="mc-card">
+  <div class="mc-card-header"><span class="mc-card-title">Armadura de Cavalo de Diamante</span><span class="mc-card-badge">Shaped 3×3</span></div>
+  <div class="mc-card-body">
+    <div class="mc-grid-3x3"><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Diamante TFC"><img src="assets/icons/mc_diamond.png" alt="Diamante TFC"></div><div class="mc-slot" data-tip="Diamante TFC"><img src="assets/icons/mc_diamond.png" alt="Diamante TFC"></div><div class="mc-slot" data-tip="Couro TFC"><img src="assets/icons/tfc_large_prepared_hide.png" alt="Couro TFC"></div><div class="mc-slot" data-tip="Diamante TFC"><img src="assets/icons/mc_diamond.png" alt="Diamante TFC"></div><div class="mc-slot" data-tip="Diamante TFC"><img src="assets/icons/mc_diamond.png" alt="Diamante TFC"></div><div class="mc-slot" data-tip="Diamante TFC"><img src="assets/icons/mc_diamond.png" alt="Diamante TFC"></div><div class="mc-slot" data-tip="Diamante TFC"><img src="assets/icons/mc_diamond.png" alt="Diamante TFC"></div></div>
+    <div class="mc-arrow">➜</div>
+    <div class="mc-slot large" data-tip="Armadura de Cavalo de Diamante"><img src="assets/icons/mc_diamond_horse_armor.png" alt="Armadura de Cavalo de Diamante"></div>
+  </div>
+  <div class="mc-card-footer"><code>tfc_arcanum:diamond_horse_armor_craft</code><span>Blindagem suprema</span></div>
+</div>
+<div class="mc-card">
+  <div class="mc-card-header"><span class="mc-card-title">Crachá de Nome (Name Tag)</span><span class="mc-card-badge">Shapeless</span></div>
+  <div class="mc-card-body">
+    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Papel Vanilla ou TFC"><img src="assets/icons/mc_paper.png" alt="Papel Vanilla ou TFC"></div><div class="mc-slot" data-tip="Fio ou Corda TFC"><img src="assets/icons/tfc_string.png" alt="Fio ou Corda TFC"></div><div class="mc-slot" data-tip="Pepita de Ferro"><img src="assets/icons/mc_iron_nugget.png" alt="Pepita de Ferro"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div></div>
+    <div class="mc-arrow">➜</div>
+    <div class="mc-slot large" data-tip="Crachá de Nome (minecraft:name_tag)"><img src="assets/icons/mc_name_tag.png" alt="Crachá de Nome (minecraft:name_tag)"></div>
+  </div>
+  <div class="mc-card-footer"><code>tfc_arcanum:name_tag_craft</code><span>Nomeia mascotes e montarias</span></div>
+</div>
+<div class="mc-card">
+  <div class="mc-card-header"><span class="mc-card-title">Cristal do End (End Crystal)</span><span class="mc-card-badge">Shaped 3×3</span></div>
+  <div class="mc-card-body">
+    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Bloco de Vidro TFC"><img src="assets/icons/mc_glass.png" alt="Bloco de Vidro TFC"></div><div class="mc-slot" data-tip="Bloco de Vidro TFC"><img src="assets/icons/mc_glass.png" alt="Bloco de Vidro TFC"></div><div class="mc-slot" data-tip="Bloco de Vidro TFC"><img src="assets/icons/mc_glass.png" alt="Bloco de Vidro TFC"></div><div class="mc-slot" data-tip="Bloco de Vidro TFC"><img src="assets/icons/mc_glass.png" alt="Bloco de Vidro TFC"></div><div class="mc-slot" data-tip="Olho do Ender"><img src="assets/icons/mc_ender_eye.png" alt="Olho do Ender"></div><div class="mc-slot" data-tip="Bloco de Vidro TFC"><img src="assets/icons/mc_glass.png" alt="Bloco de Vidro TFC"></div><div class="mc-slot" data-tip="Bloco de Vidro TFC"><img src="assets/icons/mc_glass.png" alt="Bloco de Vidro TFC"></div><div class="mc-slot" data-tip="Lágrima de Ghast"><img src="assets/icons/mc_ghast_tear.png" alt="Lágrima de Ghast"></div><div class="mc-slot" data-tip="Bloco de Vidro TFC"><img src="assets/icons/mc_glass.png" alt="Bloco de Vidro TFC"></div></div>
+    <div class="mc-arrow">➜</div>
+    <div class="mc-slot large" data-tip="Cristal do End (minecraft:end_crystal)"><img src="assets/icons/mc_end_crystal.png" alt="Cristal do End (minecraft:end_crystal)"></div>
+  </div>
+  <div class="mc-card-footer"><code>tfc_arcanum:end_crystal_restored</code><span>Invocação de dragões no The End</span></div>
+</div>
+<div class="mc-card">
+  <div class="mc-card-header"><span class="mc-card-title">Estilhaço de Eco (Echo Shard)</span><span class="mc-card-badge">Shapeless</span></div>
+  <div class="mc-card-body">
+    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Bloco de Sculk Fossilizado (#c:sculk_blocks)"><img src="assets/icons/tfc_rock_granite.png" alt="Bloco de Sculk Fossilizado (#c:sculk_blocks)"></div><div class="mc-slot" data-tip="Fragmento de Ametista"><img src="assets/icons/mc_amethyst_shard.png" alt="Fragmento de Ametista"></div><div class="mc-slot" data-tip="Essência Arcana"><img src="assets/icons/irons_arcane_essence.png" alt="Essência Arcana"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div></div>
+    <div class="mc-arrow">➜</div>
+    <div class="mc-slot large" data-tip="Estilhaço de Eco (minecraft:echo_shard)"><img src="assets/icons/mc_echo_shard.png" alt="Estilhaço de Eco (minecraft:echo_shard)"></div>
+  </div>
+  <div class="mc-card-footer"><code>tfc_arcanum:echo_shard_craft</code><span>Bússola de Recuperação e som</span></div>
+</div>
+</div>
+
+---
+
+## 14. Cerâmica Arcana, Knapping 5×5 & Queima (Pit Kiln)
 
 <div class="mc-grid-gallery">
 
@@ -867,7 +875,7 @@ O molde de cerâmica arcana desbloqueia os grimórios do mod **Iron's Spells 'n 
 
 ---
 
-## 9. Magia, Grimórios & Pilões de Proteção
+## 15. Grimórios & Pilões de Proteção de Aldeia
 
 <div class="mc-grid-gallery">
 
@@ -889,20 +897,11 @@ O molde de cerâmica arcana desbloqueia os grimórios do mod **Iron's Spells 'n 
   </div>
   <div class="mc-card-footer"><code>tfc_arcanum:basic_ward_pylon</code><span>Protege 32 blocos</span></div>
 </div>
-<div class="mc-card">
-  <div class="mc-card-header"><span class="mc-card-title">Pilão Protetor Avançado (Aço)</span><span class="mc-card-badge">Shaped 3×3</span></div>
-  <div class="mc-card-body">
-    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Chapa de Aço (tfc:metal/sheet/steel)"><img src="assets/icons/tfc_sheet_steel.png" alt="Chapa de Aço (tfc:metal/sheet/steel)"></div><div class="mc-slot" data-tip="Salvação Arcana (irons_spellbooks:arcane_salvage)"><img src="assets/icons/irons_arcane_salvage.png" alt="Salvação Arcana (irons_spellbooks:arcane_salvage)"></div><div class="mc-slot" data-tip="Chapa de Aço"><img src="assets/icons/tfc_sheet_steel.png" alt="Chapa de Aço"></div><div class="mc-slot" data-tip="Salvação Arcana"><img src="assets/icons/irons_arcane_salvage.png" alt="Salvação Arcana"></div><div class="mc-slot" data-tip="Bloco de Aço (tfc:metal/block/steel)"><img src="assets/icons/tfc_block_steel.png" alt="Bloco de Aço (tfc:metal/block/steel)"></div><div class="mc-slot" data-tip="Salvação Arcana"><img src="assets/icons/irons_arcane_salvage.png" alt="Salvação Arcana"></div><div class="mc-slot" data-tip="Chapa de Aço"><img src="assets/icons/tfc_sheet_steel.png" alt="Chapa de Aço"></div><div class="mc-slot" data-tip="Salvação Arcana"><img src="assets/icons/irons_arcane_salvage.png" alt="Salvação Arcana"></div><div class="mc-slot" data-tip="Chapa de Aço"><img src="assets/icons/tfc_sheet_steel.png" alt="Chapa de Aço"></div></div>
-    <div class="mc-arrow">➜</div>
-    <div class="mc-slot large" data-tip="Pilão Protetor Supremo"><img src="assets/icons/mc_beacon.png" alt="Pilão Protetor Supremo"></div>
-  </div>
-  <div class="mc-card-footer"><code>tfc_arcanum:advanced_ward_pylon</code><span>Protege vila inteira</span></div>
-</div>
 </div>
 
 ---
 
-## 10. Sobrevivência, Fogo & Qualidade de Vida (QoL)
+## 16. Sobrevivência, Fogo & Qualidade de Vida (QoL)
 
 <div class="mc-grid-gallery">
 
@@ -928,9 +927,7 @@ O molde de cerâmica arcana desbloqueia os grimórios do mod **Iron's Spells 'n 
 
 ---
 
-## 11. Carpintaria Rústica com Machado (20 Madeiras TFC)
-
-Produza itens essenciais de madeira no primeiro dia com seu machado de pedra, antes da metalurgia.
+## 17. Carpintaria Rústica com Machado (20 Madeiras TFC)
 
 <div class="mc-grid-gallery">
 
@@ -965,7 +962,7 @@ Produza itens essenciais de madeira no primeiro dia com seu machado de pedra, an
 
 ---
 
-## 12. Couro, Fibras, Britagem com Martelo & Moagem
+## 18. Couro, Fibras, Britagem com Martelo & Moagem
 
 <div class="mc-grid-gallery">
 
@@ -1000,9 +997,7 @@ Produza itens essenciais de madeira no primeiro dia com seu machado de pedra, an
 
 ---
 
-## 13. Moldes de Cerâmica na Bancada (Sem Knapping)
-
-Receitas alternativas de bancada para jogadores que preferem crafting tradicional sem o minigame de 25 cliques.
+## 19. Moldes de Cerâmica na Bancada (Sem Knapping)
 
 <div class="mc-grid-gallery">
 
@@ -1024,29 +1019,11 @@ Receitas alternativas de bancada para jogadores que preferem crafting tradiciona
   </div>
   <div class="mc-card-footer"><code>tfc:ceramic/unfired_axe_head_mold</code><span>Queime no Pit Kiln</span></div>
 </div>
-<div class="mc-card">
-  <div class="mc-card-header"><span class="mc-card-title">Molde de Espada Não-Cozido</span><span class="mc-card-badge">Shaped 3×3</span></div>
-  <div class="mc-card-body">
-    <div class="mc-grid-3x3"><div class="mc-slot"></div><div class="mc-slot" data-tip="Argila TFC"><img src="assets/icons/tfc_clay_ball.png" alt="Argila TFC"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Argila TFC"><img src="assets/icons/tfc_clay_ball.png" alt="Argila TFC"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Argila TFC"><img src="assets/icons/tfc_clay_ball.png" alt="Argila TFC"></div><div class="mc-slot" data-tip="Argila TFC"><img src="assets/icons/tfc_clay_ball.png" alt="Argila TFC"></div><div class="mc-slot" data-tip="Argila TFC"><img src="assets/icons/tfc_clay_ball.png" alt="Argila TFC"></div></div>
-    <div class="mc-arrow">➜</div>
-    <div class="mc-slot large" data-tip="Molde de Espada Não-Cozido"><img src="assets/icons/tfc_unfired_sword_blade_mold.png" alt="Molde de Espada Não-Cozido"></div>
-  </div>
-  <div class="mc-card-footer"><code>tfc:ceramic/unfired_sword_blade_mold</code><span>Queime no Pit Kiln</span></div>
-</div>
-<div class="mc-card">
-  <div class="mc-card-header"><span class="mc-card-title">Molde de Lingote Não-Cozido</span><span class="mc-card-badge">Shaped 3×3</span></div>
-  <div class="mc-card-body">
-    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Argila TFC"><img src="assets/icons/tfc_clay_ball.png" alt="Argila TFC"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Argila TFC"><img src="assets/icons/tfc_clay_ball.png" alt="Argila TFC"></div><div class="mc-slot" data-tip="Argila TFC"><img src="assets/icons/tfc_clay_ball.png" alt="Argila TFC"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Argila TFC"><img src="assets/icons/tfc_clay_ball.png" alt="Argila TFC"></div><div class="mc-slot" data-tip="Argila TFC"><img src="assets/icons/tfc_clay_ball.png" alt="Argila TFC"></div><div class="mc-slot" data-tip="Argila TFC"><img src="assets/icons/tfc_clay_ball.png" alt="Argila TFC"></div><div class="mc-slot" data-tip="Argila TFC"><img src="assets/icons/tfc_clay_ball.png" alt="Argila TFC"></div></div>
-    <div class="mc-arrow">➜</div>
-    <div class="mc-slot large" data-tip="Molde de Lingote Não-Cozido"><img src="assets/icons/tfc_unfired_ingot_mold.png" alt="Molde de Lingote Não-Cozido"></div>
-  </div>
-  <div class="mc-card-footer"><code>tfc:ceramic/unfired_ingot_mold</code><span>Para fundição de ligas</span></div>
-</div>
 </div>
 
 ---
 
-## 14. Armazenamento & Mochilas (Tom's Storage & Sophisticated Backpacks)
+## 20. Armazenamento & Mochilas (Tom's Storage & Sophisticated Backpacks)
 
 <div class="mc-grid-gallery">
 
@@ -1058,15 +1035,6 @@ Receitas alternativas de bancada para jogadores que preferem crafting tradiciona
     <div class="mc-slot large" data-tip="Terminal de Armazenamento"><img src="assets/icons/toms_ts_crafting_terminal.png" alt="Terminal de Armazenamento"></div>
   </div>
   <div class="mc-card-footer"><code>toms_storage:ts.crafting_terminal</code><span>Pesquisa e busca central</span></div>
-</div>
-<div class="mc-card">
-  <div class="mc-card-header"><span class="mc-card-title">Cabo Conector de Inventário (16x)</span><span class="mc-card-badge">Shaped 3×3</span></div>
-  <div class="mc-card-body">
-    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Tábua TFC (#tfc:lumber)"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC (#tfc:lumber)"></div><div class="mc-slot" data-tip="Tábua TFC"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC"></div><div class="mc-slot" data-tip="Tábua TFC"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC"></div><div class="mc-slot" data-tip="Baú TFC"><img src="assets/icons/mc_chest.png" alt="Baú TFC"></div><div class="mc-slot" data-tip="Redstone"><img src="assets/icons/mc_redstone.png" alt="Redstone"></div><div class="mc-slot" data-tip="Baú TFC"><img src="assets/icons/mc_chest.png" alt="Baú TFC"></div><div class="mc-slot" data-tip="Tábua TFC"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC"></div><div class="mc-slot" data-tip="Tábua TFC"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC"></div><div class="mc-slot" data-tip="Tábua TFC"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC"></div></div>
-    <div class="mc-arrow">➜</div>
-    <div class="mc-slot large" data-tip="16x Conectores de Inventário"><img src="assets/icons/toms_ts_inventory_cable.png" alt="16x Conectores de Inventário"><span class="mc-count">16</span></div>
-  </div>
-  <div class="mc-card-footer"><code>toms_storage:ts.inventory_cable</code><span>Liga baús e barris</span></div>
 </div>
 <div class="mc-card">
   <div class="mc-card-header"><span class="mc-card-title">Mochila Básica (Sophisticated Backpacks)</span><span class="mc-card-badge">Shaped 3×3</span></div>
@@ -1081,7 +1049,7 @@ Receitas alternativas de bancada para jogadores que preferem crafting tradiciona
 
 ---
 
-## 15. Automação & Farms (Mob Grinding Utils)
+## 21. Automação & Farms (Mob Grinding Utils)
 
 <div class="mc-grid-gallery">
 
@@ -1094,20 +1062,11 @@ Receitas alternativas de bancada para jogadores que preferem crafting tradiciona
   </div>
   <div class="mc-card-footer"><code>mob_grinding_utils:mob_masher</code><span>Abate automático com dano</span></div>
 </div>
-<div class="mc-card">
-  <div class="mc-card-header"><span class="mc-card-title">Ventilador Expulsor de Mobs (Fan)</span><span class="mc-card-badge">Shaped 3×3</span></div>
-  <div class="mc-card-body">
-    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Chapa de Ferro Forjado"><img src="assets/icons/tfc_sheet_wrought_iron.png" alt="Chapa de Ferro Forjado"></div><div class="mc-slot" data-tip="Chapa de Ferro Forjado"><img src="assets/icons/tfc_sheet_wrought_iron.png" alt="Chapa de Ferro Forjado"></div><div class="mc-slot" data-tip="Chapa de Ferro Forjado"><img src="assets/icons/tfc_sheet_wrought_iron.png" alt="Chapa de Ferro Forjado"></div><div class="mc-slot" data-tip="Chapa de Ferro Forjado"><img src="assets/icons/tfc_sheet_wrought_iron.png" alt="Chapa de Ferro Forjado"></div><div class="mc-slot" data-tip="Redstone"><img src="assets/icons/mc_redstone.png" alt="Redstone"></div><div class="mc-slot" data-tip="Chapa de Ferro Forjado"><img src="assets/icons/tfc_sheet_wrought_iron.png" alt="Chapa de Ferro Forjado"></div><div class="mc-slot" data-tip="Pedra TFC"><img src="assets/icons/tfc_rock_granite.png" alt="Pedra TFC"></div><div class="mc-slot" data-tip="Pedra TFC"><img src="assets/icons/tfc_rock_granite.png" alt="Pedra TFC"></div><div class="mc-slot" data-tip="Pedra TFC"><img src="assets/icons/tfc_rock_granite.png" alt="Pedra TFC"></div></div>
-    <div class="mc-arrow">➜</div>
-    <div class="mc-slot large" data-tip="Ventilador de Mobs (mob_grinding_utils:fan)"><img src="assets/icons/mgu_fan.png" alt="Ventilador de Mobs (mob_grinding_utils:fan)"></div>
-  </div>
-  <div class="mc-card-footer"><code>mob_grinding_utils:fan</code><span>Empurra entidades</span></div>
-</div>
 </div>
 
 ---
 
-## 16. Dragões (Wyrmroost) & Sigilos (Apotheosis)
+## 22. Dragões (Wyrmroost) & Sigilos (Apotheosis)
 
 <div class="mc-grid-gallery">
 
@@ -1120,20 +1079,11 @@ Receitas alternativas de bancada para jogadores que preferem crafting tradiciona
   </div>
   <div class="mc-card-footer"><code>wyrmroost:dragon_saddle</code><span>Domínio de grandes feras</span></div>
 </div>
-<div class="mc-card">
-  <div class="mc-card-header"><span class="mc-card-title">Sigilo de Reencontro (Apotheosis)</span><span class="mc-card-badge">Shaped 3×3</span></div>
-  <div class="mc-card-body">
-    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Pó de Gema Mística (apotheosis:gem_dust)"><img src="assets/icons/apoth_gem_dust.png" alt="Pó de Gema Mística (apotheosis:gem_dust)"></div><div class="mc-slot" data-tip="Pérola do Ender"><img src="assets/icons/mc_ender_pearl.png" alt="Pérola do Ender"></div><div class="mc-slot" data-tip="Pó de Gema Mística"><img src="assets/icons/apoth_gem_dust.png" alt="Pó de Gema Mística"></div><div class="mc-slot" data-tip="Pérola do Ender"><img src="assets/icons/mc_ender_pearl.png" alt="Pérola do Ender"></div><div class="mc-slot" data-tip="Chapa de Aço Negro TFC"><img src="assets/icons/tfc_sheet_black_steel.png" alt="Chapa de Aço Negro TFC"></div><div class="mc-slot" data-tip="Pérola do Ender"><img src="assets/icons/mc_ender_pearl.png" alt="Pérola do Ender"></div><div class="mc-slot" data-tip="Pó de Gema Mística"><img src="assets/icons/apoth_gem_dust.png" alt="Pó de Gema Mística"></div><div class="mc-slot" data-tip="Pérola do Ender"><img src="assets/icons/mc_ender_pearl.png" alt="Pérola do Ender"></div><div class="mc-slot" data-tip="Pó de Gema Mística"><img src="assets/icons/apoth_gem_dust.png" alt="Pó de Gema Mística"></div></div>
-    <div class="mc-arrow">➜</div>
-    <div class="mc-slot large" data-tip="Sigilo de Reencontro"><img src="assets/icons/apoth_sigil_rebirth.png" alt="Sigilo de Reencontro"></div>
-  </div>
-  <div class="mc-card-footer"><code>apotheosis:sigil_of_rebirth</code><span>Rola atributos de relíquia</span></div>
-</div>
 </div>
 
 ---
 
-## 17. Culinária, Pesca, Salga & Apicultura
+## 23. Culinária, Pesca, Salga & Apicultura
 
 <div class="mc-grid-gallery">
 
@@ -1146,20 +1096,11 @@ Receitas alternativas de bancada para jogadores que preferem crafting tradiciona
   </div>
   <div class="mc-card-footer"><code>tfc_arcanum:food_salting</code><span>Preserva por meses a fio</span></div>
 </div>
-<div class="mc-card">
-  <div class="mc-card-header"><span class="mc-card-title">Colmeia Artificial de Abelhas</span><span class="mc-card-badge">Shaped 3×3</span></div>
-  <div class="mc-card-body">
-    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Tábua TFC (#tfc:lumber)"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC (#tfc:lumber)"></div><div class="mc-slot" data-tip="Tábua TFC"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC"></div><div class="mc-slot" data-tip="Tábua TFC"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC"></div><div class="mc-slot" data-tip="Favo de Mel Selvagem TFC"><img src="assets/icons/tfc_honeycomb.png" alt="Favo de Mel Selvagem TFC"></div><div class="mc-slot" data-tip="Favo de Mel Selvagem TFC"><img src="assets/icons/tfc_honeycomb.png" alt="Favo de Mel Selvagem TFC"></div><div class="mc-slot" data-tip="Favo de Mel Selvagem TFC"><img src="assets/icons/tfc_honeycomb.png" alt="Favo de Mel Selvagem TFC"></div><div class="mc-slot" data-tip="Tábua TFC"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC"></div><div class="mc-slot" data-tip="Tábua TFC"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC"></div><div class="mc-slot" data-tip="Tábua TFC"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC"></div></div>
-    <div class="mc-arrow">➜</div>
-    <div class="mc-slot large" data-tip="Colmeia Doméstica (minecraft:beehive)"><img src="assets/icons/mc_beehive.png" alt="Colmeia Doméstica (minecraft:beehive)"></div>
-  </div>
-  <div class="mc-card-footer"><code>minecraft:beehive</code><span>Produção de mel e cera</span></div>
-</div>
 </div>
 
 ---
 
-## 18. Ponte TFC ➔ Millénaire (Blocos para Construtores)
+## 24. Ponte TFC ➔ Millénaire (Blocos para Construtores)
 
 <div class="mc-grid-gallery">
 
@@ -1185,7 +1126,7 @@ Receitas alternativas de bancada para jogadores que preferem crafting tradiciona
 
 ---
 
-## 19. Conversões Vanilla ➔ TFC (Loot de Dungeons)
+## 25. Conversões Vanilla ➔ TFC (Loot de Dungeons)
 
 <div class="mc-grid-gallery">
 
@@ -1196,7 +1137,7 @@ Receitas alternativas de bancada para jogadores que preferem crafting tradiciona
     <div class="mc-arrow">➜<span class="mc-arrow-sub">Desmontar</span></div>
     <div class="mc-slot large" data-tip="4x Pedra Solta de Granito (tfc:rock/loose/granite)"><img src="assets/icons/tfc_loose_rock.png" alt="4x Pedra Solta de Granito (tfc:rock/loose/granite)"><span class="mc-count">4</span></div>
   </div>
-  <div class="mc-card-footer"><code>tfc:rock/loose/granite</code><span>Saques de masmorra</span></div>
+  <div class="mc-card-footer"><code>tfc_rock/loose/granite</code><span>Saques de masmorra</span></div>
 </div>
 <div class="mc-card">
   <div class="mc-card-header"><span class="mc-card-title">Tábuas Vanilla ➔ 4× Tábuas TFC</span><span class="mc-card-badge">Shapeless</span></div>
@@ -1217,15 +1158,6 @@ Receitas alternativas de bancada para jogadores que preferem crafting tradiciona
   <div class="mc-card-footer"><code>tfc:metal/ingot/*</code><span>Conversão direta</span></div>
 </div>
 <div class="mc-card">
-  <div class="mc-card-header"><span class="mc-card-title">Equipamentos de Ferro ➔ Ferro Forjado</span><span class="mc-card-badge">Shapeless / Auto</span></div>
-  <div class="mc-card-body">
-    <div class="mc-slot large" data-tip="Armas, Ferramentas e Armaduras de Ferro Vanilla"><img src="assets/icons/mc_iron_sword.png" alt="Armas, Ferramentas e Armaduras de Ferro Vanilla"></div>
-    <div class="mc-arrow">➜<span class="mc-arrow-sub">Converter</span></div>
-    <div class="mc-slot large" data-tip="Equivalente em Ferro Forjado TFC (mantém encantos)"><img src="assets/icons/tfc_sword_wrought_iron.png" alt="Equivalente em Ferro Forjado TFC (mantém encantos)"></div>
-  </div>
-  <div class="mc-card-footer"><code>tfc:metal/*/wrought_iron</code><span>Automático no inv.</span></div>
-</div>
-<div class="mc-card">
   <div class="mc-card-header"><span class="mc-card-title">Couro Vanilla ➔ Couro Grande TFC</span><span class="mc-card-badge">Shapeless 1:1</span></div>
   <div class="mc-card-body">
     <div class="mc-slot large" data-tip="Couro Vanilla (minecraft:leather)"><img src="assets/icons/mc_leather.png" alt="Couro Vanilla (minecraft:leather)"></div>
@@ -1234,20 +1166,11 @@ Receitas alternativas de bancada para jogadores que preferem crafting tradiciona
   </div>
   <div class="mc-card-footer"><code>tfc:large_prepared_hide</code><span>Para mochilas/selas</span></div>
 </div>
-<div class="mc-card">
-  <div class="mc-card-header"><span class="mc-card-title">Lanterna Vanilla ➔ Lâmpada de Cobre</span><span class="mc-card-badge">Shapeless 1:1</span></div>
-  <div class="mc-card-body">
-    <div class="mc-slot large" data-tip="Lanterna (minecraft:lantern)"><img src="assets/icons/mc_lantern.png" alt="Lanterna (minecraft:lantern)"></div>
-    <div class="mc-arrow">➜<span class="mc-arrow-sub">Converter</span></div>
-    <div class="mc-slot large" data-tip="Lâmpada de Cobre TFC (tfc:metal/lamp/copper)"><img src="assets/icons/tfc_lamp_copper.png" alt="Lâmpada de Cobre TFC (tfc:metal/lamp/copper)"></div>
-  </div>
-  <div class="mc-card-footer"><code>tfc:metal/lamp/copper</code><span>Iluminação TFC</span></div>
-</div>
 </div>
 
 ---
 
-## 20. Endgame Supremo & Chaos Guardian (Ato VI)
+## 26. Endgame Supremo & Chaos Guardian (Ato VI)
 
 <div class="mc-grid-gallery">
 
@@ -1282,7 +1205,7 @@ Receitas alternativas de bancada para jogadores que preferem crafting tradiciona
 
 ---
 
-## 21. Receitas Desativadas / Removidas (Anti-Exploit)
+## 27. Receitas Desativadas / Removidas (Anti-Exploit)
 
 | Categoria | Itens Bloqueados | Motivo |
 |---|---|---|

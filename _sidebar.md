@@ -1,5 +1,6 @@
 - [🏠 Início](/)
 - [📜 **TODOS OS CRAFTS DO MODPACK**](crafts/todos-os-crafts.md)
+- [🪙 **ITENS COMERCIAIS & MILLÉNAIRE**](crafts/itens-comerciais.md)
 
 - 📖 **História**
   - [I. A Criação e o Selo Primordial](historia/01-a-era-primordial.md)
@@ -27,11 +28,13 @@
   - [Árvore de Habilidades](guias/01-arvore-habilidades.md)
   - [Catalisador Arcano & Pilões](guias/02-magia-piloes.md)
   - [Civilizações do Millénaire](guias/01-vilas-millenaire.md)
+  - [Itens de Comércio & Deniers](crafts/itens-comerciais.md)
 
 - 🗺️ [**Progressão: Os 6 Atos**](guias/progressao-6-atos.md)
 
 - 📜 [**Crafts & Integrações**](crafts/README.md)
   - [🌟 **Painel Visual JEI (Geral)**](crafts/todos-os-crafts.md)
+  - [🪙 **Itens Exclusivos de Comércio**](crafts/itens-comerciais.md)
   - [01 — Knapping, Cerâmica Arcana e Ponte Millénaire](crafts/01-knapping.md)
   - [02 — Kit Inicial e Guia](crafts/02-kit-inicial.md)
   - [04 — Consagração de Vilas (Waystones)](crafts/04-millenaire.md)

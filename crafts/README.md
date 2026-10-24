@@ -1,12 +1,14 @@
 # 📜 Receitas e Integrações (KubeJS)
 
-> 🌟 **[Clique aqui para abrir TODOS OS CRAFTS DO MODPACK (Painel Visual JEI Interativo)](todos-os-crafts.md)**
+> 🌟 **[Clique aqui para abrir TODOS OS CRAFTS DO MODPACK (Painel Visual JEI Interativo)](todos-os-crafts.md)**  
+> 🪙 **[Clique aqui para abrir ITENS OBTIDOS APENAS POR COMÉRCIO (Millénaire & Deniers)](itens-comerciais.md)**
 
-Documentação analítica por script do modpack **TFC: Arcanum & Empires** (`v1.2.6`).
+Documentação analítica por script do modpack **TFC: Arcanum & Empires** (`v1.2.7`).
 
 | Página | Conteúdo / Script KubeJS |
 |---|---|
 | [**Painel Visual JEI (Geral)**](todos-os-crafts.md) | **Catálogo visual completo com todas as receitas, grades 3×3, Knapping 5×5 e pop-up interativo JEI** |
+| [**Itens Exclusivos de Comércio**](itens-comerciais.md) | **Alimentos, armas, armaduras, sedas, tapeçarias e contratos mercenários obtidos apenas por Deniers** |
 | [01 — Knapping e Cerâmica Arcana](01-knapping.md) | Vasos arcanos, queima no Pit Kiln, primeiro grimório, pilão protetor, ponte TFC ➔ Millénaire |
 | [02 — Kit Inicial](02-kit-inicial.md) | Itens entregues no primeiro login (guias, pedras, gravetos, tochas, questbook) |
 | [04 — Consagração de Vilas](04-millenaire.md) | Comandos `/consagrar` e `/proteger_vila` para Waystones seguras em civilizações |
@@ -21,7 +23,7 @@ Documentação analítica por script do modpack **TFC: Arcanum & Empires** (`v1.
 | [13 — Teleporte por Mana](13-teleporte-mana.md) | Sistema canônico de teleporte (`/home`, `/tpa`, `/back`) consumindo reservas de Mana |
 | [14 — Utilidades Vanilla & Redstone](14-utilidades-vanilla.md) | 5 rotas de papel, livros, estantes, vidros, baldes, caldeirões, bigorna vanilla, pistões e trilhos |
 | [15 — Millager & Exércitos Mercenários](15-millager-exercitos.md) | Defensores de vilas, ordens militares, mesa tática e recrutamento com Deniers do Millénaire |
-| [16 — Tooltips Educativos & JEI](16-cliente-tooltips.md) | Dicas de sobrevivência no inventário e filtros de limpeza no JEI/EMI |
+| [16 — Pente Fino de Cadeias & Tooltips](16-cliente-tooltips.md) | Validação completa de sobrevivência 100% autônoma, químicas do Nether e filtros JEI |
 
 > [!NOTE]
 > Os itens customizados (`tfc_arcanum:*` e `kubejs:*`) são registrados nos scripts de inicialização do KubeJS e integrados universalmente às tags do NeoForge.
