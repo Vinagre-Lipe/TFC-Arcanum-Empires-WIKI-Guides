@@ -267,6 +267,183 @@
       font-size: 10.5px !important;
       border-radius: 2px;
     }
+
+    /* === INTERACTIVE JEI POP-UP MODAL === */
+    .jei-modal-overlay {
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(8, 6, 12, 0.82);
+      backdrop-filter: blur(3px);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      z-index: 100000;
+      padding: 20px;
+    }
+    .jei-modal-overlay.open {
+      display: flex;
+      animation: jeiFadeIn 0.14s ease-out;
+    }
+    @keyframes jeiFadeIn {
+      from { opacity: 0; transform: scale(0.96); }
+      to { opacity: 1; transform: scale(1); }
+    }
+    .jei-modal-window {
+      background: #25212e;
+      border-top: 3px solid #d4a84b;
+      border-left: 3px solid #d4a84b;
+      border-right: 3px solid #6e5219;
+      border-bottom: 3px solid #6e5219;
+      border-radius: 6px;
+      width: 100%;
+      max-width: 820px;
+      max-height: 86vh;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 18px 50px rgba(0,0,0,0.9);
+      overflow: hidden;
+    }
+    .jei-modal-topbar {
+      background: #191620;
+      padding: 10px 16px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 2px solid #3c344a;
+      gap: 10px;
+    }
+    .jei-modal-left {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .jei-modal-title {
+      font-size: 17px;
+      font-weight: 800;
+      color: #f0d38a;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .jei-title-icon {
+      width: 28px;
+      height: 28px;
+      image-rendering: pixelated;
+    }
+    .jei-btn {
+      background: #3a3247;
+      color: #ffe299;
+      border: 2px outset #5c5070;
+      padding: 5px 12px;
+      font-size: 12.5px;
+      font-weight: 700;
+      border-radius: 3px;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+    }
+    .jei-btn:hover {
+      background: #504563;
+      color: #ffffff;
+    }
+    .jei-close-btn {
+      background: #5c1f1f;
+      border-color: #8a3333;
+      color: #ffd6d6;
+    }
+    .jei-close-btn:hover {
+      background: #7d2828;
+    }
+    .jei-modal-breadcrumbs {
+      background: #1f1b27;
+      padding: 6px 16px;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 6px;
+      border-bottom: 1px solid #322b3d;
+      font-size: 12px;
+    }
+    .jei-crumb {
+      background: #2e283b;
+      color: #ccc4db;
+      padding: 3px 8px;
+      border-radius: 4px;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      border: 1px solid #453c57;
+    }
+    .jei-crumb:hover {
+      background: #413954;
+      color: #fff;
+    }
+    .jei-crumb.active {
+      background: #4a3b1c;
+      border-color: #d4a84b;
+      color: #ffe299;
+      font-weight: 700;
+      cursor: default;
+    }
+    .jei-crumb img {
+      width: 16px;
+      height: 16px;
+      image-rendering: pixelated;
+    }
+    .jei-crumb-sep {
+      color: #7c7191;
+      font-weight: bold;
+    }
+    .jei-modal-content {
+      padding: 16px;
+      overflow-y: auto;
+      flex: 1;
+    }
+    .jei-section-label {
+      color: #f0d38a;
+      font-weight: 800;
+      font-size: 14px;
+      margin-bottom: 10px;
+      letter-spacing: 0.3px;
+    }
+    .jei-cards-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(335px, 1fr));
+      gap: 14px;
+    }
+    .jei-empty-box {
+      background: #1b1822;
+      border: 1px solid #3b334a;
+      border-radius: 5px;
+      padding: 16px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      color: #d6cee6;
+    }
+    .jei-empty-icon {
+      width: 48px;
+      height: 48px;
+      image-rendering: pixelated;
+    }
+    .jei-modal-hint {
+      background: #191620;
+      color: #b5abc9;
+      font-size: 12px;
+      padding: 8px 16px;
+      border-top: 1px solid #322b3d;
+      text-align: center;
+    }
+    .jei-modal-hint kbd {
+      background: #322b3d;
+      color: #ffe299;
+      padding: 1px 5px;
+      border-radius: 3px;
+      border: 1px solid #534866;
+      font-size: 11px;
+    }
   </style>
 </head>
 <body>
@@ -296,5 +473,6 @@
   <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-javascript.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-powershell.min.js"></script>
+  <script src="assets/jei-modal.js"></script>
 </body>
 </html>

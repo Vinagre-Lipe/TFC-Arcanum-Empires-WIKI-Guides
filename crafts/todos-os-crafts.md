@@ -3,7 +3,9 @@
 > [!WARNING]
 > **AVISO — MODPACK EM ESTÁGIO BETA FECHADO DE DESENVOLVIMENTO:**
 > Todas as receitas e integrações abaixo pertencem à build atual de desenvolvimento (**Beta Fechado**) e podem receber ajustes de balanceamento.
-> 💡 **Dica:** Passe o mouse sobre qualquer slot das grades abaixo para ver a **Tooltip estilo Minecraft** com o nome e ID do ingrediente!
+> 💡 **Dica Interativa (JEI na Web):**
+> - **Passe o mouse** sobre qualquer slot para ver a Tooltip estilo Minecraft.
+> - **CLIQUE em qualquer item/ingrediente dentro das receitas** para abrir uma **janela pop-up (DIV)** com o craft daquele ingrediente (e em quais outras receitas ele é usado), com histórico e botão `⬅ Voltar` sem sair do lugar!
 
 ---
 
