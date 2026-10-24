@@ -1,13 +1,15 @@
 # 📜 Receitas e Integrações (KubeJS)
 
 > 🌟 **[Clique aqui para abrir TODOS OS CRAFTS DO MODPACK (Painel Visual JEI Interativo)](todos-os-crafts.md)**  
+> 🔥 **[Clique aqui para abrir FORNALHAS, MULTIBLOCOS & PROCESSAMENTO INTERATIVO](forjas-multiblocos-processos.md)**  
 > 🪙 **[Clique aqui para abrir ITENS OBTIDOS APENAS POR COMÉRCIO (Millénaire & Deniers)](itens-comerciais.md)**
 
 Documentação analítica por script do modpack **TFC: Arcanum & Empires** (`v1.2.7`).
 
-| Página | Conteúdo / Script KubeJS |
+| Página | Conteúdo / Mecânica |
 |---|---|
 | [**Painel Visual JEI (Geral)**](todos-os-crafts.md) | **Catálogo visual completo com todas as receitas, grades 3×3, Knapping 5×5 e pop-up interativo JEI** |
+| [**Fornalhas, Multiblocos & Processos**](forjas-multiblocos-processos.md) | **Pit Kiln, Forjas, Cadinhos, Bloomery, Blast Furnace, Quern, minigame da Bigorna e Curtume** |
 | [**Itens Exclusivos de Comércio**](itens-comerciais.md) | **Alimentos, armas, armaduras, sedas, tapeçarias e contratos mercenários obtidos apenas por Deniers** |
 | [01 — Knapping e Cerâmica Arcana](01-knapping.md) | Vasos arcanos, queima no Pit Kiln, primeiro grimório, pilão protetor, ponte TFC ➔ Millénaire |
 | [02 — Kit Inicial](02-kit-inicial.md) | Itens entregues no primeiro login (guias, pedras, gravetos, tochas, questbook) |

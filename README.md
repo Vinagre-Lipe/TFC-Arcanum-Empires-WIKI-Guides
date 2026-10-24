@@ -11,6 +11,7 @@ Bem-vindo à **Wiki & Guias oficiais**! Aqui você encontra tudo o que precisa p
 | Seção | O que tem |
 |---|---|
 | 🌟 [**TODOS OS CRAFTS DO MODPACK**](crafts/todos-os-crafts.md) | **Painel Visual JEI Interativo** com 106+ receitas em grades 3×3 e Knapping com pop-ups dinâmicos! |
+| 🔥 [**FORNALHAS & MULTIBLOCOS**](crafts/forjas-multiblocos-processos.md) | **Guia Completo de Processamento Térmico**: Pit Kiln, Charcoal Forge, Cadinhos, Bloomery, Blast Furnace e Bigorna! |
 | 🪙 [**ITENS EXCLUSIVOS DE COMÉRCIO**](crafts/itens-comerciais.md) | **Guia Econômico & Mercadorias de Deniers**: alimentos, armas, armaduras e contratos obtidos apenas por comércio! |
 | 📖 [História](historia/01-a-era-primordial.md) | A lore do mundo: o Selo Primordial, a Lua de Sangue, os Pilões e o Chaos Guardian. |
 | 🌲 [Guias de Sobrevivência](guias/01-primeiros-passos.md) | Do primeiro minuto (pedra e graveto) até a metalurgia avançada, magia e os impérios. |

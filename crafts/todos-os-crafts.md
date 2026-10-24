@@ -9,37 +9,147 @@
 
 ## 📑 Índice Rápido por Categoria
 
-1. [🔮 Alquimia Mística & Transmutação de Recursos (Pérolas do End & Pó de Blaze)](#1-alquimia-mística--transmutação-de-recursos)
-2. [⚔️ Exércitos do Millager & Contratos Mercenários do Millénaire](#2-exércitos-do-millager--contratos-mercenários-do-millénaire)
-3. [📜 Papel TFC, Livros, Estantes & Encantamentos Integrados](#3-papel-tfc-livros-estantes--encantamentos-integrados)
-4. [🧪 Vidraria, Baldes, Caldeirões & Utilidades Vanilla](#4-vidraria-baldes-caldeirões--utilidades-vanilla)
-5. [⚙️ Mecanismos, Redstone, Trilhos & Carrinhos Integrados](#5-mecanismos-redstone-trilhos--carrinhos-integrados)
-6. [🔨 Bigorna Vanilla (Apotheosis) & Mesas de Ofício](#6-bigorna-vanilla-apotheosis--mesas-de-ofício)
-7. [🎨 Decoração, Mobília, Slime & Utilidades Domésticas](#7-decoração-mobília-slime--utilidades-domésticas)
-8. [🔥 Química Ígnea, Nether & Dimensões (v1.2.7)](#8-química-ígnea-nether--dimensões-v127)
-9. [🪨 Ardósia Profunda (Deepslate), Pedra Negra & Rochas (v1.2.7)](#9-ardósia-profunda-deepslate-pedra-negra--rochas-v127)
-10. [✨ Bancadas de Magia, Iron's Spells & Waystones (v1.2.7)](#10-bancadas-de-magia-irons-spells--waystones-v127)
-11. [🛡️ Mesas do Apotheosis: Reforja, Salvaging & Lapidação (v1.2.7)](#11-mesas-do-apotheosis-reforja-salvaging--lapidação-v127)
-12. [⚙️ Engenharia Create & Casings de Bancada (v1.2.7)](#12-engenharia-create--casings-de-bancada-v127)
-13. [🐎 Exploração, Cavalaria & Final (v1.2.7)](#13-exploração-cavalaria--final-v127)
-14. [🏺 Cerâmica Arcana, Knapping 5×5 & Queima (Pit Kiln)](#14-cerâmica-arcana-knapping-5x5--queima-pit-kiln)
-15. [✨ Grimórios & Pilões de Proteção de Aldeia](#15-grimórios--pilões-de-proteção-de-aldeia)
-16. [🔥 Sobrevivência, Fogo & Qualidade de Vida (QoL)](#16-sobrevivência-fogo--qualidade-de-vida-qol)
-17. [🪵 Carpintaria Rústica com Machado (20 Madeiras TFC)](#17-carpintaria-rústica-com-machado-20-madeiras-tfc)
-18. [🧵 Couro, Fibras, Britagem com Martelo & Moagem](#18-couro-fibras-britagem-com-martelo--moagem)
-19. [🥣 Moldes de Cerâmica na Bancada (Sem Knapping)](#19-moldes-de-cerâmica-na-bancada-sem-knapping)
-20. [🎒 Armazenamento & Mochilas (Tom's Storage & Sophisticated Backpacks)](#20-armazenamento--mochilas-toms-storage--sophisticated-backpacks)
-21. [🌾 Automação & Farms (Mob Grinding Utils)](#21-automação--farms-mob-grinding-utils)
-22. [🐉 Dragões (Wyrmroost) & Sigilos (Apotheosis)](#22-dragões-wyrmroost--sigilos-apotheosis)
-23. [🍲 Culinária, Pesca, Salga & Apicultura](#23-culinária-pesca-salga--apicultura)
-24. [🏛️ Ponte TFC ➔ Millénaire (Blocos para Construtores)](#24-ponte-tfc--millénaire-blocos-para-construtores)
-25. [🔄 Conversões Vanilla ➔ TFC (Loot de Dungeons)](#25-conversões-vanilla--tfc-loot-de-dungeons)
-26. [👑 Endgame Supremo & Chaos Guardian (Ato VI)](#26-endgame-supremo--chaos-guardian-ato-vi)
-27. [🚫 Receitas Desativadas / Removidas (Anti-Exploit)](#27-receitas-desativadas--removidas-anti-exploit)
+1. [🔥 Fornalhas, Multiblocos & Processamento Térmico](#1-fornalhas-multiblocos--processamento-térmico)
+2. [🔮 Alquimia Mística & Transmutação de Recursos (Pérolas do End & Pó de Blaze)](#2-alquimia-mística--transmutação-de-recursos)
+3. [⚔️ Exércitos do Millager & Contratos Mercenários do Millénaire](#3-exércitos-do-millager--contratos-mercenários-do-millénaire)
+4. [📜 Papel TFC, Livros, Estantes & Encantamentos Integrados](#4-papel-tfc-livros-estantes--encantamentos-integrados)
+5. [🧪 Vidraria, Baldes, Caldeirões & Utilidades Vanilla](#5-vidraria-baldes-caldeirões--utilidades-vanilla)
+6. [⚙️ Mecanismos, Redstone, Trilhos & Carrinhos Integrados](#6-mecanismos-redstone-trilhos--carrinhos-integrados)
+7. [🔨 Bigorna Vanilla (Apotheosis) & Mesas de Ofício](#7-bigorna-vanilla-apotheosis--mesas-de-ofício)
+8. [🎨 Decoração, Mobília, Slime & Utilidades Domésticas](#8-decoração-mobília-slime--utilidades-domésticas)
+9. [🔥 Química Ígnea, Nether & Dimensões (v1.2.7)](#9-química-ígnea-nether--dimensões-v127)
+10. [🪨 Ardósia Profunda (Deepslate), Pedra Negra & Rochas (v1.2.7)](#10-ardósia-profunda-deepslate-pedra-negra--rochas-v127)
+11. [✨ Bancadas de Magia, Iron's Spells & Waystones (v1.2.7)](#11-bancadas-de-magia-irons-spells--waystones-v127)
+12. [🛡️ Mesas do Apotheosis: Reforja, Salvaging & Lapidação (v1.2.7)](#12-mesas-do-apotheosis-reforja-salvaging--lapidação-v127)
+13. [⚙️ Engenharia Create & Casings de Bancada (v1.2.7)](#13-engenharia-create--casings-de-bancada-v127)
+14. [🐎 Exploração, Cavalaria & Final (v1.2.7)](#14-exploração-cavalaria--final-v127)
+15. [🏺 Cerâmica Arcana, Knapping 5×5 & Queima (Pit Kiln)](#15-cerâmica-arcana-knapping-5x5--queima-pit-kiln)
+16. [✨ Grimórios & Pilões de Proteção de Aldeia](#16-grimórios--pilões-de-proteção-de-aldeia)
+17. [🔥 Sobrevivência, Fogo & Qualidade de Vida (QoL)](#17-sobrevivência-fogo--qualidade-de-vida-qol)
+18. [🪵 Carpintaria Rústica com Machado (20 Madeiras TFC)](#18-carpintaria-rústica-com-machado-20-madeiras-tfc)
+19. [🧵 Couro, Fibras, Britagem com Martelo & Moagem](#19-couro-fibras-britagem-com-martelo--moagem)
+20. [🥣 Moldes de Cerâmica na Bancada (Sem Knapping)](#20-moldes-de-cerâmica-na-bancada-sem-knapping)
+21. [🎒 Armazenamento & Mochilas (Tom's Storage & Sophisticated Backpacks)](#21-armazenamento--mochilas-toms-storage--sophisticated-backpacks)
+22. [🌾 Automação & Farms (Mob Grinding Utils)](#22-automação--farms-mob-grinding-utils)
+23. [🐉 Dragões (Wyrmroost) & Sigilos (Apotheosis)](#23-dragões-wyrmroost--sigilos-apotheosis)
+24. [🍲 Culinária, Pesca, Salga & Apicultura](#24-culinária-pesca-salga--apicultura)
+25. [🏛️ Ponte TFC ➔ Millénaire (Blocos para Construtores)](#25-ponte-tfc--millénaire-blocos-para-construtores)
+26. [🔄 Conversões Vanilla ➔ TFC (Loot de Dungeons)](#26-conversões-vanilla--tfc-loot-de-dungeons)
+27. [👑 Endgame Supremo & Chaos Guardian (Ato VI)](#27-endgame-supremo--chaos-guardian-ato-vi)
+28. [🚫 Receitas Desativadas / Removidas (Anti-Exploit)](#28-receitas-desativadas--removidas-anti-exploit)
 
 ---
 
-## 1. Alquimia Mística & Transmutação de Recursos
+## 1. Fornalhas, Multiblocos & Processamento Térmico
+
+Substitutos realistas das fornalhas automáticas: covas de queima (*Pit Kiln*), forjas a carvão com foles, fornos de redução (*Bloomery*), altos-fornos (*Blast Furnace*) e moendas mecânicas.
+
+<div class="mc-grid-gallery">
+
+<div class="mc-card">
+  <div class="mc-card-header"><span class="mc-card-title">Pit Kiln: Vitrificação de Cerâmica</span><span class="mc-card-badge">Pit Kiln (~800°C)</span></div>
+  <div class="mc-card-body">
+    <div class="mc-slot large" data-tip="Cerâmica Crua (Moldes, Potes, Vasos)"><img src="assets/icons/tfc_unfired_vessel.png" alt="Cerâmica Crua (Moldes, Potes, Vasos)"></div>
+    <div class="mc-arrow">➜<span class="mc-arrow-sub">8x Palhas + 8x Toras</span></div>
+    <div class="mc-slot large" data-tip="Cerâmica Vitrificada Cozida"><img src="assets/icons/tfc_vessel.png" alt="Cerâmica Vitrificada Cozida"></div>
+  </div>
+  <div class="mc-card-footer"><code>tfc:pit_kiln</code><span>Queima por 8h in-game</span></div>
+</div>
+<div class="mc-card">
+  <div class="mc-card-header"><span class="mc-card-title">Fogueira + Grelha: Cocção Nutritiva</span><span class="mc-card-badge">Firepit + Grill</span></div>
+  <div class="mc-card-body">
+    <div class="mc-slot large" data-tip="Carne Crua de Boi / Porco / Peixe"><img src="assets/icons/tfc_beef.png" alt="Carne Crua de Boi / Porco / Peixe"></div>
+    <div class="mc-arrow">➜<span class="mc-arrow-sub">Grelhar (5 Slots)</span></div>
+    <div class="mc-slot large" data-tip="Carne Grelhada Nutritiva"><img src="assets/icons/tfc_salted_beef.png" alt="Carne Grelhada Nutritiva"></div>
+  </div>
+  <div class="mc-card-footer"><code>tfc:firepit_grill</code><span>Eleva saciedade e validade</span></div>
+</div>
+<div class="mc-card">
+  <div class="mc-card-header"><span class="mc-card-title">Charcoal Forge: Aquecimento Forjável</span><span class="mc-card-badge">Forge + Fole (>1200°C)</span></div>
+  <div class="mc-card-body">
+    <div class="mc-slot large" data-tip="Lingote de Ferro / Bronze Frio"><img src="assets/icons/tfc_ingot_wrought_iron.png" alt="Lingote de Ferro / Bronze Frio"></div>
+    <div class="mc-arrow">➜<span class="mc-arrow-sub">Fole + 7x Carvão</span></div>
+    <div class="mc-slot large" data-tip="Lingote Incandescente (Workable/Weldable)"><img src="assets/icons/tfc_ingot_wrought_iron.png" alt="Lingote Incandescente (Workable/Weldable)"></div>
+  </div>
+  <div class="mc-card-footer"><code>tfc:charcoal_forge</code><span>Pronto para bigorna</span></div>
+</div>
+<div class="mc-card">
+  <div class="mc-card-header"><span class="mc-card-title">Bigorna TFC: Soldagem com Fluxo</span><span class="mc-card-badge">Welding (Solda)</span></div>
+  <div class="mc-card-body">
+    <div class="mc-slot large" data-tip="2x Lingotes Aquecidos (Yellow/White)"><img src="assets/icons/tfc_ingot_wrought_iron.png" alt="2x Lingotes Aquecidos (Yellow/White)"><span class="mc-count">2</span></div>
+    <div class="mc-arrow">➜<span class="mc-arrow-sub">1x Fluxo + Martelo</span></div>
+    <div class="mc-slot large" data-tip="Lingote Duplo Forjado"><img src="assets/icons/tfc_double_ingot_copper.png" alt="Lingote Duplo Forjado"></div>
+  </div>
+  <div class="mc-card-footer"><code>tfc:anvil_welding</code><span>Base para chapas e armaduras</span></div>
+</div>
+<div class="mc-card">
+  <div class="mc-card-header"><span class="mc-card-title">Quern: Moagem Rápida de Cereais</span><span class="mc-card-badge">Moenda de Pedra</span></div>
+  <div class="mc-card-body">
+    <div class="mc-slot large" data-tip="Grão de Cereal TFC (Trigo, Cevada)"><img src="assets/icons/tfc_grain_wheat.png" alt="Grão de Cereal TFC (Trigo, Cevada)"></div>
+    <div class="mc-arrow">➜<span class="mc-arrow-sub">Girar Manivela</span></div>
+    <div class="mc-slot large" data-tip="3x a 4x Farinha Pura"><img src="assets/icons/tfc_flour_wheat.png" alt="3x a 4x Farinha Pura"><span class="mc-count">3</span></div>
+  </div>
+  <div class="mc-card-footer"><code>tfc:quern_milling</code><span>Rendimento 4x maior</span></div>
+</div>
+<div class="mc-card">
+  <div class="mc-card-header"><span class="mc-card-title">Bloomery: Redução de Minério de Ferro</span><span class="mc-card-badge">Multibloco Bloomery</span></div>
+  <div class="mc-card-body">
+    <div class="mc-slot large" data-tip="Minério de Ferro Rico + Carvão (até 24x)"><img src="assets/icons/tfc_ore_iron.png" alt="Minério de Ferro Rico + Carvão (até 24x)"><span class="mc-count">24</span></div>
+    <div class="mc-arrow">➜<span class="mc-arrow-sub">Tijolos + Tubeira + Fole</span></div>
+    <div class="mc-slot large" data-tip="Esponja de Ferro Bruta (Raw Bloom)"><img src="assets/icons/tfc_ingot_wrought_iron.png" alt="Esponja de Ferro Bruta (Raw Bloom)"></div>
+  </div>
+  <div class="mc-card-footer"><code>tfc:bloomery</code><span>Bater na bigorna ➔ Ferro</span></div>
+</div>
+<div class="mc-card">
+  <div class="mc-card-header"><span class="mc-card-title">Blast Furnace: Ferro Gusa & Aço</span><span class="mc-card-badge">Multibloco Alto-Forno</span></div>
+  <div class="mc-card-body">
+    <div class="mc-slot large" data-tip="Ferro Forjado + Fluxo + Carvão (>1500°C)"><img src="assets/icons/tfc_ingot_wrought_iron.png" alt="Ferro Forjado + Fluxo + Carvão (>1500°C)"></div>
+    <div class="mc-arrow">➜<span class="mc-arrow-sub">Chapas + Tuyere + Fole</span></div>
+    <div class="mc-slot large" data-tip="Ferro Gusa (Cast Iron) ➔ Aço"><img src="assets/icons/tfc_double_ingot_steel.png" alt="Ferro Gusa (Cast Iron) ➔ Aço"></div>
+  </div>
+  <div class="mc-card-footer"><code>tfc:blast_furnace</code><span>Aço para armas supremas</span></div>
+</div>
+<div class="mc-card">
+  <div class="mc-card-header"><span class="mc-card-title">Cadinho (Crucible): Fundição de Bronze</span><span class="mc-card-badge">Cadinho na Forja</span></div>
+  <div class="mc-card-body">
+    <div class="mc-slot large" data-tip="Cobre (88-92%) + Estanho (8-12%)"><img src="assets/icons/tfc_ore_copper.png" alt="Cobre (88-92%) + Estanho (8-12%)"></div>
+    <div class="mc-arrow">➜<span class="mc-arrow-sub">Fusão Líquida</span></div>
+    <div class="mc-slot large" data-tip="Metal Líquido em Moldes ➔ Bronze"><img src="assets/icons/tfc_ingot_bronze.png" alt="Metal Líquido em Moldes ➔ Bronze"></div>
+  </div>
+  <div class="mc-card-footer"><code>tfc:crucible_alloy</code><span>Capacidade até 3000 mB</span></div>
+</div>
+<div class="mc-card">
+  <div class="mc-card-header"><span class="mc-card-title">Curtume Fase 1: Banho de Cal</span><span class="mc-card-badge">Barril Selado (8h)</span></div>
+  <div class="mc-card-body">
+    <div class="mc-slot large" data-tip="Pele Bruta (Raw Hide)"><img src="assets/icons/tfc_large_prepared_hide.png" alt="Pele Bruta (Raw Hide)"></div>
+    <div class="mc-arrow">➜<span class="mc-arrow-sub">Água Doce + Cinzas (Lye)</span></div>
+    <div class="mc-slot large" data-tip="Pele Lavada (Soaked Hide)"><img src="assets/icons/tfc_soaked_hide.png" alt="Pele Lavada (Soaked Hide)"></div>
+  </div>
+  <div class="mc-card-footer"><code>tfc:barrel/limewater</code><span>Remove gorduras</span></div>
+</div>
+<div class="mc-card">
+  <div class="mc-card-header"><span class="mc-card-title">Curtume Fase 2: Raspagem no Tronco</span><span class="mc-card-badge">Tronco + Drawknife</span></div>
+  <div class="mc-card-body">
+    <div class="mc-slot large" data-tip="Pele Lavada no Tronco"><img src="assets/icons/tfc_soaked_hide.png" alt="Pele Lavada no Tronco"></div>
+    <div class="mc-arrow">➜<span class="mc-arrow-sub">Raspar Interativamente</span></div>
+    <div class="mc-slot large" data-tip="Pele Preparada (Scraped Hide)"><img src="assets/icons/tfc_leather_strip.png" alt="Pele Preparada (Scraped Hide)"></div>
+  </div>
+  <div class="mc-card-footer"><code>tfc:log_scraping</code><span>Remove pelos com faca</span></div>
+</div>
+<div class="mc-card">
+  <div class="mc-card-header"><span class="mc-card-title">Curtume Fase 3: Curtimento em Tanino</span><span class="mc-card-badge">Barril Selado (8h)</span></div>
+  <div class="mc-card-body">
+    <div class="mc-slot large" data-tip="Pele Preparada no Barril"><img src="assets/icons/tfc_leather_strip.png" alt="Pele Preparada no Barril"></div>
+    <div class="mc-arrow">➜<span class="mc-arrow-sub">Água Doce + Casca (Tannin)</span></div>
+    <div class="mc-slot large" data-tip="Couro Nobre (Prepared Leather)"><img src="assets/icons/tfc_large_prepared_hide.png" alt="Couro Nobre (Prepared Leather)"></div>
+  </div>
+  <div class="mc-card-footer"><code>tfc:barrel/tannin</code><span>Couro de alta resistência</span></div>
+</div>
+</div>
+
+---
+
+## 2. Alquimia Mística & Transmutação de Recursos
 
 <div class="mc-grid-gallery">
 
@@ -74,7 +184,7 @@
 
 ---
 
-## 2. Exércitos do Millager & Contratos Mercenários do Millénaire
+## 3. Exércitos do Millager & Contratos Mercenários do Millénaire
 
 <div class="mc-grid-gallery">
 
@@ -181,7 +291,7 @@
 
 ---
 
-## 3. Papel TFC, Livros, Estantes & Encantamentos Integrados
+## 4. Papel TFC, Livros, Estantes & Encantamentos Integrados
 
 <div class="mc-grid-gallery">
 
@@ -261,7 +371,7 @@
 
 ---
 
-## 4. Vidraria, Baldes, Caldeirões & Utilidades Vanilla
+## 5. Vidraria, Baldes, Caldeirões & Utilidades Vanilla
 
 <div class="mc-grid-gallery">
 
@@ -323,7 +433,7 @@
 
 ---
 
-## 5. Mecanismos, Redstone, Trilhos & Carrinhos Integrados
+## 6. Mecanismos, Redstone, Trilhos & Carrinhos Integrados
 
 <div class="mc-grid-gallery">
 
@@ -376,7 +486,7 @@
 
 ---
 
-## 6. Bigorna Vanilla (Apotheosis) & Mesas de Ofício
+## 7. Bigorna Vanilla (Apotheosis) & Mesas de Ofício
 
 <div class="mc-grid-gallery">
 
@@ -402,7 +512,7 @@
 
 ---
 
-## 7. Decoração, Mobília, Slime & Utilidades Domésticas
+## 8. Decoração, Mobília, Slime & Utilidades Domésticas
 
 <div class="mc-grid-gallery">
 
@@ -437,9 +547,7 @@
 
 ---
 
-## 8. Química Ígnea, Nether & Dimensões (v1.2.7)
-
-Receitas completas adicionadas no **Script 16 (v1.2.7)** para permitir a progressão dimensional e química do Nether de forma totalmente acessível com o ecossistema mineral do TFC.
+## 9. Química Ígnea, Nether & Dimensões (v1.2.7)
 
 <div class="mc-grid-gallery">
 
@@ -555,7 +663,7 @@ Receitas completas adicionadas no **Script 16 (v1.2.7)** para permitir a progres
 
 ---
 
-## 9. Ardósia Profunda (Deepslate), Pedra Negra & Rochas (v1.2.7)
+## 10. Ardósia Profunda (Deepslate), Pedra Negra & Rochas (v1.2.7)
 
 <div class="mc-grid-gallery">
 
@@ -617,7 +725,7 @@ Receitas completas adicionadas no **Script 16 (v1.2.7)** para permitir a progres
 
 ---
 
-## 10. Bancadas de Magia, Iron's Spells & Waystones (v1.2.7)
+## 11. Bancadas de Magia, Iron's Spells & Waystones (v1.2.7)
 
 <div class="mc-grid-gallery">
 
@@ -679,7 +787,7 @@ Receitas completas adicionadas no **Script 16 (v1.2.7)** para permitir a progres
 
 ---
 
-## 11. Mesas do Apotheosis: Reforja, Salvaging & Lapidação (v1.2.7)
+## 12. Mesas do Apotheosis: Reforja, Salvaging & Lapidação (v1.2.7)
 
 <div class="mc-grid-gallery">
 
@@ -732,9 +840,7 @@ Receitas completas adicionadas no **Script 16 (v1.2.7)** para permitir a progres
 
 ---
 
-## 12. Engenharia Create & Casings de Bancada (v1.2.7)
-
-Receitas manuais de bancada para criar casings sem necessidade de clicar com ligas em troncos desfolhados no chão.
+## 13. Engenharia Create & Casings de Bancada (v1.2.7)
 
 <div class="mc-grid-gallery">
 
@@ -787,7 +893,7 @@ Receitas manuais de bancada para criar casings sem necessidade de clicar com lig
 
 ---
 
-## 13. Exploração, Cavalaria & Final (v1.2.7)
+## 14. Exploração, Cavalaria & Final (v1.2.7)
 
 <div class="mc-grid-gallery">
 
@@ -849,7 +955,7 @@ Receitas manuais de bancada para criar casings sem necessidade de clicar com lig
 
 ---
 
-## 14. Cerâmica Arcana, Knapping 5×5 & Queima (Pit Kiln)
+## 15. Cerâmica Arcana, Knapping 5×5 & Queima (Pit Kiln)
 
 <div class="mc-grid-gallery">
 
@@ -875,7 +981,7 @@ Receitas manuais de bancada para criar casings sem necessidade de clicar com lig
 
 ---
 
-## 15. Grimórios & Pilões de Proteção de Aldeia
+## 16. Grimórios & Pilões de Proteção de Aldeia
 
 <div class="mc-grid-gallery">
 
@@ -901,7 +1007,7 @@ Receitas manuais de bancada para criar casings sem necessidade de clicar com lig
 
 ---
 
-## 16. Sobrevivência, Fogo & Qualidade de Vida (QoL)
+## 17. Sobrevivência, Fogo & Qualidade de Vida (QoL)
 
 <div class="mc-grid-gallery">
 
@@ -927,7 +1033,7 @@ Receitas manuais de bancada para criar casings sem necessidade de clicar com lig
 
 ---
 
-## 17. Carpintaria Rústica com Machado (20 Madeiras TFC)
+## 18. Carpintaria Rústica com Machado (20 Madeiras TFC)
 
 <div class="mc-grid-gallery">
 
@@ -962,7 +1068,7 @@ Receitas manuais de bancada para criar casings sem necessidade de clicar com lig
 
 ---
 
-## 18. Couro, Fibras, Britagem com Martelo & Moagem
+## 19. Couro, Fibras, Britagem com Martelo & Moagem
 
 <div class="mc-grid-gallery">
 
@@ -997,7 +1103,7 @@ Receitas manuais de bancada para criar casings sem necessidade de clicar com lig
 
 ---
 
-## 19. Moldes de Cerâmica na Bancada (Sem Knapping)
+## 20. Moldes de Cerâmica na Bancada (Sem Knapping)
 
 <div class="mc-grid-gallery">
 
@@ -1023,7 +1129,7 @@ Receitas manuais de bancada para criar casings sem necessidade de clicar com lig
 
 ---
 
-## 20. Armazenamento & Mochilas (Tom's Storage & Sophisticated Backpacks)
+## 21. Armazenamento & Mochilas (Tom's Storage & Sophisticated Backpacks)
 
 <div class="mc-grid-gallery">
 
@@ -1049,7 +1155,7 @@ Receitas manuais de bancada para criar casings sem necessidade de clicar com lig
 
 ---
 
-## 21. Automação & Farms (Mob Grinding Utils)
+## 22. Automação & Farms (Mob Grinding Utils)
 
 <div class="mc-grid-gallery">
 
@@ -1066,7 +1172,7 @@ Receitas manuais de bancada para criar casings sem necessidade de clicar com lig
 
 ---
 
-## 22. Dragões (Wyrmroost) & Sigilos (Apotheosis)
+## 23. Dragões (Wyrmroost) & Sigilos (Apotheosis)
 
 <div class="mc-grid-gallery">
 
@@ -1083,7 +1189,7 @@ Receitas manuais de bancada para criar casings sem necessidade de clicar com lig
 
 ---
 
-## 23. Culinária, Pesca, Salga & Apicultura
+## 24. Culinária, Pesca, Salga & Apicultura
 
 <div class="mc-grid-gallery">
 
@@ -1100,7 +1206,7 @@ Receitas manuais de bancada para criar casings sem necessidade de clicar com lig
 
 ---
 
-## 24. Ponte TFC ➔ Millénaire (Blocos para Construtores)
+## 25. Ponte TFC ➔ Millénaire (Blocos para Construtores)
 
 <div class="mc-grid-gallery">
 
@@ -1126,7 +1232,7 @@ Receitas manuais de bancada para criar casings sem necessidade de clicar com lig
 
 ---
 
-## 25. Conversões Vanilla ➔ TFC (Loot de Dungeons)
+## 26. Conversões Vanilla ➔ TFC (Loot de Dungeons)
 
 <div class="mc-grid-gallery">
 
@@ -1137,7 +1243,7 @@ Receitas manuais de bancada para criar casings sem necessidade de clicar com lig
     <div class="mc-arrow">➜<span class="mc-arrow-sub">Desmontar</span></div>
     <div class="mc-slot large" data-tip="4x Pedra Solta de Granito (tfc:rock/loose/granite)"><img src="assets/icons/tfc_loose_rock.png" alt="4x Pedra Solta de Granito (tfc:rock/loose/granite)"><span class="mc-count">4</span></div>
   </div>
-  <div class="mc-card-footer"><code>tfc_rock/loose/granite</code><span>Saques de masmorra</span></div>
+  <div class="mc-card-footer"><code>tfc:rock/loose/granite</code><span>Saques de masmorra</span></div>
 </div>
 <div class="mc-card">
   <div class="mc-card-header"><span class="mc-card-title">Tábuas Vanilla ➔ 4× Tábuas TFC</span><span class="mc-card-badge">Shapeless</span></div>
@@ -1170,7 +1276,7 @@ Receitas manuais de bancada para criar casings sem necessidade de clicar com lig
 
 ---
 
-## 26. Endgame Supremo & Chaos Guardian (Ato VI)
+## 27. Endgame Supremo & Chaos Guardian (Ato VI)
 
 <div class="mc-grid-gallery">
 
@@ -1205,7 +1311,7 @@ Receitas manuais de bancada para criar casings sem necessidade de clicar com lig
 
 ---
 
-## 27. Receitas Desativadas / Removidas (Anti-Exploit)
+## 28. Receitas Desativadas / Removidas (Anti-Exploit)
 
 | Categoria | Itens Bloqueados | Motivo |
 |---|---|---|

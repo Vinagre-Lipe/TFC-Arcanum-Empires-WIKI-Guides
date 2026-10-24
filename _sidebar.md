@@ -1,5 +1,6 @@
 - [🏠 Início](/)
 - [📜 **TODOS OS CRAFTS DO MODPACK**](crafts/todos-os-crafts.md)
+- [🔥 **FORNALHAS, MULTIBLOCOS & PROCESSOS**](crafts/forjas-multiblocos-processos.md)
 - [🪙 **ITENS COMERCIAIS & MILLÉNAIRE**](crafts/itens-comerciais.md)
 
 - 📖 **História**
@@ -17,6 +18,7 @@
 - 🏺 **Guias — Cerâmica & Forja**
   - [Argila & Pit Kiln](guias/01-argila-pitkiln.md)
   - [Armazenamento & Cavernas](guias/02-armazenamento-fisica.md)
+  - [Fornalhas & Multiblocos](crafts/forjas-multiblocos-processos.md)
 
 - ⚡ **Guias — Crafts Rápidos**
   - [Ferramentas de Pedra](guias/01-ferramentas-pedra.md)
@@ -34,6 +36,7 @@
 
 - 📜 [**Crafts & Integrações**](crafts/README.md)
   - [🌟 **Painel Visual JEI (Geral)**](crafts/todos-os-crafts.md)
+  - [🔥 **Fornalhas, Multiblocos & Processos**](crafts/forjas-multiblocos-processos.md)
   - [🪙 **Itens Exclusivos de Comércio**](crafts/itens-comerciais.md)
   - [01 — Knapping, Cerâmica Arcana e Ponte Millénaire](crafts/01-knapping.md)
   - [02 — Kit Inicial e Guia](crafts/02-kit-inicial.md)
@@ -49,7 +52,7 @@
   - [13 — Teleporte por Mana (/home, /tpa)](crafts/13-teleporte-mana.md)
   - [14 — Utilidades Vanilla, Redstone & Decoração](crafts/14-utilidades-vanilla.md)
   - [15 — Millager & Exércitos Mercenários](crafts/15-millager-exercitos.md)
-  - [16 — Tooltips Educativos & JEI/EMI](crafts/16-cliente-tooltips.md)
+  - [16 — Pente Fino de Cadeias & Tooltips](crafts/16-cliente-tooltips.md)
 
 - 📋 **Documentação**
   - [Visão Geral & Mods por Categoria](documentacao/arquitetura.md)
