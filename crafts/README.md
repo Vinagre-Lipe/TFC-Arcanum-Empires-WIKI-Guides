@@ -1,7 +1,9 @@
 # 📜 Receitas e Integrações (KubeJS)
 
 > 🌟 **[Clique aqui para abrir TODOS OS CRAFTS DO MODPACK (Painel Visual JEI Interativo)](todos-os-crafts.md)**  
-> 🔥 **[Clique aqui para abrir FORNALHAS, MULTIBLOCOS & PROCESSAMENTO INTERATIVO](forjas-multiblocos-processos.md)**  
+> 🏗️ **[Clique aqui para abrir ESTRUTURAS MULTIBLOCOS](estruturas-multiblocos.md)**  
+> 🔨 **[Clique aqui para abrir PROCESSOS FÍSICOS & FORJAS](processos-fisicos.md)**  
+> 🍳 **[Clique aqui para abrir COZINHA & GASTRONOMIA TFC](cozinha-culinaria.md)**  
 > 🪙 **[Clique aqui para abrir ITENS OBTIDOS APENAS POR COMÉRCIO (Millénaire & Deniers)](itens-comerciais.md)**
 
 Documentação analítica por script do modpack **TFC: Arcanum & Empires** (`v1.2.7`).
@@ -9,7 +11,9 @@ Documentação analítica por script do modpack **TFC: Arcanum & Empires** (`v1.
 | Página | Conteúdo / Mecânica |
 |---|---|
 | [**Painel Visual JEI (Geral)**](todos-os-crafts.md) | **Catálogo visual completo com todas as receitas, grades 3×3, Knapping 5×5 e pop-up interativo JEI** |
-| [**Fornalhas, Multiblocos & Processos**](forjas-multiblocos-processos.md) | **Pit Kiln, Forjas, Cadinhos, Bloomery, Blast Furnace, Quern, minigame da Bigorna e Curtume** |
+| [**Estruturas Multiblocos**](estruturas-multiblocos.md) | **Charcoal Pit, Bloomery de Ferro Esponja, Blast Furnace de Aço, Pilões e Portais Dimensionais** |
+| [**Processos Físicos & Forjas**](processos-fisicos.md) | **Pit Kiln, Escala Térmica de Cores, Bigorna TFC (8 golpes de -15 a +16), Knapping 5×5 e Curtume** |
+| [**Cozinha & Gastronomia TFC**](cozinha-culinaria.md) | **Nutrição de 5 Grupos, Cooking Pot, Skillet, Cutting Board, Chás Medicinais e Conservação com Sal** |
 | [**Itens Exclusivos de Comércio**](itens-comerciais.md) | **Alimentos, armas, armaduras, sedas, tapeçarias e contratos mercenários obtidos apenas por Deniers** |
 | [01 — Knapping e Cerâmica Arcana](01-knapping.md) | Vasos arcanos, queima no Pit Kiln, primeiro grimório, pilão protetor, ponte TFC ➔ Millénaire |
 | [02 — Kit Inicial](02-kit-inicial.md) | Itens entregues no primeiro login (guias, pedras, gravetos, tochas, questbook) |

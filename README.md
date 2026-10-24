@@ -10,8 +10,10 @@ Bem-vindo à **Wiki & Guias oficiais**! Aqui você encontra tudo o que precisa p
 
 | Seção | O que tem |
 |---|---|
-| 🌟 [**TODOS OS CRAFTS DO MODPACK**](crafts/todos-os-crafts.md) | **Painel Visual JEI Interativo** com 117+ receitas em grades 3×3 e Knapping com pop-ups dinâmicos! |
-| 🔥 [**FORNALHAS & MULTIBLOCOS**](crafts/forjas-multiblocos-processos.md) | **Guia Completo de Processamento Térmico**: Pit Kiln, Charcoal Forge, Cadinhos, Bloomery, Blast Furnace e Bigorna! |
+| 🌟 [**TODOS OS CRAFTS DO MODPACK**](crafts/todos-os-crafts.md) | **Painel Visual JEI Interativo** com 126+ receitas em grades 3×3 e Knapping com pop-ups dinâmicos! |
+| 🏗️ [**ESTRUTURAS MULTIBLOCOS**](crafts/estruturas-multiblocos.md) | **Guia Completo de Multiblocos**: Charcoal Pit, Bloomery, Blast Furnace, Pilões e Portais Dimensionais! |
+| 🔨 [**PROCESSOS FÍSICOS & FORJAS**](crafts/processos-fisicos.md) | **Manual de Forjamento e Física**: Pit Kiln, Escala Térmica, Bigorna TFC (-15 a +16), Knapping e Curtume em 3 fases! |
+| 🍳 [**COZINHA & GASTRONOMIA TFC**](crafts/cozinha-culinaria.md) | **Culinária e Nutrição de 5 Grupos**: Cooking Pot, Skillet, Cutting Board, Chaleira de Cobre e Preservação com Sal! |
 | 🪙 [**ITENS EXCLUSIVOS DE COMÉRCIO**](crafts/itens-comerciais.md) | **Guia Econômico & Mercadorias de Deniers**: alimentos, armas, armaduras e contratos obtidos apenas por comércio! |
 | ⚔️ [**CHEFES ESSENCIAIS & LENDÁRIOS**](guias/chefes-essenciais-progresso.md) | **Guia Estratégico de Chefes da História**: Biomas, como achar, drops de progressão, táticas de combate e perigos sísmicos do Warden! |
 | 📋 [**PORTABILIDADE & AUDITORIA DE ITENS**](crafts/portabilidade-viabilidade.md) | **Auditoria de 510 Receitas**: O que foi Portado ao TFC vs Não Portável por Design (Drops de Chefes, Relíquias e Sci-Fi)! |
