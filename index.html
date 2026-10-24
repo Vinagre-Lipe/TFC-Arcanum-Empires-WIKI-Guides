@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>TFC: Arcanum & Empires — Wiki & Guias</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Wiki oficial do modpack TFC: Arcanum & Empires — história, guias, crafts, integrações e documentação.">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
+  <style>
+    :root {
+      --theme-color: #d4a84b;
+      --base-background-color: #15131a;
+      --sidebar-background: #1d1a24;
+      --link-color: #e0b75c;
+      --heading-color: #f0d38a;
+      --code-inline-background: #2a2533;
+      --table-head-background: #2a2533;
+      --table-row-odd-background: #1b1820;
+    }
+    .markdown-section table { display: table; width: 100%; }
+    .app-name-link img { max-width: 64px; }
+  </style>
+</head>
+<body>
+  <div id="app">Carregando a Wiki...</div>
+  <script>
+    window.$docsify = {
+      name: 'TFC: Arcanum & Empires',
+      logo: 'assets/icon.png',
+      repo: 'https://github.com/Vinagre-Lipe/TFC-Arcanum-Empires-WIKI-Guides',
+      loadSidebar: true,
+      subMaxLevel: 2,
+      auto2top: true,
+      search: { placeholder: 'Pesquisar...', noData: 'Nada encontrado.', depth: 3 },
+      pagination: { previousText: 'Anterior', nextText: 'Próximo', crossChapter: true },
+      copyCode: { buttonText: 'Copiar', successText: 'Copiado!' }
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-copy-code@2"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-pagination@2/dist/docsify-pagination.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-javascript.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-powershell.min.js"></script>
+</body>
+</html>
