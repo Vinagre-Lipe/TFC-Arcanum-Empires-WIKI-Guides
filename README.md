@@ -14,11 +14,12 @@ Bem-vindo à **Wiki & Guias oficiais**! Aqui você encontra tudo o que precisa p
 | 🔥 [**FORNALHAS & MULTIBLOCOS**](crafts/forjas-multiblocos-processos.md) | **Guia Completo de Processamento Térmico**: Pit Kiln, Charcoal Forge, Cadinhos, Bloomery, Blast Furnace e Bigorna! |
 | 🪙 [**ITENS EXCLUSIVOS DE COMÉRCIO**](crafts/itens-comerciais.md) | **Guia Econômico & Mercadorias de Deniers**: alimentos, armas, armaduras e contratos obtidos apenas por comércio! |
 | ⚔️ [**CHEFES ESSENCIAIS & LENDÁRIOS**](guias/chefes-essenciais-progresso.md) | **Guia Estratégico de Chefes da História**: Biomas, como achar, drops de progressão, táticas de combate e perigos sísmicos do Warden! |
+| 📋 [**PORTABILIDADE & AUDITORIA DE ITENS**](crafts/portabilidade-viabilidade.md) | **Auditoria de 510 Receitas**: O que foi Portado ao TFC vs Não Portável por Design (Drops de Chefes, Relíquias e Sci-Fi)! |
 | 📖 [História](historia/01-a-era-primordial.md) | A lore do mundo: o Selo Primordial, a Lua de Sangue, os Pilões e o Chaos Guardian. |
 | 🌲 [Guias de Sobrevivência](guias/01-primeiros-passos.md) | Do primeiro minuto (pedra e graveto) até a metalurgia avançada, magia e os impérios. |
 | 🗺️ [Progressão dos 6 Atos](guias/progressao-6-atos.md) | Todas as missões do FTB Quests, ato por ato. |
 | 📜 [Crafts & Integrações](crafts/README.md) | Catálogo analítico de todas as integrações KubeJS, utilidades Vanilla, Millager e receitas rústicas. |
-| 📋 [Documentação & Mods](documentacao/arquitetura.md) | Visão geral da arquitetura, lista completa dos **119 mods**, requisitos de hardware e comandos úteis. |
+| 📋 [Documentação & Mods](documentacao/arquitetura.md) | Visão geral da arquitetura, lista completa dos **126 mods**, requisitos de hardware e comandos úteis. |
 
 ## Informações rápidas
 
@@ -27,7 +28,7 @@ Bem-vindo à **Wiki & Guias oficiais**! Aqui você encontra tudo o que precisa p
 | **Minecraft** | 1.21.1 |
 | **Loader** | NeoForge 21.1.249+ |
 | **Versão do pack** | `v1.2.7` |
-| **Total de Mods** | **119 Mods** |
+| **Total de Mods** | **126 Mods** |
 | **Autor** | Vinagre |
 
 ## Comandos úteis no jogo

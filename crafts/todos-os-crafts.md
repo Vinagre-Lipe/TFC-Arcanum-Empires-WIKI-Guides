@@ -1307,6 +1307,94 @@ Substitutos realistas das fornalhas automáticas: covas de queima (*Pit Kiln*), 
   </div>
   <div class="mc-card-footer"><code>draconicevolution:chaos_shard</code><span>Pequeno ➔ Médio ➔ Grande ➔ Shard</span></div>
 </div>
+
+<div class="category-header" id="cat-alquimia-eclipse">
+    <div class="category-title">🔮 Seção 7: Alquimia do Eclipse, Joias Arcanas & Expedição (v1.2.7)</div>
+    <div class="category-desc">Metais do eclipse, lapidação de gemas brutas do TFC para anéis, transmutação de entulho de mobtrap em frascos de XP e utilidades de exploração rústica.</div>
+</div>
+<div class="crafts-grid">
+
+<div class="mc-card">
+  <div class="mc-card-header"><span class="mc-card-title">Lingote de Ferricore</span><span class="mc-card-badge">Alquimia do Eclipse</span></div>
+  <div class="mc-card-body">
+    <div class="mc-grid-3x3"><div class="mc-slot"></div><div class="mc-slot" data-tip="Pó de Redstone (minecraft:redstone)"><img src="assets/icons/mc_redstone.png" alt="Pó de Redstone (minecraft:redstone)"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Pó de Redstone"><img src="assets/icons/mc_redstone.png" alt="Pó de Redstone"></div><div class="mc-slot" data-tip="Ferro Forjado TFC (tfc:metal/ingot/wrought_iron)"><img src="assets/icons/tfc_ingot_wrought_iron.png" alt="Ferro Forjado TFC (tfc:metal/ingot/wrought_iron)"></div><div class="mc-slot" data-tip="Pó de Redstone"><img src="assets/icons/mc_redstone.png" alt="Pó de Redstone"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Pó de Redstone"><img src="assets/icons/mc_redstone.png" alt="Pó de Redstone"></div><div class="mc-slot"></div></div>
+    <div class="mc-arrow">➜</div>
+    <div class="mc-slot large" data-tip="Lingote de Ferricore (justdirethings:ferricore_ingot)"><img src="assets/icons/tfc_ingot_wrought_iron.png" alt="Lingote de Ferricore (justdirethings:ferricore_ingot)"></div>
+  </div>
+  <div class="mc-card-footer"><code>justdirethings:ferricore_ingot</code><span>Ferro alquímico catalisador</span></div>
+</div>
+<div class="mc-card">
+  <div class="mc-card-header"><span class="mc-card-title">Lingote de Ouro em Chamas</span><span class="mc-card-badge">Alquimia Ígnea</span></div>
+  <div class="mc-card-body">
+    <div class="mc-grid-3x3"><div class="mc-slot"></div><div class="mc-slot" data-tip="Pó de Blaze (minecraft:blaze_powder)"><img src="assets/icons/mc_blaze_powder.png" alt="Pó de Blaze (minecraft:blaze_powder)"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Pó de Blaze"><img src="assets/icons/mc_blaze_powder.png" alt="Pó de Blaze"></div><div class="mc-slot" data-tip="Lingote de Ouro TFC (tfc:metal/ingot/gold)"><img src="assets/icons/tfc_ingot_wrought_iron.png" alt="Lingote de Ouro TFC (tfc:metal/ingot/gold)"></div><div class="mc-slot" data-tip="Pó de Blaze"><img src="assets/icons/mc_blaze_powder.png" alt="Pó de Blaze"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Pó de Blaze"><img src="assets/icons/mc_blaze_powder.png" alt="Pó de Blaze"></div><div class="mc-slot"></div></div>
+    <div class="mc-arrow">➜</div>
+    <div class="mc-slot large" data-tip="Ouro em Chamas (justdirethings:blazegold_ingot)"><img src="assets/icons/tfc_ingot_wrought_iron.png" alt="Ouro em Chamas (justdirethings:blazegold_ingot)"></div>
+  </div>
+  <div class="mc-card-footer"><code>justdirethings:blazegold_ingot</code><span>Metal de ignição e calor</span></div>
+</div>
+<div class="mc-card">
+  <div class="mc-card-header"><span class="mc-card-title">Gema Celestina</span><span class="mc-card-badge">Condensação Estelar</span></div>
+  <div class="mc-card-body">
+    <div class="mc-grid-3x3"><div class="mc-slot"></div><div class="mc-slot" data-tip="Carvão TFC (#minecraft:coals)"><img src="assets/icons/mc_coal.png" alt="Carvão TFC (#minecraft:coals)"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Carvão TFC"><img src="assets/icons/mc_coal.png" alt="Carvão TFC"></div><div class="mc-slot" data-tip="Diamante TFC (#tfc:gems/diamond)"><img src="assets/icons/tfc_gem_diamond.png" alt="Diamante TFC (#tfc:gems/diamond)"></div><div class="mc-slot" data-tip="Carvão TFC"><img src="assets/icons/mc_coal.png" alt="Carvão TFC"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Carvão TFC"><img src="assets/icons/mc_coal.png" alt="Carvão TFC"></div><div class="mc-slot"></div></div>
+    <div class="mc-arrow">➜</div>
+    <div class="mc-slot large" data-tip="Gema Celestina (justdirethings:celestigem)"><img src="assets/icons/tfc_gem_diamond.png" alt="Gema Celestina (justdirethings:celestigem)"></div>
+  </div>
+  <div class="mc-card-footer"><code>justdirethings:celestigem</code><span>Cristal de luz condensada</span></div>
+</div>
+<div class="mc-card">
+  <div class="mc-card-header"><span class="mc-card-title">Liga do Eclipse</span><span class="mc-card-badge">Metalurgia Suprema</span></div>
+  <div class="mc-card-body">
+    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Ferricore"><img src="assets/icons/tfc_ingot_wrought_iron.png" alt="Ferricore"></div><div class="mc-slot" data-tip="Ouro em Chamas"><img src="assets/icons/tfc_ingot_wrought_iron.png" alt="Ouro em Chamas"></div><div class="mc-slot" data-tip="Celestina"><img src="assets/icons/tfc_gem_diamond.png" alt="Celestina"></div><div class="mc-slot" data-tip="Chapa de Ferro TFC"><img src="assets/icons/tfc_sheet_wrought_iron.png" alt="Chapa de Ferro TFC"></div><div class="mc-slot" data-tip="Aço TFC (tfc:metal/ingot/steel)"><img src="assets/icons/tfc_ingot_steel.png" alt="Aço TFC (tfc:metal/ingot/steel)"></div><div class="mc-slot" data-tip="Chapa de Ferro TFC"><img src="assets/icons/tfc_sheet_wrought_iron.png" alt="Chapa de Ferro TFC"></div><div class="mc-slot" data-tip="Celestina"><img src="assets/icons/tfc_gem_diamond.png" alt="Celestina"></div><div class="mc-slot" data-tip="Ouro em Chamas"><img src="assets/icons/tfc_ingot_wrought_iron.png" alt="Ouro em Chamas"></div><div class="mc-slot" data-tip="Ferricore"><img src="assets/icons/tfc_ingot_wrought_iron.png" alt="Ferricore"></div></div>
+    <div class="mc-arrow">➜</div>
+    <div class="mc-slot large" data-tip="Liga do Eclipse (justdirethings:eclipsealloy_ingot)"><img src="assets/icons/tfc_ingot_steel.png" alt="Liga do Eclipse (justdirethings:eclipsealloy_ingot)"></div>
+  </div>
+  <div class="mc-card-footer"><code>justdirethings:eclipsealloy_ingot</code><span>Metal místico definitivo</span></div>
+</div>
+<div class="mc-card">
+  <div class="mc-card-header"><span class="mc-card-title">Bancada de Joalheria</span><span class="mc-card-badge">Lapidação Arcana</span></div>
+  <div class="mc-card-body">
+    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Chapa de Ouro TFC"><img src="assets/icons/tfc_sheet_wrought_iron.png" alt="Chapa de Ouro TFC"></div><div class="mc-slot" data-tip="Chapa de Ferro Forjado TFC"><img src="assets/icons/tfc_sheet_wrought_iron.png" alt="Chapa de Ferro Forjado TFC"></div><div class="mc-slot" data-tip="Chapa de Ouro TFC"><img src="assets/icons/tfc_sheet_wrought_iron.png" alt="Chapa de Ouro TFC"></div><div class="mc-slot" data-tip="Tábua TFC (#tfc:lumber)"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC (#tfc:lumber)"></div><div class="mc-slot" data-tip="Bancada de Trabalho"><img src="assets/icons/mc_crafting_table.png" alt="Bancada de Trabalho"></div><div class="mc-slot" data-tip="Tábua TFC"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC"></div><div class="mc-slot" data-tip="Tábua TFC"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC"></div><div class="mc-slot" data-tip="Tábua TFC"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC"></div><div class="mc-slot" data-tip="Tábua TFC"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC"></div></div>
+    <div class="mc-arrow">➜</div>
+    <div class="mc-slot large" data-tip="Bancada de Joalheria (irons_jewelry:jewelcrafting_station)"><img src="assets/icons/mc_crafting_table.png" alt="Bancada de Joalheria (irons_jewelry:jewelcrafting_station)"></div>
+  </div>
+  <div class="mc-card-footer"><code>irons_jewelry:jewelcrafting_station</code><span>Forja anéis e joias com gemas TFC</span></div>
+</div>
+<div class="mc-card">
+  <div class="mc-card-header"><span class="mc-card-title">Frasco de XP de Relíquia</span><span class="mc-card-badge">Transmutação Necrótica</span></div>
+  <div class="mc-card-body">
+    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Carne Podre (minecraft:rotten_flesh)"><img src="assets/icons/mc_rotten_flesh.png" alt="Carne Podre (minecraft:rotten_flesh)"></div><div class="mc-slot" data-tip="Osso (minecraft:bone)"><img src="assets/icons/mc_bone.png" alt="Osso (minecraft:bone)"></div><div class="mc-slot" data-tip="Carne Podre"><img src="assets/icons/mc_rotten_flesh.png" alt="Carne Podre"></div><div class="mc-slot" data-tip="Carne Podre"><img src="assets/icons/mc_rotten_flesh.png" alt="Carne Podre"></div><div class="mc-slot" data-tip="Frasco de Vidro (minecraft:glass_bottle)"><img src="assets/icons/mc_glass_bottle.png" alt="Frasco de Vidro (minecraft:glass_bottle)"></div><div class="mc-slot" data-tip="Carne Podre"><img src="assets/icons/mc_rotten_flesh.png" alt="Carne Podre"></div><div class="mc-slot" data-tip="Carne Podre"><img src="assets/icons/mc_rotten_flesh.png" alt="Carne Podre"></div><div class="mc-slot" data-tip="Olho de Aranha (minecraft:spider_eye)"><img src="assets/icons/mc_spider_eye.png" alt="Olho de Aranha (minecraft:spider_eye)"></div><div class="mc-slot" data-tip="Carne Podre"><img src="assets/icons/mc_rotten_flesh.png" alt="Carne Podre"></div></div>
+    <div class="mc-arrow">➜</div>
+    <div class="mc-slot large" data-tip="Frasco de XP Relíquia (relics:relic_experience_bottle)"><img src="assets/icons/mc_glass_bottle.png" alt="Frasco de XP Relíquia (relics:relic_experience_bottle)"></div>
+  </div>
+  <div class="mc-card-footer"><code>relics:relic_experience_bottle</code><span>Converte necromassa em XP</span></div>
+</div>
+<div class="mc-card">
+  <div class="mc-card-header"><span class="mc-card-title">Aljava de Flechas</span><span class="mc-card-badge">Equipamento Rústico</span></div>
+  <div class="mc-card-body">
+    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Couro TFC (#c:leather)"><img src="assets/icons/tfc_medium_prepared_hide.png" alt="Couro TFC (#c:leather)"></div><div class="mc-slot" data-tip="Corda TFC (#c:ropes)"><img src="assets/icons/tfc_straw.png" alt="Corda TFC (#c:ropes)"></div><div class="mc-slot" data-tip="Couro TFC"><img src="assets/icons/tfc_medium_prepared_hide.png" alt="Couro TFC"></div><div class="mc-slot" data-tip="Couro TFC"><img src="assets/icons/tfc_medium_prepared_hide.png" alt="Couro TFC"></div><div class="mc-slot" data-tip="Chapa de Cobre (tfc:metal/sheet/copper)"><img src="assets/icons/tfc_sheet_wrought_iron.png" alt="Chapa de Cobre (tfc:metal/sheet/copper)"></div><div class="mc-slot" data-tip="Couro TFC"><img src="assets/icons/tfc_medium_prepared_hide.png" alt="Couro TFC"></div><div class="mc-slot" data-tip="Couro TFC"><img src="assets/icons/tfc_medium_prepared_hide.png" alt="Couro TFC"></div><div class="mc-slot" data-tip="Corda TFC"><img src="assets/icons/tfc_straw.png" alt="Corda TFC"></div><div class="mc-slot" data-tip="Couro TFC"><img src="assets/icons/tfc_medium_prepared_hide.png" alt="Couro TFC"></div></div>
+    <div class="mc-arrow">➜</div>
+    <div class="mc-slot large" data-tip="Aljava de Flechas (relics:arrow_quiver)"><img src="assets/icons/tfc_medium_prepared_hide.png" alt="Aljava de Flechas (relics:arrow_quiver)"></div>
+  </div>
+  <div class="mc-card-footer"><code>relics:arrow_quiver</code><span>Disparo rápido e armazenamento</span></div>
+</div>
+<div class="mc-card">
+  <div class="mc-card-header"><span class="mc-card-title">Nadadeiras de Mergulho</span><span class="mc-card-badge">Equipamento Aquático</span></div>
+  <div class="mc-card-body">
+    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Couro TFC (#c:leather)"><img src="assets/icons/tfc_medium_prepared_hide.png" alt="Couro TFC (#c:leather)"></div><div class="mc-slot" data-tip="Corda TFC (#c:ropes)"><img src="assets/icons/tfc_straw.png" alt="Corda TFC (#c:ropes)"></div><div class="mc-slot" data-tip="Couro TFC"><img src="assets/icons/tfc_medium_prepared_hide.png" alt="Couro TFC"></div><div class="mc-slot" data-tip="Couro TFC"><img src="assets/icons/tfc_medium_prepared_hide.png" alt="Couro TFC"></div><div class="mc-slot" data-tip="Couro TFC"><img src="assets/icons/tfc_medium_prepared_hide.png" alt="Couro TFC"></div><div class="mc-slot" data-tip="Couro TFC"><img src="assets/icons/tfc_medium_prepared_hide.png" alt="Couro TFC"></div><div class="mc-slot" data-tip="Couro TFC"><img src="assets/icons/tfc_medium_prepared_hide.png" alt="Couro TFC"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Couro TFC"><img src="assets/icons/tfc_medium_prepared_hide.png" alt="Couro TFC"></div></div>
+    <div class="mc-arrow">➜</div>
+    <div class="mc-slot large" data-tip="Nadadeiras (artifacts:flippers)"><img src="assets/icons/tfc_medium_prepared_hide.png" alt="Nadadeiras (artifacts:flippers)"></div>
+  </div>
+  <div class="mc-card-footer"><code>artifacts:flippers</code><span>Nado ultraveloz em rios e mares</span></div>
+</div>
+<div class="mc-card">
+  <div class="mc-card-header"><span class="mc-card-title">Ímã de Experiência</span><span class="mc-card-badge">Artefato Magnético</span></div>
+  <div class="mc-card-body">
+    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Pó de Redstone"><img src="assets/icons/mc_redstone.png" alt="Pó de Redstone"></div><div class="mc-slot" data-tip="Chapa de Ferro Forjado"><img src="assets/icons/tfc_sheet_wrought_iron.png" alt="Chapa de Ferro Forjado"></div><div class="mc-slot" data-tip="Pó de Redstone"><img src="assets/icons/mc_redstone.png" alt="Pó de Redstone"></div><div class="mc-slot" data-tip="Pó de Redstone"><img src="assets/icons/mc_redstone.png" alt="Pó de Redstone"></div><div class="mc-slot" data-tip="Frasco de Experiência"><img src="assets/icons/mc_glass_bottle.png" alt="Frasco de Experiência"></div><div class="mc-slot" data-tip="Pó de Redstone"><img src="assets/icons/mc_redstone.png" alt="Pó de Redstone"></div><div class="mc-slot" data-tip="Chapa de Cobre"><img src="assets/icons/tfc_sheet_wrought_iron.png" alt="Chapa de Cobre"></div><div class="mc-slot" data-tip="Chapa de Cobre"><img src="assets/icons/tfc_sheet_wrought_iron.png" alt="Chapa de Cobre"></div><div class="mc-slot" data-tip="Chapa de Cobre"><img src="assets/icons/tfc_sheet_wrought_iron.png" alt="Chapa de Cobre"></div></div>
+    <div class="mc-arrow">➜</div>
+    <div class="mc-slot large" data-tip="Ímã de Experiência (nameless_trinkets:experience_magnet)"><img src="assets/icons/mc_glass_bottle.png" alt="Ímã de Experiência (nameless_trinkets:experience_magnet)"></div>
+  </div>
+  <div class="mc-card-footer"><code>nameless_trinkets:experience_magnet</code><span>Atrai orbes de XP à distância</span></div>
+</div>
 </div>
 
 ---

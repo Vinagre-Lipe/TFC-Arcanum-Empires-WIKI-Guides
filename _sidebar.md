@@ -3,6 +3,7 @@
 - [🔥 **FORNALHAS, MULTIBLOCOS & PROCESSOS**](crafts/forjas-multiblocos-processos.md)
 - [🪙 **ITENS COMERCIAIS & MILLÉNAIRE**](crafts/itens-comerciais.md)
 - [⚔️ **CHEFES ESSENCIAIS & LENDÁRIOS**](guias/chefes-essenciais-progresso.md)
+- [📋 **PORTABILIDADE & AUDITORIA DE ITENS**](crafts/portabilidade-viabilidade.md)
 
 - 📖 **História**
   - [I. A Criação e o Selo Primordial](historia/01-a-era-primordial.md)
@@ -55,7 +56,10 @@
   - [14 — Utilidades Vanilla, Redstone & Decoração](crafts/14-utilidades-vanilla.md)
   - [15 — Millager & Exércitos Mercenários](crafts/15-millager-exercitos.md)
   - [16 — Pente Fino de Cadeias & Tooltips](crafts/16-cliente-tooltips.md)
+  - [19 — Alquimia Proibida, Metais do Eclipse & Joalheria](crafts/19-alquimia-proibida.md)
+  - [20 — Transmutação de Restos em XP & Expedição](crafts/20-transmutacao-xp-expedicao.md)
+  - [📋 Planilha Mestra de Portabilidade & Auditoria](crafts/portabilidade-viabilidade.md)
 
 - 📋 **Documentação**
   - [Visão Geral & Mods por Categoria](documentacao/arquitetura.md)
-  - [Catálogo A–Z (119 Mods) & Requisitos](documentacao/mods-compatibilidade.md)
+  - [Catálogo A–Z (126 Mods) & Requisitos](documentacao/mods-compatibilidade.md)

@@ -2,7 +2,7 @@
 ## TFC: Arcanum & Empires (v1.2.7)
 
 > **Plataforma:** Minecraft 1.21.1 — NeoForge 21.1.249+  
-> **Total de Mods Instalados:** **119 Mods** (divididos entre Conteúdo, Magia, RPG, Civilizações, Performance e Bibliotecas)  
+> **Total de Mods Instalados:** **126 Mods** (divididos entre Conteúdo, Magia, RPG, Civilizações, Performance e Bibliotecas)  
 > **Status Atual:** ⚠️ **Beta Fechado de Desenvolvimento**
 
 ---
@@ -19,7 +19,7 @@
 
 ---
 
-## 2. Resumo Quantitativo dos Mods (119 Mods no Total)
+## 2. Resumo Quantitativo dos Mods (126 Mods no Total)
 
 | Categoria | Quantidade | Foco no Gameplay |
 |---|:---:|---|
@@ -32,7 +32,7 @@
 | 🧭 **Missões, Interface & Qualidade de Vida** | **23** | Livro de 6 Atos, mapa, catálogo de receitas, túmulos e atalhos úteis |
 | 🚀 **Performance, Gráficos & Otimização** | **11** | Alto FPS, suporte a Shaders, redução de uso de RAM e estabilidade |
 | 🧩 **APIs, Bibliotecas & Motor de Integração** | **42** | KubeJS e bibliotecas base exigidas pelos mods principais |
-| **TOTAL DO MODPACK** | **119 Mods** | **100% integrados e balanceados para Minecraft 1.21.1 (NeoForge)** |
+| **TOTAL DO MODPACK** | **126 Mods** | **100% integrados e balanceados para Minecraft 1.21.1 (NeoForge)** |
 
 ---
 

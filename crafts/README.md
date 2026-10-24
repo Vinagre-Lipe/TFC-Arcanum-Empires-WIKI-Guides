@@ -26,6 +26,9 @@ Documentação analítica por script do modpack **TFC: Arcanum & Empires** (`v1.
 | [14 — Utilidades Vanilla & Redstone](14-utilidades-vanilla.md) | 5 rotas de papel, livros, estantes, vidros, baldes, caldeirões, bigorna vanilla, pistões e trilhos |
 | [15 — Millager & Exércitos Mercenários](15-millager-exercitos.md) | Defensores de vilas, ordens militares, mesa tática e recrutamento com Deniers do Millénaire |
 | [16 — Pente Fino de Cadeias & Tooltips](16-cliente-tooltips.md) | Validação completa de sobrevivência 100% autônoma, químicas do Nether e filtros JEI |
+| [**19 — Alquimia Proibida & Metais do Eclipse**](19-alquimia-proibida.md) | **Just Dire Things & Iron's Jewelry: Metais do Eclipse, Solos Férteis e Lapidação de Joias TFC** |
+| [**20 — Transmutação de Restos em XP & Expedição**](20-transmutacao-xp-expedicao.md) | **Transmutação de entulho de mobtrap em Frascos de XP, Aljavas, Cintos e Amuletos** |
+| [📋 **Planilha Mestra de Portabilidade & Auditoria**](portabilidade-viabilidade.md) | **Auditoria de 510 receitas e categorização rigorosa do que foi Portado vs Não Portável por Design** |
 
 > [!NOTE]
 > Os itens customizados (`tfc_arcanum:*` e `kubejs:*`) são registrados nos scripts de inicialização do KubeJS e integrados universalmente às tags do NeoForge.
