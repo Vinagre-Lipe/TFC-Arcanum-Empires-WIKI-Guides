@@ -8,6 +8,7 @@
 - [⚔️ **CHEFES ESSENCIAIS & LENDÁRIOS**](guias/chefes-essenciais-progresso.md)
 - [📋 **PORTABILIDADE & AUDITORIA DE ITENS**](crafts/portabilidade-viabilidade.md)
 - [✈️ **AVIAÇÃO, VASSOURAS & ARCARIA (v1.3.0)**](crafts/22-expansao-v130-aviacao-arcaria-vassouras.md)
+- [🌍 **MUNDO, VIGAS & TROCAS (WORLD GEN)**](guias/worldgen-vigas-trocas.md)
 
 - 📖 **História**
   - [I. A Criação e o Selo Primordial](historia/01-a-era-primordial.md)
@@ -18,6 +19,7 @@
 
 - 🌲 **Guias — Sobrevivência**
   - [⚙️ Mecânicas Gerais, Águas Termais & Fisiologia](guias/mecanicas-do-modpack.md)
+  - [🌍 Geração de Mundo, Vigas & Trocas](guias/worldgen-vigas-trocas.md)
   - [Primeiros Minutos no TFC](guias/01-primeiros-passos.md)
   - [Talhando Pedras (Knapping)](guias/02-knapping-ferramentas.md)
   - [Palha, Fogueira & Comida](guias/03-palha-fogo.md)

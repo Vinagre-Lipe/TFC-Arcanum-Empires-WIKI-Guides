@@ -19,6 +19,7 @@ Bem-vindo à **Wiki & Guias oficiais**! Aqui você encontra tudo o que precisa p
 | ⚔️ [**CHEFES ESSENCIAIS & LENDÁRIOS**](guias/chefes-essenciais-progresso.md) | **Guia Estratégico de Chefes da História**: Biomas, como achar, drops de progressão, táticas de combate e perigos sísmicos do Warden! |
 | 📋 [**PORTABILIDADE & AUDITORIA DE ITENS**](crafts/portabilidade-viabilidade.md) | **Auditoria de Portabilidade (v1.3.0)**: Auditoria de 593 receitas e 353 itens (37 Portados vs 316 Restritos por Design Canônico)! |
 | ✈️ [**AVIAÇÃO, VASSOURAS & ARCARIA (v1.3.0)**](crafts/22-expansao-v130-aviacao-arcaria-vassouras.md) | **Expansão v1.3.0**: 58 novas receitas de dirigíveis, biplanos Create/TFC, vassouras mágicas Ars Nouveau e arcaria nobre! |
+| 🌍 [**MUNDO, VIGAS & TROCAS (WORLD GEN)**](guias/worldgen-vigas-trocas.md) | **Engenharia & Economia**: Vigas de suporte com vão de 13 blocos, colapso sísmico em bloco, trocas de aldeões com TFC e repovoamento aquático! |
 | 📖 [História](historia/01-a-era-primordial.md) | A lore do mundo: o Selo Primordial, a Lua de Sangue, os Pilões e o Chaos Guardian. |
 | 🌲 [Guias de Sobrevivência](guias/01-primeiros-passos.md) | Do primeiro minuto (pedra e graveto) até a metalurgia avançada, magia e os impérios. |
 | 🗺️ [Progressão dos 6 Atos](guias/progressao-6-atos.md) | Todas as missões do FTB Quests, ato por ato. |
