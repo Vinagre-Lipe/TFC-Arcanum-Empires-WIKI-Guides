@@ -10,7 +10,8 @@ Bem-vindo à **Wiki & Guias oficiais**! Aqui você encontra tudo o que precisa p
 
 | Seção | O que tem |
 |---|---|
-| 🌟 [**TODOS OS CRAFTS DO MODPACK**](crafts/todos-os-crafts.md) | **Painel Visual JEI Interativo** com 126+ receitas em grades 3×3 e Knapping com pop-ups dinâmicos! |
+| ⚙️ [**MECÂNICAS DO MODPACK**](guias/mecanicas-do-modpack.md) | **Guia Mestre de Mecânicas**: Águas Termais, Fisiologia Nutricional de 5 Grupos, Termorregulação, Desabamento Sísmico e Eventos Celestes! |
+| 🌟 [**TODOS OS CRAFTS DO MODPACK**](crafts/todos-os-crafts.md) | **Painel Visual JEI Interativo** com 135 receitas em grades 3×3 e Knapping com pop-ups dinâmicos! |
 | 🏗️ [**ESTRUTURAS MULTIBLOCOS**](crafts/estruturas-multiblocos.md) | **Guia Completo de Multiblocos**: Charcoal Pit, Bloomery, Blast Furnace, Pilões e Portais Dimensionais! |
 | 🔨 [**PROCESSOS FÍSICOS & FORJAS**](crafts/processos-fisicos.md) | **Manual de Forjamento e Física**: Pit Kiln, Escala Térmica, Bigorna TFC (-15 a +16), Knapping e Curtume em 3 fases! |
 | 🍳 [**COZINHA & GASTRONOMIA TFC**](crafts/cozinha-culinaria.md) | **Culinária e Nutrição de 5 Grupos**: Cooking Pot, Skillet, Cutting Board, Chaleira de Cobre e Preservação com Sal! |

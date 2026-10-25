@@ -1,4 +1,5 @@
 - [🏠 Início](/)
+- [⚙️ **MECÂNICAS DO MODPACK**](guias/mecanicas-do-modpack.md)
 - [📜 **TODOS OS CRAFTS DO MODPACK**](crafts/todos-os-crafts.md)
 - [🏗️ **ESTRUTURAS MULTIBLOCOS**](crafts/estruturas-multiblocos.md)
 - [🔨 **PROCESSOS FÍSICOS & FORJAS**](crafts/processos-fisicos.md)
@@ -16,6 +17,7 @@
   - [⚔️ Chefes da História & Conquistas](guias/chefes-essenciais-progresso.md)
 
 - 🌲 **Guias — Sobrevivência**
+  - [⚙️ Mecânicas Gerais, Águas Termais & Fisiologia](guias/mecanicas-do-modpack.md)
   - [Primeiros Minutos no TFC](guias/01-primeiros-passos.md)
   - [Talhando Pedras (Knapping)](guias/02-knapping-ferramentas.md)
   - [Palha, Fogueira & Comida](guias/03-palha-fogo.md)
