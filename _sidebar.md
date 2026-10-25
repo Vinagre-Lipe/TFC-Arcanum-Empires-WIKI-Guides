@@ -6,6 +6,7 @@
 - [🪙 **ITENS COMERCIAIS & MILLÉNAIRE**](crafts/itens-comerciais.md)
 - [⚔️ **CHEFES ESSENCIAIS & LENDÁRIOS**](guias/chefes-essenciais-progresso.md)
 - [📋 **PORTABILIDADE & AUDITORIA DE ITENS**](crafts/portabilidade-viabilidade.md)
+- [✈️ **AVIAÇÃO, VASSOURAS & ARCARIA (v1.3.0)**](crafts/22-expansao-v130-aviacao-arcaria-vassouras.md)
 
 - 📖 **História**
   - [I. A Criação e o Selo Primordial](historia/01-a-era-primordial.md)
@@ -62,6 +63,8 @@
   - [16 — Pente Fino de Cadeias & Tooltips](crafts/16-cliente-tooltips.md)
   - [19 — Alquimia Proibida, Metais do Eclipse & Joalheria](crafts/19-alquimia-proibida.md)
   - [20 — Transmutação de Restos em XP & Expedição](crafts/20-transmutacao-xp-expedicao.md)
+  - [21 — Fogueira Vanilla, Cocção & Avanços FTB](crafts/21-fogueira-coccao-avancos.md)
+  - [22 — Expansão v1.3.0: Aviação, Vassouras & Arcaria](crafts/22-expansao-v130-aviacao-arcaria-vassouras.md)
   - [📋 Planilha Mestra de Portabilidade & Auditoria](crafts/portabilidade-viabilidade.md)
 
 - 📋 **Documentação**

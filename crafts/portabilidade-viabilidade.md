@@ -18,57 +18,76 @@ description: "Auditoria completa e rigorosa de todos os itens do ecossistema, de
 
 ---
 
-## 📊 Resumo Executivo da Auditoria de Portabilidade
+## 📊 Resumo Executivo da Auditoria de Portabilidade (v1.3.0)
 
 ```mermaid
-pie title Status de Portabilidade dos Itens Auditados
-    "Já Portados / Integrados ao TFC" : 18
-    "Não Portável: Equipamentos Vanilla Substituídos" : 52
-    "Não Portável: Relíquias & Curios de Exploração" : 58
-    "Não Portável: Armas & Drops de Chefes" : 48
-    "Não Portável: Alta Tecnologia Sci-Fi Desativada" : 51
-    "Não Portável: Blocos de Operador / Administrativos" : 20
-    "Não Portável: Recursos Dimensionais & Vilas" : 24
+pie title Status de Portabilidade dos Itens Auditados (v1.3.0)
+    "Portados / Integrados ao TFC" : 37
+    "Equipamentos Vanilla Substituídos" : 52
+    "Relíquias & Curios de Exploração" : 58
+    "Armas Lendárias & Drops de Chefes" : 48
+    "Alta Tecnologia Sci-Fi Desativada" : 51
+    "Blocos de Operador / Administrativos" : 20
+    "Veículos, Dimensões & Outros Restritos" : 87
 ```
 
 | Classificação de Portabilidade | Quantidade | Regra de Design e Justificativa no Modpack |
 | :--- | :---: | :--- |
-| **PORTADO / INTEGRADO AO TFC (SIM)** | **18 Itens** | **Receitas fechadas no KubeJS com mecânicas e insumos do TFC.** |
+| **PORTADO / INTEGRADO AO TFC (SIM)** | **37 Itens** | **Receitas ativas no KubeJS integradas a madeiras, ligas, forjas e magia TFC.** |
 | **NÃO PORTÁVEL: Equipamentos Vanilla Substituídos** | 52 Itens | Desativados; o jogador utiliza lascamento e forja em bigornas TFC. |
 | **NÃO PORTÁVEL: Relíquias de Masmorra & Arqueologia** | 58 Itens | Preservados exclusivamente como loot de exploração e criptas. |
 | **NÃO PORTÁVEL: Armas Lendárias & Troféus de Chefes** | 48 Itens | Conquistados exclusivamente derrotando chefes colossais em batalha. |
 | **NÃO PORTÁVEL: Sci-Fi & Reatores de RF Desativados** | 51 Itens | Podados do JEI/EMI para manter a imersão rústica e medieval. |
 | **NÃO PORTÁVEL: Blocos Administrativos / Operador** | 20 Itens | Reservados a desenvolvedores no modo Criativo. |
-| **NÃO PORTÁVEL: Economia de Vilas & Dimensões** | 24 Itens | Moedas do Millénaire e minérios nativos de dimensões paralelas. |
-| **TOTAL GERAL DE ITENS AUDITADOS** | **334 Itens** | **Auditoria 100% Concluída sem Nenhuma Receita Pendente.** |
+| **NÃO PORTÁVEL: Veículos, Dimensões & Outros Restritos** | 87 Itens | Itens redundantes, sem função canônica ou restritos por lore. |
+| **TOTAL GERAL DE ITENS AUDITADOS** | **353 Itens** | **Auditoria v1.3.0 Concluída sem Nenhuma Inconsistência de Progressão.** |
 
 ---
 
 ## 1. 🌟 Itens Portados e Integrados com Sucesso ao TFC (Portabilidade: SIM)
 
 > [!TIP]
-> Todos os itens abaixo agora possuem **receitas ativas, balanceadas e perfeitamente viáveis em Survival**, respeitando os recursos e ferramentas do TerraFirmaCraft!
+> Todos os 37 itens abaixo possuem **receitas ativas, balanceadas e perfeitamente viáveis em Survival**, respeitando os recursos, ligas e ferramentas do ecossistema TerraFirmaCraft!
 
 | Item / Registro | Mod | Categoria | Insumos TFC / Como Fabricar | Regra de Integração TFC |
 | :--- | :--- | :--- | :--- | :--- |
-| `Snorkel (artifacts:snorkel)` | Artifacts | Relíquia de Baú / Arqueologia (Curios) | Baús de ruínas oceânicas e monumentos aquáticos. | Portado com sucesso no KubeJS utilizando couros curtidos, ligas metalúrgicas e caldeirões do TFC. |
-| `Colar do Pânico (Panic Necklace) (artifacts:panic_necklace)` | Artifacts | Relíquia de Baú / Arqueologia (Curios) | Baús de masmorras de esqueletos e zumbis. | Portado com sucesso no KubeJS utilizando couros curtidos, ligas metalúrgicas e caldeirões do TFC. |
-| `Pingente de Chamas (Flame Pendant) (artifacts:flame_pendant)` | Artifacts | Relíquia de Baú / Arqueologia (Curios) | Baús de fortalezas do Nether e bastiões de piglins. | Portado com sucesso no KubeJS utilizando couros curtidos, ligas metalúrgicas e caldeirões do TFC. |
-| `Pingente de Espinhos (Thorn Pendant) (artifacts:thorn_pendant)` | Artifacts | Relíquia de Baú / Arqueologia (Curios) | Baús de minas abandonadas subterrâneas. | Portado com sucesso no KubeJS utilizando couros curtidos, ligas metalúrgicas e caldeirões do TFC. |
-| `Nadadeiras (Flippers) (artifacts:flippers)` | Artifacts | Relíquia de Baú / Arqueologia (Curios) | Baús de barcos naufragados no fundo do oceano. | Portado com sucesso no KubeJS utilizando couros curtidos, ligas metalúrgicas e caldeirões do TFC. |
-| `Vaso de Antídoto (Antidote Vessel) (artifacts:antidote_vessel)` | Artifacts | Relíquia de Baú / Arqueologia (Curios) | Baús de templos da selva e tumbas antigas. | Portado com sucesso no KubeJS utilizando couros curtidos, ligas metalúrgicas e caldeirões do TFC. |
-| `Aljava Mágica de Flechas (relics:arrow_quiver)` | Relics | Relíquia de Baú / Arqueologia (Curios) | Baús de esqueletos em criptas e catacumbas ancestrais. | Portado com sucesso no KubeJS utilizando couros curtidos, ligas metalúrgicas e caldeirões do TFC. |
-| `Cinto do Caçador (relics:hunter_belt)` | Relics | Relíquia de Baú / Arqueologia (Curios) | Baús de cabanas de caçadores e acampamentos nômades. | Portado com sucesso no KubeJS utilizando couros curtidos, ligas metalúrgicas e caldeirões do TFC. |
-| `Frasco de Experiência Arqueológico (relics:relic_experience_bottle)` | Relics | Relíquia de Baú / Arqueologia (Curios) | Peneirado em sítios de escavação arqueológica. | Portado com sucesso no KubeJS utilizando couros curtidos, ligas metalúrgicas e caldeirões do TFC. |
-| `Bancada de Joalheiro (irons_jewelry:jewelcrafting_station)` | Iron's Gems 'n Jewelry | Estação de Joalheria Arcana | Forjável com Pedra Polida TFC + Chapa de Ferro Forjado TFC + Madeira. | Integração recém-implementada com sucesso. |
-| `Guia de Joalheria (irons_jewelry:jewelcrafting_guide)` | Iron's Gems 'n Jewelry | Guia & Conhecimento Místico | Craftável com Livro/Pergaminho TFC + Pepita de Cobre TFC. | Integração recém-implementada com sucesso. |
-| `Gemas Lapidadas para Joias (irons_jewelry:ruby, sapphire, topaz, etc.)` | Iron's Gems 'n Jewelry | Gemas Místicas | Obtidas minerando ou bateando em rios TFC. | Integração recém-implementada com sucesso. |
-| `Ímã de Experiência (nameless_trinkets:experience_magnet)` | Nameless Trinkets | Relíquia Utilitária de XP | Forjável com Chapa de Ferro TFC + Redstone + Frasco de XP. | Integração recém-implementada com sucesso. |
-| `Bateria de Experiência (nameless_trinkets:experience_battery)` | Nameless Trinkets | Armazenamento de XP Portátil | Forjável com Chapa de Cobre TFC + Redstone + Frascos de XP de Relíquia. | Integração recém-implementada com sucesso. |
-| `Condensador de Almas / XP (justdirethings:experienceholder)` | Just Dire Things | Condensador Místico de Almas | Criado com Ouro TFC + Areia das Almas + Frascos de Vidro. | Integração recém-implementada com sucesso. |
-| `Ampulheta do Tempo (justdirethings:time_wand)` | Just Dire Things | Manipulação Temporal Ancestral | Forjado com Aço Negro TFC + Relógio + Cristal do Tempo + Pérola do End. | Integração recém-implementada com sucesso. |
-| `Frasco de XP de Relíquia via Carne Podre (relics:relic_experience_bottle)` | Relics / Vanilla | Transmutação Alquímica | Bancada ou caldeirão; resolve 100% o gargalo de XP de relíquias. | Integração recém-implementada com sucesso. |
-| `Couro Seco via Carne Podre (minecraft:leather)` | Minecraft Vanilla | Processamento Térmico | Forja de carvão vegetal TFC ou fogueira. | Integração recém-implementada com sucesso. |
+| `Snorkel (artifacts:snorkel)` | Artifacts | Relíquia de Baú (Curios) | Couro curtido TFC + Cobre + Vidro | Portado no KubeJS com insumos rústicos TFC. |
+| `Colar do Pânico (artifacts:panic_necklace)` | Artifacts | Relíquia de Baú (Curios) | Couro curtido TFC + Chapa de Ouro + Redstone | Portado no KubeJS com insumos rústicos TFC. |
+| `Pingente de Chamas (artifacts:flame_pendant)` | Artifacts | Relíquia de Baú (Curios) | Couro TFC + Pó de Blaze + Chapa de Bronze | Portado no KubeJS com insumos rústicos TFC. |
+| `Pingente de Espinhos (artifacts:thorn_pendant)` | Artifacts | Relíquia de Baú (Curios) | Couro TFC + Espinhos/Ferrão + Ferro Forjado | Portado no KubeJS com insumos rústicos TFC. |
+| `Nadadeiras (artifacts:flippers)` | Artifacts | Relíquia de Baú (Curios) | Couro curtido TFC + Corda de Palha TFC | Portado no KubeJS com insumos rústicos TFC. |
+| `Vaso de Antídoto (artifacts:antidote_vessel)` | Artifacts | Relíquia de Baú (Curios) | Vaso de Cerâmica Queimada TFC + Mel | Portado no KubeJS com insumos rústicos TFC. |
+| `Aljava Mágica (relics:arrow_quiver)` | Relics | Relíquia de Baú (Curios) | Couro TFC + Chapa de Cobre + Corda de Palha | Portado no KubeJS com insumos rústicos TFC. |
+| `Cinto do Caçador (relics:hunter_belt)` | Relics | Relíquia de Baú (Curios) | Couro curtido TFC + Fivela de Ferro Forjado | Portado no KubeJS com insumos rústicos TFC. |
+| `Frasco de XP Arqueológico (relics:relic_experience_bottle)` | Relics | Relíquia de XP | Frasco de Vidro + Carne Podre + Ossos + Olho de Aranha | Transmutação necromântica fechada. |
+| `Bancada de Joalheiro (irons_jewelry:jewelcrafting_station)` | Iron's Jewelry | Estação de Joalheria | Chapa de Ouro + Ferro Forjado TFC + Tábuas | Integração com gemas e anéis TFC. |
+| `Guia de Joalheria (irons_jewelry:jewelcrafting_guide)` | Iron's Jewelry | Conhecimento Místico | Livro TFC + Pepita de Cobre TFC | Manual de lapidação e soquetes. |
+| `Gemas Lapidadas (irons_jewelry:ruby, sapphire, etc.)` | Iron's Jewelry | Gemas Místicas | Gemas brutas TFC lapidadas na bancada | Conversão direta de gemas TFC. |
+| `Ímã de XP (nameless_trinkets:experience_magnet)` | Nameless Trinkets | Relíquia de XP | Chapa de Ferro TFC + Redstone + Frasco de XP | Atração de orbes de experiência à distância. |
+| `Bateria de XP (nameless_trinkets:experience_battery)` | Nameless Trinkets | Armazenamento de XP | Chapa de Cobre TFC + Redstone + Frascos de XP | Armazenamento compacto de experiência. |
+| `Condensador de Almas (justdirethings:experienceholder)` | Just Dire Things | Automação de XP | Ouro TFC + Areia das Almas + Frascos de Vidro | Condensação e automação de orbes em mobtraps. |
+| `Ampulheta do Tempo (justdirethings:time_wand)` | Just Dire Things | Manipulação Temporal | Aço Negro TFC + Relógio + Celestina + Pérola | Acelera ciclos agrícolas e processos térmicos. |
+| `Frasco de XP via Necromassa (relics:relic_experience_bottle)` | Relics | Transmutação Alquímica | 8x Carne Podre + 4x Ossos + 1x Olho de Aranha | Converte subprodutos de caça em XP. |
+| `Couro Rústico via Forja (minecraft:leather)` | Vanilla / TFC | Processamento Térmico | Carne podre aquecida na forja TFC | Substituto rústico para pequenos reparos. |
+| `Biplano (immersive_aircraft:biplane)` | Immersive Aircraft | Aviação (v1.3.0) | Casco de Madeira TFC + Velas de Linho + Motor | Aeronave leve para exploração e cartografia. |
+| `Dirigível (immersive_aircraft:airship)` | Immersive Aircraft | Aviação (v1.3.0) | Balão de Tecido Impermeável + Motor + Gôndola | Voo pairado estável com carga. |
+| `Dirigível de Carga (immersive_aircraft:cargo_airship)` | Immersive Aircraft | Aviação (v1.3.0) | Casco Reforçado + Baús TFC + Motor Potente | Transporte em massa de minérios pesados. |
+| `Girodino (immersive_aircraft:gyrodyne)` | Immersive Aircraft | Aviação (v1.3.0) | Hélice de Aço TFC + Motor a Vapor + Trem | Voo ágil sobre formações montanhosas TFC. |
+| `Quadricóptero (immersive_aircraft:quadrocopter)` | Immersive Aircraft | Aviação (v1.3.0) | 4x Hélices de Latão Create + Motor | Escavações verticais e engenharia aérea. |
+| `Navio de Guerra (immersive_aircraft:warship)` | Immersive Aircraft | Aviação (v1.3.0) | Casco de Aço Negro TFC + Artilharia Aérea | Fortaleza aérea contra frotas de saqueadores. |
+| `Vassoura Mágica (brooms:broom_magic)` | Magic Brooms | Mobilidade Arcana (v1.3.0) | Madeira Nobre TFC + Palha + Linhas + Gema Fonte | Veículo voador básico de baixa inércia. |
+| `Vassoura de Fogo (brooms:broom_fire)` | Magic Brooms | Mobilidade Arcana (v1.3.0) | Vassoura Básica + Essência Ígnea Ars Nouveau | Propulsão térmica acelerada. |
+| `Vassoura de Gelo (brooms:broom_ice)` | Magic Brooms | Mobilidade Arcana (v1.3.0) | Vassoura Básica + Essência Aquática Ars Nouveau | Voo suave em climas polares e glaciares. |
+| `Vassoura de Raios (brooms:broom_lightning)` | Magic Brooms | Mobilidade Arcana (v1.3.0) | Vassoura Básica + Essência de Ar Ars Nouveau | Arrancada supersônica imediata. |
+| `Vassoura das Marés (brooms:broom_tide)` | Magic Brooms | Mobilidade Arcana (v1.3.0) | Vassoura Básica + Essência de Manipulação | Navegação precisa sob tempestades e oceanos. |
+| `Vassoura do Bosque (brooms:broom_grove)` | Magic Brooms | Mobilidade Arcana (v1.3.0) | Vassoura Básica + Essência da Terra Ars Nouveau | Regeneração de durabilidade perto de florestas. |
+| `Vassoura do Ender (brooms:broom_ender)` | Magic Brooms | Mobilidade Arcana (v1.3.0) | Vassoura Básica + Pérola do End | Salto dimensional curto no ar. |
+| `Armação de Arco Reforçada (simplybows:reinforced_bow_frame)` | Simply Bows | Arcaria Nobre (v1.3.0) | Chapas de Bronze TFC + Tora TFC + Hastes | Esqueleto de alta tensão para arcos especiais. |
+| `Corda Encantada (simplybows:enchanted_bow_string)` | Simply Bows | Arcaria Nobre (v1.3.0) | Linho/Seda TFC + Redstone + Ametista | Tensão elástica com condução mágica. |
+| `Molde de Arco Grande (simplybows:bow_large_template)` | Simply Bows | Arcaria Nobre (v1.3.0) | Tábuas TFC + Fibras Naturais TFC | Molde de entalhe em bancada de armeiro. |
+| `Mesa de Imbuimento (illagerinvasion:imbuing_table)` | Illager Invasion | Invasão & Rituais (v1.3.0) | Bloco de Cobre Maciço TFC + Madeira Nobre | Canalização de feitiços e venenos em lâminas. |
+| `Chifre da Visão (illagerinvasion:horn_of_sight)` | Illager Invasion | Invasão & Rituais (v1.3.0) | Chapa de Ouro TFC + Chifre de Cabra + Essência | Revelação tática de patrulhas inimigas. |
+| `Lança de Ferrão (the_bumblezone:stinger_spear)` | The Bumblezone | Armaria de Haste (v1.3.0) | Ferrão de Abelha + Haste de Madeira TFC | Golpe perfurante venenoso anti-escudo. |
 
 ---
 

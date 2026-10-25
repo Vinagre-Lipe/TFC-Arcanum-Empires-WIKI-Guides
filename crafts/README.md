@@ -4,9 +4,10 @@
 > 🏗️ **[Clique aqui para abrir ESTRUTURAS MULTIBLOCOS](estruturas-multiblocos.md)**  
 > 🔨 **[Clique aqui para abrir PROCESSOS FÍSICOS & FORJAS](processos-fisicos.md)**  
 > 🍳 **[Clique aqui para abrir COZINHA & GASTRONOMIA TFC](cozinha-culinaria.md)**  
-> 🪙 **[Clique aqui para abrir ITENS OBTIDOS APENAS POR COMÉRCIO (Millénaire & Deniers)](itens-comerciais.md)**
+> 🪙 **[Clique aqui para abrir ITENS OBTIDOS APENAS POR COMÉRCIO (Millénaire & Deniers)](itens-comerciais.md)**  
+> ✈️ **[Clique aqui para abrir EXPANSÃO v1.3.0: AVIAÇÃO, VASSOURAS & ARCARIA](22-expansao-v130-aviacao-arcaria-vassouras.md)**
 
-Documentação analítica por script do modpack **TFC: Arcanum & Empires** (`v1.2.7`).
+Documentação analítica por script do modpack **TFC: Arcanum & Empires** (`v1.3.0`).
 
 | Página | Conteúdo / Mecânica |
 |---|---|
@@ -32,7 +33,9 @@ Documentação analítica por script do modpack **TFC: Arcanum & Empires** (`v1.
 | [16 — Pente Fino de Cadeias & Tooltips](16-cliente-tooltips.md) | Validação completa de sobrevivência 100% autônoma, químicas do Nether e filtros JEI |
 | [**19 — Alquimia Proibida & Metais do Eclipse**](19-alquimia-proibida.md) | **Just Dire Things & Iron's Jewelry: Metais do Eclipse, Solos Férteis e Lapidação de Joias TFC** |
 | [**20 — Transmutação de Restos em XP & Expedição**](20-transmutacao-xp-expedicao.md) | **Transmutação de entulho de mobtrap em Frascos de XP, Aljavas, Cintos e Amuletos** |
-| [📋 **Planilha Mestra de Portabilidade & Auditoria**](portabilidade-viabilidade.md) | **Auditoria de 510 receitas e categorização rigorosa do que foi Portado vs Não Portável por Design** |
+| [**21 — Fogueira Vanilla & Cocção Rústica**](21-fogueira-coccao-avancos.md) | **50 receitas de carnes, pães e peixes na fogueira vanilla e gatilhos de avanço FTB** |
+| [**22 — Expansão v1.3.0: Aviação, Vassouras & Arcaria**](22-expansao-v130-aviacao-arcaria-vassouras.md) | **58 receitas: Immersive Aircraft, Magic Brooms, Simply Bows, Invasões e Pilão Permanente** |
+| [📋 **Planilha Mestra de Portabilidade & Auditoria**](portabilidade-viabilidade.md) | **Auditoria de 593 receitas / 353 itens: 37 Portados vs 316 Restritos por Design Canônico** |
 
 > [!NOTE]
 > Os itens customizados (`tfc_arcanum:*` e `kubejs:*`) são registrados nos scripts de inicialização do KubeJS e integrados universalmente às tags do NeoForge.

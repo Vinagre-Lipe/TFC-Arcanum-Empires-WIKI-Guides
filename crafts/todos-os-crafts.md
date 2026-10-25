@@ -1,7 +1,7 @@
 # 📜 Todos os Crafts do Modpack (Painel Visual JEI)
 
 > [!WARNING]
-> **AVISO — MODPACK EM ESTÁGIO BETA FECHADO DE DESENVOLVIMENTO (v1.2.7):**
+> **AVISO — MODPACK EM ESTÁGIO BETA FECHADO DE DESENVOLVIMENTO (v1.3.0):**
 > Todas as receitas, mecânicas e integrações abaixo pertencem à build atual de desenvolvimento (**Beta Fechado**) e podem receber ajustes contínuos de balanceamento.
 > 💡 **Dica Interativa JEI:** Clique em **qualquer item ou ingrediente** dentro de qualquer receita para abrir a janela pop-up (**DIV JEI**) mostrando como fabricá-lo ou em quais receitas ele é utilizado como ingrediente!
 
@@ -36,8 +36,9 @@
 25. [🏛️ Ponte TFC ➔ Millénaire (Blocos para Construtores)](#25-ponte-tfc--millénaire-blocos-para-construtores)
 26. [🔄 Conversões Vanilla ➔ TFC (Loot de Dungeons)](#26-conversões-vanilla--tfc-loot-de-dungeons)
 27. [👑 Endgame Supremo & Chaos Guardian (Ato VI)](#27-endgame-supremo--chaos-guardian-ato-vi)
-28. [🔮 Alquimia do Eclipse, Joias Arcanas & Expedição (v1.2.7)](#28-alquimia-do-eclipse-joias-arcanas--expedição-v127)
-29. [🚫 Receitas Desativadas / Removidas (Anti-Exploit)](#29-receitas-desativadas--removidas-anti-exploit)
+28. [🔮 Alquimia do Eclipse, Joias Arcanas & Expedição](#28-alquimia-do-eclipse-joias-arcanas--expedição)
+29. [✈️ Aviação Dieselpunk, Vassouras & Arcaria (v1.3.0)](#29-aviação-dieselpunk-vassouras--arcaria-v130)
+30. [🚫 Receitas Desativadas / Removidas (Anti-Exploit)](#30-receitas-desativadas--removidas-anti-exploit)
 
 ---
 
@@ -1312,7 +1313,7 @@ Substitutos realistas das fornalhas automáticas: covas de queima (*Pit Kiln*), 
 
 ---
 
-## 28. Alquimia do Eclipse, Joias Arcanas & Expedição (v1.2.7)
+## 28. Alquimia do Eclipse, Joias Arcanas & Expedição
 
 Metais do eclipse (*Ferricore*, *Blazegold*, *Celestina* e *Liga do Eclipse*), bancada de joalheria para lapidação de gemas brutas do TFC em anéis mágicos, transmutação necromântica de resíduos de monstros em frascos de experiência e equipamentos rústicos de expedição.
 
@@ -1403,7 +1404,98 @@ Metais do eclipse (*Ferricore*, *Blazegold*, *Celestina* e *Liga do Eclipse*), b
 
 ---
 
-## 29. Receitas Desativadas / Removidas (Anti-Exploit)
+## 29. Aviação Dieselpunk, Vassouras & Arcaria (v1.3.0)
+
+Aeronaves do *Immersive Aircraft* e *Create* integradas às caldeiras e chapas do TFC, mobilidade com vassouras do *Magic Brooms* e *Ars Nouveau*, armações de alta tensão do *Simply Bows* e a forja do Pilão Supremo com preservação permanente do Coração do Dragão.
+
+<div class="mc-grid-gallery">
+
+<div class="mc-card">
+  <div class="mc-card-header"><span class="mc-card-title">Pilão Supremo Permanente</span><span class="mc-card-badge">Purificação do Caos</span></div>
+  <div class="mc-card-body">
+    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Estilhaço do Caos (draconicevolution:chaos_shard)"><img src="assets/icons/de_chaos_shard.png" alt="Estilhaço do Caos (draconicevolution:chaos_shard)"></div><div class="mc-slot" data-tip="Bloco de Aço Negro TFC"><img src="assets/icons/tfc_block_black_steel.png" alt="Bloco de Aço Negro TFC"></div><div class="mc-slot" data-tip="Estilhaço do Caos"><img src="assets/icons/de_chaos_shard.png" alt="Estilhaço do Caos"></div><div class="mc-slot" data-tip="Lingote de Ignitium"><img src="assets/icons/cataclysm_ignitium.png" alt="Lingote de Ignitium"></div><div class="mc-slot" data-tip="Coração do Dragão (PRESERVADO)"><img src="assets/icons/de_dragon_heart.png" alt="Coração do Dragão (PRESERVADO)"></div><div class="mc-slot" data-tip="Lingote de Ignitium"><img src="assets/icons/cataclysm_ignitium.png" alt="Lingote de Ignitium"></div><div class="mc-slot" data-tip="Bloco de Aço Negro TFC"><img src="assets/icons/tfc_block_black_steel.png" alt="Bloco de Aço Negro TFC"></div><div class="mc-slot" data-tip="Bloco de Aço Negro TFC"><img src="assets/icons/tfc_block_black_steel.png" alt="Bloco de Aço Negro TFC"></div><div class="mc-slot" data-tip="Bloco de Aço Negro TFC"><img src="assets/icons/tfc_block_black_steel.png" alt="Bloco de Aço Negro TFC"></div></div>
+    <div class="mc-arrow">➜</div>
+    <div class="mc-slot large" data-tip="Pilão Supremo (pylons:infusion_pylon)"><img src="assets/icons/pylon_infusion.png" alt="Pilão Supremo (pylons:infusion_pylon)"></div>
+  </div>
+  <div class="mc-card-footer"><code>tfc_arcanum:ultimate_pylon_chaos_purifier_permanent</code><span>Preserva o Coração do Dragão (.keepIngredient)</span></div>
+</div>
+<div class="mc-card">
+  <div class="mc-card-header"><span class="mc-card-title">Bancada de Modificação de Vassouras</span><span class="mc-card-badge">Carpintaria Arcana</span></div>
+  <div class="mc-card-body">
+    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Chapa de Ferro Forjado TFC"><img src="assets/icons/tfc_sheet_wrought_iron.png" alt="Chapa de Ferro Forjado TFC"></div><div class="mc-slot" data-tip="Chapa de Ferro Forjado TFC"><img src="assets/icons/tfc_sheet_wrought_iron.png" alt="Chapa de Ferro Forjado TFC"></div><div class="mc-slot" data-tip="Chapa de Ferro Forjado TFC"><img src="assets/icons/tfc_sheet_wrought_iron.png" alt="Chapa de Ferro Forjado TFC"></div><div class="mc-slot" data-tip="Tábua TFC (#tfc:lumber)"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC (#tfc:lumber)"></div><div class="mc-slot" data-tip="Bancada de Trabalho TFC"><img src="assets/icons/mc_crafting_table.png" alt="Bancada de Trabalho TFC"></div><div class="mc-slot" data-tip="Tábua TFC"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC"></div><div class="mc-slot" data-tip="Tábua TFC"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Tábua TFC"><img src="assets/icons/tfc_lumber.png" alt="Tábua TFC"></div></div>
+    <div class="mc-arrow">➜</div>
+    <div class="mc-slot large" data-tip="Bancada de Vassouras (brooms:broom_workbench)"><img src="assets/icons/mc_crafting_table.png" alt="Bancada de Vassouras (brooms:broom_workbench)"></div>
+  </div>
+  <div class="mc-card-footer"><code>brooms:broom_workbench</code><span>Montagem e encantamento de vassouras</span></div>
+</div>
+<div class="mc-card">
+  <div class="mc-card-header"><span class="mc-card-title">Vassoura Mágica Básica</span><span class="mc-card-badge">Mobilidade Arcana</span></div>
+  <div class="mc-card-body">
+    <div class="mc-grid-3x3"><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Tábua Nobre TFC"><img src="assets/icons/tfc_lumber.png" alt="Tábua Nobre TFC"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Tábua Nobre TFC"><img src="assets/icons/tfc_lumber.png" alt="Tábua Nobre TFC"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Linha de Costura TFC"><img src="assets/icons/tfc_string.png" alt="Linha de Costura TFC"></div><div class="mc-slot" data-tip="Gema Fonte (ars_nouveau:source_gem)"><img src="assets/icons/tfc_gem_diamond.png" alt="Gema Fonte (ars_nouveau:source_gem)"></div><div class="mc-slot" data-tip="Palha TFC"><img src="assets/icons/tfc_straw.png" alt="Palha TFC"></div></div>
+    <div class="mc-arrow">➜</div>
+    <div class="mc-slot large" data-tip="Vassoura Mágica (brooms:broom_magic)"><img src="assets/icons/tfc_lumber.png" alt="Vassoura Mágica (brooms:broom_magic)"></div>
+  </div>
+  <div class="mc-card-footer"><code>brooms:broom_magic</code><span>Veículo aéreo leve movido a Mana</span></div>
+</div>
+<div class="mc-card">
+  <div class="mc-card-header"><span class="mc-card-title">Armação de Arco Reforçada</span><span class="mc-card-badge">Armaria à Distância</span></div>
+  <div class="mc-card-body">
+    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Chapa de Bronze TFC"><img src="assets/icons/tfc_sheet_bronze.png" alt="Chapa de Bronze TFC"></div><div class="mc-slot" data-tip="Tora TFC (#tfc:firepit_logs)"><img src="assets/icons/tfc_log.png" alt="Tora TFC (#tfc:firepit_logs)"></div><div class="mc-slot" data-tip="Chapa de Bronze TFC"><img src="assets/icons/tfc_sheet_bronze.png" alt="Chapa de Bronze TFC"></div><div class="mc-slot" data-tip="Vara de Madeira (#c:rods/wooden)"><img src="assets/icons/mc_stick.png" alt="Vara de Madeira (#c:rods/wooden)"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Vara de Madeira"><img src="assets/icons/mc_stick.png" alt="Vara de Madeira"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div></div>
+    <div class="mc-arrow">➜</div>
+    <div class="mc-slot large" data-tip="Armação de Arco (simplybows:reinforced_bow_frame)"><img src="assets/icons/mc_bow.png" alt="Armação de Arco (simplybows:reinforced_bow_frame)"></div>
+  </div>
+  <div class="mc-card-footer"><code>simplybows:reinforced_bow_frame</code><span>Esqueleto de alta tensão para arcos nobres</span></div>
+</div>
+<div class="mc-card">
+  <div class="mc-card-header"><span class="mc-card-title">Corda de Arco Encantada</span><span class="mc-card-badge">Fiação Mística</span></div>
+  <div class="mc-card-body">
+    <div class="mc-grid-3x3"><div class="mc-slot"></div><div class="mc-slot" data-tip="Linha de Linho TFC"><img src="assets/icons/tfc_string.png" alt="Linha de Linho TFC"></div><div class="mc-slot" data-tip="Fragmento de Ametista"><img src="assets/icons/mc_amethyst_shard.png" alt="Fragmento de Ametista"></div><div class="mc-slot" data-tip="Pó de Redstone"><img src="assets/icons/mc_redstone.png" alt="Pó de Redstone"></div><div class="mc-slot" data-tip="Linha de Linho TFC"><img src="assets/icons/tfc_string.png" alt="Linha de Linho TFC"></div><div class="mc-slot" data-tip="Pó de Redstone"><img src="assets/icons/mc_redstone.png" alt="Pó de Redstone"></div><div class="mc-slot" data-tip="Fragmento de Ametista"><img src="assets/icons/mc_amethyst_shard.png" alt="Fragmento de Ametista"></div><div class="mc-slot" data-tip="Linha de Linho TFC"><img src="assets/icons/tfc_string.png" alt="Linha de Linho TFC"></div><div class="mc-slot"></div></div>
+    <div class="mc-arrow">➜</div>
+    <div class="mc-slot large" data-tip="Corda Encantada (simplybows:enchanted_bow_string)"><img src="assets/icons/tfc_string.png" alt="Corda Encantada (simplybows:enchanted_bow_string)"></div>
+  </div>
+  <div class="mc-card-footer"><code>simplybows:enchanted_bow_string</code><span>Fiação elástica de linho e ametista</span></div>
+</div>
+<div class="mc-card">
+  <div class="mc-card-header"><span class="mc-card-title">Caldeira Industrial de Bronze</span><span class="mc-card-badge">Caldeiraria a Vapor</span></div>
+  <div class="mc-card-body">
+    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Chapa de Bronze TFC"><img src="assets/icons/tfc_sheet_bronze.png" alt="Chapa de Bronze TFC"></div><div class="mc-slot" data-tip="Chapa de Bronze TFC"><img src="assets/icons/tfc_sheet_bronze.png" alt="Chapa de Bronze TFC"></div><div class="mc-slot" data-tip="Chapa de Bronze TFC"><img src="assets/icons/tfc_sheet_bronze.png" alt="Chapa de Bronze TFC"></div><div class="mc-slot" data-tip="Chapa de Bronze TFC"><img src="assets/icons/tfc_sheet_bronze.png" alt="Chapa de Bronze TFC"></div><div class="mc-slot" data-tip="Barril TFC (#tfc:barrels)"><img src="assets/icons/tfc_barrel.png" alt="Barril TFC (#tfc:barrels)"></div><div class="mc-slot" data-tip="Chapa de Bronze TFC"><img src="assets/icons/tfc_sheet_bronze.png" alt="Chapa de Bronze TFC"></div><div class="mc-slot" data-tip="Chapa de Bronze TFC"><img src="assets/icons/tfc_sheet_bronze.png" alt="Chapa de Bronze TFC"></div><div class="mc-slot" data-tip="Boca de Fogo TFC"><img src="assets/icons/mc_furnace.png" alt="Boca de Fogo TFC"></div><div class="mc-slot" data-tip="Chapa de Bronze TFC"><img src="assets/icons/tfc_sheet_bronze.png" alt="Chapa de Bronze TFC"></div></div>
+    <div class="mc-arrow">➜</div>
+    <div class="mc-slot large" data-tip="Caldeira a Vapor (immersive_aircraft:boiler)"><img src="assets/icons/tfc_sheet_bronze.png" alt="Caldeira a Vapor (immersive_aircraft:boiler)"></div>
+  </div>
+  <div class="mc-card-footer"><code>immersive_aircraft:boiler</code><span>Gera vapor para motores de aeronaves</span></div>
+</div>
+<div class="mc-card">
+  <div class="mc-card-header"><span class="mc-card-title">Caldeira de Alta Pressão de Aço</span><span class="mc-card-badge">Metalurgia do Aço</span></div>
+  <div class="mc-card-body">
+    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Chapa de Aço TFC"><img src="assets/icons/tfc_sheet_steel.png" alt="Chapa de Aço TFC"></div><div class="mc-slot" data-tip="Chapa de Aço TFC"><img src="assets/icons/tfc_sheet_steel.png" alt="Chapa de Aço TFC"></div><div class="mc-slot" data-tip="Chapa de Aço TFC"><img src="assets/icons/tfc_sheet_steel.png" alt="Chapa de Aço TFC"></div><div class="mc-slot" data-tip="Chapa de Aço TFC"><img src="assets/icons/tfc_sheet_steel.png" alt="Chapa de Aço TFC"></div><div class="mc-slot" data-tip="Caldeira de Bronze"><img src="assets/icons/tfc_sheet_bronze.png" alt="Caldeira de Bronze"></div><div class="mc-slot" data-tip="Chapa de Aço TFC"><img src="assets/icons/tfc_sheet_steel.png" alt="Chapa de Aço TFC"></div><div class="mc-slot" data-tip="Chapa de Aço TFC"><img src="assets/icons/tfc_sheet_steel.png" alt="Chapa de Aço TFC"></div><div class="mc-slot" data-tip="Tubos de Cobre Create"><img src="assets/icons/create_copper_casing.png" alt="Tubos de Cobre Create"></div><div class="mc-slot" data-tip="Chapa de Aço TFC"><img src="assets/icons/tfc_sheet_steel.png" alt="Chapa de Aço TFC"></div></div>
+    <div class="mc-arrow">➜</div>
+    <div class="mc-slot large" data-tip="Caldeira de Aço (immersive_aircraft:steel_boiler)"><img src="assets/icons/tfc_sheet_steel.png" alt="Caldeira de Aço (immersive_aircraft:steel_boiler)"></div>
+  </div>
+  <div class="mc-card-footer"><code>immersive_aircraft:steel_boiler</code><span>Pressão extrema para motores avançados</span></div>
+</div>
+<div class="mc-card">
+  <div class="mc-card-header"><span class="mc-card-title">Motor a Vapor Industrial</span><span class="mc-card-badge">Mecânica TFC / Create</span></div>
+  <div class="mc-card-body">
+    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Chapa de Ferro Forjado"><img src="assets/icons/tfc_sheet_wrought_iron.png" alt="Chapa de Ferro Forjado"></div><div class="mc-slot" data-tip="Engrenagens Create"><img src="assets/icons/create_andesite_casing.png" alt="Engrenagens Create"></div><div class="mc-slot" data-tip="Chapa de Ferro Forjado"><img src="assets/icons/tfc_sheet_wrought_iron.png" alt="Chapa de Ferro Forjado"></div><div class="mc-slot" data-tip="Chapa de Ferro Forjado"><img src="assets/icons/tfc_sheet_wrought_iron.png" alt="Chapa de Ferro Forjado"></div><div class="mc-slot" data-tip="Caldeira a Vapor"><img src="assets/icons/tfc_sheet_bronze.png" alt="Caldeira a Vapor"></div><div class="mc-slot" data-tip="Chapa de Ferro Forjado"><img src="assets/icons/tfc_sheet_wrought_iron.png" alt="Chapa de Ferro Forjado"></div><div class="mc-slot" data-tip="Chapa de Ferro Forjado"><img src="assets/icons/tfc_sheet_wrought_iron.png" alt="Chapa de Ferro Forjado"></div><div class="mc-slot" data-tip="Engrenagens Create"><img src="assets/icons/create_andesite_casing.png" alt="Engrenagens Create"></div><div class="mc-slot" data-tip="Chapa de Ferro Forjado"><img src="assets/icons/tfc_sheet_wrought_iron.png" alt="Chapa de Ferro Forjado"></div></div>
+    <div class="mc-arrow">➜</div>
+    <div class="mc-slot large" data-tip="Motor a Vapor (immersive_aircraft:engine)"><img src="assets/icons/tfc_sheet_wrought_iron.png" alt="Motor a Vapor (immersive_aircraft:engine)"></div>
+  </div>
+  <div class="mc-card-footer"><code>immersive_aircraft:engine</code><span>Propulsão de biplanos e dirigíveis</span></div>
+</div>
+<div class="mc-card">
+  <div class="mc-card-header"><span class="mc-card-title">Lança de Ferrão de Abelha</span><span class="mc-card-badge">Armaria Exótica</span></div>
+  <div class="mc-card-body">
+    <div class="mc-grid-3x3"><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Ferrão de Abelha Rainha"><img src="assets/icons/mc_arrow.png" alt="Ferrão de Abelha Rainha"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Haste de Madeira TFC"><img src="assets/icons/mc_stick.png" alt="Haste de Madeira TFC"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Haste de Madeira TFC"><img src="assets/icons/mc_stick.png" alt="Haste de Madeira TFC"></div><div class="mc-slot"></div><div class="mc-slot"></div></div>
+    <div class="mc-arrow">➜</div>
+    <div class="mc-slot large" data-tip="Lança de Ferrão (the_bumblezone:stinger_spear)"><img src="assets/icons/millager_iron_lancer_spear.png" alt="Lança de Ferrão (the_bumblezone:stinger_spear)"></div>
+  </div>
+  <div class="mc-card-footer"><code>the_bumblezone:stinger_spear</code><span>Perfuração de armadura e lentidão</span></div>
+</div>
+</div>
+
+---
+
+## 30. Receitas Desativadas / Removidas (Anti-Exploit)
 
 | Categoria | Itens Bloqueados | Motivo |
 |---|---|---|

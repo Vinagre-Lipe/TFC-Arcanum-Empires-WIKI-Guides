@@ -1,5 +1,5 @@
 # Visão Geral & Lista de Mods
-## TFC: Arcanum & Empires (v1.2.7)
+## TFC: Arcanum & Empires (v1.3.0)
 
 > **Plataforma:** Minecraft 1.21.1 — NeoForge 21.1.249+  
 > **Total de Mods Instalados:** **126 Mods** (divididos entre Conteúdo, Magia, RPG, Civilizações, Performance e Bibliotecas)  
