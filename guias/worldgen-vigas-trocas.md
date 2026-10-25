@@ -18,7 +18,9 @@ graph TD
     WORLD["Mundo Vivo v1.3.0"] --> MINES["Engenharia de Minas (Vigas de 13 Blocos & Colapso 70%)"]
     WORLD --> TRADE["Economia Aldeã TFC (Juta, Colheitas, Metais & Pérolas)"]
     WORLD --> ECO["Ecologia Aquática (+30 Espécies em Rios e Oceanos)"]
-    WORLD --> RUNES["Arcaria com Runas de Gemas TFC (Simply Bows)"]
+    WORLD --> DRAGONS["Dragões Wyrmroost em Montanhas & Costas TFC"]
+    WORLD --> FAUNA["Boost de Fauna Pacífica (+26% a +27% Acumulado)"]
+    WORLD --> STRUCT["Estruturas em Ilhas & Expansão de Vilas Millénaire"]
 ```
 
 ---
@@ -120,3 +122,53 @@ As IDs internas do *Simply Bows* foram retificadas para alinhamento com os metai
 | **Runa do Caos (`rune_etching_chaos`)** | Pérola do Ender + **Ametista Lapidada TFC** | Flechas com teletransporte e explosão cinética. |
 | **Armação Reforçada (`reinforced_bow_frame`)** | Chapas de Bronze TFC + Toras de Madeira | Tensão elástica robusta para disparo de longo alcance. |
 | **Corda Encantada (`enchanted_bow_string`)** | Linho/Seda TFC + Redstone + Ametista | Condução mística para tiros elementais. |
+
+
+---
+
+## 5. 🐉 Dragões do Wyrmroost & Predadores Alados nos Biomas TFC
+
+Para restaurar o perigo aéreo e a mística dos dragões selvagens, geradores dedicados do NeoForge foram configurados para os dragões do *Wyrmroost* nos relevos acidentados do TerraFirmaCraft:
+
+### 5.1. Dragões de Montanha, Picos Frios & Vulcões
+* **Alpine Dragon (Peso 35, Bando 1–3):** Habita os cumes nevados e picos glaciais do TFC (`#c:is_mountain`).
+* **Royal Red Dragon (Peso 22, Bando 1–2):** Predador lendário de escamas escarlates que nidifica ao redor de caldeiras de estratovulcões TFC, expelindo sopros de fogo devastadores.
+* **Overworld Drake (Peso 30, Bando 1–3):** Dragão terrestre ágil e territorial que patrulha as terras altas (*Highlands*) e platôs rochosos.
+
+### 5.2. Dragões Costeiros, Florestais & Planícies
+* **Silver Glider (Peso 36, Bando 2–4):** Dragão planar prateado que sobrevoa praias, restingas e falésias marítimas caçando peixes em voos rasantes.
+* **Roost Stalker (Peso 30, Bando 2–5):** Pequenos répteis alados carnívoros que caçam em matilhas ágeis em florestas temperadas e colinas onduladas (*Rolling Hills*).
+* **Dragon Fruit Drake (Peso 28, Bando 2–4):** Drake dócil frugívoro que habita copas densas em biomas de clima quente.
+* **Butterfly Leviathan (Peso 24, Bando 1–2):** Criatura monumental de asas colossais que flutua suavemente pelas correntes de ar sobre os continentes do TFC.
+
+---
+
+## 6. 🌿 Registro de Boost Acumulado da Fauna Pacífica (+15% Adicional)
+
+Para balancear a alta exigência nutricional do TFC com a caça e pecuária, todos os animais passivos e pássaros receberam um novo incremento de **+15%**, totalizando ganhos acumulados de mais de 26% em relação à v1.2:
+
+| Categoria de Fauna | Mod de Origem | Peso Base Inicial | Peso Ajustado v1.3.0 | Ganho Total Acumulado | Impacto na Sobrevivência |
+| :--- | :--- | :---: | :---: | :---: | :--- |
+| **Aves Silvestres TFC** (Codorna, Faisão, Pato) | *TerraFirmaCraft* | 44 – 50 | **55 – 63** | **+26%** | Abundância de ovos e penas para flechas. |
+| **Pássaros & Insetos Canoros** | *Naturalist* | 44 – 60 | **55 – 76** | **+27%** | Ambientes florestais vivos e sonoros. |
+| **Fauna de Floresta** (Cervos, Javalis, Ursos) | *Naturalist* | 18 – 55 | **23 – 70** | **+27%** | Fontes consistentes de couro e carne nobre. |
+| **Fauna de Savana & Planícies** (Zebras, Girafas) | *Naturalist* | 25 – 50 | **32 – 63** | **+26%** | Vida nas grandes estepes e cânions. |
+| **Pequenos Companheiros** (Lontras, Furões) | *Critters & Companions* | 35 – 50 | **45 – 63** | **+26%** | Domesticação e companhia de expedição. |
+| **Vida Fluvial e Lacustre** (Trutas, Carpas) | *Aquaculture 2* | 20 – 50 | **25 – 60** | **+20%** | Pesca produtiva em qualquer corpo de água doce. |
+| **Fauna Marinha de Ápice** (Tubarão-Branco, Baleia) | *Naturalist / Aquaculture* | 12 – 14 | **30 – 38** | **+150%** | Exploração oceânica recompensadora e desafiadora. |
+
+---
+
+## 7. 🏛️ Estruturas em Ilhas Oceânicas & Expansão de Vilas Millénaire
+
+### 7.1 Geração em Ilhas e Atóis
+* **Inclusão em Tags Globais:** Os biomas insulares do TFC (`guano_island`, `volcanic_island`, `volcanic_mountain_islands`, `ocean_atolls`) agora pertencem às tags `#c:is_plains` e `#c:is_mountain`.
+* **Resultado:** Ilhas oceânicas remotas deixaram de ser montes de terra vazios; agora geram postos avançados de saqueadores (*Pillager Outposts*), vilarejos de bandidos e torres de vigia do *Dungeons Arise*.
+
+### 7.2 Dispersão Territorial de Vilas do Millénaire
+* O suporte de biomas para fundação de vilas de todas as 7 culturas (*Normandos, Bizantinos, Japoneses, Maias, Inuit, Indianos e Seljúcidas*) foi estendido para `lowlands`, `hills`, `plains` e `dolines`.
+* Isso resolve o problema de vilas raras demais, permitindo encontrar civilizações em praticamente qualquer planície ou vale fértil dos continentes do TFC.
+
+### 7.3 Coexistência Harmoniosa: Água Salgada TFC & Estruturas NBT
+> [!NOTE]
+> Os oceanos do TerraFirmaCraft geram nativamente com **Água Salgada** (`tfc:salt_water`), enquanto estruturas importadas de masmorras (como a Acrópole do *Cataclysm* e navios naufragados) utilizam **Água Vanilla** (`minecraft:water`). Ambas compartilham a mesma tag fluida unificada (`#minecraft:water`), garantindo 100% de compatibilidade na navegação por barco, respiração aquática e natação de monstros marinhos sem falhas de física!

@@ -17,7 +17,7 @@ Bem-vindo à **Wiki & Guias oficiais**! Aqui você encontra tudo o que precisa p
 | 🍳 [**COZINHA & GASTRONOMIA TFC**](crafts/cozinha-culinaria.md) | **Culinária e Nutrição de 5 Grupos**: Cooking Pot, Skillet, Cutting Board, Chaleira de Cobre e Preservação com Sal! |
 | 🪙 [**ITENS EXCLUSIVOS DE COMÉRCIO**](crafts/itens-comerciais.md) | **Guia Econômico & Mercadorias de Deniers**: alimentos, armas, armaduras e contratos obtidos apenas por comércio! |
 | ⚔️ [**CHEFES ESSENCIAIS & LENDÁRIOS**](guias/chefes-essenciais-progresso.md) | **Guia Estratégico de Chefes da História**: Biomas, como achar, drops de progressão, táticas de combate e perigos sísmicos do Warden! |
-| 📋 [**PORTABILIDADE & AUDITORIA DE ITENS**](crafts/portabilidade-viabilidade.md) | **Auditoria de Portabilidade (v1.3.0)**: Auditoria de 593 receitas e 353 itens (37 Portados vs 316 Restritos por Design Canônico)! |
+| 📋 [**PORTABILIDADE & AUDITORIA DE ITENS**](crafts/portabilidade-viabilidade.md) | **Auditoria de Portabilidade (v1.3.0)**: Auditoria de 597 receitas e 353 itens (37 Portados vs 316 Restritos por Design Canônico)! |
 | ✈️ [**AVIAÇÃO, VASSOURAS & ARCARIA (v1.3.0)**](crafts/22-expansao-v130-aviacao-arcaria-vassouras.md) | **Expansão v1.3.0**: 58 novas receitas de dirigíveis, biplanos Create/TFC, vassouras mágicas Ars Nouveau e arcaria nobre! |
 | 🌍 [**MUNDO, VIGAS & TROCAS (WORLD GEN)**](guias/worldgen-vigas-trocas.md) | **Engenharia & Economia**: Vigas de suporte com vão de 13 blocos, colapso sísmico em bloco, trocas de aldeões com TFC e repovoamento aquático! |
 | 📖 [História](historia/01-a-era-primordial.md) | A lore do mundo: o Selo Primordial, a Lua de Sangue, os Pilões e o Chaos Guardian. |

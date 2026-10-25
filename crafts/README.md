@@ -35,7 +35,7 @@ Documentação analítica por script do modpack **TFC: Arcanum & Empires** (`v1.
 | [**20 — Transmutação de Restos em XP & Expedição**](20-transmutacao-xp-expedicao.md) | **Transmutação de entulho de mobtrap em Frascos de XP, Aljavas, Cintos e Amuletos** |
 | [**21 — Fogueira Vanilla & Cocção Rústica**](21-fogueira-coccao-avancos.md) | **50 receitas de carnes, pães e peixes na fogueira vanilla e gatilhos de avanço FTB** |
 | [**22 — Expansão v1.3.0: Aviação, Vassouras & Arcaria**](22-expansao-v130-aviacao-arcaria-vassouras.md) | **58 receitas: Immersive Aircraft, Magic Brooms, Simply Bows, Invasões e Pilão Permanente** |
-| [📋 **Planilha Mestra de Portabilidade & Auditoria**](portabilidade-viabilidade.md) | **Auditoria de 593 receitas / 353 itens: 37 Portados vs 316 Restritos por Design Canônico** |
+| [📋 **Planilha Mestra de Portabilidade & Auditoria**](portabilidade-viabilidade.md) | **Auditoria de 597 receitas / 353 itens: 37 Portados vs 316 Restritos por Design Canônico** |
 
 > [!NOTE]
 > Os itens customizados (`tfc_arcanum:*` e `kubejs:*`) são registrados nos scripts de inicialização do KubeJS e integrados universalmente às tags do NeoForge.
