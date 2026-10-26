@@ -22,6 +22,20 @@ export default defineConfig({
       head: [
         {
           tag: 'script',
+          content: `
+            if (window.location.hash && window.location.hash.startsWith('#/')) {
+              var p = window.location.hash.slice(2).replace(/\\.md$/, '').replace(/^\\/+/, '');
+              var base = '/TFC-Arcanum-Empires-WIKI-Guides/';
+              if (p && p !== '/') {
+                window.location.replace(base + p + '/');
+              } else {
+                window.location.replace(base);
+              }
+            }
+          `,
+        },
+        {
+          tag: 'script',
           attrs: {
             src: '/TFC-Arcanum-Empires-WIKI-Guides/assets/jei-modal.js',
             defer: true,
