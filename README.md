@@ -1,49 +1,33 @@
-# TFC: Arcanum & Empires
+# TFC: Arcanum & Empires — Protótipo da Wiki
 
-> [!WARNING]
-> **AVISO — PROJETO EM BETA FECHADO DE DESENVOLVIMENTO:**
-> O modpack **TFC: Arcanum & Empires** encontra-se atualmente em **estágio de Beta Fechado**. Esta Wiki é pública para consulta e documentação dos jogadores e testadores, mas receitas, sistemas, árvores de progressão e balanceamentos estão em desenvolvimento ativo e sujeitos a alterações contínuas.
+Protótipo visual independente feito com Astro e Starlight. Serve para revisar navegação, identidade visual e páginas de exemplo antes de qualquer migração. Não substitui nem altera o site Docsify atual.
 
-> Modpack hardcore medieval/fantasia para **Minecraft 1.21.1 (NeoForge)** — sobrevivência geológica do **TerraFirmaCraft**, magia de **Ars Nouveau** e **Iron's Spells**, civilizações vivas do **Millénaire**, defesa militar com **Millager**, dimensões ancestrais e chefes titânicos.
+## Testar localmente
 
-Bem-vindo à **Wiki & Guias oficiais**! Aqui você encontra tudo o que precisa para sobreviver, evoluir e dominar o mundo.
+Requisitos: Node.js 22 e pnpm 11. Abra um terminal na pasta `prototipo-starlight` extraída do pacote e execute:
 
-| Seção | O que tem |
-|---|---|
-| ⚙️ [**MECÂNICAS DO MODPACK**](guias/mecanicas-do-modpack.md) | **Guia Mestre de Mecânicas**: Águas Termais, Fisiologia Nutricional de 5 Grupos, Termorregulação, Desabamento Sísmico e Eventos Celestes! |
-| 🌟 [**TODOS OS CRAFTS DO MODPACK**](crafts/todos-os-crafts.md) | **Painel Visual JEI Interativo** com 135 receitas em grades 3×3 e Knapping com pop-ups dinâmicos! |
-| 🏗️ [**ESTRUTURAS MULTIBLOCOS**](crafts/estruturas-multiblocos.md) | **Guia Completo de Multiblocos**: Charcoal Pit, Bloomery, Blast Furnace, Pilões e Portais Dimensionais! |
-| 🔨 [**PROCESSOS FÍSICOS & FORJAS**](crafts/processos-fisicos.md) | **Manual de Forjamento e Física**: Pit Kiln, Escala Térmica, Bigorna TFC (-15 a +16), Knapping e Curtume em 3 fases! |
-| 🍳 [**COZINHA & GASTRONOMIA TFC**](crafts/cozinha-culinaria.md) | **Culinária e Nutrição de 5 Grupos**: Cooking Pot, Skillet, Cutting Board, Chaleira de Cobre e Preservação com Sal! |
-| 🪙 [**ITENS EXCLUSIVOS DE COMÉRCIO**](crafts/itens-comerciais.md) | **Guia Econômico & Mercadorias de Deniers**: alimentos, armas, armaduras e contratos obtidos apenas por comércio! |
-| ⚔️ [**CHEFES ESSENCIAIS & LENDÁRIOS**](guias/chefes-essenciais-progresso.md) | **Guia Estratégico de Chefes da História**: Biomas, como achar, drops de progressão, táticas de combate e perigos sísmicos do Warden! |
-| 📋 [**PORTABILIDADE & AUDITORIA DE ITENS**](crafts/portabilidade-viabilidade.md) | **Auditoria de Portabilidade (v1.3.0)**: Auditoria de 597 receitas e 353 itens (37 Portados vs 316 Restritos por Design Canônico)! |
-| ✈️ [**AVIAÇÃO, VASSOURAS & ARCARIA (v1.3.0)**](crafts/22-expansao-v130-aviacao-arcaria-vassouras.md) | **Expansão v1.3.0**: 58 novas receitas de dirigíveis, biplanos Create/TFC, vassouras mágicas Ars Nouveau e arcaria nobre! |
-| 🌍 [**MUNDO, VIGAS & TROCAS (WORLD GEN)**](guias/worldgen-vigas-trocas.md) | **Engenharia & Economia**: Vigas de suporte com vão de 13 blocos, colapso sísmico em bloco, trocas de aldeões com TFC e repovoamento aquático! |
-| 📖 [História](historia/01-a-era-primordial.md) | A lore do mundo: o Selo Primordial, a Lua de Sangue, os Pilões e o Chaos Guardian. |
-| 🌲 [Guias de Sobrevivência](guias/01-primeiros-passos.md) | Do primeiro minuto (pedra e graveto) até a metalurgia avançada, magia e os impérios. |
-| 🗺️ [Progressão dos 6 Atos](guias/progressao-6-atos.md) | Todas as missões do FTB Quests, ato por ato. |
-| 📜 [Crafts & Integrações](crafts/README.md) | Catálogo analítico de todas as integrações KubeJS, utilidades Vanilla, Millager e receitas rústicas. |
-| 📋 [Documentação & Mods](documentacao/arquitetura.md) | Visão geral da arquitetura, lista completa dos **126 mods**, requisitos de hardware e comandos úteis. |
+```sh
+pnpm install
+pnpm exec astro dev --host 127.0.0.1 --port 4321
+```
 
-## Informações rápidas
+Abra `http://localhost:4321` no navegador. Para encerrar o servidor, volte ao terminal e pressione `Ctrl+C`. Esses comandos executam o protótipo somente na sua máquina; não publicam o site nem enviam alterações ao GitHub.
 
-| Propriedade | Valor |
-|---|---|
-| **Minecraft** | 1.21.1 |
-| **Loader** | NeoForge 21.1.249+ |
-| **Versão do pack** | `v1.3.0` |
-| **Total de Mods** | **126 Mods** |
-| **Autor** | Vinagre |
+Se o comando `pnpm` não existir, instale/ative o pnpm 11.25.0 com Corepack (`corepack enable` e `corepack prepare pnpm@11.25.0 --activate`) ou com npm (`npm install --global pnpm@11.25.0`). Depois repita os comandos acima.
 
-## Comandos úteis no jogo
+## Verificação e build
 
-| Comando / Tecla | Função | Custo / Requisito |
-|---|---|---|
-| `/consagrar` ou `/proteger_vila` | Ergue um santuário com Waystone aos seus pés | 100 de Mana (ou 4 XP) |
-| `/home` / `/sethome` | Marca e teleporta para seu abrigo pessoal | Consome 50 de Mana |
-| `/tpa` / `/tpaccept` | Solicitação de teleporte para outros jogadores | Consome 50 de Mana |
-| `/back` | Retorna ao local da morte ou teleporte anterior | Consome 50 de Mana |
-| `/ftbquests open` | Abre o livro de missões e recompensas dos 6 Atos | Tecla padrão ou livro |
-| `[K]` | Abre a árvore de habilidades e talentos (Puffish Skills) | Nível de experiência |
-| `[V]` | Informações diplomáticas e comerciais da vila (Millénaire) | Dentro de território |
+```sh
+pnpm check
+pnpm build
+```
+
+As páginas demonstrativas ficam em `src/content/docs/`; a navegação lateral, em `astro.config.mjs`; e o tema, em `src/styles/global.css`.
+
+## Sobre o conteúdo
+
+O esboço contém páginas representativas de sobrevivência, mecânicas, progressão, receitas, forjas, multiblocos e história. O modpack está em beta fechado: confira receitas, requisitos e balanceamento na build correspondente antes de considerar os exemplos documentação definitiva. As fontes estão em [`SOURCES.md`](SOURCES.md).
+
+## Publicação
+
+Este é apenas um protótipo para revisão. Ainda não foi publicado no GitHub Pages e não altera o repositório oficial. A migração completa e a estratégia de publicação devem ser decididas depois da revisão visual.
