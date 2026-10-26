@@ -16,4 +16,4 @@ Ao entrar no mundo (1,5 s após o login), cada jogador recebe uma única vez o k
 | Tocha TFC | `tfc:torch` | 2 | Primeiro login |
 | Livro de Missões | `ftbquests:book` | 1 | Uma vez, inclusive jogadores antigos (`tfc_arcanum_questbook_v1`) |
 
-> Dica exibida: tecla **K** abre Skills e **V** abre Vilas. Perdeu o guia? Veja a receita em [01 · Knapping](/crafts/01-knapping/).
+> Dica exibida: tecla **K** abre Skills e **V** abre Vilas. Perdeu o guia? Veja a receita em [01 · Knapping](/TFC-Arcanum-Empires-WIKI-Guides/crafts/01-knapping/).

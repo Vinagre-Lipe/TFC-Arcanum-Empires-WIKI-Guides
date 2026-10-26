@@ -21,7 +21,7 @@ Torna as Cidades Ancestrais perigosas e recompensadoras: o Sculk pune ferramenta
 | Warden ataca ou é atacado por um jogador | 40% por golpe | Se não houver viga de suporte (`tfc:support_beams`) num raio ~5 blocos: 3 blocos de pedregulho caem sobre o jogador + Lentidão III (3 s) |
 
 > [!TIP]
-> Faça vigas de suporte com machado (veja [08 · Expansão](/crafts/08-expansao/)) e espalhe pela área de combate.
+> Faça vigas de suporte com machado (veja [08 · Expansão](/TFC-Arcanum-Empires-WIKI-Guides/crafts/08-expansao/)) e espalhe pela área de combate.
 
 ## Loot de baús (biomas `#c:is_mountain` e `minecraft:deep_dark`)
 

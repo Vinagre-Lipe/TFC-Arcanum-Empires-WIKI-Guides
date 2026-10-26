@@ -32,6 +32,15 @@ export default defineConfig({
                 window.location.replace(base);
               }
             }
+            document.addEventListener('click', function(e) {
+              var a = e.target.closest('a');
+              if (!a) return;
+              var href = a.getAttribute('href');
+              if (href && href.startsWith('/') && !href.startsWith('/TFC-Arcanum-Empires-WIKI-Guides') && !href.startsWith('//')) {
+                e.preventDefault();
+                window.location.href = '/TFC-Arcanum-Empires-WIKI-Guides' + href;
+              }
+            }, true);
           `,
         },
         {

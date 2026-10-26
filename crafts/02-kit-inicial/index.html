@@ -8,6 +8,15 @@
                 window.location.replace(base);
               }
             }
+            document.addEventListener('click', function(e) {
+              var a = e.target.closest('a');
+              if (!a) return;
+              var href = a.getAttribute('href');
+              if (href && href.startsWith('/') && !href.startsWith('/TFC-Arcanum-Empires-WIKI-Guides') && !href.startsWith('//')) {
+                e.preventDefault();
+                window.location.href = '/TFC-Arcanum-Empires-WIKI-Guides' + href;
+              }
+            }, true);
           </script><script src="/TFC-Arcanum-Empires-WIKI-Guides/assets/jei-modal.js" defer></script><script type="module">
             import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
             mermaid.initialize({ startOnLoad: false, theme: 'dark' });
@@ -149,6 +158,6 @@
 </tbody>
 </table>
 <blockquote>
-<p>Dica exibida: tecla <strong>K</strong> abre Skills e <strong>V</strong> abre Vilas. Perdeu o guia? Veja a receita em <a href="/crafts/01-knapping/">01 · Knapping</a>.</p>
+<p>Dica exibida: tecla <strong>K</strong> abre Skills e <strong>V</strong> abre Vilas. Perdeu o guia? Veja a receita em <a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/01-knapping/">01 · Knapping</a>.</p>
 </blockquote>
 </div><footer class="sl-flex astro-oyxnlawr"><div class="meta sl-flex astro-oyxnlawr"></div><div class="pagination-links print:hidden astro-clyp4uqs" dir="ltr"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/01-knapping/" rel="prev" class="astro-clyp4uqs"><svg aria-hidden="true" class="astro-clyp4uqs astro-fqxqqhdy" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.5rem;"><path d="M17 11H9.41l3.3-3.29a1.004 1.004 0 1 0-1.42-1.42l-5 5a1 1 0 0 0-.21.33 1 1 0 0 0 0 .76 1 1 0 0 0 .21.33l5 5a1.002 1.002 0 0 0 1.639-.325 1 1 0 0 0-.219-1.095L9.41 13H17a1 1 0 0 0 0-2Z"/></svg><span class="astro-clyp4uqs">Anterior<br class="astro-clyp4uqs"><span class="link-title astro-clyp4uqs">01 — Knapping, Cerâmica &amp; Millénaire</span></span></a><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/05-vulcoes/" rel="next" class="astro-clyp4uqs"><svg aria-hidden="true" class="astro-clyp4uqs astro-fqxqqhdy" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.5rem;"><path d="M17.92 11.62a1.001 1.001 0 0 0-.21-.33l-5-5a1.003 1.003 0 1 0-1.42 1.42l3.3 3.29H7a1 1 0 0 0 0 2h7.59l-3.3 3.29a1.002 1.002 0 0 0 .325 1.639 1 1 0 0 0 1.095-.219l5-5a1 1 0 0 0 .21-.33 1 1 0 0 0 0-.76Z"/></svg><span class="astro-clyp4uqs">Próximo<br class="astro-clyp4uqs"><span class="link-title astro-clyp4uqs">05 — Vulcões Vivos</span></span></a></div></footer></div></div></main></div></div></div></div></body></html>

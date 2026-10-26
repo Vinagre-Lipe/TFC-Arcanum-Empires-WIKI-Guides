@@ -8,6 +8,15 @@
                 window.location.replace(base);
               }
             }
+            document.addEventListener('click', function(e) {
+              var a = e.target.closest('a');
+              if (!a) return;
+              var href = a.getAttribute('href');
+              if (href && href.startsWith('/') && !href.startsWith('/TFC-Arcanum-Empires-WIKI-Guides') && !href.startsWith('//')) {
+                e.preventDefault();
+                window.location.href = '/TFC-Arcanum-Empires-WIKI-Guides' + href;
+              }
+            }, true);
           </script><script src="/TFC-Arcanum-Empires-WIKI-Guides/assets/jei-modal.js" defer></script><script type="module">
             import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
             mermaid.initialize({ startOnLoad: false, theme: 'dark' });
@@ -105,12 +114,12 @@
 	</script></sl-sidebar-state-persist><div class="md:sl-hidden"><div class="mobile-preferences sl-flex astro-ltj6auun"><div class="social-icons astro-ltj6auun"><a href="https://github.com/Vinagre-Lipe/TFC-Arcanum-Empires-WIKI-Guides" rel="me" class="sl-flex astro-6dnnmvp7"><span class="sr-only astro-6dnnmvp7">Repositório GitHub</span><svg aria-hidden="true" class="astro-6dnnmvp7 astro-fqxqqhdy" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M12 .3a12 12 0 0 0-3.8 23.38c.6.12.83-.26.83-.57L9 21.07c-3.34.72-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.08-.74.09-.73.09-.73 1.2.09 1.83 1.24 1.83 1.24 1.08 1.83 2.81 1.3 3.5 1 .1-.78.42-1.31.76-1.61-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.14-.3-.54-1.52.1-3.18 0 0 1-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.28-1.55 3.29-1.23 3.29-1.23.64 1.66.24 2.88.12 3.18a4.65 4.65 0 0 1 1.23 3.22c0 4.61-2.8 5.63-5.48 5.92.42.36.81 1.1.81 2.22l-.01 3.29c0 .31.2.69.82.57A12 12 0 0 0 12 .3Z"/></svg></a></div><starlight-theme-select><label style="--sl-select-width: 6.25em" class="astro-pggh4mc4"><span class="sr-only astro-pggh4mc4">Selecionar tema</span><svg aria-hidden="true" class="icon label-icon astro-pggh4mc4 astro-fqxqqhdy" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M21 14h-1V7a3 3 0 0 0-3-3H7a3 3 0 0 0-3 3v7H3a1 1 0 0 0-1 1v2a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-2a1 1 0 0 0-1-1ZM6 7a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v7H6V7Zm14 10a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-1h16v1Z"/></svg><select autocomplete="off" class="astro-pggh4mc4"><option value="dark" class="astro-pggh4mc4">Escuro</option><option value="light" class="astro-pggh4mc4">Claro</option><option value="auto" selected class="astro-pggh4mc4">Auto</option></select><svg aria-hidden="true" class="icon caret astro-pggh4mc4 astro-fqxqqhdy" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M17 9.17a1 1 0 0 0-1.41 0L12 12.71 8.46 9.17a1 1 0 1 0-1.41 1.42l4.24 4.24a1.002 1.002 0 0 0 1.42 0L17 10.59a1.002 1.002 0 0 0 0-1.42Z"/></svg></label></starlight-theme-select><script>
 	StarlightThemeProvider.updatePickers();
 </script></div></div></div></sl-sidebar-pane></nav><div class="main-frame astro-47qwzgdq"><script type="module">var e=document.getElementById(`starlight__sidebar`),t=e?.querySelector(`sl-sidebar-state-persist`),n=`sl-sidebar-state`,r=()=>{let r=[],i=t?.dataset.hash||``;try{let e=sessionStorage.getItem(n),t=JSON.parse(e||`{}`);Array.isArray(t.open)&&t.hash===i&&(r=t.open)}catch{}return{hash:i,open:r,scroll:e?.scrollTop||0}},i=e=>{try{sessionStorage.setItem(n,JSON.stringify(e))}catch{}},a=()=>i(r()),o=(e,t)=>{let n=r();n.open[t]=e,i(n)};t?.addEventListener(`click`,e=>{if(!(e.target instanceof Element))return;let t=e.target.closest(`summary`)?.closest(`details`);if(!t)return;let n=t.querySelector(`sl-sidebar-restore`),r=parseInt(n?.dataset.index||``);isNaN(r)||o(!t.open,r)}),addEventListener(`visibilitychange`,()=>{document.visibilityState===`hidden`&&a()});</script><div class="lg:sl-flex astro-pinujozt"><aside class="right-sidebar-container print:hidden astro-pinujozt"><div class="right-sidebar astro-pinujozt"><div class="lg:sl-hidden astro-d4r3nttl"><mobile-starlight-toc data-min-h="2" data-max-h="3" class="astro-sy3i5rvm"><nav aria-labelledby="starlight__on-this-page--mobile" class="astro-sy3i5rvm"><details id="starlight__mobile-toc" class="astro-sy3i5rvm"><summary id="starlight__on-this-page--mobile" class="sl-flex astro-sy3i5rvm"><span class="toggle sl-flex astro-sy3i5rvm">Nesta página<svg aria-hidden="true" class="caret astro-sy3i5rvm astro-fqxqqhdy" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1rem;"><path d="m14.83 11.29-4.24-4.24a1 1 0 1 0-1.42 1.41L12.71 12l-3.54 3.54a1 1 0 0 0 0 1.41 1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.24-4.24a1.002 1.002 0 0 0 0-1.42Z"/></svg></span><span class="display-current astro-sy3i5rvm"></span></summary><div class="dropdown astro-sy3i5rvm"><ul class="isMobile astro-r7oszrrb" style="--depth: 0;"><li style="--depth: 0;" class="astro-r7oszrrb"><a href="#_top" style="--depth: 0;" class="astro-r7oszrrb"><span style="--depth: 0;" class="astro-r7oszrrb">Visão geral</span></a></li></ul></div></details></nav></mobile-starlight-toc><script type="module" src="/TFC-Arcanum-Empires-WIKI-Guides/_astro/MobileTableOfContents.astro_astro_type_script_index_0_lang.C3fM4Kra.js"></script></div><div class="right-sidebar-panel sl-hidden lg:sl-block astro-d4r3nttl"><div class="sl-container astro-d4r3nttl"><starlight-toc data-min-h="2" data-max-h="3"><nav aria-labelledby="starlight__on-this-page"><h2 id="starlight__on-this-page">Nesta página</h2><ul class="astro-r7oszrrb" style="--depth: 0;"><li style="--depth: 0;" class="astro-r7oszrrb"><a href="#_top" style="--depth: 0;" class="astro-r7oszrrb"><span style="--depth: 0;" class="astro-r7oszrrb">Visão geral</span></a></li></ul></nav></starlight-toc><script type="module" src="/TFC-Arcanum-Empires-WIKI-Guides/_astro/TableOfContents.astro_astro_type_script_index_0_lang.BpJaGz7G.js"></script></div></div></div></aside><div class="main-pane astro-pinujozt"><main data-pagefind-body class="astro-o3lnpecw" lang="pt-BR" dir="ltr"><div class="content-panel astro-3w3bx7vf"><div class="sl-container astro-3w3bx7vf"><h1 id="_top" class="astro-robhj4nk">📜 Receitas e Integrações (KubeJS)</h1></div></div><div class="content-panel astro-3w3bx7vf"><div class="sl-container astro-3w3bx7vf"><div class="sl-markdown-content"><blockquote>
-<p>🌟 <strong><a href="/crafts/todos-os-crafts/">Clique aqui para abrir TODOS OS CRAFTS DO MODPACK (Painel Visual JEI Interativo)</a></strong><br>
-🏗️ <strong><a href="/crafts/estruturas-multiblocos/">Clique aqui para abrir ESTRUTURAS MULTIBLOCOS</a></strong><br>
-🔨 <strong><a href="/crafts/processos-fisicos/">Clique aqui para abrir PROCESSOS FÍSICOS &amp; FORJAS</a></strong><br>
-🍳 <strong><a href="/crafts/cozinha-culinaria/">Clique aqui para abrir COZINHA &amp; GASTRONOMIA TFC</a></strong><br>
-🪙 <strong><a href="/crafts/itens-comerciais/">Clique aqui para abrir ITENS OBTIDOS APENAS POR COMÉRCIO (Millénaire &amp; Deniers)</a></strong><br>
-✈️ <strong><a href="/crafts/22-expansao-v130-aviacao-arcaria-vassouras/">Clique aqui para abrir EXPANSÃO v1.3.0: AVIAÇÃO, VASSOURAS &amp; ARCARIA</a></strong></p>
+<p>🌟 <strong><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/todos-os-crafts/">Clique aqui para abrir TODOS OS CRAFTS DO MODPACK (Painel Visual JEI Interativo)</a></strong><br>
+🏗️ <strong><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/estruturas-multiblocos/">Clique aqui para abrir ESTRUTURAS MULTIBLOCOS</a></strong><br>
+🔨 <strong><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/processos-fisicos/">Clique aqui para abrir PROCESSOS FÍSICOS &amp; FORJAS</a></strong><br>
+🍳 <strong><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/cozinha-culinaria/">Clique aqui para abrir COZINHA &amp; GASTRONOMIA TFC</a></strong><br>
+🪙 <strong><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/itens-comerciais/">Clique aqui para abrir ITENS OBTIDOS APENAS POR COMÉRCIO (Millénaire &amp; Deniers)</a></strong><br>
+✈️ <strong><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/22-expansao-v130-aviacao-arcaria-vassouras/">Clique aqui para abrir EXPANSÃO v1.3.0: AVIAÇÃO, VASSOURAS &amp; ARCARIA</a></strong></p>
 </blockquote>
 <p>Documentação analítica por script do modpack <strong>TFC: Arcanum &amp; Empires</strong> (<code dir="auto">v1.3.0</code>).</p>
 <table>
@@ -122,103 +131,103 @@
 </thead>
 <tbody>
 <tr>
-<td><a href="/crafts/todos-os-crafts/"><strong>Painel Visual JEI (Geral)</strong></a></td>
+<td><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/todos-os-crafts/"><strong>Painel Visual JEI (Geral)</strong></a></td>
 <td><strong>Catálogo visual completo com todas as receitas, grades 3×3, Knapping 5×5 e pop-up interativo JEI</strong></td>
 </tr>
 <tr>
-<td><a href="/crafts/estruturas-multiblocos/"><strong>Estruturas Multiblocos</strong></a></td>
+<td><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/estruturas-multiblocos/"><strong>Estruturas Multiblocos</strong></a></td>
 <td><strong>Charcoal Pit, Bloomery de Ferro Esponja, Blast Furnace de Aço, Pilões e Portais Dimensionais</strong></td>
 </tr>
 <tr>
-<td><a href="/crafts/processos-fisicos/"><strong>Processos Físicos &amp; Forjas</strong></a></td>
+<td><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/processos-fisicos/"><strong>Processos Físicos &amp; Forjas</strong></a></td>
 <td><strong>Pit Kiln, Escala Térmica de Cores, Bigorna TFC (8 golpes de -15 a +16), Knapping 5×5 e Curtume</strong></td>
 </tr>
 <tr>
-<td><a href="/crafts/cozinha-culinaria/"><strong>Cozinha &amp; Gastronomia TFC</strong></a></td>
+<td><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/cozinha-culinaria/"><strong>Cozinha &amp; Gastronomia TFC</strong></a></td>
 <td><strong>Nutrição de 5 Grupos, Cooking Pot, Skillet, Cutting Board, Chás Medicinais e Conservação com Sal</strong></td>
 </tr>
 <tr>
-<td><a href="/crafts/itens-comerciais/"><strong>Itens Exclusivos de Comércio</strong></a></td>
+<td><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/itens-comerciais/"><strong>Itens Exclusivos de Comércio</strong></a></td>
 <td><strong>Alimentos, armas, armaduras, sedas, tapeçarias e contratos mercenários obtidos apenas por Deniers</strong></td>
 </tr>
 <tr>
-<td><a href="/crafts/01-knapping/">01 — Knapping e Cerâmica Arcana</a></td>
+<td><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/01-knapping/">01 — Knapping e Cerâmica Arcana</a></td>
 <td>Vasos arcanos, queima no Pit Kiln, primeiro grimório, pilão protetor, ponte TFC ➔ Millénaire</td>
 </tr>
 <tr>
-<td><a href="/crafts/02-kit-inicial/">02 — Kit Inicial</a></td>
+<td><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/02-kit-inicial/">02 — Kit Inicial</a></td>
 <td>Itens entregues no primeiro login (guias, pedras, gravetos, tochas, questbook)</td>
 </tr>
 <tr>
-<td><a href="/crafts/04-millenaire/">04 — Consagração de Vilas</a></td>
+<td><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/04-millenaire/">04 — Consagração de Vilas</a></td>
 <td>Comandos <code dir="auto">/consagrar</code> e <code dir="auto">/proteger_vila</code> para Waystones seguras em civilizações</td>
 </tr>
 <tr>
-<td><a href="/crafts/05-vulcoes/">05 — Vulcões Vivos</a></td>
+<td><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/05-vulcoes/">05 — Vulcões Vivos</a></td>
 <td>Erupções e eventos geológicos ao minerar rochas vulcânicas e drops ígneos</td>
 </tr>
 <tr>
-<td><a href="/crafts/06-spawns-noturnos/">06 — Spawns Noturnos &amp; Safezones</a></td>
+<td><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/06-spawns-noturnos/">06 — Spawns Noturnos &amp; Safezones</a></td>
 <td>Tensão noturna, safezones de 40 blocos de Millénaire e Millager, drops de Ender Pearl</td>
 </tr>
 <tr>
-<td><a href="/crafts/07-tfc-vanilla/">07 — TFC ➔ Vanilla</a></td>
+<td><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/07-tfc-vanilla/">07 — TFC ➔ Vanilla</a></td>
 <td>Bloqueio de fornalhas e ferramentas vanilla, conversões de itens de masmorra</td>
 </tr>
 <tr>
-<td><a href="/crafts/08-expansao/">08 — Expansão &amp; Alquimia</a></td>
+<td><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/08-expansao/">08 — Expansão &amp; Alquimia</a></td>
 <td>Tom’s Storage, mochilas, farms, receitas rústicas e transmutação alquímica de Pérolas e Pó de Blaze</td>
 </tr>
 <tr>
-<td><a href="/crafts/09-grande-integracao/">09 — Grande Integração</a></td>
+<td><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/09-grande-integracao/">09 — Grande Integração</a></td>
 <td>Armaduras de dragão (Wyrmroost), sigilos (Apotheosis), tags de combate e eventos de Lua de Sangue</td>
 </tr>
 <tr>
-<td><a href="/crafts/10-fauna/">10 — Fauna e Culinária</a></td>
+<td><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/10-fauna/">10 — Fauna e Culinária</a></td>
 <td>Farmer’s Delight, Aquaculture, preservação com sal e infusões de ervas</td>
 </tr>
 <tr>
-<td><a href="/crafts/11-chaos-guardian/">11 — Chaos Guardian</a></td>
+<td><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/11-chaos-guardian/">11 — Chaos Guardian</a></td>
 <td>Poda de máquinas sci-fi do Draconic Evolution e jornada contra o Dragão do Caos</td>
 </tr>
 <tr>
-<td><a href="/crafts/12-sculk-warden/">12 — Sculk e Warden</a></td>
+<td><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/12-sculk-warden/">12 — Sculk e Warden</a></td>
 <td>Físicas acústicas de desabamento do Warden e mineração de sculk ancestral</td>
 </tr>
 <tr>
-<td><a href="/crafts/13-teleporte-mana/">13 — Teleporte por Mana</a></td>
+<td><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/13-teleporte-mana/">13 — Teleporte por Mana</a></td>
 <td>Sistema canônico de teleporte (<code dir="auto">/home</code>, <code dir="auto">/tpa</code>, <code dir="auto">/back</code>) consumindo reservas de Mana</td>
 </tr>
 <tr>
-<td><a href="/crafts/14-utilidades-vanilla/">14 — Utilidades Vanilla &amp; Redstone</a></td>
+<td><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/14-utilidades-vanilla/">14 — Utilidades Vanilla &amp; Redstone</a></td>
 <td>5 rotas de papel, livros, estantes, vidros, baldes, caldeirões, bigorna vanilla, pistões e trilhos</td>
 </tr>
 <tr>
-<td><a href="/crafts/15-millager-exercitos/">15 — Millager &amp; Exércitos Mercenários</a></td>
+<td><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/15-millager-exercitos/">15 — Millager &amp; Exércitos Mercenários</a></td>
 <td>Defensores de vilas, ordens militares, mesa tática e recrutamento com Deniers do Millénaire</td>
 </tr>
 <tr>
-<td><a href="/crafts/16-cliente-tooltips/">16 — Pente Fino de Cadeias &amp; Tooltips</a></td>
+<td><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/16-cliente-tooltips/">16 — Pente Fino de Cadeias &amp; Tooltips</a></td>
 <td>Validação completa de sobrevivência 100% autônoma, químicas do Nether e filtros JEI</td>
 </tr>
 <tr>
-<td><a href="/crafts/19-alquimia-proibida/"><strong>19 — Alquimia Proibida &amp; Metais do Eclipse</strong></a></td>
+<td><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/19-alquimia-proibida/"><strong>19 — Alquimia Proibida &amp; Metais do Eclipse</strong></a></td>
 <td><strong>Just Dire Things &amp; Iron’s Jewelry: Metais do Eclipse, Solos Férteis e Lapidação de Joias TFC</strong></td>
 </tr>
 <tr>
-<td><a href="/crafts/20-transmutacao-xp-expedicao/"><strong>20 — Transmutação de Restos em XP &amp; Expedição</strong></a></td>
+<td><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/20-transmutacao-xp-expedicao/"><strong>20 — Transmutação de Restos em XP &amp; Expedição</strong></a></td>
 <td><strong>Transmutação de entulho de mobtrap em Frascos de XP, Aljavas, Cintos e Amuletos</strong></td>
 </tr>
 <tr>
-<td><a href="/crafts/21-fogueira-coccao-avancos/"><strong>21 — Fogueira Vanilla &amp; Cocção Rústica</strong></a></td>
+<td><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/21-fogueira-coccao-avancos/"><strong>21 — Fogueira Vanilla &amp; Cocção Rústica</strong></a></td>
 <td><strong>50 receitas de carnes, pães e peixes na fogueira vanilla e gatilhos de avanço FTB</strong></td>
 </tr>
 <tr>
-<td><a href="/crafts/22-expansao-v130-aviacao-arcaria-vassouras/"><strong>22 — Expansão v1.3.0: Aviação, Vassouras &amp; Arcaria</strong></a></td>
+<td><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/22-expansao-v130-aviacao-arcaria-vassouras/"><strong>22 — Expansão v1.3.0: Aviação, Vassouras &amp; Arcaria</strong></a></td>
 <td><strong>58 receitas: Immersive Aircraft, Magic Brooms, Simply Bows, Invasões e Pilão Permanente</strong></td>
 </tr>
 <tr>
-<td><a href="/crafts/portabilidade-viabilidade/">📋 <strong>Planilha Mestra de Portabilidade &amp; Auditoria</strong></a></td>
+<td><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/portabilidade-viabilidade/">📋 <strong>Planilha Mestra de Portabilidade &amp; Auditoria</strong></a></td>
 <td><strong>Auditoria de 597 receitas / 353 itens: 37 Portados vs 316 Restritos por Design Canônico</strong></td>
 </tr>
 </tbody>
