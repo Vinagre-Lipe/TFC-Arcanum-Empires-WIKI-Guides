@@ -1,33 +1,50 @@
-# TFC: Arcanum & Empires — Protótipo da Wiki
+# TFC: Arcanum & Empires — Wiki Oficial
 
-Protótipo visual independente feito com Astro e Starlight. Serve para revisar navegação, identidade visual e páginas de exemplo antes de qualquer migração. Não substitui nem altera o site Docsify atual.
+> [!WARNING]
+> **ESTÁGIO BETA FECHADO DE DESENVOLVIMENTO (v1.3.0):**
+> O modpack **TFC: Arcanum & Empires** (Minecraft 1.21.1 NeoForge) encontra-se em desenvolvimento ativo. Receitas, balanceamentos e progressões sofrem melhorias contínuas.
 
-## Testar localmente
+🌐 **Acesse a Wiki online interativa:**  
+👉 **[https://vinagre-lipe.github.io/TFC-Arcanum-Empires-WIKI-Guides/](https://vinagre-lipe.github.io/TFC-Arcanum-Empires-WIKI-Guides/)**
 
-Requisitos: Node.js 22 e pnpm 11. Abra um terminal na pasta `prototipo-starlight` extraída do pacote e execute:
+---
 
-```sh
+## 🌟 Recursos & Destaques da Wiki
+
+- **Painel Visual JEI Interativo**: 135 receitas visuais completas com grades 3×3, Knapping 5×5 e pop-ups dinâmicos.
+- **Fisiologia & Sobrevivência Realista**: Guias detalhados de águas termais geotérmicas, nutrição celular de 5 grupos, termorregulação e desabamentos sísmicos.
+- **Geração de Mundo & Engenharia**: Cálculo de alcance de vigas de madeira (13 blocos), mecânica de colapso e tabelas de trocas TFC com aldeões.
+- **Chefes & Expedições**: Estratégias, biomas e preparativos para enfrentar os chefes da história (incluindo o Warden e o Chaos Guardian).
+- **Crônicas & Lore**: A história dos Seis Atos, a Fratura do Selo Primordial e os Pilões de Proteção.
+- **Busca Instantânea**: Mecanismo de pesquisa Pagefind offline integrado no cabeçalho (`Ctrl + K`).
+
+---
+
+## 🎮 Comandos Úteis no Jogo
+
+| Comando / Tecla | Função | Requisito / Custo |
+|---|---|---|
+| `/consagrar` ou `/proteger_vila` | Ergue um santuário com Waystone aos seus pés | 100 de Mana (ou 4 XP) |
+| `/home` / `/sethome` | Marca e teleporta para seu abrigo pessoal | 50 de Mana |
+| `/tpa` / `/tpaccept` | Solicitação mútua de teleporte entre jogadores | 50 de Mana |
+| `/back` | Retorna ao local da morte ou teleporte anterior | 50 de Mana |
+| `/ftbquests open` | Abre o livro de missões dos 6 Atos | Tecla padrão ou livro |
+| `[K]` | Árvore de habilidades (Puffish Skills) | Nível de experiência |
+| `[V]` | Informações diplomáticas e comércio (Millénaire) | Dentro de território |
+
+---
+
+## 🛠️ Desenvolvimento Local
+
+Caso deseje rodar a Wiki localmente para editar ou contribuir:
+
+```bash
+# 1. Instalar dependências
 pnpm install
-pnpm exec astro dev --host 127.0.0.1 --port 4321
-```
 
-Abra `http://localhost:4321` no navegador. Para encerrar o servidor, volte ao terminal e pressione `Ctrl+C`. Esses comandos executam o protótipo somente na sua máquina; não publicam o site nem enviam alterações ao GitHub.
+# 2. Iniciar servidor de desenvolvimento
+pnpm dev
 
-Se o comando `pnpm` não existir, instale/ative o pnpm 11.25.0 com Corepack (`corepack enable` e `corepack prepare pnpm@11.25.0 --activate`) ou com npm (`npm install --global pnpm@11.25.0`). Depois repita os comandos acima.
-
-## Verificação e build
-
-```sh
-pnpm check
+# 3. Compilar versão estática de produção
 pnpm build
 ```
-
-As páginas demonstrativas ficam em `src/content/docs/`; a navegação lateral, em `astro.config.mjs`; e o tema, em `src/styles/global.css`.
-
-## Sobre o conteúdo
-
-O esboço contém páginas representativas de sobrevivência, mecânicas, progressão, receitas, forjas, multiblocos e história. O modpack está em beta fechado: confira receitas, requisitos e balanceamento na build correspondente antes de considerar os exemplos documentação definitiva. As fontes estão em [`SOURCES.md`](SOURCES.md).
-
-## Publicação
-
-Este é apenas um protótipo para revisão. Ainda não foi publicado no GitHub Pages e não altera o repositório oficial. A migração completa e a estratégia de publicação devem ser decididas depois da revisão visual.
