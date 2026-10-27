@@ -1,0 +1,548 @@
+<!DOCTYPE html><html lang="pt-BR" dir="ltr" data-theme="dark" data-has-toc data-has-sidebar class="astro-o3lnpecw"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title>Visão Geral & Lista de Mods | TFC: Arcanum & Empires</title><link rel="canonical" href="https://vinagre-lipe.github.io/TFC-Arcanum-Empires-WIKI-Guides/documentacao/arquitetura/"/><link rel="sitemap" href="/TFC-Arcanum-Empires-WIKI-Guides/sitemap-index.xml"/><script>
+            if (window.location.hash && window.location.hash.startsWith('#/')) {
+              var p = window.location.hash.slice(2).replace(/\.md$/, '').replace(/^\/+/, '');
+              var base = '/TFC-Arcanum-Empires-WIKI-Guides/';
+              if (p && p !== '/') {
+                window.location.replace(base + p + '/');
+              } else {
+                window.location.replace(base);
+              }
+            }
+            document.addEventListener('click', function(e) {
+              var a = e.target.closest('a');
+              if (!a) return;
+              var href = a.getAttribute('href');
+              if (href && href.startsWith('/') && !href.startsWith('/TFC-Arcanum-Empires-WIKI-Guides') && !href.startsWith('//')) {
+                e.preventDefault();
+                window.location.href = '/TFC-Arcanum-Empires-WIKI-Guides' + href;
+              }
+            }, true);
+          </script><script src="/TFC-Arcanum-Empires-WIKI-Guides/assets/jei-modal.js" defer></script><script type="module">
+            import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+            mermaid.initialize({ startOnLoad: false, theme: 'dark' });
+            async function renderMermaid() {
+              const els = document.querySelectorAll('pre[data-language="mermaid"], pre.mermaid, code.language-mermaid');
+              for (const el of els) {
+                const pre = el.tagName === 'CODE' ? el.parentElement : el;
+                if (pre.dataset.mermaidProcessed) continue;
+                pre.dataset.mermaidProcessed = 'true';
+                const code = el.textContent;
+                const container = document.createElement('div');
+                container.className = 'mermaid-container';
+                const id = 'mermaid-' + Math.random().toString(36).substring(2, 9);
+                try {
+                  const { svg } = await mermaid.render(id, code);
+                  container.innerHTML = svg;
+                  pre.replaceWith(container);
+                } catch (err) {
+                  console.error('Mermaid render error:', err);
+                }
+              }
+            }
+            document.addEventListener('DOMContentLoaded', renderMermaid);
+            document.addEventListener('astro:page-load', renderMermaid);
+          </script><link rel="shortcut icon" href="/TFC-Arcanum-Empires-WIKI-Guides/favicon.svg" type="image/svg+xml"/><meta name="generator" content="Astro v7.4.2"/><meta name="generator" content="Starlight v0.42.7"/><meta property="og:title" content="Visão Geral &amp; Lista de Mods"/><meta property="og:type" content="article"/><meta property="og:url" content="https://vinagre-lipe.github.io/TFC-Arcanum-Empires-WIKI-Guides/documentacao/arquitetura/"/><meta property="og:locale" content="pt-BR"/><meta property="og:description" content="Plataforma: Minecraft 1.21.1 — NeoForge 21.1.249+"/><meta property="og:site_name" content="TFC: Arcanum &amp; Empires"/><meta name="twitter:card" content="summary_large_image"/><meta name="description" content="Plataforma: Minecraft 1.21.1 — NeoForge 21.1.249+"/><script>
+	window.StarlightThemeProvider = (() => {
+		const storedTheme =
+			typeof localStorage !== 'undefined' && localStorage.getItem('starlight-theme');
+		const theme =
+			storedTheme ||
+			(window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+		document.documentElement.dataset.theme = theme === 'light' ? 'light' : 'dark';
+		return {
+			updatePickers(theme = storedTheme || 'auto') {
+				document.querySelectorAll('starlight-theme-select').forEach((picker) => {
+					const select = picker.querySelector('select');
+					if (select) select.value = theme;
+					/** @type {HTMLTemplateElement | null} */
+					const tmpl = document.querySelector(`#theme-icons`);
+					const newIcon = tmpl && tmpl.content.querySelector('.' + theme);
+					if (newIcon) {
+						const oldIcon = picker.querySelector('svg.label-icon');
+						if (oldIcon) {
+							oldIcon.replaceChildren(...newIcon.cloneNode(true).childNodes);
+						}
+					}
+				});
+			},
+		};
+	})();
+</script><template id="theme-icons"><svg aria-hidden="true" class="light astro-fqxqqhdy" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M5 12a1 1 0 0 0-1-1H3a1 1 0 0 0 0 2h1a1 1 0 0 0 1-1Zm.64 5-.71.71a1 1 0 0 0 0 1.41 1 1 0 0 0 1.41 0l.71-.71A1 1 0 0 0 5.64 17ZM12 5a1 1 0 0 0 1-1V3a1 1 0 0 0-2 0v1a1 1 0 0 0 1 1Zm5.66 2.34a1 1 0 0 0 .7-.29l.71-.71a1 1 0 1 0-1.41-1.41l-.66.71a1 1 0 0 0 0 1.41 1 1 0 0 0 .66.29Zm-12-.29a1 1 0 0 0 1.41 0 1 1 0 0 0 0-1.41l-.71-.71a1.004 1.004 0 1 0-1.43 1.41l.73.71ZM21 11h-1a1 1 0 0 0 0 2h1a1 1 0 0 0 0-2Zm-2.64 6A1 1 0 0 0 17 18.36l.71.71a1 1 0 0 0 1.41 0 1 1 0 0 0 0-1.41l-.76-.66ZM12 6.5a5.5 5.5 0 1 0 5.5 5.5A5.51 5.51 0 0 0 12 6.5Zm0 9a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7Zm0 3.5a1 1 0 0 0-1 1v1a1 1 0 0 0 2 0v-1a1 1 0 0 0-1-1Z"/></svg><svg aria-hidden="true" class="dark astro-fqxqqhdy" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M21.64 13a1 1 0 0 0-1.05-.14 8.049 8.049 0 0 1-3.37.73 8.15 8.15 0 0 1-8.14-8.1 8.59 8.59 0 0 1 .25-2A1 1 0 0 0 8 2.36a10.14 10.14 0 1 0 14 11.69 1 1 0 0 0-.36-1.05Zm-9.5 6.69A8.14 8.14 0 0 1 7.08 5.22v.27a10.15 10.15 0 0 0 10.14 10.14 9.784 9.784 0 0 0 2.1-.22 8.11 8.11 0 0 1-7.18 4.32v-.04Z"/></svg><svg aria-hidden="true" class="auto astro-fqxqqhdy" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M21 14h-1V7a3 3 0 0 0-3-3H7a3 3 0 0 0-3 3v7H3a1 1 0 0 0-1 1v2a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-2a1 1 0 0 0-1-1ZM6 7a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v7H6V7Zm14 10a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-1h16v1Z"/></svg></template><link rel="stylesheet" href="/TFC-Arcanum-Empires-WIKI-Guides/_astro/print.ehPL0gv-.css" media="print"><link rel="stylesheet" href="/TFC-Arcanum-Empires-WIKI-Guides/_astro/common.BS8n4PiD.css"><script type="module" src="/TFC-Arcanum-Empires-WIKI-Guides/_astro/page.cNngjUgL.js"></script></head><body class="astro-o3lnpecw"><a class="sl-skip-link astro-hhc2svly" href="#_top">Pular para o conteúdo</a><div class="page sl-flex astro-47qwzgdq"><header class="header astro-47qwzgdq"><div class="header astro-eql7qchf"><div class="title-wrapper sl-flex astro-eql7qchf"><a href="/TFC-Arcanum-Empires-WIKI-Guides/" class="site-title sl-flex astro-a6ytwuqe"><img class="astro-a6ytwuqe" alt="Selo de TFC: Arcanum &amp; Empires" src="/TFC-Arcanum-Empires-WIKI-Guides/_astro/arcanum-mark.BihVlKLM.png" width="256" height="256"><span class="astro-a6ytwuqe" translate="no">TFC: Arcanum &amp; Empires</span></a></div><div class="sl-flex print:hidden astro-eql7qchf"><site-search class="astro-eql7qchf astro-jd5q2voe" data-translations="{&quot;placeholder&quot;:&quot;Pesquisar&quot;}"><button data-open-modal disabled aria-label="Pesquisar" aria-keyshortcuts="Control+K" class="astro-jd5q2voe"><svg aria-hidden="true" class="astro-jd5q2voe astro-fqxqqhdy" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M21.71 20.29 18 16.61A9 9 0 1 0 16.61 18l3.68 3.68a.999.999 0 0 0 1.42 0 1 1 0 0 0 0-1.39ZM11 18a7 7 0 1 1 0-14 7 7 0 0 1 0 14Z"/></svg><span class="sl-hidden md:sl-block astro-jd5q2voe" aria-hidden="true">Pesquisar</span><kbd class="sl-hidden md:sl-flex astro-jd5q2voe" style="display: none;"><kbd class="astro-jd5q2voe">Ctrl</kbd><kbd class="astro-jd5q2voe">K</kbd></kbd></button><dialog style="padding:0" aria-label="Pesquisar" class="astro-jd5q2voe"><div class="dialog-frame sl-flex astro-jd5q2voe"><button data-close-modal class="sl-flex md:sl-hidden astro-jd5q2voe">Cancelar</button><div class="search-container astro-jd5q2voe"><div id="starlight__search" class="astro-jd5q2voe"></div></div></div></dialog></site-search><script>
+	(() => {
+		const openBtn = document.querySelector('button[data-open-modal]');
+		const shortcut = openBtn?.querySelector('kbd');
+		if (!openBtn || !(shortcut instanceof HTMLElement)) return;
+		const platformKey = shortcut.querySelector('kbd');
+		if (platformKey && /(Mac|iPhone|iPod|iPad)/i.test(navigator.platform)) {
+			platformKey.textContent = '⌘';
+			openBtn.setAttribute('aria-keyshortcuts', 'Meta+K');
+		}
+		shortcut.style.display = '';
+	})();
+</script><script type="module" src="/TFC-Arcanum-Empires-WIKI-Guides/_astro/Search.astro_astro_type_script_index_0_lang.Dz8br82X.js"></script></div><div class="sl-hidden md:sl-flex print:hidden right-group astro-eql7qchf"><div class="sl-flex social-icons astro-eql7qchf"><a href="https://github.com/Vinagre-Lipe/TFC-Arcanum-Empires-WIKI-Guides" rel="me" class="sl-flex astro-6dnnmvp7"><span class="sr-only astro-6dnnmvp7">Repositório GitHub</span><svg aria-hidden="true" class="astro-6dnnmvp7 astro-fqxqqhdy" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M12 .3a12 12 0 0 0-3.8 23.38c.6.12.83-.26.83-.57L9 21.07c-3.34.72-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.08-.74.09-.73.09-.73 1.2.09 1.83 1.24 1.83 1.24 1.08 1.83 2.81 1.3 3.5 1 .1-.78.42-1.31.76-1.61-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.14-.3-.54-1.52.1-3.18 0 0 1-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.28-1.55 3.29-1.23 3.29-1.23.64 1.66.24 2.88.12 3.18a4.65 4.65 0 0 1 1.23 3.22c0 4.61-2.8 5.63-5.48 5.92.42.36.81 1.1.81 2.22l-.01 3.29c0 .31.2.69.82.57A12 12 0 0 0 12 .3Z"/></svg></a></div><starlight-theme-select><label style="--sl-select-width: 6.25em" class="astro-pggh4mc4"><span class="sr-only astro-pggh4mc4">Selecionar tema</span><svg aria-hidden="true" class="icon label-icon astro-pggh4mc4 astro-fqxqqhdy" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M21 14h-1V7a3 3 0 0 0-3-3H7a3 3 0 0 0-3 3v7H3a1 1 0 0 0-1 1v2a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-2a1 1 0 0 0-1-1ZM6 7a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v7H6V7Zm14 10a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-1h16v1Z"/></svg><select autocomplete="off" class="astro-pggh4mc4"><option value="dark" class="astro-pggh4mc4">Escuro</option><option value="light" class="astro-pggh4mc4">Claro</option><option value="auto" selected class="astro-pggh4mc4">Auto</option></select><svg aria-hidden="true" class="icon caret astro-pggh4mc4 astro-fqxqqhdy" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M17 9.17a1 1 0 0 0-1.41 0L12 12.71 8.46 9.17a1 1 0 1 0-1.41 1.42l4.24 4.24a1.002 1.002 0 0 0 1.42 0L17 10.59a1.002 1.002 0 0 0 0-1.42Z"/></svg></label></starlight-theme-select><script>
+	StarlightThemeProvider.updatePickers();
+</script><script type="module">var e=`starlight-theme`,t=e=>e===`auto`||e===`dark`||e===`light`?e:`auto`,n=()=>t(typeof localStorage<`u`&&localStorage.getItem(e));function r(t){typeof localStorage<`u`&&localStorage.setItem(e,t===`light`||t===`dark`?t:``)}var i=()=>matchMedia(`(prefers-color-scheme: light)`).matches?`light`:`dark`;function a(e){StarlightThemeProvider.updatePickers(e),document.documentElement.dataset.theme=e===`auto`?i():e,r(e)}matchMedia(`(prefers-color-scheme: light)`).addEventListener(`change`,()=>{n()===`auto`&&a(`auto`)});var o=class extends HTMLElement{constructor(){super(),a(n()),this.querySelector(`select`)?.addEventListener(`change`,e=>{e.currentTarget instanceof HTMLSelectElement&&a(t(e.currentTarget.value))})}};customElements.define(`starlight-theme-select`,o);</script><script type="module">var e=class extends HTMLElement{constructor(){super();let e=this.querySelector(`select`);e&&(e.addEventListener(`change`,e=>{e.currentTarget instanceof HTMLSelectElement&&(window.location.pathname=e.currentTarget.value)}),window.addEventListener(`pageshow`,t=>{if(!t.persisted)return;let n=e.querySelector(`option[selected]`)?.index;n!==e.selectedIndex&&(e.selectedIndex=n??0)}))}};customElements.define(`starlight-lang-select`,e);</script></div></div></header><nav class="sidebar print:hidden astro-47qwzgdq" aria-label="Principal"><button popovertarget="starlight__sidebar" class="sl-menu-button sl-flex md:sl-hidden print:hidden astro-ts7kidad"><svg aria-hidden="true" class="open-menu astro-ts7kidad astro-fqxqqhdy" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M3 8h18a1 1 0 1 0 0-2H3a1 1 0 0 0 0 2Zm18 8H3a1 1 0 0 0 0 2h18a1 1 0 0 0 0-2Zm0-5H3a1 1 0 0 0 0 2h18a1 1 0 0 0 0-2Z"/></svg><svg aria-hidden="true" class="close-menu astro-ts7kidad astro-fqxqqhdy" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="m13.41 12 6.3-6.29a1.004 1.004 0 1 0-1.42-1.42L12 10.59l-6.29-6.3a1.004 1.004 0 0 0-1.42 1.42l6.3 6.29-6.3 6.29a1 1 0 0 0 0 1.42.998.998 0 0 0 1.42 0l6.29-6.3 6.29 6.3a.999.999 0 0 0 1.42 0 1 1 0 0 0 0-1.42L13.41 12Z"/></svg><span class="sr-only astro-ts7kidad">Menu</span></button><script type="module">var e=class extends HTMLElement{constructor(){super();let e=matchMedia(`(min-width: 50em)`),t=()=>{this.popover=e.matches?null:`auto`};t(),e.addEventListener(`change`,()=>t()),this.addEventListener(`toggle`,({newState:e})=>this.trapFocus(e===`open`))}trapFocus(e){document.querySelectorAll(`.main-frame, .sl-skip-link`).forEach(t=>{t.toggleAttribute(`inert`,e)})}};customElements.define(`sl-sidebar-pane`,e);</script><sl-sidebar-pane popover id="starlight__sidebar" class="sidebar-pane astro-47qwzgdq"><div class="sidebar-content sl-flex astro-47qwzgdq"><sl-sidebar-state-persist data-hash="1g7kss1" class="astro-bajgck2j"><script aria-hidden="true">
+		(() => {
+			try {
+				if (!matchMedia('(min-width: 50em)').matches) return;
+				/** @type {HTMLElement | null} */
+				const target = document.querySelector('sl-sidebar-state-persist');
+				const state = JSON.parse(sessionStorage.getItem('sl-sidebar-state') || '0');
+				if (!target || !state || target.dataset.hash !== state.hash) return;
+				window._starlightScrollRestore = state.scroll;
+				customElements.define(
+					'sl-sidebar-restore',
+					class SidebarRestore extends HTMLElement {
+						connectedCallback() {
+							try {
+								const idx = parseInt(this.dataset.index || '');
+								const details = this.closest('details');
+								if (details && typeof state.open[idx] === 'boolean') details.open = state.open[idx];
+							} catch {}
+						}
+					}
+				);
+			} catch {}
+		})();
+	</script><ul class="top-level astro-qkyiv5t4"><li class="astro-qkyiv5t4"><details open class="astro-qkyiv5t4"><summary class="astro-qkyiv5t4"><span class="group-label astro-qkyiv5t4"><span class="large astro-qkyiv5t4">Comece sua Jornada</span></span><svg aria-hidden="true" class="caret astro-qkyiv5t4 astro-fqxqqhdy" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.25rem;"><path d="m14.83 11.29-4.24-4.24a1 1 0 1 0-1.42 1.41L12.71 12l-3.54 3.54a1 1 0 0 0 0 1.41 1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.24-4.24a1.002 1.002 0 0 0 0-1.42Z"/></svg></summary><sl-sidebar-restore data-index="0"></sl-sidebar-restore><ul class="astro-qkyiv5t4"><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">🏠 Portal da Wiki</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/guias/01-primeiros-passos/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">🌲 Primeiros Minutos no TFC</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/guias/mecanicas-do-modpack/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">⚙️ Mecânicas Gerais &amp; Fisiologia</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/guias/worldgen-vigas-trocas/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">🌍 Mundo, Vigas &amp; Trocas (World Gen)</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/guias/01-arvore-habilidades/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">🔮 Árvore de Habilidades</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/guias/progressao-6-atos/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">🗺️ Progressão: Os 6 Atos</span></a></li></ul></details></li><li class="astro-qkyiv5t4"><details open class="astro-qkyiv5t4"><summary class="astro-qkyiv5t4"><span class="group-label astro-qkyiv5t4"><span class="large astro-qkyiv5t4">Ofícios, Forjas &amp; Catálogo JEI</span></span><svg aria-hidden="true" class="caret astro-qkyiv5t4 astro-fqxqqhdy" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.25rem;"><path d="m14.83 11.29-4.24-4.24a1 1 0 1 0-1.42 1.41L12.71 12l-3.54 3.54a1 1 0 0 0 0 1.41 1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.24-4.24a1.002 1.002 0 0 0 0-1.42Z"/></svg></summary><sl-sidebar-restore data-index="1"></sl-sidebar-restore><ul class="astro-qkyiv5t4"><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/todos-os-crafts/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">🌟 Todos os Crafts (Painel JEI)</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/estruturas-multiblocos/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">🏗️ Estruturas Multiblocos</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/processos-fisicos/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">🔨 Processos Físicos &amp; Forjas</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/forjas-multiblocos-processos/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">🔥 Fornalhas &amp; Multiblocos</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/cozinha-culinaria/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">🍳 Cozinha, Gastronomia &amp; Culinária</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/itens-comerciais/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">🪙 Itens Comerciais &amp; Millénaire</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/22-expansao-v130-aviacao-arcaria-vassouras/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">✈️ Aviação, Vassouras &amp; Arcaria (v1.3.0)</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/portabilidade-viabilidade/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">📋 Planilha Mestra de Portabilidade</span></a></li></ul></details></li><li class="astro-qkyiv5t4"><details class="astro-qkyiv5t4"><summary class="astro-qkyiv5t4"><span class="group-label astro-qkyiv5t4"><span class="large astro-qkyiv5t4">Sobrevivência Primitiva (Guias)</span></span><svg aria-hidden="true" class="caret astro-qkyiv5t4 astro-fqxqqhdy" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.25rem;"><path d="m14.83 11.29-4.24-4.24a1 1 0 1 0-1.42 1.41L12.71 12l-3.54 3.54a1 1 0 0 0 0 1.41 1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.24-4.24a1.002 1.002 0 0 0 0-1.42Z"/></svg></summary><sl-sidebar-restore data-index="2"></sl-sidebar-restore><ul class="astro-qkyiv5t4"><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/guias/02-knapping-ferramentas/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">Talhando Pedras (Knapping)</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/guias/02-padroes-knapping/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">Padrões de Knapping</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/guias/03-palha-fogo/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">Palha, Fogueira &amp; Comida</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/guias/04-agua-sede/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">Água Doce &amp; Sede</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/guias/01-ferramentas-pedra/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">Ferramentas de Pedra</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/guias/03-fogo-e-tochas/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">Fogo &amp; Tochas</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/guias/01-argila-pitkiln/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">Argila &amp; Pit Kiln</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/guias/04-estruturas-primitivas/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">Cerâmica &amp; Pit Kiln (Passo a Passo)</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/guias/02-armazenamento-fisica/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">Armazenamento &amp; Cavernas</span></a></li></ul></details></li><li class="astro-qkyiv5t4"><details class="astro-qkyiv5t4"><summary class="astro-qkyiv5t4"><span class="group-label astro-qkyiv5t4"><span class="large astro-qkyiv5t4">Magia &amp; Impérios</span></span><svg aria-hidden="true" class="caret astro-qkyiv5t4 astro-fqxqqhdy" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.25rem;"><path d="m14.83 11.29-4.24-4.24a1 1 0 1 0-1.42 1.41L12.71 12l-3.54 3.54a1 1 0 0 0 0 1.41 1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.24-4.24a1.002 1.002 0 0 0 0-1.42Z"/></svg></summary><sl-sidebar-restore data-index="3"></sl-sidebar-restore><ul class="astro-qkyiv5t4"><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/guias/02-magia-piloes/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">Catalisador Arcano &amp; Pilões</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/guias/01-vilas-millenaire/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">Civilizações do Millénaire</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/04-millenaire/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">Consagração de Vilas (Waystones)</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/15-millager-exercitos/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">Millager &amp; Exércitos Mercenários</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/13-teleporte-mana/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">Teleporte por Mana (/home, /tpa)</span></a></li></ul></details></li><li class="astro-qkyiv5t4"><details open class="astro-qkyiv5t4"><summary class="astro-qkyiv5t4"><span class="group-label astro-qkyiv5t4"><span class="large astro-qkyiv5t4">Chefes &amp; Expedições</span></span><svg aria-hidden="true" class="caret astro-qkyiv5t4 astro-fqxqqhdy" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.25rem;"><path d="m14.83 11.29-4.24-4.24a1 1 0 1 0-1.42 1.41L12.71 12l-3.54 3.54a1 1 0 0 0 0 1.41 1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.24-4.24a1.002 1.002 0 0 0 0-1.42Z"/></svg></summary><sl-sidebar-restore data-index="4"></sl-sidebar-restore><ul class="astro-qkyiv5t4"><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/guias/chefes-essenciais-progresso/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">⚔️ Chefes Essenciais &amp; Lendários</span></a></li></ul></details></li><li class="astro-qkyiv5t4"><details class="astro-qkyiv5t4"><summary class="astro-qkyiv5t4"><span class="group-label astro-qkyiv5t4"><span class="large astro-qkyiv5t4">História &amp; Crônicas</span></span><svg aria-hidden="true" class="caret astro-qkyiv5t4 astro-fqxqqhdy" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.25rem;"><path d="m14.83 11.29-4.24-4.24a1 1 0 1 0-1.42 1.41L12.71 12l-3.54 3.54a1 1 0 0 0 0 1.41 1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.24-4.24a1.002 1.002 0 0 0 0-1.42Z"/></svg></summary><sl-sidebar-restore data-index="5"></sl-sidebar-restore><ul class="astro-qkyiv5t4"><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/historia/01-a-era-primordial/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">I. A Criação e o Selo Primordial</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/historia/02-o-rompimento-do-selo/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">II. A Fratura e a Lua de Sangue</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/historia/03-os-seis-atos/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">III. Os Pilões e os Seis Atos</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/historia/04-o-chaos-guardian/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">IV. O Chaos Guardian</span></a></li></ul></details></li><li class="astro-qkyiv5t4"><details class="astro-qkyiv5t4"><summary class="astro-qkyiv5t4"><span class="group-label astro-qkyiv5t4"><span class="large astro-qkyiv5t4">Integrações &amp; Scripts KubeJS</span></span><svg aria-hidden="true" class="caret astro-qkyiv5t4 astro-fqxqqhdy" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.25rem;"><path d="m14.83 11.29-4.24-4.24a1 1 0 1 0-1.42 1.41L12.71 12l-3.54 3.54a1 1 0 0 0 0 1.41 1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.24-4.24a1.002 1.002 0 0 0 0-1.42Z"/></svg></summary><sl-sidebar-restore data-index="6"></sl-sidebar-restore><ul class="astro-qkyiv5t4"><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">Visão Geral das Integrações</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/01-knapping/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">01 — Knapping, Cerâmica &amp; Millénaire</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/02-kit-inicial/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">02 — Kit Inicial e Guia</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/05-vulcoes/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">05 — Vulcões Vivos</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/06-spawns-noturnos/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">06 — Criaturas Noturnas &amp; Safezones</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/07-tfc-vanilla/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">07 — Integração TFC ➔ Vanilla</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/08-expansao/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">08 — Expansão, Farms &amp; Alquimia</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/09-grande-integracao/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">09 — Grande Integração</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/10-fauna/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">10 — Fauna, Pesca e Culinária</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/11-chaos-guardian/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">11 — Chaos Guardian e Endgame (Ato VI)</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/12-sculk-warden/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">12 — Sculk Fossilizado e Warden</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/14-utilidades-vanilla/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">14 — Utilidades Vanilla &amp; Redstone</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/14-cliente/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">14b — Otimizações de Cliente</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/16-cliente-tooltips/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">16 — Pente Fino &amp; Tooltips</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/19-alquimia-proibida/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">19 — Alquimia Proibida &amp; Metais do Eclipse</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/20-transmutacao-xp-expedicao/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">20 — Transmutação de Restos em XP</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/21-fogueira-coccao-avancos/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">21 — Fogueira Vanilla &amp; Avanços FTB</span></a></li></ul></details></li><li class="astro-qkyiv5t4"><details open class="astro-qkyiv5t4"><summary class="astro-qkyiv5t4"><span class="group-label astro-qkyiv5t4"><span class="large astro-qkyiv5t4">Documentação Técnica</span></span><svg aria-hidden="true" class="caret astro-qkyiv5t4 astro-fqxqqhdy" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.25rem;"><path d="m14.83 11.29-4.24-4.24a1 1 0 1 0-1.42 1.41L12.71 12l-3.54 3.54a1 1 0 0 0 0 1.41 1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.24-4.24a1.002 1.002 0 0 0 0-1.42Z"/></svg></summary><sl-sidebar-restore data-index="7"></sl-sidebar-restore><ul class="astro-qkyiv5t4"><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/documentacao/arquitetura/" aria-current="page" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">Visão Geral &amp; Mods por Categoria</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/documentacao/mods-compatibilidade/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">Catálogo A–Z (126 Mods) &amp; Requisitos</span></a></li></ul></details></li></ul><script aria-hidden="true">
+		(() => {
+			const scroller = document.getElementById('starlight__sidebar');
+			if (!window._starlightScrollRestore || !scroller) return;
+			scroller.scrollTop = window._starlightScrollRestore;
+			delete window._starlightScrollRestore;
+		})();
+	</script></sl-sidebar-state-persist><div class="md:sl-hidden"><div class="mobile-preferences sl-flex astro-ltj6auun"><div class="social-icons astro-ltj6auun"><a href="https://github.com/Vinagre-Lipe/TFC-Arcanum-Empires-WIKI-Guides" rel="me" class="sl-flex astro-6dnnmvp7"><span class="sr-only astro-6dnnmvp7">Repositório GitHub</span><svg aria-hidden="true" class="astro-6dnnmvp7 astro-fqxqqhdy" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M12 .3a12 12 0 0 0-3.8 23.38c.6.12.83-.26.83-.57L9 21.07c-3.34.72-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.08-.74.09-.73.09-.73 1.2.09 1.83 1.24 1.83 1.24 1.08 1.83 2.81 1.3 3.5 1 .1-.78.42-1.31.76-1.61-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.14-.3-.54-1.52.1-3.18 0 0 1-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.28-1.55 3.29-1.23 3.29-1.23.64 1.66.24 2.88.12 3.18a4.65 4.65 0 0 1 1.23 3.22c0 4.61-2.8 5.63-5.48 5.92.42.36.81 1.1.81 2.22l-.01 3.29c0 .31.2.69.82.57A12 12 0 0 0 12 .3Z"/></svg></a></div><starlight-theme-select><label style="--sl-select-width: 6.25em" class="astro-pggh4mc4"><span class="sr-only astro-pggh4mc4">Selecionar tema</span><svg aria-hidden="true" class="icon label-icon astro-pggh4mc4 astro-fqxqqhdy" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M21 14h-1V7a3 3 0 0 0-3-3H7a3 3 0 0 0-3 3v7H3a1 1 0 0 0-1 1v2a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-2a1 1 0 0 0-1-1ZM6 7a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v7H6V7Zm14 10a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-1h16v1Z"/></svg><select autocomplete="off" class="astro-pggh4mc4"><option value="dark" class="astro-pggh4mc4">Escuro</option><option value="light" class="astro-pggh4mc4">Claro</option><option value="auto" selected class="astro-pggh4mc4">Auto</option></select><svg aria-hidden="true" class="icon caret astro-pggh4mc4 astro-fqxqqhdy" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M17 9.17a1 1 0 0 0-1.41 0L12 12.71 8.46 9.17a1 1 0 1 0-1.41 1.42l4.24 4.24a1.002 1.002 0 0 0 1.42 0L17 10.59a1.002 1.002 0 0 0 0-1.42Z"/></svg></label></starlight-theme-select><script>
+	StarlightThemeProvider.updatePickers();
+</script></div></div></div></sl-sidebar-pane></nav><div class="main-frame astro-47qwzgdq"><script type="module">var e=document.getElementById(`starlight__sidebar`),t=e?.querySelector(`sl-sidebar-state-persist`),n=`sl-sidebar-state`,r=()=>{let r=[],i=t?.dataset.hash||``;try{let e=sessionStorage.getItem(n),t=JSON.parse(e||`{}`);Array.isArray(t.open)&&t.hash===i&&(r=t.open)}catch{}return{hash:i,open:r,scroll:e?.scrollTop||0}},i=e=>{try{sessionStorage.setItem(n,JSON.stringify(e))}catch{}},a=()=>i(r()),o=(e,t)=>{let n=r();n.open[t]=e,i(n)};t?.addEventListener(`click`,e=>{if(!(e.target instanceof Element))return;let t=e.target.closest(`summary`)?.closest(`details`);if(!t)return;let n=t.querySelector(`sl-sidebar-restore`),r=parseInt(n?.dataset.index||``);isNaN(r)||o(!t.open,r)}),addEventListener(`visibilitychange`,()=>{document.visibilityState===`hidden`&&a()});</script><div class="lg:sl-flex astro-pinujozt"><aside class="right-sidebar-container print:hidden astro-pinujozt"><div class="right-sidebar astro-pinujozt"><div class="lg:sl-hidden astro-d4r3nttl"><mobile-starlight-toc data-min-h="2" data-max-h="3" class="astro-sy3i5rvm"><nav aria-labelledby="starlight__on-this-page--mobile" class="astro-sy3i5rvm"><details id="starlight__mobile-toc" class="astro-sy3i5rvm"><summary id="starlight__on-this-page--mobile" class="sl-flex astro-sy3i5rvm"><span class="toggle sl-flex astro-sy3i5rvm">Nesta página<svg aria-hidden="true" class="caret astro-sy3i5rvm astro-fqxqqhdy" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1rem;"><path d="m14.83 11.29-4.24-4.24a1 1 0 1 0-1.42 1.41L12.71 12l-3.54 3.54a1 1 0 0 0 0 1.41 1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.24-4.24a1.002 1.002 0 0 0 0-1.42Z"/></svg></span><span class="display-current astro-sy3i5rvm"></span></summary><div class="dropdown astro-sy3i5rvm"><ul class="isMobile astro-r7oszrrb" style="--depth: 0;"><li style="--depth: 0;" class="astro-r7oszrrb"><a href="#_top" style="--depth: 0;" class="astro-r7oszrrb"><span style="--depth: 0;" class="astro-r7oszrrb">Visão geral</span></a></li><li style="--depth: 0;" class="astro-r7oszrrb"><a href="#tfc-arcanum--empires-v130" style="--depth: 0;" class="astro-r7oszrrb"><span style="--depth: 0;" class="astro-r7oszrrb">TFC: Arcanum &amp; Empires (v1.3.0)</span></a></li><li style="--depth: 0;" class="astro-r7oszrrb"><a href="#1-visão-geral-do-projeto" style="--depth: 0;" class="astro-r7oszrrb"><span style="--depth: 0;" class="astro-r7oszrrb">1. Visão Geral do Projeto</span></a></li><li style="--depth: 0;" class="astro-r7oszrrb"><a href="#2-resumo-quantitativo-dos-mods-126-mods-no-total" style="--depth: 0;" class="astro-r7oszrrb"><span style="--depth: 0;" class="astro-r7oszrrb">2. Resumo Quantitativo dos Mods (126 Mods no Total)</span></a></li><li style="--depth: 0;" class="astro-r7oszrrb"><a href="#3-catálogo-completo-de-mods-por-categoria" style="--depth: 0;" class="astro-r7oszrrb"><span style="--depth: 0;" class="astro-r7oszrrb">3. Catálogo Completo de Mods por Categoria</span></a><ul class="isMobile astro-r7oszrrb" style="--depth: 1;"><li style="--depth: 1;" class="astro-r7oszrrb"><a href="#️-31-sobrevivência-geologia-fauna--culinária-8-mods" style="--depth: 1;" class="astro-r7oszrrb"><span style="--depth: 1;" class="astro-r7oszrrb">⚒️ 3.1. Sobrevivência, Geologia, Fauna &amp; Culinária (8 Mods)</span></a></li><li style="--depth: 1;" class="astro-r7oszrrb"><a href="#-32-magia-feitiçaria--rituais-5-mods" style="--depth: 1;" class="astro-r7oszrrb"><span style="--depth: 1;" class="astro-r7oszrrb">✨ 3.2. Magia, Feitiçaria &amp; Rituais (5 Mods)</span></a></li><li style="--depth: 1;" class="astro-r7oszrrb"><a href="#-33-civilizações-defesa--eventos-do-mundo-5-mods" style="--depth: 1;" class="astro-r7oszrrb"><span style="--depth: 1;" class="astro-r7oszrrb">🏰 3.3. Civilizações, Defesa &amp; Eventos do Mundo (5 Mods)</span></a></li><li style="--depth: 1;" class="astro-r7oszrrb"><a href="#️-34-combate-armaria-medieval--progressão-rpg-13-mods" style="--depth: 1;" class="astro-r7oszrrb"><span style="--depth: 1;" class="astro-r7oszrrb">⚔️ 3.4. Combate, Armaria Medieval &amp; Progressão RPG (13 Mods)</span></a></li><li style="--depth: 1;" class="astro-r7oszrrb"><a href="#-35-dimensões-dungeons-dragões--chefes-7-mods" style="--depth: 1;" class="astro-r7oszrrb"><span style="--depth: 1;" class="astro-r7oszrrb">🐉 3.5. Dimensões, Dungeons, Dragões &amp; Chefes (7 Mods)</span></a></li><li style="--depth: 1;" class="astro-r7oszrrb"><a href="#️-36-engenharia-armazenamento--farms-4-mods" style="--depth: 1;" class="astro-r7oszrrb"><span style="--depth: 1;" class="astro-r7oszrrb">⚙️ 3.6. Engenharia, Armazenamento &amp; Farms (4 Mods)</span></a></li><li style="--depth: 1;" class="astro-r7oszrrb"><a href="#-37-missões-interface--qualidade-de-vida-23-mods" style="--depth: 1;" class="astro-r7oszrrb"><span style="--depth: 1;" class="astro-r7oszrrb">🧭 3.7. Missões, Interface &amp; Qualidade de Vida (23 Mods)</span></a></li><li style="--depth: 1;" class="astro-r7oszrrb"><a href="#-38-performance--gráficos-11-mods" style="--depth: 1;" class="astro-r7oszrrb"><span style="--depth: 1;" class="astro-r7oszrrb">🚀 3.8. Performance &amp; Gráficos (11 Mods)</span></a></li></ul></li><li style="--depth: 0;" class="astro-r7oszrrb"><a href="#4-comandos-e-atalhos-úteis-para-jogadores" style="--depth: 0;" class="astro-r7oszrrb"><span style="--depth: 0;" class="astro-r7oszrrb">4. Comandos e Atalhos Úteis para Jogadores</span></a></li></ul></div></details></nav></mobile-starlight-toc><script type="module" src="/TFC-Arcanum-Empires-WIKI-Guides/_astro/MobileTableOfContents.astro_astro_type_script_index_0_lang.C3fM4Kra.js"></script></div><div class="right-sidebar-panel sl-hidden lg:sl-block astro-d4r3nttl"><div class="sl-container astro-d4r3nttl"><starlight-toc data-min-h="2" data-max-h="3"><nav aria-labelledby="starlight__on-this-page"><h2 id="starlight__on-this-page">Nesta página</h2><ul class="astro-r7oszrrb" style="--depth: 0;"><li style="--depth: 0;" class="astro-r7oszrrb"><a href="#_top" style="--depth: 0;" class="astro-r7oszrrb"><span style="--depth: 0;" class="astro-r7oszrrb">Visão geral</span></a></li><li style="--depth: 0;" class="astro-r7oszrrb"><a href="#tfc-arcanum--empires-v130" style="--depth: 0;" class="astro-r7oszrrb"><span style="--depth: 0;" class="astro-r7oszrrb">TFC: Arcanum &amp; Empires (v1.3.0)</span></a></li><li style="--depth: 0;" class="astro-r7oszrrb"><a href="#1-visão-geral-do-projeto" style="--depth: 0;" class="astro-r7oszrrb"><span style="--depth: 0;" class="astro-r7oszrrb">1. Visão Geral do Projeto</span></a></li><li style="--depth: 0;" class="astro-r7oszrrb"><a href="#2-resumo-quantitativo-dos-mods-126-mods-no-total" style="--depth: 0;" class="astro-r7oszrrb"><span style="--depth: 0;" class="astro-r7oszrrb">2. Resumo Quantitativo dos Mods (126 Mods no Total)</span></a></li><li style="--depth: 0;" class="astro-r7oszrrb"><a href="#3-catálogo-completo-de-mods-por-categoria" style="--depth: 0;" class="astro-r7oszrrb"><span style="--depth: 0;" class="astro-r7oszrrb">3. Catálogo Completo de Mods por Categoria</span></a><ul class="astro-r7oszrrb" style="--depth: 1;"><li style="--depth: 1;" class="astro-r7oszrrb"><a href="#️-31-sobrevivência-geologia-fauna--culinária-8-mods" style="--depth: 1;" class="astro-r7oszrrb"><span style="--depth: 1;" class="astro-r7oszrrb">⚒️ 3.1. Sobrevivência, Geologia, Fauna &amp; Culinária (8 Mods)</span></a></li><li style="--depth: 1;" class="astro-r7oszrrb"><a href="#-32-magia-feitiçaria--rituais-5-mods" style="--depth: 1;" class="astro-r7oszrrb"><span style="--depth: 1;" class="astro-r7oszrrb">✨ 3.2. Magia, Feitiçaria &amp; Rituais (5 Mods)</span></a></li><li style="--depth: 1;" class="astro-r7oszrrb"><a href="#-33-civilizações-defesa--eventos-do-mundo-5-mods" style="--depth: 1;" class="astro-r7oszrrb"><span style="--depth: 1;" class="astro-r7oszrrb">🏰 3.3. Civilizações, Defesa &amp; Eventos do Mundo (5 Mods)</span></a></li><li style="--depth: 1;" class="astro-r7oszrrb"><a href="#️-34-combate-armaria-medieval--progressão-rpg-13-mods" style="--depth: 1;" class="astro-r7oszrrb"><span style="--depth: 1;" class="astro-r7oszrrb">⚔️ 3.4. Combate, Armaria Medieval &amp; Progressão RPG (13 Mods)</span></a></li><li style="--depth: 1;" class="astro-r7oszrrb"><a href="#-35-dimensões-dungeons-dragões--chefes-7-mods" style="--depth: 1;" class="astro-r7oszrrb"><span style="--depth: 1;" class="astro-r7oszrrb">🐉 3.5. Dimensões, Dungeons, Dragões &amp; Chefes (7 Mods)</span></a></li><li style="--depth: 1;" class="astro-r7oszrrb"><a href="#️-36-engenharia-armazenamento--farms-4-mods" style="--depth: 1;" class="astro-r7oszrrb"><span style="--depth: 1;" class="astro-r7oszrrb">⚙️ 3.6. Engenharia, Armazenamento &amp; Farms (4 Mods)</span></a></li><li style="--depth: 1;" class="astro-r7oszrrb"><a href="#-37-missões-interface--qualidade-de-vida-23-mods" style="--depth: 1;" class="astro-r7oszrrb"><span style="--depth: 1;" class="astro-r7oszrrb">🧭 3.7. Missões, Interface &amp; Qualidade de Vida (23 Mods)</span></a></li><li style="--depth: 1;" class="astro-r7oszrrb"><a href="#-38-performance--gráficos-11-mods" style="--depth: 1;" class="astro-r7oszrrb"><span style="--depth: 1;" class="astro-r7oszrrb">🚀 3.8. Performance &amp; Gráficos (11 Mods)</span></a></li></ul></li><li style="--depth: 0;" class="astro-r7oszrrb"><a href="#4-comandos-e-atalhos-úteis-para-jogadores" style="--depth: 0;" class="astro-r7oszrrb"><span style="--depth: 0;" class="astro-r7oszrrb">4. Comandos e Atalhos Úteis para Jogadores</span></a></li></ul></nav></starlight-toc><script type="module" src="/TFC-Arcanum-Empires-WIKI-Guides/_astro/TableOfContents.astro_astro_type_script_index_0_lang.BpJaGz7G.js"></script></div></div></div></aside><div class="main-pane astro-pinujozt"><main data-pagefind-body class="astro-o3lnpecw" lang="pt-BR" dir="ltr"><div class="content-panel astro-3w3bx7vf"><div class="sl-container astro-3w3bx7vf"><h1 id="_top" class="astro-robhj4nk">Visão Geral &amp; Lista de Mods</h1></div></div><div class="content-panel astro-3w3bx7vf"><div class="sl-container astro-3w3bx7vf"><div class="sl-markdown-content"><div class="sl-heading-wrapper level-h2"><h2 id="tfc-arcanum--empires-v130">TFC: Arcanum &amp; Empires (v1.3.0)</h2><a class="sl-anchor-link" href="#tfc-arcanum--empires-v130"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Seção intitulada “TFC: Arcanum &amp; Empires (v1.3.0)”</span></a></div>
+<blockquote>
+<p><strong>Plataforma:</strong> Minecraft 1.21.1 — NeoForge 21.1.249+<br>
+<strong>Total de Mods Instalados:</strong> <strong>126 Mods</strong> (divididos entre Conteúdo, Magia, RPG, Civilizações, Performance e Bibliotecas)<br>
+<strong>Status Atual:</strong> ⚠️ <strong>Beta Fechado de Desenvolvimento</strong></p>
+</blockquote>
+<hr>
+<div class="sl-heading-wrapper level-h2"><h2 id="1-visão-geral-do-projeto">1. Visão Geral do Projeto</h2><a class="sl-anchor-link" href="#1-visão-geral-do-projeto"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Seção intitulada “1. Visão Geral do Projeto”</span></a></div>
+<p><strong>TFC: Arcanum &amp; Empires</strong> é um modpack hardcore medieval/fantasia focado na integração profunda entre:</p>
+<ol>
+<li><strong>TerraFirmaCraft (TFC):</strong> Sobrevivência crua, física de desmoronamento, metalurgia histórica em bigornas, fundição, cerâmica em covas e agricultura sazonal.</li>
+<li><strong>Millénaire (v9.0.3):</strong> Civilizações vivas (Normandos, Bizantinos, Japoneses, Maias, Indianos e Seljúcidas) com economias autônomas e diplomacia.</li>
+<li><strong>Magia Escalar:</strong> Ars Nouveau e Iron’s Spells ’n Spellbooks com catalisadores e grimórios balanceados em metais e pedras preciosas do TFC.</li>
+<li><strong>Dimensões &amp; Desafios:</strong> The Undergarden, The Aether, Beneath e chefes titânicos de L_Ender’s Cataclysm, Mowzie’s Mobs e Chaos Guardian.</li>
+<li><strong>Combate &amp; RPG:</strong> Better Combat, Combat Roll, Epic Knights, Simply Swords e Knight Quest integrados com armas TFC; progressão de habilidades via Puffish Skills e Apotheosis.</li>
+<li><strong>Automação &amp; Armazenamento Medieval:</strong> Create, Tom’s Simple Storage, Sophisticated Backpacks e Mob Grinding Utils rebalanceados no aço e alquimia do TFC.</li>
+</ol>
+<hr>
+<div class="sl-heading-wrapper level-h2"><h2 id="2-resumo-quantitativo-dos-mods-126-mods-no-total">2. Resumo Quantitativo dos Mods (126 Mods no Total)</h2><a class="sl-anchor-link" href="#2-resumo-quantitativo-dos-mods-126-mods-no-total"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Seção intitulada “2. Resumo Quantitativo dos Mods (126 Mods no Total)”</span></a></div>
+<table>
+<thead>
+<tr>
+<th>Categoria</th>
+<th style="text-align: center">Quantidade</th>
+<th>Foco no Gameplay</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>⚒️ <strong>Sobrevivência, Fauna &amp; Culinária</strong></td>
+<td style="text-align: center"><strong>8</strong></td>
+<td>Base geológica TFC, animais selvagens, pesca avançada, chás e gastronomia</td>
+</tr>
+<tr>
+<td>✨ <strong>Magia, Feitiçaria &amp; Rituais</strong></td>
+<td style="text-align: center"><strong>5</strong></td>
+<td>Grimórios, criação de feitiços, magia elemental e integração mecânica</td>
+</tr>
+<tr>
+<td>🏰 <strong>Civilizações, Defesa &amp; Viagem</strong></td>
+<td style="text-align: center"><strong>5</strong></td>
+<td>Impérios vivos, proteção territorial por pilões, eventos lunares e teleporte</td>
+</tr>
+<tr>
+<td>⚔️ <strong>Combate, Armaria Medieval &amp; RPG</strong></td>
+<td style="text-align: center"><strong>13</strong></td>
+<td>Animações de combate, esquiva, armaduras históricas, árvores de skills e afixos</td>
+</tr>
+<tr>
+<td>🐉 <strong>Dimensões, Dungeons &amp; Chefes</strong></td>
+<td style="text-align: center"><strong>7</strong></td>
+<td>Novas dimensões, masmorras colossais, dragões domesticáveis e bosses</td>
+</tr>
+<tr>
+<td>⚙️ <strong>Engenharia, Armazenamento &amp; Farms</strong></td>
+<td style="text-align: center"><strong>4</strong></td>
+<td>Energia mecânica a vapor/água, rede de baús, mochilas e farms de mobs</td>
+</tr>
+<tr>
+<td>🧭 <strong>Missões, Interface &amp; Qualidade de Vida</strong></td>
+<td style="text-align: center"><strong>23</strong></td>
+<td>Livro de 6 Atos, mapa, catálogo de receitas, túmulos e atalhos úteis</td>
+</tr>
+<tr>
+<td>🚀 <strong>Performance, Gráficos &amp; Otimização</strong></td>
+<td style="text-align: center"><strong>11</strong></td>
+<td>Alto FPS, suporte a Shaders, redução de uso de RAM e estabilidade</td>
+</tr>
+<tr>
+<td>🧩 <strong>APIs, Bibliotecas &amp; Motor de Integração</strong></td>
+<td style="text-align: center"><strong>42</strong></td>
+<td>KubeJS e bibliotecas base exigidas pelos mods principais</td>
+</tr>
+<tr>
+<td><strong>TOTAL DO MODPACK</strong></td>
+<td style="text-align: center"><strong>126 Mods</strong></td>
+<td><strong>100% integrados e balanceados para Minecraft 1.21.1 (NeoForge)</strong></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<div class="sl-heading-wrapper level-h2"><h2 id="3-catálogo-completo-de-mods-por-categoria">3. Catálogo Completo de Mods por Categoria</h2><a class="sl-anchor-link" href="#3-catálogo-completo-de-mods-por-categoria"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Seção intitulada “3. Catálogo Completo de Mods por Categoria”</span></a></div>
+<div class="sl-heading-wrapper level-h3"><h3 id="️-31-sobrevivência-geologia-fauna--culinária-8-mods">⚒️ 3.1. Sobrevivência, Geologia, Fauna &amp; Culinária (8 Mods)</h3><a class="sl-anchor-link" href="#️-31-sobrevivência-geologia-fauna--culinária-8-mods"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Seção intitulada “⚒️ 3.1. Sobrevivência, Geologia, Fauna &amp; Culinária (8 Mods)”</span></a></div>
+<table>
+<thead>
+<tr>
+<th>Mod</th>
+<th>Versão</th>
+<th>O que adiciona ao jogo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>TerraFirmaCraft (TFC)</strong></td>
+<td><code dir="auto">4.2.12</code></td>
+<td>Reformulação total da sobrevivência: geologia realista, lascamento (Knapping), Pit Kiln, metalurgia em bigorna, estações do ano, sede e nutrição.</td>
+</tr>
+<tr>
+<td><strong>Beneath (TFC)</strong></td>
+<td><code dir="auto">2.0.4</code></td>
+<td>Submundo vulcânico profundo integrado à geologia e temperatura do TFC.</td>
+</tr>
+<tr>
+<td><strong>Farmer’s Delight</strong></td>
+<td><code dir="auto">1.3.4</code></td>
+<td>Culinária avançada com Panela, Frigideira e Tábua de Corte integradas às carnes e fogueiras do TFC.</td>
+</tr>
+<tr>
+<td><strong>Let’s Do: HerbalBrews</strong></td>
+<td><code dir="auto">1.1.4</code></td>
+<td>Chaleiras de cobre, infusões de ervas, chás medicinais e cafés com efeitos especiais.</td>
+</tr>
+<tr>
+<td><strong>Aquaculture 2</strong></td>
+<td><code dir="auto">2.7.21</code></td>
+<td>Dezenas de novas espécies de peixes, varas customizáveis e filetagem com facas TFC.</td>
+</tr>
+<tr>
+<td><strong>Naturalist</strong></td>
+<td><code dir="auto">2.0.7</code></td>
+<td>Fauna selvagem realista (ursos, leões, cervos, javalis, jacarés, pássaros e peixes).</td>
+</tr>
+<tr>
+<td><strong>Critters and Companions</strong></td>
+<td><code dir="auto">2.7.0</code></td>
+<td>Criaturas companheiras e animais silvestres (lontras, furões, carpas koi, pandas-vermelhos).</td>
+</tr>
+<tr>
+<td><strong>AppleSkin</strong></td>
+<td><code dir="auto">3.0.9</code></td>
+<td>Mostra na interface os valores de saciedade e nutrição dos alimentos.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<div class="sl-heading-wrapper level-h3"><h3 id="-32-magia-feitiçaria--rituais-5-mods">✨ 3.2. Magia, Feitiçaria &amp; Rituais (5 Mods)</h3><a class="sl-anchor-link" href="#-32-magia-feitiçaria--rituais-5-mods"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Seção intitulada “✨ 3.2. Magia, Feitiçaria &amp; Rituais (5 Mods)”</span></a></div>
+<table>
+<thead>
+<tr>
+<th>Mod</th>
+<th>Versão</th>
+<th>O que adiciona ao jogo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Ars Nouveau</strong></td>
+<td><code dir="auto">5.13.3</code></td>
+<td>Criação de feitiços customizados, automação mágica com Source, familiares e rituais.</td>
+</tr>
+<tr>
+<td><strong>Iron’s Spells ’n Spellbooks</strong></td>
+<td><code dir="auto">3.16.3</code></td>
+<td>Dezenas de feitiços de RPG (Fogo, Gelo, Sangue, Ender, Sagrado, Evocação), pergaminhos e armaduras de mago.</td>
+</tr>
+<tr>
+<td><strong>Ars Elemental</strong></td>
+<td><code dir="auto">0.7.10.4</code></td>
+<td>Expansão elemental para o Ars Nouveau com novos glifos, escolas mágicas e equipamentos.</td>
+</tr>
+<tr>
+<td><strong>Ars Elemancy</strong></td>
+<td><code dir="auto">1.17</code></td>
+<td>Maestria elemental avançada e fusão de elementos arcanos.</td>
+</tr>
+<tr>
+<td><strong>Ars Creo</strong></td>
+<td><code dir="auto">5.4.0</code></td>
+<td>Ponte mágica-mecânica que conecta a energia do Create com o Source do Ars Nouveau.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<div class="sl-heading-wrapper level-h3"><h3 id="-33-civilizações-defesa--eventos-do-mundo-5-mods">🏰 3.3. Civilizações, Defesa &amp; Eventos do Mundo (5 Mods)</h3><a class="sl-anchor-link" href="#-33-civilizações-defesa--eventos-do-mundo-5-mods"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Seção intitulada “🏰 3.3. Civilizações, Defesa &amp; Eventos do Mundo (5 Mods)”</span></a></div>
+<table>
+<thead>
+<tr>
+<th>Mod</th>
+<th>Versão</th>
+<th>O que adiciona ao jogo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Millénaire Reborn</strong></td>
+<td><code dir="auto">9.0.3</code></td>
+<td>Civilizações históricas (Normandos, Bizantinos, Japoneses, Maias, Indianos e Seljúcidas) que constroem, negociam e evoluem.</td>
+</tr>
+<tr>
+<td><strong>Pylons</strong></td>
+<td><code dir="auto">5.4.2</code></td>
+<td>Pilões de Expulsão, Interdição e Infusão para proteger vilas e bases contra monstros.</td>
+</tr>
+<tr>
+<td><strong>Waystones</strong></td>
+<td><code dir="auto">21.1.46</code></td>
+<td>Monumentos de teleporte rápido entre vilas consagradas e bases.</td>
+</tr>
+<tr>
+<td><strong>Enhanced Celestials 2</strong></td>
+<td><code dir="auto">2.0.3.3</code></td>
+<td>Eventos lunares dinâmicos: <strong>Lua de Sangue</strong> (hordas intensas), <strong>Lua da Colheita</strong> e <strong>Lua Azul</strong> (+ suporte a Shaders).</td>
+</tr>
+<tr>
+<td><strong>Open Parties and Claims</strong></td>
+<td><code dir="auto">0.33.0</code></td>
+<td>Sistema de grupos (parties) e proteção de terreno/chunks para servidores e co-op.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<div class="sl-heading-wrapper level-h3"><h3 id="️-34-combate-armaria-medieval--progressão-rpg-13-mods">⚔️ 3.4. Combate, Armaria Medieval &amp; Progressão RPG (13 Mods)</h3><a class="sl-anchor-link" href="#️-34-combate-armaria-medieval--progressão-rpg-13-mods"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Seção intitulada “⚔️ 3.4. Combate, Armaria Medieval &amp; Progressão RPG (13 Mods)”</span></a></div>
+<table>
+<thead>
+<tr>
+<th>Mod</th>
+<th>Versão</th>
+<th>O que adiciona ao jogo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Better Combat</strong></td>
+<td><code dir="auto">2.4.0</code></td>
+<td>Animações de ataque em 1ª e 3ª pessoa com alcance e combos reais para todas as armas TFC e mods.</td>
+</tr>
+<tr>
+<td><strong>Combat Roll</strong></td>
+<td><code dir="auto">2.0.6</code></td>
+<td>Esquiva direcional (rolamento) com tempo de recarga.</td>
+</tr>
+<tr>
+<td><strong>Epic Knights (Magistu Armory)</strong></td>
+<td><code dir="auto">10.17</code></td>
+<td>Centenas de armaduras medievais históricas, elmos, cotas de malha e armas de haste forjadas com aço TFC.</td>
+</tr>
+<tr>
+<td><strong>Epic Knights: Shields, Armor &amp; Weapons (EKOTSK)</strong></td>
+<td><code dir="auto">1.5.0</code></td>
+<td>Expansão de escudos heráldicos, armaduras pesadas e lâminas de aço escurecido.</td>
+</tr>
+<tr>
+<td><strong>Simply Swords</strong></td>
+<td><code dir="auto">1.70.2</code></td>
+<td>Armas lendárias com habilidades únicas (glaives, katanas, claymores, chakrams e espadas rúnicas).</td>
+</tr>
+<tr>
+<td><strong>Knight Quest</strong></td>
+<td><code dir="auto">1.9.3</code></td>
+<td>Conjunto de armaduras temáticas de cavaleiros com bônus passivos de conjunto.</td>
+</tr>
+<tr>
+<td><strong>Pufferfish’s Skills</strong></td>
+<td><code dir="auto">0.19.2</code></td>
+<td>Árvore de Habilidades RPG dividida em 4 ramos (Sobrevivência, Humana, Combate e Magia) — tecla <code dir="auto">[K]</code>.</td>
+</tr>
+<tr>
+<td><strong>Apotheosis</strong></td>
+<td><code dir="auto">8.9.0</code></td>
+<td>Sistema de raridade de equipamentos (afixos míticos), gemas de engaste, reforja e chefes invasores.</td>
+</tr>
+<tr>
+<td><strong>Apothic Enchanting &amp; Spawners</strong></td>
+<td><code dir="auto">1.6.4</code></td>
+<td>Encantamento arcano avançado e controle de spawners de masmorras.</td>
+</tr>
+<tr>
+<td><strong>Relics</strong></td>
+<td><code dir="auto">0.12.9</code></td>
+<td>Relíquias místicas com níveis de experiência e habilidades ativas evoluíveis.</td>
+</tr>
+<tr>
+<td><strong>Artifacts</strong></td>
+<td><code dir="auto">13.2.5</code></td>
+<td>Acessórios raros encontrados em masmorras que concedem poderes passivos no Curios.</td>
+</tr>
+<tr>
+<td><strong>Corail Tombstone</strong></td>
+<td><code dir="auto">9.5.6</code></td>
+<td>Túmulos seguros ao morrer, magia de almas, pergaminhos de retorno e receptáculos espirituais.</td>
+</tr>
+<tr>
+<td><strong>Villagers Trading Plus</strong></td>
+<td><code dir="auto">1.1.0</code></td>
+<td>Melhorias de interface e negociação com mercadores.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<div class="sl-heading-wrapper level-h3"><h3 id="-35-dimensões-dungeons-dragões--chefes-7-mods">🐉 3.5. Dimensões, Dungeons, Dragões &amp; Chefes (7 Mods)</h3><a class="sl-anchor-link" href="#-35-dimensões-dungeons-dragões--chefes-7-mods"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Seção intitulada “🐉 3.5. Dimensões, Dungeons, Dragões &amp; Chefes (7 Mods)”</span></a></div>
+<table>
+<thead>
+<tr>
+<th>Mod</th>
+<th>Versão</th>
+<th>O que adiciona ao jogo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>L_Ender’s Cataclysm</strong></td>
+<td><code dir="auto">3.33</code></td>
+<td>Chefes colossais (Ignis, Netherite Monstrosity, Leviathan, Ancient Remnant, Harbinger, Maledictus) em arenas épicas.</td>
+</tr>
+<tr>
+<td><strong>When Dungeons Arise</strong></td>
+<td><code dir="auto">2.1.68</code></td>
+<td>Masmorras gigantescas pelo mundo (fortalezas, dirigíveis, templos, palácios, navios fantasmas e coliseus).</td>
+</tr>
+<tr>
+<td><strong>Wyrmroost</strong></td>
+<td><code dir="auto">1.4.1</code></td>
+<td>Dragões selvagens e domesticáveis (Royal Red, Butterfly Leviathan, Overworld Drake, Silver Glider) com armaduras em ligas TFC.</td>
+</tr>
+<tr>
+<td><strong>Mowzie’s Mobs</strong></td>
+<td><code dir="auto">1.8.2</code></td>
+<td>Chefes e criaturas com IA e animações cinematográficas (Frostmaw, Ferrous Wroughtnaut, Umvuthi).</td>
+</tr>
+<tr>
+<td><strong>Born in Chaos + The Graveyard</strong></td>
+<td><code dir="auto">1.7.6</code> / <code dir="auto">4.0.0</code></td>
+<td>Criaturas sombrias noturnas, criptas, ruínas macabras e pesadelos que caçam fora dos santuários à noite.</td>
+</tr>
+<tr>
+<td><strong>The Aether &amp; The Undergarden</strong></td>
+<td><code dir="auto">1.5.10</code> / <code dir="auto">0.9.6</code></td>
+<td>Duas dimensões completas: o reino celeste flutuante do Aether e o abismo subterrâneo bioluminescente do Undergarden.</td>
+</tr>
+<tr>
+<td><strong>Draconic Evolution (Endgame Boss)</strong></td>
+<td><code dir="auto">3.1.4</code></td>
+<td>Exclusivamente podado para o confronto final do Ato VI contra o <strong>Chaos Guardian</strong> no The End.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<div class="sl-heading-wrapper level-h3"><h3 id="️-36-engenharia-armazenamento--farms-4-mods">⚙️ 3.6. Engenharia, Armazenamento &amp; Farms (4 Mods)</h3><a class="sl-anchor-link" href="#️-36-engenharia-armazenamento--farms-4-mods"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Seção intitulada “⚙️ 3.6. Engenharia, Armazenamento &amp; Farms (4 Mods)”</span></a></div>
+<table>
+<thead>
+<tr>
+<th>Mod</th>
+<th>Versão</th>
+<th>O que adiciona ao jogo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Create</strong></td>
+<td><code dir="auto">6.0.10</code></td>
+<td>Engenharia mecânica movida a rodas d’água, moinhos de vento, engrenagens, trens a vapor e automação cinética.</td>
+</tr>
+<tr>
+<td><strong>Tom’s Simple Storage Mod</strong></td>
+<td><code dir="auto">2.4.2</code></td>
+<td>Terminais e cabos de madeira/cobre/ferro forjado para unificar todos os seus baús em uma única tela.</td>
+</tr>
+<tr>
+<td><strong>Sophisticated Backpacks</strong></td>
+<td><code dir="auto">3.26.14</code></td>
+<td>Mochilas evoluíveis (Couro ➔ Cobre ➔ Ferro Forjado ➔ Ouro ➔ Aço TFC) com módulos de filtro e coleta.</td>
+</tr>
+<tr>
+<td><strong>Mob Grinding Utils</strong></td>
+<td><code dir="auto">1.1.10</code></td>
+<td>Espetos de ferro forjado, trituradores de aço, ventiladores de bronze e Cursed Earth para farms de monstros.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<div class="sl-heading-wrapper level-h3"><h3 id="-37-missões-interface--qualidade-de-vida-23-mods">🧭 3.7. Missões, Interface &amp; Qualidade de Vida (23 Mods)</h3><a class="sl-anchor-link" href="#-37-missões-interface--qualidade-de-vida-23-mods"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Seção intitulada “🧭 3.7. Missões, Interface &amp; Qualidade de Vida (23 Mods)”</span></a></div>
+<ul>
+<li><strong>FTB Quests + FTB Teams + FTB Library:</strong> Livro de progressão guiada nos <strong>6 Grandes Atos</strong> do modpack.</li>
+<li><strong>Patchouli:</strong> Livros manuais ilustrados dentro do jogo (<em>Guia Arcanum</em> e <em>Field Guide do TFC</em>).</li>
+<li><strong>JEI + EMI + Just Enough Resources (JER):</strong> Catálogo completo de receitas, usos e taxas de drop.</li>
+<li><strong>Jade + Jade Addons:</strong> Painel no topo da tela mostrando informações do bloco, temperatura da forja, tempo de queima e animais.</li>
+<li><strong>Xaero’s Minimap + Xaero’s World Map:</strong> Mapa-múndi em tela cheia e minimapa com waypoints sincronizados às Waystones.</li>
+<li><strong>Carry On:</strong> Permite carregar baús, barris, vasos e pequenos animais no colo com <code dir="auto">Shift + Botão Direito</code>.</li>
+<li><strong>Inventory HUD+ / Inventory Essentials / Mouse Tweaks:</strong> Organização rápida de inventário e HUD de durabilidade de armaduras.</li>
+<li><strong>Controlling + Searchables + Studious Keybinds:</strong> Busca rápida de teclas de atalho por nome ou conflito.</li>
+<li><strong>Highlighter + Simply Tooltips:</strong> Destaca itens recém-adquiridos e embeleza as caixas de dicas dos itens.</li>
+<li><strong>Presence Footsteps:</strong> Sons de passos imersivos que mudam conforme o material do piso e armadura.</li>
+<li><strong>FancyMenu + Konkrete + Melody:</strong> Menu principal temático customizado do modpack.</li>
+</ul>
+<hr>
+<div class="sl-heading-wrapper level-h3"><h3 id="-38-performance--gráficos-11-mods">🚀 3.8. Performance &amp; Gráficos (11 Mods)</h3><a class="sl-anchor-link" href="#-38-performance--gráficos-11-mods"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Seção intitulada “🚀 3.8. Performance &amp; Gráficos (11 Mods)”</span></a></div>
+<ul>
+<li><strong>Sodium + Iris Shaders:</strong> Renderizador gráfico de alta performance com suporte completo a pacotes de Shaders.</li>
+<li><strong>ModernFix + FerriteCore + ImmediatelyFast + BadOptimizations:</strong> Redução drástica no consumo de memória RAM e carregamento acelerado.</li>
+<li><strong>EntityCulling + Fancy Entity Renderer:</strong> Oculta entidades atrás de paredes que não estão no campo de visão, garantindo alto FPS em vilas do Millénaire e dungeons.</li>
+<li><strong>Krypton FNP + Chunky:</strong> Otimização de pacotes de rede e pré-geração suave de terreno.</li>
+</ul>
+<hr>
+<div class="sl-heading-wrapper level-h2"><h2 id="4-comandos-e-atalhos-úteis-para-jogadores">4. Comandos e Atalhos Úteis para Jogadores</h2><a class="sl-anchor-link" href="#4-comandos-e-atalhos-úteis-para-jogadores"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Seção intitulada “4. Comandos e Atalhos Úteis para Jogadores”</span></a></div>
+<table>
+<thead>
+<tr>
+<th>Comando / Tecla</th>
+<th>Função no Jogo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code dir="auto">/home</code>, <code dir="auto">/sethome</code>, <code dir="auto">/tpa</code>, <code dir="auto">/tpaccept</code>, <code dir="auto">/back</code></td>
+<td>Sistema de teleporte arcano (consome <strong>50 de Mana</strong> por viagem).</td>
+</tr>
+<tr>
+<td><code dir="auto">/consagrar</code> ou <code dir="auto">/proteger_vila</code></td>
+<td>Consagra o vilarejo atual erguendo o santuário de proteção.</td>
+</tr>
+<tr>
+<td><code dir="auto">/ftbquests open</code></td>
+<td>Abre a árvore de missões dos <strong>6 Atos</strong>.</td>
+</tr>
+<tr>
+<td><strong>Tecla <code dir="auto">[K]</code></strong></td>
+<td>Abre a <strong>Árvore de Habilidades</strong> (Puffish Skills).</td>
+</tr>
+<tr>
+<td><strong>Tecla <code dir="auto">[V]</code></strong></td>
+<td>Abre o radar e informações das civilizações próximas do <strong>Millénaire</strong>.</td>
+</tr>
+<tr>
+<td><strong>Tecla <code dir="auto">[M]</code> / <code dir="auto">[U]</code></strong></td>
+<td>Abre o Mapa-Múndi (Xaero’s World Map) e lista de Waypoints.</td>
+</tr>
+<tr>
+<td><strong>Tecla <code dir="auto">[R]</code> / <code dir="auto">[U]</code> (sobre um item)</strong></td>
+<td>Consulta a Receita (<code dir="auto">R</code>) ou os Usos (<code dir="auto">U</code>) do item no JEI/EMI.</td>
+</tr>
+</tbody>
+</table>
+</div><footer class="sl-flex astro-oyxnlawr"><div class="meta sl-flex astro-oyxnlawr"></div><div class="pagination-links print:hidden astro-clyp4uqs" dir="ltr"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/21-fogueira-coccao-avancos/" rel="prev" class="astro-clyp4uqs"><svg aria-hidden="true" class="astro-clyp4uqs astro-fqxqqhdy" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.5rem;"><path d="M17 11H9.41l3.3-3.29a1.004 1.004 0 1 0-1.42-1.42l-5 5a1 1 0 0 0-.21.33 1 1 0 0 0 0 .76 1 1 0 0 0 .21.33l5 5a1.002 1.002 0 0 0 1.639-.325 1 1 0 0 0-.219-1.095L9.41 13H17a1 1 0 0 0 0-2Z"/></svg><span class="astro-clyp4uqs">Anterior<br class="astro-clyp4uqs"><span class="link-title astro-clyp4uqs">21 — Fogueira Vanilla &amp; Avanços FTB</span></span></a><a href="/TFC-Arcanum-Empires-WIKI-Guides/documentacao/mods-compatibilidade/" rel="next" class="astro-clyp4uqs"><svg aria-hidden="true" class="astro-clyp4uqs astro-fqxqqhdy" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.5rem;"><path d="M17.92 11.62a1.001 1.001 0 0 0-.21-.33l-5-5a1.003 1.003 0 1 0-1.42 1.42l3.3 3.29H7a1 1 0 0 0 0 2h7.59l-3.3 3.29a1.002 1.002 0 0 0 .325 1.639 1 1 0 0 0 1.095-.219l5-5a1 1 0 0 0 .21-.33 1 1 0 0 0 0-.76Z"/></svg><span class="astro-clyp4uqs">Próximo<br class="astro-clyp4uqs"><span class="link-title astro-clyp4uqs">Catálogo A–Z (126 Mods) &amp; Requisitos</span></span></a></div></footer></div></div></main></div></div></div></div></body></html>

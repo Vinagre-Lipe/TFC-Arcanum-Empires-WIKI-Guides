@@ -1,0 +1,532 @@
+<!DOCTYPE html><html lang="pt-BR" dir="ltr" data-theme="dark" data-has-toc data-has-sidebar class="astro-o3lnpecw"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title>🌍 Geração de Mundo, Engenharia de Vigas & Economia de Trocas | TFC: Arcanum & Empires</title><link rel="canonical" href="https://vinagre-lipe.github.io/TFC-Arcanum-Empires-WIKI-Guides/guias/worldgen-vigas-trocas/"/><link rel="sitemap" href="/TFC-Arcanum-Empires-WIKI-Guides/sitemap-index.xml"/><script>
+            if (window.location.hash && window.location.hash.startsWith('#/')) {
+              var p = window.location.hash.slice(2).replace(/\.md$/, '').replace(/^\/+/, '');
+              var base = '/TFC-Arcanum-Empires-WIKI-Guides/';
+              if (p && p !== '/') {
+                window.location.replace(base + p + '/');
+              } else {
+                window.location.replace(base);
+              }
+            }
+            document.addEventListener('click', function(e) {
+              var a = e.target.closest('a');
+              if (!a) return;
+              var href = a.getAttribute('href');
+              if (href && href.startsWith('/') && !href.startsWith('/TFC-Arcanum-Empires-WIKI-Guides') && !href.startsWith('//')) {
+                e.preventDefault();
+                window.location.href = '/TFC-Arcanum-Empires-WIKI-Guides' + href;
+              }
+            }, true);
+          </script><script src="/TFC-Arcanum-Empires-WIKI-Guides/assets/jei-modal.js" defer></script><script type="module">
+            import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+            mermaid.initialize({ startOnLoad: false, theme: 'dark' });
+            async function renderMermaid() {
+              const els = document.querySelectorAll('pre[data-language="mermaid"], pre.mermaid, code.language-mermaid');
+              for (const el of els) {
+                const pre = el.tagName === 'CODE' ? el.parentElement : el;
+                if (pre.dataset.mermaidProcessed) continue;
+                pre.dataset.mermaidProcessed = 'true';
+                const code = el.textContent;
+                const container = document.createElement('div');
+                container.className = 'mermaid-container';
+                const id = 'mermaid-' + Math.random().toString(36).substring(2, 9);
+                try {
+                  const { svg } = await mermaid.render(id, code);
+                  container.innerHTML = svg;
+                  pre.replaceWith(container);
+                } catch (err) {
+                  console.error('Mermaid render error:', err);
+                }
+              }
+            }
+            document.addEventListener('DOMContentLoaded', renderMermaid);
+            document.addEventListener('astro:page-load', renderMermaid);
+          </script><link rel="shortcut icon" href="/TFC-Arcanum-Empires-WIKI-Guides/favicon.svg" type="image/svg+xml"/><meta name="generator" content="Astro v7.4.2"/><meta name="generator" content="Starlight v0.42.7"/><meta property="og:title" content="🌍 Geração de Mundo, Engenharia de Vigas &amp; Economia de Trocas"/><meta property="og:type" content="article"/><meta property="og:url" content="https://vinagre-lipe.github.io/TFC-Arcanum-Empires-WIKI-Guides/guias/worldgen-vigas-trocas/"/><meta property="og:locale" content="pt-BR"/><meta property="og:description" content="TerraFirmaCraft: Arcanum &amp; Empires"/><meta property="og:site_name" content="TFC: Arcanum &amp; Empires"/><meta name="twitter:card" content="summary_large_image"/><meta name="description" content="TerraFirmaCraft: Arcanum &amp; Empires"/><script>
+	window.StarlightThemeProvider = (() => {
+		const storedTheme =
+			typeof localStorage !== 'undefined' && localStorage.getItem('starlight-theme');
+		const theme =
+			storedTheme ||
+			(window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+		document.documentElement.dataset.theme = theme === 'light' ? 'light' : 'dark';
+		return {
+			updatePickers(theme = storedTheme || 'auto') {
+				document.querySelectorAll('starlight-theme-select').forEach((picker) => {
+					const select = picker.querySelector('select');
+					if (select) select.value = theme;
+					/** @type {HTMLTemplateElement | null} */
+					const tmpl = document.querySelector(`#theme-icons`);
+					const newIcon = tmpl && tmpl.content.querySelector('.' + theme);
+					if (newIcon) {
+						const oldIcon = picker.querySelector('svg.label-icon');
+						if (oldIcon) {
+							oldIcon.replaceChildren(...newIcon.cloneNode(true).childNodes);
+						}
+					}
+				});
+			},
+		};
+	})();
+</script><template id="theme-icons"><svg aria-hidden="true" class="light astro-fqxqqhdy" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M5 12a1 1 0 0 0-1-1H3a1 1 0 0 0 0 2h1a1 1 0 0 0 1-1Zm.64 5-.71.71a1 1 0 0 0 0 1.41 1 1 0 0 0 1.41 0l.71-.71A1 1 0 0 0 5.64 17ZM12 5a1 1 0 0 0 1-1V3a1 1 0 0 0-2 0v1a1 1 0 0 0 1 1Zm5.66 2.34a1 1 0 0 0 .7-.29l.71-.71a1 1 0 1 0-1.41-1.41l-.66.71a1 1 0 0 0 0 1.41 1 1 0 0 0 .66.29Zm-12-.29a1 1 0 0 0 1.41 0 1 1 0 0 0 0-1.41l-.71-.71a1.004 1.004 0 1 0-1.43 1.41l.73.71ZM21 11h-1a1 1 0 0 0 0 2h1a1 1 0 0 0 0-2Zm-2.64 6A1 1 0 0 0 17 18.36l.71.71a1 1 0 0 0 1.41 0 1 1 0 0 0 0-1.41l-.76-.66ZM12 6.5a5.5 5.5 0 1 0 5.5 5.5A5.51 5.51 0 0 0 12 6.5Zm0 9a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7Zm0 3.5a1 1 0 0 0-1 1v1a1 1 0 0 0 2 0v-1a1 1 0 0 0-1-1Z"/></svg><svg aria-hidden="true" class="dark astro-fqxqqhdy" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M21.64 13a1 1 0 0 0-1.05-.14 8.049 8.049 0 0 1-3.37.73 8.15 8.15 0 0 1-8.14-8.1 8.59 8.59 0 0 1 .25-2A1 1 0 0 0 8 2.36a10.14 10.14 0 1 0 14 11.69 1 1 0 0 0-.36-1.05Zm-9.5 6.69A8.14 8.14 0 0 1 7.08 5.22v.27a10.15 10.15 0 0 0 10.14 10.14 9.784 9.784 0 0 0 2.1-.22 8.11 8.11 0 0 1-7.18 4.32v-.04Z"/></svg><svg aria-hidden="true" class="auto astro-fqxqqhdy" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M21 14h-1V7a3 3 0 0 0-3-3H7a3 3 0 0 0-3 3v7H3a1 1 0 0 0-1 1v2a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-2a1 1 0 0 0-1-1ZM6 7a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v7H6V7Zm14 10a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-1h16v1Z"/></svg></template><link rel="stylesheet" href="/TFC-Arcanum-Empires-WIKI-Guides/_astro/print.ehPL0gv-.css" media="print"><link rel="stylesheet" href="/TFC-Arcanum-Empires-WIKI-Guides/_astro/common.BS8n4PiD.css"><script type="module" src="/TFC-Arcanum-Empires-WIKI-Guides/_astro/page.cNngjUgL.js"></script></head><body class="astro-o3lnpecw"><a class="sl-skip-link astro-hhc2svly" href="#_top">Pular para o conteúdo</a><div class="page sl-flex astro-47qwzgdq"><header class="header astro-47qwzgdq"><div class="header astro-eql7qchf"><div class="title-wrapper sl-flex astro-eql7qchf"><a href="/TFC-Arcanum-Empires-WIKI-Guides/" class="site-title sl-flex astro-a6ytwuqe"><img class="astro-a6ytwuqe" alt="Selo de TFC: Arcanum &amp; Empires" src="/TFC-Arcanum-Empires-WIKI-Guides/_astro/arcanum-mark.BihVlKLM.png" width="256" height="256"><span class="astro-a6ytwuqe" translate="no">TFC: Arcanum &amp; Empires</span></a></div><div class="sl-flex print:hidden astro-eql7qchf"><site-search class="astro-eql7qchf astro-jd5q2voe" data-translations="{&quot;placeholder&quot;:&quot;Pesquisar&quot;}"><button data-open-modal disabled aria-label="Pesquisar" aria-keyshortcuts="Control+K" class="astro-jd5q2voe"><svg aria-hidden="true" class="astro-jd5q2voe astro-fqxqqhdy" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M21.71 20.29 18 16.61A9 9 0 1 0 16.61 18l3.68 3.68a.999.999 0 0 0 1.42 0 1 1 0 0 0 0-1.39ZM11 18a7 7 0 1 1 0-14 7 7 0 0 1 0 14Z"/></svg><span class="sl-hidden md:sl-block astro-jd5q2voe" aria-hidden="true">Pesquisar</span><kbd class="sl-hidden md:sl-flex astro-jd5q2voe" style="display: none;"><kbd class="astro-jd5q2voe">Ctrl</kbd><kbd class="astro-jd5q2voe">K</kbd></kbd></button><dialog style="padding:0" aria-label="Pesquisar" class="astro-jd5q2voe"><div class="dialog-frame sl-flex astro-jd5q2voe"><button data-close-modal class="sl-flex md:sl-hidden astro-jd5q2voe">Cancelar</button><div class="search-container astro-jd5q2voe"><div id="starlight__search" class="astro-jd5q2voe"></div></div></div></dialog></site-search><script>
+	(() => {
+		const openBtn = document.querySelector('button[data-open-modal]');
+		const shortcut = openBtn?.querySelector('kbd');
+		if (!openBtn || !(shortcut instanceof HTMLElement)) return;
+		const platformKey = shortcut.querySelector('kbd');
+		if (platformKey && /(Mac|iPhone|iPod|iPad)/i.test(navigator.platform)) {
+			platformKey.textContent = '⌘';
+			openBtn.setAttribute('aria-keyshortcuts', 'Meta+K');
+		}
+		shortcut.style.display = '';
+	})();
+</script><script type="module" src="/TFC-Arcanum-Empires-WIKI-Guides/_astro/Search.astro_astro_type_script_index_0_lang.Dz8br82X.js"></script></div><div class="sl-hidden md:sl-flex print:hidden right-group astro-eql7qchf"><div class="sl-flex social-icons astro-eql7qchf"><a href="https://github.com/Vinagre-Lipe/TFC-Arcanum-Empires-WIKI-Guides" rel="me" class="sl-flex astro-6dnnmvp7"><span class="sr-only astro-6dnnmvp7">Repositório GitHub</span><svg aria-hidden="true" class="astro-6dnnmvp7 astro-fqxqqhdy" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M12 .3a12 12 0 0 0-3.8 23.38c.6.12.83-.26.83-.57L9 21.07c-3.34.72-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.08-.74.09-.73.09-.73 1.2.09 1.83 1.24 1.83 1.24 1.08 1.83 2.81 1.3 3.5 1 .1-.78.42-1.31.76-1.61-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.14-.3-.54-1.52.1-3.18 0 0 1-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.28-1.55 3.29-1.23 3.29-1.23.64 1.66.24 2.88.12 3.18a4.65 4.65 0 0 1 1.23 3.22c0 4.61-2.8 5.63-5.48 5.92.42.36.81 1.1.81 2.22l-.01 3.29c0 .31.2.69.82.57A12 12 0 0 0 12 .3Z"/></svg></a></div><starlight-theme-select><label style="--sl-select-width: 6.25em" class="astro-pggh4mc4"><span class="sr-only astro-pggh4mc4">Selecionar tema</span><svg aria-hidden="true" class="icon label-icon astro-pggh4mc4 astro-fqxqqhdy" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M21 14h-1V7a3 3 0 0 0-3-3H7a3 3 0 0 0-3 3v7H3a1 1 0 0 0-1 1v2a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-2a1 1 0 0 0-1-1ZM6 7a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v7H6V7Zm14 10a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-1h16v1Z"/></svg><select autocomplete="off" class="astro-pggh4mc4"><option value="dark" class="astro-pggh4mc4">Escuro</option><option value="light" class="astro-pggh4mc4">Claro</option><option value="auto" selected class="astro-pggh4mc4">Auto</option></select><svg aria-hidden="true" class="icon caret astro-pggh4mc4 astro-fqxqqhdy" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M17 9.17a1 1 0 0 0-1.41 0L12 12.71 8.46 9.17a1 1 0 1 0-1.41 1.42l4.24 4.24a1.002 1.002 0 0 0 1.42 0L17 10.59a1.002 1.002 0 0 0 0-1.42Z"/></svg></label></starlight-theme-select><script>
+	StarlightThemeProvider.updatePickers();
+</script><script type="module">var e=`starlight-theme`,t=e=>e===`auto`||e===`dark`||e===`light`?e:`auto`,n=()=>t(typeof localStorage<`u`&&localStorage.getItem(e));function r(t){typeof localStorage<`u`&&localStorage.setItem(e,t===`light`||t===`dark`?t:``)}var i=()=>matchMedia(`(prefers-color-scheme: light)`).matches?`light`:`dark`;function a(e){StarlightThemeProvider.updatePickers(e),document.documentElement.dataset.theme=e===`auto`?i():e,r(e)}matchMedia(`(prefers-color-scheme: light)`).addEventListener(`change`,()=>{n()===`auto`&&a(`auto`)});var o=class extends HTMLElement{constructor(){super(),a(n()),this.querySelector(`select`)?.addEventListener(`change`,e=>{e.currentTarget instanceof HTMLSelectElement&&a(t(e.currentTarget.value))})}};customElements.define(`starlight-theme-select`,o);</script><script type="module">var e=class extends HTMLElement{constructor(){super();let e=this.querySelector(`select`);e&&(e.addEventListener(`change`,e=>{e.currentTarget instanceof HTMLSelectElement&&(window.location.pathname=e.currentTarget.value)}),window.addEventListener(`pageshow`,t=>{if(!t.persisted)return;let n=e.querySelector(`option[selected]`)?.index;n!==e.selectedIndex&&(e.selectedIndex=n??0)}))}};customElements.define(`starlight-lang-select`,e);</script></div></div></header><nav class="sidebar print:hidden astro-47qwzgdq" aria-label="Principal"><button popovertarget="starlight__sidebar" class="sl-menu-button sl-flex md:sl-hidden print:hidden astro-ts7kidad"><svg aria-hidden="true" class="open-menu astro-ts7kidad astro-fqxqqhdy" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M3 8h18a1 1 0 1 0 0-2H3a1 1 0 0 0 0 2Zm18 8H3a1 1 0 0 0 0 2h18a1 1 0 0 0 0-2Zm0-5H3a1 1 0 0 0 0 2h18a1 1 0 0 0 0-2Z"/></svg><svg aria-hidden="true" class="close-menu astro-ts7kidad astro-fqxqqhdy" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="m13.41 12 6.3-6.29a1.004 1.004 0 1 0-1.42-1.42L12 10.59l-6.29-6.3a1.004 1.004 0 0 0-1.42 1.42l6.3 6.29-6.3 6.29a1 1 0 0 0 0 1.42.998.998 0 0 0 1.42 0l6.29-6.3 6.29 6.3a.999.999 0 0 0 1.42 0 1 1 0 0 0 0-1.42L13.41 12Z"/></svg><span class="sr-only astro-ts7kidad">Menu</span></button><script type="module">var e=class extends HTMLElement{constructor(){super();let e=matchMedia(`(min-width: 50em)`),t=()=>{this.popover=e.matches?null:`auto`};t(),e.addEventListener(`change`,()=>t()),this.addEventListener(`toggle`,({newState:e})=>this.trapFocus(e===`open`))}trapFocus(e){document.querySelectorAll(`.main-frame, .sl-skip-link`).forEach(t=>{t.toggleAttribute(`inert`,e)})}};customElements.define(`sl-sidebar-pane`,e);</script><sl-sidebar-pane popover id="starlight__sidebar" class="sidebar-pane astro-47qwzgdq"><div class="sidebar-content sl-flex astro-47qwzgdq"><sl-sidebar-state-persist data-hash="1g7kss1" class="astro-bajgck2j"><script aria-hidden="true">
+		(() => {
+			try {
+				if (!matchMedia('(min-width: 50em)').matches) return;
+				/** @type {HTMLElement | null} */
+				const target = document.querySelector('sl-sidebar-state-persist');
+				const state = JSON.parse(sessionStorage.getItem('sl-sidebar-state') || '0');
+				if (!target || !state || target.dataset.hash !== state.hash) return;
+				window._starlightScrollRestore = state.scroll;
+				customElements.define(
+					'sl-sidebar-restore',
+					class SidebarRestore extends HTMLElement {
+						connectedCallback() {
+							try {
+								const idx = parseInt(this.dataset.index || '');
+								const details = this.closest('details');
+								if (details && typeof state.open[idx] === 'boolean') details.open = state.open[idx];
+							} catch {}
+						}
+					}
+				);
+			} catch {}
+		})();
+	</script><ul class="top-level astro-qkyiv5t4"><li class="astro-qkyiv5t4"><details open class="astro-qkyiv5t4"><summary class="astro-qkyiv5t4"><span class="group-label astro-qkyiv5t4"><span class="large astro-qkyiv5t4">Comece sua Jornada</span></span><svg aria-hidden="true" class="caret astro-qkyiv5t4 astro-fqxqqhdy" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.25rem;"><path d="m14.83 11.29-4.24-4.24a1 1 0 1 0-1.42 1.41L12.71 12l-3.54 3.54a1 1 0 0 0 0 1.41 1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.24-4.24a1.002 1.002 0 0 0 0-1.42Z"/></svg></summary><sl-sidebar-restore data-index="0"></sl-sidebar-restore><ul class="astro-qkyiv5t4"><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">🏠 Portal da Wiki</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/guias/01-primeiros-passos/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">🌲 Primeiros Minutos no TFC</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/guias/mecanicas-do-modpack/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">⚙️ Mecânicas Gerais &amp; Fisiologia</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/guias/worldgen-vigas-trocas/" aria-current="page" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">🌍 Mundo, Vigas &amp; Trocas (World Gen)</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/guias/01-arvore-habilidades/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">🔮 Árvore de Habilidades</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/guias/progressao-6-atos/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">🗺️ Progressão: Os 6 Atos</span></a></li></ul></details></li><li class="astro-qkyiv5t4"><details open class="astro-qkyiv5t4"><summary class="astro-qkyiv5t4"><span class="group-label astro-qkyiv5t4"><span class="large astro-qkyiv5t4">Ofícios, Forjas &amp; Catálogo JEI</span></span><svg aria-hidden="true" class="caret astro-qkyiv5t4 astro-fqxqqhdy" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.25rem;"><path d="m14.83 11.29-4.24-4.24a1 1 0 1 0-1.42 1.41L12.71 12l-3.54 3.54a1 1 0 0 0 0 1.41 1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.24-4.24a1.002 1.002 0 0 0 0-1.42Z"/></svg></summary><sl-sidebar-restore data-index="1"></sl-sidebar-restore><ul class="astro-qkyiv5t4"><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/todos-os-crafts/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">🌟 Todos os Crafts (Painel JEI)</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/estruturas-multiblocos/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">🏗️ Estruturas Multiblocos</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/processos-fisicos/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">🔨 Processos Físicos &amp; Forjas</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/forjas-multiblocos-processos/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">🔥 Fornalhas &amp; Multiblocos</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/cozinha-culinaria/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">🍳 Cozinha, Gastronomia &amp; Culinária</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/itens-comerciais/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">🪙 Itens Comerciais &amp; Millénaire</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/22-expansao-v130-aviacao-arcaria-vassouras/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">✈️ Aviação, Vassouras &amp; Arcaria (v1.3.0)</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/portabilidade-viabilidade/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">📋 Planilha Mestra de Portabilidade</span></a></li></ul></details></li><li class="astro-qkyiv5t4"><details class="astro-qkyiv5t4"><summary class="astro-qkyiv5t4"><span class="group-label astro-qkyiv5t4"><span class="large astro-qkyiv5t4">Sobrevivência Primitiva (Guias)</span></span><svg aria-hidden="true" class="caret astro-qkyiv5t4 astro-fqxqqhdy" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.25rem;"><path d="m14.83 11.29-4.24-4.24a1 1 0 1 0-1.42 1.41L12.71 12l-3.54 3.54a1 1 0 0 0 0 1.41 1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.24-4.24a1.002 1.002 0 0 0 0-1.42Z"/></svg></summary><sl-sidebar-restore data-index="2"></sl-sidebar-restore><ul class="astro-qkyiv5t4"><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/guias/02-knapping-ferramentas/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">Talhando Pedras (Knapping)</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/guias/02-padroes-knapping/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">Padrões de Knapping</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/guias/03-palha-fogo/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">Palha, Fogueira &amp; Comida</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/guias/04-agua-sede/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">Água Doce &amp; Sede</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/guias/01-ferramentas-pedra/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">Ferramentas de Pedra</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/guias/03-fogo-e-tochas/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">Fogo &amp; Tochas</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/guias/01-argila-pitkiln/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">Argila &amp; Pit Kiln</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/guias/04-estruturas-primitivas/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">Cerâmica &amp; Pit Kiln (Passo a Passo)</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/guias/02-armazenamento-fisica/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">Armazenamento &amp; Cavernas</span></a></li></ul></details></li><li class="astro-qkyiv5t4"><details class="astro-qkyiv5t4"><summary class="astro-qkyiv5t4"><span class="group-label astro-qkyiv5t4"><span class="large astro-qkyiv5t4">Magia &amp; Impérios</span></span><svg aria-hidden="true" class="caret astro-qkyiv5t4 astro-fqxqqhdy" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.25rem;"><path d="m14.83 11.29-4.24-4.24a1 1 0 1 0-1.42 1.41L12.71 12l-3.54 3.54a1 1 0 0 0 0 1.41 1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.24-4.24a1.002 1.002 0 0 0 0-1.42Z"/></svg></summary><sl-sidebar-restore data-index="3"></sl-sidebar-restore><ul class="astro-qkyiv5t4"><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/guias/02-magia-piloes/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">Catalisador Arcano &amp; Pilões</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/guias/01-vilas-millenaire/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">Civilizações do Millénaire</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/04-millenaire/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">Consagração de Vilas (Waystones)</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/15-millager-exercitos/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">Millager &amp; Exércitos Mercenários</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/13-teleporte-mana/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">Teleporte por Mana (/home, /tpa)</span></a></li></ul></details></li><li class="astro-qkyiv5t4"><details open class="astro-qkyiv5t4"><summary class="astro-qkyiv5t4"><span class="group-label astro-qkyiv5t4"><span class="large astro-qkyiv5t4">Chefes &amp; Expedições</span></span><svg aria-hidden="true" class="caret astro-qkyiv5t4 astro-fqxqqhdy" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.25rem;"><path d="m14.83 11.29-4.24-4.24a1 1 0 1 0-1.42 1.41L12.71 12l-3.54 3.54a1 1 0 0 0 0 1.41 1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.24-4.24a1.002 1.002 0 0 0 0-1.42Z"/></svg></summary><sl-sidebar-restore data-index="4"></sl-sidebar-restore><ul class="astro-qkyiv5t4"><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/guias/chefes-essenciais-progresso/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">⚔️ Chefes Essenciais &amp; Lendários</span></a></li></ul></details></li><li class="astro-qkyiv5t4"><details class="astro-qkyiv5t4"><summary class="astro-qkyiv5t4"><span class="group-label astro-qkyiv5t4"><span class="large astro-qkyiv5t4">História &amp; Crônicas</span></span><svg aria-hidden="true" class="caret astro-qkyiv5t4 astro-fqxqqhdy" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.25rem;"><path d="m14.83 11.29-4.24-4.24a1 1 0 1 0-1.42 1.41L12.71 12l-3.54 3.54a1 1 0 0 0 0 1.41 1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.24-4.24a1.002 1.002 0 0 0 0-1.42Z"/></svg></summary><sl-sidebar-restore data-index="5"></sl-sidebar-restore><ul class="astro-qkyiv5t4"><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/historia/01-a-era-primordial/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">I. A Criação e o Selo Primordial</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/historia/02-o-rompimento-do-selo/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">II. A Fratura e a Lua de Sangue</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/historia/03-os-seis-atos/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">III. Os Pilões e os Seis Atos</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/historia/04-o-chaos-guardian/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">IV. O Chaos Guardian</span></a></li></ul></details></li><li class="astro-qkyiv5t4"><details class="astro-qkyiv5t4"><summary class="astro-qkyiv5t4"><span class="group-label astro-qkyiv5t4"><span class="large astro-qkyiv5t4">Integrações &amp; Scripts KubeJS</span></span><svg aria-hidden="true" class="caret astro-qkyiv5t4 astro-fqxqqhdy" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.25rem;"><path d="m14.83 11.29-4.24-4.24a1 1 0 1 0-1.42 1.41L12.71 12l-3.54 3.54a1 1 0 0 0 0 1.41 1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.24-4.24a1.002 1.002 0 0 0 0-1.42Z"/></svg></summary><sl-sidebar-restore data-index="6"></sl-sidebar-restore><ul class="astro-qkyiv5t4"><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">Visão Geral das Integrações</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/01-knapping/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">01 — Knapping, Cerâmica &amp; Millénaire</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/02-kit-inicial/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">02 — Kit Inicial e Guia</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/05-vulcoes/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">05 — Vulcões Vivos</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/06-spawns-noturnos/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">06 — Criaturas Noturnas &amp; Safezones</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/07-tfc-vanilla/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">07 — Integração TFC ➔ Vanilla</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/08-expansao/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">08 — Expansão, Farms &amp; Alquimia</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/09-grande-integracao/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">09 — Grande Integração</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/10-fauna/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">10 — Fauna, Pesca e Culinária</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/11-chaos-guardian/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">11 — Chaos Guardian e Endgame (Ato VI)</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/12-sculk-warden/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">12 — Sculk Fossilizado e Warden</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/14-utilidades-vanilla/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">14 — Utilidades Vanilla &amp; Redstone</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/14-cliente/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">14b — Otimizações de Cliente</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/16-cliente-tooltips/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">16 — Pente Fino &amp; Tooltips</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/19-alquimia-proibida/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">19 — Alquimia Proibida &amp; Metais do Eclipse</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/20-transmutacao-xp-expedicao/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">20 — Transmutação de Restos em XP</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/21-fogueira-coccao-avancos/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">21 — Fogueira Vanilla &amp; Avanços FTB</span></a></li></ul></details></li><li class="astro-qkyiv5t4"><details open class="astro-qkyiv5t4"><summary class="astro-qkyiv5t4"><span class="group-label astro-qkyiv5t4"><span class="large astro-qkyiv5t4">Documentação Técnica</span></span><svg aria-hidden="true" class="caret astro-qkyiv5t4 astro-fqxqqhdy" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.25rem;"><path d="m14.83 11.29-4.24-4.24a1 1 0 1 0-1.42 1.41L12.71 12l-3.54 3.54a1 1 0 0 0 0 1.41 1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.24-4.24a1.002 1.002 0 0 0 0-1.42Z"/></svg></summary><sl-sidebar-restore data-index="7"></sl-sidebar-restore><ul class="astro-qkyiv5t4"><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/documentacao/arquitetura/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">Visão Geral &amp; Mods por Categoria</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/documentacao/mods-compatibilidade/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">Catálogo A–Z (126 Mods) &amp; Requisitos</span></a></li></ul></details></li></ul><script aria-hidden="true">
+		(() => {
+			const scroller = document.getElementById('starlight__sidebar');
+			if (!window._starlightScrollRestore || !scroller) return;
+			scroller.scrollTop = window._starlightScrollRestore;
+			delete window._starlightScrollRestore;
+		})();
+	</script></sl-sidebar-state-persist><div class="md:sl-hidden"><div class="mobile-preferences sl-flex astro-ltj6auun"><div class="social-icons astro-ltj6auun"><a href="https://github.com/Vinagre-Lipe/TFC-Arcanum-Empires-WIKI-Guides" rel="me" class="sl-flex astro-6dnnmvp7"><span class="sr-only astro-6dnnmvp7">Repositório GitHub</span><svg aria-hidden="true" class="astro-6dnnmvp7 astro-fqxqqhdy" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M12 .3a12 12 0 0 0-3.8 23.38c.6.12.83-.26.83-.57L9 21.07c-3.34.72-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.08-.74.09-.73.09-.73 1.2.09 1.83 1.24 1.83 1.24 1.08 1.83 2.81 1.3 3.5 1 .1-.78.42-1.31.76-1.61-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.14-.3-.54-1.52.1-3.18 0 0 1-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.28-1.55 3.29-1.23 3.29-1.23.64 1.66.24 2.88.12 3.18a4.65 4.65 0 0 1 1.23 3.22c0 4.61-2.8 5.63-5.48 5.92.42.36.81 1.1.81 2.22l-.01 3.29c0 .31.2.69.82.57A12 12 0 0 0 12 .3Z"/></svg></a></div><starlight-theme-select><label style="--sl-select-width: 6.25em" class="astro-pggh4mc4"><span class="sr-only astro-pggh4mc4">Selecionar tema</span><svg aria-hidden="true" class="icon label-icon astro-pggh4mc4 astro-fqxqqhdy" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M21 14h-1V7a3 3 0 0 0-3-3H7a3 3 0 0 0-3 3v7H3a1 1 0 0 0-1 1v2a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-2a1 1 0 0 0-1-1ZM6 7a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v7H6V7Zm14 10a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-1h16v1Z"/></svg><select autocomplete="off" class="astro-pggh4mc4"><option value="dark" class="astro-pggh4mc4">Escuro</option><option value="light" class="astro-pggh4mc4">Claro</option><option value="auto" selected class="astro-pggh4mc4">Auto</option></select><svg aria-hidden="true" class="icon caret astro-pggh4mc4 astro-fqxqqhdy" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M17 9.17a1 1 0 0 0-1.41 0L12 12.71 8.46 9.17a1 1 0 1 0-1.41 1.42l4.24 4.24a1.002 1.002 0 0 0 1.42 0L17 10.59a1.002 1.002 0 0 0 0-1.42Z"/></svg></label></starlight-theme-select><script>
+	StarlightThemeProvider.updatePickers();
+</script></div></div></div></sl-sidebar-pane></nav><div class="main-frame astro-47qwzgdq"><script type="module">var e=document.getElementById(`starlight__sidebar`),t=e?.querySelector(`sl-sidebar-state-persist`),n=`sl-sidebar-state`,r=()=>{let r=[],i=t?.dataset.hash||``;try{let e=sessionStorage.getItem(n),t=JSON.parse(e||`{}`);Array.isArray(t.open)&&t.hash===i&&(r=t.open)}catch{}return{hash:i,open:r,scroll:e?.scrollTop||0}},i=e=>{try{sessionStorage.setItem(n,JSON.stringify(e))}catch{}},a=()=>i(r()),o=(e,t)=>{let n=r();n.open[t]=e,i(n)};t?.addEventListener(`click`,e=>{if(!(e.target instanceof Element))return;let t=e.target.closest(`summary`)?.closest(`details`);if(!t)return;let n=t.querySelector(`sl-sidebar-restore`),r=parseInt(n?.dataset.index||``);isNaN(r)||o(!t.open,r)}),addEventListener(`visibilitychange`,()=>{document.visibilityState===`hidden`&&a()});</script><div class="lg:sl-flex astro-pinujozt"><aside class="right-sidebar-container print:hidden astro-pinujozt"><div class="right-sidebar astro-pinujozt"><div class="lg:sl-hidden astro-d4r3nttl"><mobile-starlight-toc data-min-h="2" data-max-h="3" class="astro-sy3i5rvm"><nav aria-labelledby="starlight__on-this-page--mobile" class="astro-sy3i5rvm"><details id="starlight__mobile-toc" class="astro-sy3i5rvm"><summary id="starlight__on-this-page--mobile" class="sl-flex astro-sy3i5rvm"><span class="toggle sl-flex astro-sy3i5rvm">Nesta página<svg aria-hidden="true" class="caret astro-sy3i5rvm astro-fqxqqhdy" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1rem;"><path d="m14.83 11.29-4.24-4.24a1 1 0 1 0-1.42 1.41L12.71 12l-3.54 3.54a1 1 0 0 0 0 1.41 1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.24-4.24a1.002 1.002 0 0 0 0-1.42Z"/></svg></span><span class="display-current astro-sy3i5rvm"></span></summary><div class="dropdown astro-sy3i5rvm"><ul class="isMobile astro-r7oszrrb" style="--depth: 0;"><li style="--depth: 0;" class="astro-r7oszrrb"><a href="#_top" style="--depth: 0;" class="astro-r7oszrrb"><span style="--depth: 0;" class="astro-r7oszrrb">Visão geral</span></a></li><li style="--depth: 0;" class="astro-r7oszrrb"><a href="#-visão-geral-das-alterações" style="--depth: 0;" class="astro-r7oszrrb"><span style="--depth: 0;" class="astro-r7oszrrb">🧭 Visão Geral das Alterações</span></a></li><li style="--depth: 0;" class="astro-r7oszrrb"><a href="#1--engenharia-de-minas-desmoronamentos--alcance-das-vigas" style="--depth: 0;" class="astro-r7oszrrb"><span style="--depth: 0;" class="astro-r7oszrrb">1. 🪨 Engenharia de Minas: Desmoronamentos &amp; Alcance das Vigas</span></a><ul class="isMobile astro-r7oszrrb" style="--depth: 1;"><li style="--depth: 1;" class="astro-r7oszrrb"><a href="#11-nova-física-de-colapso-sísmico" style="--depth: 1;" class="astro-r7oszrrb"><span style="--depth: 1;" class="astro-r7oszrrb">1.1 Nova Física de Colapso Sísmico</span></a></li><li style="--depth: 1;" class="astro-r7oszrrb"><a href="#12-o-novo-alcance-aprimorado-das-vigas-de-suporte" style="--depth: 1;" class="astro-r7oszrrb"><span style="--depth: 1;" class="astro-r7oszrrb">1.2 O Novo Alcance Aprimorado das Vigas de Suporte</span></a></li></ul></li><li style="--depth: 0;" class="astro-r7oszrrb"><a href="#2--economia-de-aldeões-reformulada-villagertradingplus" style="--depth: 0;" class="astro-r7oszrrb"><span style="--depth: 0;" class="astro-r7oszrrb">2. 🪙 Economia de Aldeões Reformulada (VillagerTradingPlus)</span></a></li><li style="--depth: 0;" class="astro-r7oszrrb"><a href="#3--ecologia-aquática-repovoamento-de-rios-lagos--mares" style="--depth: 0;" class="astro-r7oszrrb"><span style="--depth: 0;" class="astro-r7oszrrb">3. 🐟 Ecologia Aquática: Repovoamento de Rios, Lagos &amp; Mares</span></a><ul class="isMobile astro-r7oszrrb" style="--depth: 1;"><li style="--depth: 1;" class="astro-r7oszrrb"><a href="#31-rios-lagos-montanhosos-pântanos--cenotes" style="--depth: 1;" class="astro-r7oszrrb"><span style="--depth: 1;" class="astro-r7oszrrb">3.1 Rios, Lagos Montanhosos, Pântanos &amp; Cenotes</span></a></li><li style="--depth: 1;" class="astro-r7oszrrb"><a href="#32-oceanos-profundos--zonas-costeiras" style="--depth: 1;" class="astro-r7oszrrb"><span style="--depth: 1;" class="astro-r7oszrrb">3.2 Oceanos Profundos &amp; Zonas Costeiras</span></a></li></ul></li><li style="--depth: 0;" class="astro-r7oszrrb"><a href="#4--arcaria-de-elite--runas-de-gemas-tfc-simply-bows" style="--depth: 0;" class="astro-r7oszrrb"><span style="--depth: 0;" class="astro-r7oszrrb">4. 🏹 Arcaria de Elite &amp; Runas de Gemas TFC (Simply Bows)</span></a></li><li style="--depth: 0;" class="astro-r7oszrrb"><a href="#5--dragões-do-wyrmroost--predadores-alados-nos-biomas-tfc" style="--depth: 0;" class="astro-r7oszrrb"><span style="--depth: 0;" class="astro-r7oszrrb">5. 🐉 Dragões do Wyrmroost &amp; Predadores Alados nos Biomas TFC</span></a><ul class="isMobile astro-r7oszrrb" style="--depth: 1;"><li style="--depth: 1;" class="astro-r7oszrrb"><a href="#51-dragões-de-montanha-picos-frios--vulcões" style="--depth: 1;" class="astro-r7oszrrb"><span style="--depth: 1;" class="astro-r7oszrrb">5.1. Dragões de Montanha, Picos Frios &amp; Vulcões</span></a></li><li style="--depth: 1;" class="astro-r7oszrrb"><a href="#52-dragões-costeiros-florestais--planícies" style="--depth: 1;" class="astro-r7oszrrb"><span style="--depth: 1;" class="astro-r7oszrrb">5.2. Dragões Costeiros, Florestais &amp; Planícies</span></a></li></ul></li><li style="--depth: 0;" class="astro-r7oszrrb"><a href="#6--registro-de-boost-acumulado-da-fauna-pacífica-15-adicional" style="--depth: 0;" class="astro-r7oszrrb"><span style="--depth: 0;" class="astro-r7oszrrb">6. 🌿 Registro de Boost Acumulado da Fauna Pacífica (+15% Adicional)</span></a></li><li style="--depth: 0;" class="astro-r7oszrrb"><a href="#7-️-estruturas-em-ilhas-oceânicas--expansão-de-vilas-millénaire" style="--depth: 0;" class="astro-r7oszrrb"><span style="--depth: 0;" class="astro-r7oszrrb">7. 🏛️ Estruturas em Ilhas Oceânicas &amp; Expansão de Vilas Millénaire</span></a><ul class="isMobile astro-r7oszrrb" style="--depth: 1;"><li style="--depth: 1;" class="astro-r7oszrrb"><a href="#71-geração-em-ilhas-e-atóis" style="--depth: 1;" class="astro-r7oszrrb"><span style="--depth: 1;" class="astro-r7oszrrb">7.1 Geração em Ilhas e Atóis</span></a></li><li style="--depth: 1;" class="astro-r7oszrrb"><a href="#72-dispersão-territorial-de-vilas-do-millénaire" style="--depth: 1;" class="astro-r7oszrrb"><span style="--depth: 1;" class="astro-r7oszrrb">7.2 Dispersão Territorial de Vilas do Millénaire</span></a></li><li style="--depth: 1;" class="astro-r7oszrrb"><a href="#73-coexistência-harmoniosa-água-salgada-tfc--estruturas-nbt" style="--depth: 1;" class="astro-r7oszrrb"><span style="--depth: 1;" class="astro-r7oszrrb">7.3 Coexistência Harmoniosa: Água Salgada TFC &amp; Estruturas NBT</span></a></li></ul></li></ul></div></details></nav></mobile-starlight-toc><script type="module" src="/TFC-Arcanum-Empires-WIKI-Guides/_astro/MobileTableOfContents.astro_astro_type_script_index_0_lang.C3fM4Kra.js"></script></div><div class="right-sidebar-panel sl-hidden lg:sl-block astro-d4r3nttl"><div class="sl-container astro-d4r3nttl"><starlight-toc data-min-h="2" data-max-h="3"><nav aria-labelledby="starlight__on-this-page"><h2 id="starlight__on-this-page">Nesta página</h2><ul class="astro-r7oszrrb" style="--depth: 0;"><li style="--depth: 0;" class="astro-r7oszrrb"><a href="#_top" style="--depth: 0;" class="astro-r7oszrrb"><span style="--depth: 0;" class="astro-r7oszrrb">Visão geral</span></a></li><li style="--depth: 0;" class="astro-r7oszrrb"><a href="#-visão-geral-das-alterações" style="--depth: 0;" class="astro-r7oszrrb"><span style="--depth: 0;" class="astro-r7oszrrb">🧭 Visão Geral das Alterações</span></a></li><li style="--depth: 0;" class="astro-r7oszrrb"><a href="#1--engenharia-de-minas-desmoronamentos--alcance-das-vigas" style="--depth: 0;" class="astro-r7oszrrb"><span style="--depth: 0;" class="astro-r7oszrrb">1. 🪨 Engenharia de Minas: Desmoronamentos &amp; Alcance das Vigas</span></a><ul class="astro-r7oszrrb" style="--depth: 1;"><li style="--depth: 1;" class="astro-r7oszrrb"><a href="#11-nova-física-de-colapso-sísmico" style="--depth: 1;" class="astro-r7oszrrb"><span style="--depth: 1;" class="astro-r7oszrrb">1.1 Nova Física de Colapso Sísmico</span></a></li><li style="--depth: 1;" class="astro-r7oszrrb"><a href="#12-o-novo-alcance-aprimorado-das-vigas-de-suporte" style="--depth: 1;" class="astro-r7oszrrb"><span style="--depth: 1;" class="astro-r7oszrrb">1.2 O Novo Alcance Aprimorado das Vigas de Suporte</span></a></li></ul></li><li style="--depth: 0;" class="astro-r7oszrrb"><a href="#2--economia-de-aldeões-reformulada-villagertradingplus" style="--depth: 0;" class="astro-r7oszrrb"><span style="--depth: 0;" class="astro-r7oszrrb">2. 🪙 Economia de Aldeões Reformulada (VillagerTradingPlus)</span></a></li><li style="--depth: 0;" class="astro-r7oszrrb"><a href="#3--ecologia-aquática-repovoamento-de-rios-lagos--mares" style="--depth: 0;" class="astro-r7oszrrb"><span style="--depth: 0;" class="astro-r7oszrrb">3. 🐟 Ecologia Aquática: Repovoamento de Rios, Lagos &amp; Mares</span></a><ul class="astro-r7oszrrb" style="--depth: 1;"><li style="--depth: 1;" class="astro-r7oszrrb"><a href="#31-rios-lagos-montanhosos-pântanos--cenotes" style="--depth: 1;" class="astro-r7oszrrb"><span style="--depth: 1;" class="astro-r7oszrrb">3.1 Rios, Lagos Montanhosos, Pântanos &amp; Cenotes</span></a></li><li style="--depth: 1;" class="astro-r7oszrrb"><a href="#32-oceanos-profundos--zonas-costeiras" style="--depth: 1;" class="astro-r7oszrrb"><span style="--depth: 1;" class="astro-r7oszrrb">3.2 Oceanos Profundos &amp; Zonas Costeiras</span></a></li></ul></li><li style="--depth: 0;" class="astro-r7oszrrb"><a href="#4--arcaria-de-elite--runas-de-gemas-tfc-simply-bows" style="--depth: 0;" class="astro-r7oszrrb"><span style="--depth: 0;" class="astro-r7oszrrb">4. 🏹 Arcaria de Elite &amp; Runas de Gemas TFC (Simply Bows)</span></a></li><li style="--depth: 0;" class="astro-r7oszrrb"><a href="#5--dragões-do-wyrmroost--predadores-alados-nos-biomas-tfc" style="--depth: 0;" class="astro-r7oszrrb"><span style="--depth: 0;" class="astro-r7oszrrb">5. 🐉 Dragões do Wyrmroost &amp; Predadores Alados nos Biomas TFC</span></a><ul class="astro-r7oszrrb" style="--depth: 1;"><li style="--depth: 1;" class="astro-r7oszrrb"><a href="#51-dragões-de-montanha-picos-frios--vulcões" style="--depth: 1;" class="astro-r7oszrrb"><span style="--depth: 1;" class="astro-r7oszrrb">5.1. Dragões de Montanha, Picos Frios &amp; Vulcões</span></a></li><li style="--depth: 1;" class="astro-r7oszrrb"><a href="#52-dragões-costeiros-florestais--planícies" style="--depth: 1;" class="astro-r7oszrrb"><span style="--depth: 1;" class="astro-r7oszrrb">5.2. Dragões Costeiros, Florestais &amp; Planícies</span></a></li></ul></li><li style="--depth: 0;" class="astro-r7oszrrb"><a href="#6--registro-de-boost-acumulado-da-fauna-pacífica-15-adicional" style="--depth: 0;" class="astro-r7oszrrb"><span style="--depth: 0;" class="astro-r7oszrrb">6. 🌿 Registro de Boost Acumulado da Fauna Pacífica (+15% Adicional)</span></a></li><li style="--depth: 0;" class="astro-r7oszrrb"><a href="#7-️-estruturas-em-ilhas-oceânicas--expansão-de-vilas-millénaire" style="--depth: 0;" class="astro-r7oszrrb"><span style="--depth: 0;" class="astro-r7oszrrb">7. 🏛️ Estruturas em Ilhas Oceânicas &amp; Expansão de Vilas Millénaire</span></a><ul class="astro-r7oszrrb" style="--depth: 1;"><li style="--depth: 1;" class="astro-r7oszrrb"><a href="#71-geração-em-ilhas-e-atóis" style="--depth: 1;" class="astro-r7oszrrb"><span style="--depth: 1;" class="astro-r7oszrrb">7.1 Geração em Ilhas e Atóis</span></a></li><li style="--depth: 1;" class="astro-r7oszrrb"><a href="#72-dispersão-territorial-de-vilas-do-millénaire" style="--depth: 1;" class="astro-r7oszrrb"><span style="--depth: 1;" class="astro-r7oszrrb">7.2 Dispersão Territorial de Vilas do Millénaire</span></a></li><li style="--depth: 1;" class="astro-r7oszrrb"><a href="#73-coexistência-harmoniosa-água-salgada-tfc--estruturas-nbt" style="--depth: 1;" class="astro-r7oszrrb"><span style="--depth: 1;" class="astro-r7oszrrb">7.3 Coexistência Harmoniosa: Água Salgada TFC &amp; Estruturas NBT</span></a></li></ul></li></ul></nav></starlight-toc><script type="module" src="/TFC-Arcanum-Empires-WIKI-Guides/_astro/TableOfContents.astro_astro_type_script_index_0_lang.BpJaGz7G.js"></script></div></div></div></aside><div class="main-pane astro-pinujozt"><main data-pagefind-body class="astro-o3lnpecw" lang="pt-BR" dir="ltr"><div class="content-panel astro-3w3bx7vf"><div class="sl-container astro-3w3bx7vf"><h1 id="_top" class="astro-robhj4nk">🌍 Geração de Mundo, Engenharia de Vigas &amp; Economia de Trocas</h1></div></div><div class="content-panel astro-3w3bx7vf"><div class="sl-container astro-3w3bx7vf"><div class="sl-markdown-content"><blockquote>
+<p><strong>TerraFirmaCraft: Arcanum &amp; Empires (NeoForge 1.21.1 — v1.3.0)</strong><br>
+<strong>Status:</strong> Balanceamento Ativo no Servidor &amp; Cliente<br>
+<strong>Base de Configuração:</strong> <code dir="auto">docs/balanceamento_e_ajustes.md</code>, <code dir="auto">config/tfc-server.toml</code> e KubeJS Data Modifiers.</p>
+</blockquote>
+<hr>
+<div class="sl-heading-wrapper level-h2"><h2 id="-visão-geral-das-alterações">🧭 Visão Geral das Alterações</h2><a class="sl-anchor-link" href="#-visão-geral-das-alterações"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Seção intitulada “🧭 Visão Geral das Alterações”</span></a></div>
+<p>Para transformar o Overworld em um ambiente geologicamente crível, economicamente integrado e ecologicamente vibrante, a atualização <strong>v1.3.0</strong> implementou três grandes pilares de rebalanceamento:</p>
+<ol>
+<li><strong>Engenharia de Minas Realista:</strong> Fim dos blocos flutuantes feios em cavernas; a física de desmoronamentos agora propaga em cadeia contínua e as <strong>Vigas de Suporte</strong> foram aprimoradas para cobrir vãos muito mais amplos.</li>
+<li><strong>Economia de Trocas dos Aldeões (VillagerTradingPlus):</strong> Erradicação de trocas genéricas vanilla. Aldeões agora compram colheitas sazonais, aniagem de juta e metais TFC, vendendo ferramentas de prospecção, pergaminhos arcanos e armaduras legítimas.</li>
+<li><strong>Ecologia Aquática dos Biomas:</strong> Rios, pântanos, lagos montanhosos e mares foram repovoados com mais de 30 espécies ativas de peixes, mamíferos marinhos e aves aquáticas.</li>
+</ol>
+<div class="expressive-code"><link rel="stylesheet" href="/TFC-Arcanum-Empires-WIKI-Guides/_astro/ec.w36nc.css"><script type="module" src="/TFC-Arcanum-Empires-WIKI-Guides/_astro/ec.0vx5m.js"></script><figure class="frame not-content"><figcaption class="header"></figcaption><pre data-language="mermaid"><code><div class="ec-line"><div class="code"><span style="--0:#C792EA;--1:#8844AE">graph</span><span style="--0:#D6DEEB;--1:#403F53"> </span><span style="--0:#82AAFF;--1:#3B61B0">TD</span></div></div><div class="ec-line"><div class="code"><span class="indent">    </span><span style="--0:#C5E478;--1:#3B61B0">WORLD</span><span style="--0:#C792EA;--1:#8844AE">[</span><span style="--0:#ECC48D;--1:#3B61B0">"Mundo Vivo v1.3.0"</span><span style="--0:#C792EA;--1:#8844AE">]</span><span style="--0:#D6DEEB;--1:#403F53"> </span><span style="--0:#C792EA;--1:#8844AE">--&gt;</span><span style="--0:#D6DEEB;--1:#403F53"> </span><span style="--0:#C5E478;--1:#3B61B0">MINES</span><span style="--0:#C792EA;--1:#8844AE">[</span><span style="--0:#ECC48D;--1:#3B61B0">"Engenharia de Minas (Vigas de 13 Blocos &amp; Colapso 70%)"</span><span style="--0:#C792EA;--1:#8844AE">]</span></div></div><div class="ec-line"><div class="code"><span class="indent">    </span><span style="--0:#C5E478;--1:#3B61B0">WORLD </span><span style="--0:#C792EA;--1:#8844AE">--&gt;</span><span style="--0:#D6DEEB;--1:#403F53"> </span><span style="--0:#C5E478;--1:#3B61B0">TRADE</span><span style="--0:#C792EA;--1:#8844AE">[</span><span style="--0:#ECC48D;--1:#3B61B0">"Economia Aldeã TFC (Juta, Colheitas, Metais &amp; Pérolas)"</span><span style="--0:#C792EA;--1:#8844AE">]</span></div></div><div class="ec-line"><div class="code"><span class="indent">    </span><span style="--0:#C5E478;--1:#3B61B0">WORLD </span><span style="--0:#C792EA;--1:#8844AE">--&gt;</span><span style="--0:#D6DEEB;--1:#403F53"> </span><span style="--0:#C5E478;--1:#3B61B0">ECO</span><span style="--0:#C792EA;--1:#8844AE">[</span><span style="--0:#ECC48D;--1:#3B61B0">"Ecologia Aquática (+30 Espécies em Rios e Oceanos)"</span><span style="--0:#C792EA;--1:#8844AE">]</span></div></div><div class="ec-line"><div class="code"><span class="indent">    </span><span style="--0:#C5E478;--1:#3B61B0">WORLD </span><span style="--0:#C792EA;--1:#8844AE">--&gt;</span><span style="--0:#D6DEEB;--1:#403F53"> </span><span style="--0:#C5E478;--1:#3B61B0">DRAGONS</span><span style="--0:#C792EA;--1:#8844AE">[</span><span style="--0:#ECC48D;--1:#3B61B0">"Dragões Wyrmroost em Montanhas &amp; Costas TFC"</span><span style="--0:#C792EA;--1:#8844AE">]</span></div></div><div class="ec-line"><div class="code"><span class="indent">    </span><span style="--0:#C5E478;--1:#3B61B0">WORLD </span><span style="--0:#C792EA;--1:#8844AE">--&gt;</span><span style="--0:#D6DEEB;--1:#403F53"> </span><span style="--0:#C5E478;--1:#3B61B0">FAUNA</span><span style="--0:#C792EA;--1:#8844AE">[</span><span style="--0:#ECC48D;--1:#3B61B0">"Boost de Fauna Pacífica (+26% a +27% Acumulado)"</span><span style="--0:#C792EA;--1:#8844AE">]</span></div></div><div class="ec-line"><div class="code"><span class="indent">    </span><span style="--0:#C5E478;--1:#3B61B0">WORLD </span><span style="--0:#C792EA;--1:#8844AE">--&gt;</span><span style="--0:#D6DEEB;--1:#403F53"> </span><span style="--0:#C5E478;--1:#3B61B0">STRUCT</span><span style="--0:#C792EA;--1:#8844AE">[</span><span style="--0:#ECC48D;--1:#3B61B0">"Estruturas em Ilhas &amp; Expansão de Vilas Millénaire"</span><span style="--0:#C792EA;--1:#8844AE">]</span></div></div></code></pre><div class="copy"><div aria-live="polite"></div><button title="Copiar para área de transferência" data-copied="Copiado!" data-code="graph TD    WORLD[&quot;Mundo Vivo v1.3.0&quot;] --> MINES[&quot;Engenharia de Minas (Vigas de 13 Blocos &amp; Colapso 70%)&quot;]    WORLD --> TRADE[&quot;Economia Aldeã TFC (Juta, Colheitas, Metais &amp; Pérolas)&quot;]    WORLD --> ECO[&quot;Ecologia Aquática (+30 Espécies em Rios e Oceanos)&quot;]    WORLD --> DRAGONS[&quot;Dragões Wyrmroost em Montanhas &amp; Costas TFC&quot;]    WORLD --> FAUNA[&quot;Boost de Fauna Pacífica (+26% a +27% Acumulado)&quot;]    WORLD --> STRUCT[&quot;Estruturas em Ilhas &amp; Expansão de Vilas Millénaire&quot;]"><div></div></button></div></figure></div>
+<hr>
+<div class="sl-heading-wrapper level-h2"><h2 id="1--engenharia-de-minas-desmoronamentos--alcance-das-vigas">1. 🪨 Engenharia de Minas: Desmoronamentos &amp; Alcance das Vigas</h2><a class="sl-anchor-link" href="#1--engenharia-de-minas-desmoronamentos--alcance-das-vigas"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Seção intitulada “1. 🪨 Engenharia de Minas: Desmoronamentos &amp; Alcance das Vigas”</span></a></div>
+<p>O sistema de sustentação de cavernas e túneis foi completamente calibrado para punir a mineração descuidada e premiar obras de engenharia subterrânea bem escoradas.</p>
+<div class="sl-heading-wrapper level-h3"><h3 id="11-nova-física-de-colapso-sísmico">1.1 Nova Física de Colapso Sísmico</h3><a class="sl-anchor-link" href="#11-nova-física-de-colapso-sísmico"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Seção intitulada “1.1 Nova Física de Colapso Sísmico”</span></a></div>
+<p>Anteriormente, minerar pedras cruas gerava buracos pontuais ou deixava blocos soltos “flutuando no ar”, quebrando o realismo. Com os novos parâmetros:</p>
+<ul>
+<li><strong>Gatilho de Colapso (<code dir="auto">collapseTriggerChance</code>):</strong> Elevado de 10% para <strong>30%</strong>. Minerar rocha crua sem escoras agora traz risco real e iminente.</li>
+<li><strong>Propagação em Cadeia (<code dir="auto">collapsePropagateChance</code>):</strong> Elevada de 55% para <strong>70%</strong>. Quando um teto cede, ele desce por completo em efeito dominó, soterrando a câmara e limpando artefatos flutuantes.</li>
+<li><strong>Sensibilidade a Explosões:</strong> Elevada de 30% para <strong>50%</strong>. Detonações de pólvora sem reforço estrutural derrubam tetos inteiros.</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th style="text-align: left">Parâmetro no <code dir="auto">config/tfc-server.toml</code></th>
+<th style="text-align: center">Padrão TFC</th>
+<th style="text-align: center">Valor Ajustado v1.3.0</th>
+<th style="text-align: left">Impacto Prático na Gameplay</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left"><code dir="auto">collapseTriggerChance</code></td>
+<td style="text-align: center">10%</td>
+<td style="text-align: center"><strong>30%</strong></td>
+<td style="text-align: left">Maior perigo ao escavar sem suporte prévio.</td>
+</tr>
+<tr>
+<td style="text-align: left"><code dir="auto">collapseFakeTriggerChance</code></td>
+<td style="text-align: center">35%</td>
+<td style="text-align: center"><strong>40%</strong></td>
+<td style="text-align: left">Mais avisos de estalos sonoros e poeira antes do desastre.</td>
+</tr>
+<tr>
+<td style="text-align: left"><code dir="auto">collapsePropagateChance</code></td>
+<td style="text-align: center">55%</td>
+<td style="text-align: center"><strong>70%</strong></td>
+<td style="text-align: left">Desabamentos descem em bloco uniforme, sem sobras flutuantes.</td>
+</tr>
+<tr>
+<td style="text-align: left"><code dir="auto">collapseExplosionPropagateChance</code></td>
+<td style="text-align: center">30%</td>
+<td style="text-align: center"><strong>50%</strong></td>
+<td style="text-align: left">Explosões subterrâneas exigem túneis fortificados.</td>
+</tr>
+<tr>
+<td style="text-align: left"><code dir="auto">collapseMinRadius</code></td>
+<td style="text-align: center">3 blocos</td>
+<td style="text-align: center"><strong>4 blocos</strong></td>
+<td style="text-align: left">Raio mínimo de desmoronamento mais natural e dramático.</td>
+</tr>
+<tr>
+<td style="text-align: left"><code dir="auto">collapseRadiusVariance</code></td>
+<td style="text-align: center">16 blocos</td>
+<td style="text-align: center"><strong>18 blocos</strong></td>
+<td style="text-align: left">Grandes cavernas sofrem abalos tectônicos amplos.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<div class="sl-heading-wrapper level-h3"><h3 id="12-o-novo-alcance-aprimorado-das-vigas-de-suporte">1.2 O Novo Alcance Aprimorado das Vigas de Suporte</h3><a class="sl-anchor-link" href="#12-o-novo-alcance-aprimorado-das-vigas-de-suporte"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Seção intitulada “1.2 O Novo Alcance Aprimorado das Vigas de Suporte”</span></a></div>
+<p>Para compensar o perigo aumentado de colapso, o alcance estrutural das <strong>Vigas Horizontais de Madeira (<code dir="auto">horizontal_support_beam</code>)</strong> foi substancialmente ampliado:</p>
+<div class="expressive-code"><figure class="frame not-content"><figcaption class="header"></figcaption><pre data-language="plaintext"><code><div class="ec-line"><div class="code"><span style="--0:#d6deeb;--1:#403f53">[ PILAR DE VIGA A ] &lt;------- VÃO LIVRE DE ATÉ 13 BLOCOS PROTEGIDOS -------&gt; [ PILAR DE VIGA B ]</span></div></div><div class="ec-line"><div class="code"><span class="indent"><span style="--0:#d6deeb;--1:#403f53">                             </span></span><span style="--0:#d6deeb;--1:#403f53">(6 blocos à esq. + 1 centro + 6 blocos à dir.)</span></div></div></code></pre><div class="copy"><div aria-live="polite"></div><button title="Copiar para área de transferência" data-copied="Copiado!" data-code="[ PILAR DE VIGA A ] <------- VÃO LIVRE DE ATÉ 13 BLOCOS PROTEGIDOS -------> [ PILAR DE VIGA B ]                             (6 blocos à esq. + 1 centro + 6 blocos à dir.)"><div></div></button></div></figure></div>
+<ul>
+<li><strong>Alcance Horizontal (<code dir="auto">support_horizontal</code>):</strong> Expandido de 4 para <strong>6 blocos em cada direção</strong>.
+<ul>
+<li><strong>Na Prática:</strong> Dois pilares verticais de vigas agora sustentam um vão livre contínuo de <strong>até 13 blocos de largura</strong> (antes apenas 9). Isso permite criar galerias espaçosas para trilhos de carrinho e máquinas do Create sem encher o túnel de madeira a cada passo!</li>
+</ul>
+</li>
+<li><strong>Sustentação Vertical Superior (<code dir="auto">support_up</code>):</strong> Aumentada de 2 para <strong>3 blocos</strong> acima da viga. O teto pode ter até 3 camadas de rocha sobreposta com segurança absoluta.</li>
+<li><strong>Sustentação Vertical Inferior (<code dir="auto">support_down</code>):</strong> Aumentada de 2 para <strong>3 blocos</strong> abaixo, garantindo estabilidade ao cavar poços e galerias escalonadas.</li>
+</ul>
+<hr>
+<div class="sl-heading-wrapper level-h2"><h2 id="2--economia-de-aldeões-reformulada-villagertradingplus">2. 🪙 Economia de Aldeões Reformulada (VillagerTradingPlus)</h2><a class="sl-anchor-link" href="#2--economia-de-aldeões-reformulada-villagertradingplus"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Seção intitulada “2. 🪙 Economia de Aldeões Reformulada (VillagerTradingPlus)”</span></a></div>
+<p>O comércio com aldeões vanilla foi despojado de receitas vazias e reconfigurado para integrar-se ao ciclo de colheita, metalurgia e tecelagem do TerraFirmaCraft:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left">Profissão</th>
+<th style="text-align: center">Nível</th>
+<th style="text-align: left">O que o Aldeão Compra (Entrada)</th>
+<th style="text-align: left">O que o Aldeão Vende (Recompensa)</th>
+<th style="text-align: left">Utilidade no Modpack</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left"><strong>Bibliotecário</strong></td>
+<td style="text-align: center">Novato</td>
+<td style="text-align: left">12x Tecido de Aniagem (<code dir="auto">tfc:burlap_cloth</code>) ou 24x Papel</td>
+<td style="text-align: left">1x Esmeralda / 1x Estante</td>
+<td style="text-align: left">Recompensa a fiação e tecelagem de juta TFC.</td>
+</tr>
+<tr>
+<td style="text-align: left"><strong>Bibliotecário</strong></td>
+<td style="text-align: center">Mestre</td>
+<td style="text-align: left">8x Esmeraldas</td>
+<td style="text-align: left">2x Pergaminho de Feitiço (<em>Ars Nouveau</em>)</td>
+<td style="text-align: left">Acesso a magias avançadas com sábios locais.</td>
+</tr>
+<tr>
+<td style="text-align: left"><strong>Fazendeiro</strong></td>
+<td style="text-align: center">Novato</td>
+<td style="text-align: left">20x Trigo TFC, 24x Batata TFC ou 22x Cenoura TFC</td>
+<td style="text-align: left">6x Pão Tradicional</td>
+<td style="text-align: left">Escoamento de safras e silos agrícolas.</td>
+</tr>
+<tr>
+<td style="text-align: left"><strong>Fazendeiro</strong></td>
+<td style="text-align: center">Jornaleiro</td>
+<td style="text-align: left">16x Alho TFC ou 16x Cebola TFC</td>
+<td style="text-align: left">1x Esmeralda</td>
+<td style="text-align: left">Incentiva cultivo de temperos e hortaliças medicinais.</td>
+</tr>
+<tr>
+<td style="text-align: left"><strong>Flecheiro</strong></td>
+<td style="text-align: center">Novato</td>
+<td style="text-align: left">8x Feixes de Gravetos (<code dir="auto">tfc:stick_bundle</code>) ou 32x Gravetos</td>
+<td style="text-align: left">16x Flechas</td>
+<td style="text-align: left">Converte poda florestal de galhos em munição.</td>
+</tr>
+<tr>
+<td style="text-align: left"><strong>Flecheiro</strong></td>
+<td style="text-align: center">Mestre</td>
+<td style="text-align: left">6x Esmeraldas</td>
+<td style="text-align: left">1x Corda de Arco Encantada (<em>Simply Bows</em>)</td>
+<td style="text-align: left">Acesso direto a materiais de arcaria nobre.</td>
+</tr>
+<tr>
+<td style="text-align: left"><strong>Armeiro</strong></td>
+<td style="text-align: center">Novato</td>
+<td style="text-align: left">4x Chapa de Cobre TFC ou 2x Chapa de Bronze TFC</td>
+<td style="text-align: left">1x Elmo de Bronze Bismuto TFC</td>
+<td style="text-align: left">Escoamento de chapas de metal da forja.</td>
+</tr>
+<tr>
+<td style="text-align: left"><strong>Armeiro</strong></td>
+<td style="text-align: center">Mestre</td>
+<td style="text-align: left">16x Esmeraldas</td>
+<td style="text-align: left">1x Peitoral de Ferro Forjado TFC</td>
+<td style="text-align: left">Equipamento militar de ponta para expedições.</td>
+</tr>
+<tr>
+<td style="text-align: left"><strong>Armeiro de Armas</strong></td>
+<td style="text-align: center">Novato</td>
+<td style="text-align: left">15x Carvão Mineral ou Vegetal TFC</td>
+<td style="text-align: left">1x Espada de Bronze Bismuto TFC</td>
+<td style="text-align: left">Defesa imediata contra predadores noturnos.</td>
+</tr>
+<tr>
+<td style="text-align: left"><strong>Armeiro de Armas</strong></td>
+<td style="text-align: center">Mestre</td>
+<td style="text-align: left">12x Esmeraldas</td>
+<td style="text-align: left">1x Espada de Ferro Forjado TFC</td>
+<td style="text-align: left">Lâmina balanceada forjada por mestres da forja.</td>
+</tr>
+<tr>
+<td style="text-align: left"><strong>Ferreiro de Ferramentas</strong></td>
+<td style="text-align: center">Novato</td>
+<td style="text-align: left">15x Carvão TFC</td>
+<td style="text-align: left">1x Picareta / Machado de Bronze Bismuto</td>
+<td style="text-align: left">Transição rápida da pedra para a metalurgia.</td>
+</tr>
+<tr>
+<td style="text-align: left"><strong>Ferreiro de Ferramentas</strong></td>
+<td style="text-align: center">Mestre</td>
+<td style="text-align: left">10x Esmeraldas</td>
+<td style="text-align: left">1x Picareta de Prospecção (<code dir="auto">propick</code>) Ferro</td>
+<td style="text-align: left">Essencial para localização de megaveios minerais.</td>
+</tr>
+<tr>
+<td style="text-align: left"><strong>Clérigo</strong></td>
+<td style="text-align: center">Especialista</td>
+<td style="text-align: left">1x Ametista Lapidada TFC</td>
+<td style="text-align: left">1x Pérola do Ender</td>
+<td style="text-align: left">Obtenção de pérolas sem caçar Endermans no escuro.</td>
+</tr>
+<tr>
+<td style="text-align: left"><strong>Pescador</strong></td>
+<td style="text-align: center">Novato</td>
+<td style="text-align: left">6x Smallmouth Bass ou 8x Bluegill (<em>Aquaculture</em>)</td>
+<td style="text-align: left">1x Fogueira de Acampamento</td>
+<td style="text-align: left">Incentiva pesca esportiva e subsistência ribeirinha.</td>
+</tr>
+<tr>
+<td style="text-align: left"><strong>Pescador</strong></td>
+<td style="text-align: center">Mestre</td>
+<td style="text-align: left">8x Esmeraldas</td>
+<td style="text-align: left">1x Vara de Pesca de Ferro (<em>Aquaculture</em>)</td>
+<td style="text-align: left">Equipamento reforçado para pescarias marítimas.</td>
+</tr>
+<tr>
+<td style="text-align: left"><strong>Pedreiro / Canteiro</strong></td>
+<td style="text-align: center">Novato</td>
+<td style="text-align: left">10x Tijolos Refratários (<code dir="auto">tfc:brick/fire_clay</code>)</td>
+<td style="text-align: left">16x Argamassa TFC (<code dir="auto">tfc:mortar</code>)</td>
+<td style="text-align: left">Agiliza construção civil e altos-fornos.</td>
+</tr>
+<tr>
+<td style="text-align: left"><strong>Coureiro</strong></td>
+<td style="text-align: center">Novato</td>
+<td style="text-align: left">2x Couro Cru Médio TFC</td>
+<td style="text-align: left">1x Botas de Couro</td>
+<td style="text-align: left">Aproveitamento de caça antes de curtumes complexos.</td>
+</tr>
+<tr>
+<td style="text-align: left"><strong>Coureiro</strong></td>
+<td style="text-align: center">Mestre</td>
+<td style="text-align: left">6x Esmeraldas</td>
+<td style="text-align: left">1x Sela / Armadura de Couro para Cavalo</td>
+<td style="text-align: left">Montaria rápida para cavalaria de expedição.</td>
+</tr>
+<tr>
+<td style="text-align: left"><strong>Açougueiro</strong></td>
+<td style="text-align: center">Novato</td>
+<td style="text-align: left">14x Carne Crua TFC (Boi, Porco ou Carneiro)</td>
+<td style="text-align: left">8x Frango Cozido</td>
+<td style="text-align: left">Troca de proteínas antes do apodrecimento (<em>decay</em>).</td>
+</tr>
+<tr>
+<td style="text-align: left"><strong>Pastor</strong></td>
+<td style="text-align: center">Mestre</td>
+<td style="text-align: left">3x Esmeraldas</td>
+<td style="text-align: left">4x Tecido de Lã TFC (<code dir="auto">tfc:wool_cloth</code>)</td>
+<td style="text-align: left">Matéria-prima para velas náuticas e forro térmico.</td>
+</tr>
+<tr>
+<td style="text-align: left"><strong>Cartógrafo</strong></td>
+<td style="text-align: center">Novato</td>
+<td style="text-align: left">12x Tecido de Aniagem ou 24x Papel</td>
+<td style="text-align: left">1x Mapa em Branco</td>
+<td style="text-align: left">Estímulo à exploração e cartografia de relevos.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<div class="sl-heading-wrapper level-h2"><h2 id="3--ecologia-aquática-repovoamento-de-rios-lagos--mares">3. 🐟 Ecologia Aquática: Repovoamento de Rios, Lagos &amp; Mares</h2><a class="sl-anchor-link" href="#3--ecologia-aquática-repovoamento-de-rios-lagos--mares"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Seção intitulada “3. 🐟 Ecologia Aquática: Repovoamento de Rios, Lagos &amp; Mares”</span></a></div>
+<p>Através de Biome Modifiers dedicados no NeoForge, os biomas hídricos do TFC deixaram de ser silenciosos e vazios, recebendo cardumes nativos e fauna dinâmica:</p>
+<div class="sl-heading-wrapper level-h3"><h3 id="31-rios-lagos-montanhosos-pântanos--cenotes">3.1 Rios, Lagos Montanhosos, Pântanos &amp; Cenotes</h3><a class="sl-anchor-link" href="#31-rios-lagos-montanhosos-pântanos--cenotes"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Seção intitulada “3.1 Rios, Lagos Montanhosos, Pântanos &amp; Cenotes”</span></a></div>
+<ul>
+<li><strong>Lambaris (<em>Minnow</em>) &amp; Bluegills:</strong> Cardumes abundantes para pescaria rápida de iniciantes.</li>
+<li><strong>Smallmouth Bass &amp; Trutas Marrons:</strong> Predadores esportivos de águas frias e rios correntes.</li>
+<li><strong>Carpas Koi &amp; Carpas Comuns:</strong> Peixes de fundo abundantes em lagos profundos e jardins.</li>
+<li><strong>Lontras (<em>Otters</em>):</strong> Pequenos mamíferos aquáticos carismáticos que nadam e mergulham à caça de peixes.</li>
+<li><strong>Tartarugas Fluviais &amp; Patos Selvagens:</strong> Dão vida e movimento às margens e restingas.</li>
+</ul>
+<div class="sl-heading-wrapper level-h3"><h3 id="32-oceanos-profundos--zonas-costeiras">3.2 Oceanos Profundos &amp; Zonas Costeiras</h3><a class="sl-anchor-link" href="#32-oceanos-profundos--zonas-costeiras"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Seção intitulada “3.2 Oceanos Profundos &amp; Zonas Costeiras”</span></a></div>
+<ul>
+<li><strong>Bacalhau do Atlântico &amp; Grandes Cardumes de Arenque:</strong> A base da cadeia alimentar oceânica.</li>
+<li><strong>Polvo Dumbo (<em>Dumbo Octopus</em>) &amp; Lesmas-do-Mar (<em>Sea Bunnies</em>):</strong> Criaturas pacíficas que decoram recifes de coral e cânions submarinos.</li>
+<li><strong>Golfinhos:</strong> Guiam velejadores e concedem graça marinha a exploradores em alto-mar.</li>
+<li><strong>Tubarões-Brancos &amp; Baleias:</strong> O topo da cadeia alimentar dos mares abertos, tornando o mergulho em alto-mar um desafio emocionante.</li>
+</ul>
+<hr>
+<div class="sl-heading-wrapper level-h2"><h2 id="4--arcaria-de-elite--runas-de-gemas-tfc-simply-bows">4. 🏹 Arcaria de Elite &amp; Runas de Gemas TFC (<em>Simply Bows</em>)</h2><a class="sl-anchor-link" href="#4--arcaria-de-elite--runas-de-gemas-tfc-simply-bows"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Seção intitulada “4. 🏹 Arcaria de Elite &amp; Runas de Gemas TFC (Simply Bows)”</span></a></div>
+<p>As IDs internas do <em>Simply Bows</em> foram retificadas para alinhamento com os metais e gemas do TerraFirmaCraft, introduzindo <strong>Runas de Encantamento Físico</strong>:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left">Runa / Componente</th>
+<th style="text-align: left">Receita de Bancada TFC</th>
+<th style="text-align: left">Efeito no Arco</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left"><strong>Runa da Dor (<code dir="auto">rune_etching_pain</code>)</strong></td>
+<td style="text-align: left">Redstone + <strong>Rubi Lapidado TFC</strong></td>
+<td style="text-align: left">Aumento maciço de dano perfurante e sangramento.</td>
+</tr>
+<tr>
+<td style="text-align: left"><strong>Runa da Graça (<code dir="auto">rune_etching_grace</code>)</strong></td>
+<td style="text-align: left">Pena + <strong>Esmeralda Lapidada TFC</strong></td>
+<td style="text-align: left">Redução extrema do tempo de puxada da corda (<em>Draw Speed</em>).</td>
+</tr>
+<tr>
+<td style="text-align: left"><strong>Runa da Fartura (<code dir="auto">rune_etching_bounty</code>)</strong></td>
+<td style="text-align: left">Pepita de Ouro + <strong>Topázio Lapidado TFC</strong></td>
+<td style="text-align: left">Chance de recuperar flechas disparadas intactas.</td>
+</tr>
+<tr>
+<td style="text-align: left"><strong>Runa do Caos (<code dir="auto">rune_etching_chaos</code>)</strong></td>
+<td style="text-align: left">Pérola do Ender + <strong>Ametista Lapidada TFC</strong></td>
+<td style="text-align: left">Flechas com teletransporte e explosão cinética.</td>
+</tr>
+<tr>
+<td style="text-align: left"><strong>Armação Reforçada (<code dir="auto">reinforced_bow_frame</code>)</strong></td>
+<td style="text-align: left">Chapas de Bronze TFC + Toras de Madeira</td>
+<td style="text-align: left">Tensão elástica robusta para disparo de longo alcance.</td>
+</tr>
+<tr>
+<td style="text-align: left"><strong>Corda Encantada (<code dir="auto">enchanted_bow_string</code>)</strong></td>
+<td style="text-align: left">Linho/Seda TFC + Redstone + Ametista</td>
+<td style="text-align: left">Condução mística para tiros elementais.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<div class="sl-heading-wrapper level-h2"><h2 id="5--dragões-do-wyrmroost--predadores-alados-nos-biomas-tfc">5. 🐉 Dragões do Wyrmroost &amp; Predadores Alados nos Biomas TFC</h2><a class="sl-anchor-link" href="#5--dragões-do-wyrmroost--predadores-alados-nos-biomas-tfc"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Seção intitulada “5. 🐉 Dragões do Wyrmroost &amp; Predadores Alados nos Biomas TFC”</span></a></div>
+<p>Para restaurar o perigo aéreo e a mística dos dragões selvagens, geradores dedicados do NeoForge foram configurados para os dragões do <em>Wyrmroost</em> nos relevos acidentados do TerraFirmaCraft:</p>
+<div class="sl-heading-wrapper level-h3"><h3 id="51-dragões-de-montanha-picos-frios--vulcões">5.1. Dragões de Montanha, Picos Frios &amp; Vulcões</h3><a class="sl-anchor-link" href="#51-dragões-de-montanha-picos-frios--vulcões"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Seção intitulada “5.1. Dragões de Montanha, Picos Frios &amp; Vulcões”</span></a></div>
+<ul>
+<li><strong>Alpine Dragon (Peso 35, Bando 1–3):</strong> Habita os cumes nevados e picos glaciais do TFC (<code dir="auto">#c:is_mountain</code>).</li>
+<li><strong>Royal Red Dragon (Peso 22, Bando 1–2):</strong> Predador lendário de escamas escarlates que nidifica ao redor de caldeiras de estratovulcões TFC, expelindo sopros de fogo devastadores.</li>
+<li><strong>Overworld Drake (Peso 30, Bando 1–3):</strong> Dragão terrestre ágil e territorial que patrulha as terras altas (<em>Highlands</em>) e platôs rochosos.</li>
+</ul>
+<div class="sl-heading-wrapper level-h3"><h3 id="52-dragões-costeiros-florestais--planícies">5.2. Dragões Costeiros, Florestais &amp; Planícies</h3><a class="sl-anchor-link" href="#52-dragões-costeiros-florestais--planícies"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Seção intitulada “5.2. Dragões Costeiros, Florestais &amp; Planícies”</span></a></div>
+<ul>
+<li><strong>Silver Glider (Peso 36, Bando 2–4):</strong> Dragão planar prateado que sobrevoa praias, restingas e falésias marítimas caçando peixes em voos rasantes.</li>
+<li><strong>Roost Stalker (Peso 30, Bando 2–5):</strong> Pequenos répteis alados carnívoros que caçam em matilhas ágeis em florestas temperadas e colinas onduladas (<em>Rolling Hills</em>).</li>
+<li><strong>Dragon Fruit Drake (Peso 28, Bando 2–4):</strong> Drake dócil frugívoro que habita copas densas em biomas de clima quente.</li>
+<li><strong>Butterfly Leviathan (Peso 24, Bando 1–2):</strong> Criatura monumental de asas colossais que flutua suavemente pelas correntes de ar sobre os continentes do TFC.</li>
+</ul>
+<hr>
+<div class="sl-heading-wrapper level-h2"><h2 id="6--registro-de-boost-acumulado-da-fauna-pacífica-15-adicional">6. 🌿 Registro de Boost Acumulado da Fauna Pacífica (+15% Adicional)</h2><a class="sl-anchor-link" href="#6--registro-de-boost-acumulado-da-fauna-pacífica-15-adicional"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Seção intitulada “6. 🌿 Registro de Boost Acumulado da Fauna Pacífica (+15% Adicional)”</span></a></div>
+<p>Para balancear a alta exigência nutricional do TFC com a caça e pecuária, todos os animais passivos e pássaros receberam um novo incremento de <strong>+15%</strong>, totalizando ganhos acumulados de mais de 26% em relação à v1.2:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left">Categoria de Fauna</th>
+<th style="text-align: left">Mod de Origem</th>
+<th style="text-align: center">Peso Base Inicial</th>
+<th style="text-align: center">Peso Ajustado v1.3.0</th>
+<th style="text-align: center">Ganho Total Acumulado</th>
+<th style="text-align: left">Impacto na Sobrevivência</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left"><strong>Aves Silvestres TFC</strong> (Codorna, Faisão, Pato)</td>
+<td style="text-align: left"><em>TerraFirmaCraft</em></td>
+<td style="text-align: center">44 – 50</td>
+<td style="text-align: center"><strong>55 – 63</strong></td>
+<td style="text-align: center"><strong>+26%</strong></td>
+<td style="text-align: left">Abundância de ovos e penas para flechas.</td>
+</tr>
+<tr>
+<td style="text-align: left"><strong>Pássaros &amp; Insetos Canoros</strong></td>
+<td style="text-align: left"><em>Naturalist</em></td>
+<td style="text-align: center">44 – 60</td>
+<td style="text-align: center"><strong>55 – 76</strong></td>
+<td style="text-align: center"><strong>+27%</strong></td>
+<td style="text-align: left">Ambientes florestais vivos e sonoros.</td>
+</tr>
+<tr>
+<td style="text-align: left"><strong>Fauna de Floresta</strong> (Cervos, Javalis, Ursos)</td>
+<td style="text-align: left"><em>Naturalist</em></td>
+<td style="text-align: center">18 – 55</td>
+<td style="text-align: center"><strong>23 – 70</strong></td>
+<td style="text-align: center"><strong>+27%</strong></td>
+<td style="text-align: left">Fontes consistentes de couro e carne nobre.</td>
+</tr>
+<tr>
+<td style="text-align: left"><strong>Fauna de Savana &amp; Planícies</strong> (Zebras, Girafas)</td>
+<td style="text-align: left"><em>Naturalist</em></td>
+<td style="text-align: center">25 – 50</td>
+<td style="text-align: center"><strong>32 – 63</strong></td>
+<td style="text-align: center"><strong>+26%</strong></td>
+<td style="text-align: left">Vida nas grandes estepes e cânions.</td>
+</tr>
+<tr>
+<td style="text-align: left"><strong>Pequenos Companheiros</strong> (Lontras, Furões)</td>
+<td style="text-align: left"><em>Critters &amp; Companions</em></td>
+<td style="text-align: center">35 – 50</td>
+<td style="text-align: center"><strong>45 – 63</strong></td>
+<td style="text-align: center"><strong>+26%</strong></td>
+<td style="text-align: left">Domesticação e companhia de expedição.</td>
+</tr>
+<tr>
+<td style="text-align: left"><strong>Vida Fluvial e Lacustre</strong> (Trutas, Carpas)</td>
+<td style="text-align: left"><em>Aquaculture 2</em></td>
+<td style="text-align: center">20 – 50</td>
+<td style="text-align: center"><strong>25 – 60</strong></td>
+<td style="text-align: center"><strong>+20%</strong></td>
+<td style="text-align: left">Pesca produtiva em qualquer corpo de água doce.</td>
+</tr>
+<tr>
+<td style="text-align: left"><strong>Fauna Marinha de Ápice</strong> (Tubarão-Branco, Baleia)</td>
+<td style="text-align: left"><em>Naturalist / Aquaculture</em></td>
+<td style="text-align: center">12 – 14</td>
+<td style="text-align: center"><strong>30 – 38</strong></td>
+<td style="text-align: center"><strong>+150%</strong></td>
+<td style="text-align: left">Exploração oceânica recompensadora e desafiadora.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<div class="sl-heading-wrapper level-h2"><h2 id="7-️-estruturas-em-ilhas-oceânicas--expansão-de-vilas-millénaire">7. 🏛️ Estruturas em Ilhas Oceânicas &amp; Expansão de Vilas Millénaire</h2><a class="sl-anchor-link" href="#7-️-estruturas-em-ilhas-oceânicas--expansão-de-vilas-millénaire"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Seção intitulada “7. 🏛️ Estruturas em Ilhas Oceânicas &amp; Expansão de Vilas Millénaire”</span></a></div>
+<div class="sl-heading-wrapper level-h3"><h3 id="71-geração-em-ilhas-e-atóis">7.1 Geração em Ilhas e Atóis</h3><a class="sl-anchor-link" href="#71-geração-em-ilhas-e-atóis"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Seção intitulada “7.1 Geração em Ilhas e Atóis”</span></a></div>
+<ul>
+<li><strong>Inclusão em Tags Globais:</strong> Os biomas insulares do TFC (<code dir="auto">guano_island</code>, <code dir="auto">volcanic_island</code>, <code dir="auto">volcanic_mountain_islands</code>, <code dir="auto">ocean_atolls</code>) agora pertencem às tags <code dir="auto">#c:is_plains</code> e <code dir="auto">#c:is_mountain</code>.</li>
+<li><strong>Resultado:</strong> Ilhas oceânicas remotas deixaram de ser montes de terra vazios; agora geram postos avançados de saqueadores (<em>Pillager Outposts</em>), vilarejos de bandidos e torres de vigia do <em>Dungeons Arise</em>.</li>
+</ul>
+<div class="sl-heading-wrapper level-h3"><h3 id="72-dispersão-territorial-de-vilas-do-millénaire">7.2 Dispersão Territorial de Vilas do Millénaire</h3><a class="sl-anchor-link" href="#72-dispersão-territorial-de-vilas-do-millénaire"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Seção intitulada “7.2 Dispersão Territorial de Vilas do Millénaire”</span></a></div>
+<ul>
+<li>O suporte de biomas para fundação de vilas de todas as 7 culturas (<em>Normandos, Bizantinos, Japoneses, Maias, Inuit, Indianos e Seljúcidas</em>) foi estendido para <code dir="auto">lowlands</code>, <code dir="auto">hills</code>, <code dir="auto">plains</code> e <code dir="auto">dolines</code>.</li>
+<li>Isso resolve o problema de vilas raras demais, permitindo encontrar civilizações em praticamente qualquer planície ou vale fértil dos continentes do TFC.</li>
+</ul>
+<div class="sl-heading-wrapper level-h3"><h3 id="73-coexistência-harmoniosa-água-salgada-tfc--estruturas-nbt">7.3 Coexistência Harmoniosa: Água Salgada TFC &amp; Estruturas NBT</h3><a class="sl-anchor-link" href="#73-coexistência-harmoniosa-água-salgada-tfc--estruturas-nbt"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Seção intitulada “7.3 Coexistência Harmoniosa: Água Salgada TFC &amp; Estruturas NBT”</span></a></div>
+<blockquote>
+<p>[!NOTE]
+Os oceanos do TerraFirmaCraft geram nativamente com <strong>Água Salgada</strong> (<code dir="auto">tfc:salt_water</code>), enquanto estruturas importadas de masmorras (como a Acrópole do <em>Cataclysm</em> e navios naufragados) utilizam <strong>Água Vanilla</strong> (<code dir="auto">minecraft:water</code>). Ambas compartilham a mesma tag fluida unificada (<code dir="auto">#minecraft:water</code>), garantindo 100% de compatibilidade na navegação por barco, respiração aquática e natação de monstros marinhos sem falhas de física!</p>
+</blockquote>
+</div><footer class="sl-flex astro-oyxnlawr"><div class="meta sl-flex astro-oyxnlawr"></div><div class="pagination-links print:hidden astro-clyp4uqs" dir="ltr"><a href="/TFC-Arcanum-Empires-WIKI-Guides/guias/mecanicas-do-modpack/" rel="prev" class="astro-clyp4uqs"><svg aria-hidden="true" class="astro-clyp4uqs astro-fqxqqhdy" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.5rem;"><path d="M17 11H9.41l3.3-3.29a1.004 1.004 0 1 0-1.42-1.42l-5 5a1 1 0 0 0-.21.33 1 1 0 0 0 0 .76 1 1 0 0 0 .21.33l5 5a1.002 1.002 0 0 0 1.639-.325 1 1 0 0 0-.219-1.095L9.41 13H17a1 1 0 0 0 0-2Z"/></svg><span class="astro-clyp4uqs">Anterior<br class="astro-clyp4uqs"><span class="link-title astro-clyp4uqs">⚙️ Mecânicas Gerais &amp; Fisiologia</span></span></a><a href="/TFC-Arcanum-Empires-WIKI-Guides/guias/01-arvore-habilidades/" rel="next" class="astro-clyp4uqs"><svg aria-hidden="true" class="astro-clyp4uqs astro-fqxqqhdy" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.5rem;"><path d="M17.92 11.62a1.001 1.001 0 0 0-.21-.33l-5-5a1.003 1.003 0 1 0-1.42 1.42l3.3 3.29H7a1 1 0 0 0 0 2h7.59l-3.3 3.29a1.002 1.002 0 0 0 .325 1.639 1 1 0 0 0 1.095-.219l5-5a1 1 0 0 0 .21-.33 1 1 0 0 0 0-.76Z"/></svg><span class="astro-clyp4uqs">Próximo<br class="astro-clyp4uqs"><span class="link-title astro-clyp4uqs">🔮 Árvore de Habilidades</span></span></a></div></footer></div></div></main></div></div></div></div></body></html>
