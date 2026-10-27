@@ -19,6 +19,7 @@ description: "No universo de TFC: Arcanum & Empires, chefes e monstros lendário
 | **Naga dos Penhascos** | Ato II — Montanhas | Desfiladeiros e Platôs Costeiros | Bronze / Ferro | *Naga Fang* (toxinas arcanas e adagas perfurantes) |
 | **The Dead King** | Ato IV — Ápice Místico | Catacumbas Arcanas (Entrada em Florestas) | Ferro Forjado / Aço | *Blood Staff*, Mantos Arcanos e Magias Lendárias |
 | **Forgotten Guardian** | Ato III — Undergarden | Catacumbas Esquecidas do Undergarden | Ferro Forjado | *Forgotten Ingot* (liga que ignora armaduras) |
+| **Krampus** | Ato III — Inverno Sombrio | Invocado por Oferenda Sinistra (Shift+Botão Direito) | Bronze / Ferro | **Doce Eterno (Comida Infinita)**, Sacola de Krampus e Gemas |
 | **Lord Pumpkinhead** | Ato IV — Terror Noturno | Altares de Floresta / Lua de Sangue | Ferro Forjado / Aço | Núcleos de *Dark Metal* e Gemas do Pesadelo |
 | **O Warden** | Ato V — Profundezas Sísmicas | Cidades Ancestrais TFC (`Y: -40 a -60`) | **Aço (Steel)** | Aços Negro/Azul/Vermelho, *Echo Shards* e Gemas |
 | **Ender Dragon** | Ato VI — Limiar Dimensional | Portal do The End de Aço Negro | Aço Negro | *Dragon Heart*, Elytra e Acesso ao Vazio Profundo |
@@ -129,6 +130,33 @@ flowchart TD
 - **Dicas de Sobrevivência no Undergarden:**
   - A atmosfera do Undergarden é escura e sufocante. Bússolas convencionais giram descontroladas.
   - Leve Lamparinas de Azeite e plante *Shard Torches* no solo a cada curva para nunca perder o caminho de volta para o portal dimensional.
+
+### 5.1 Krampus (O Terror do Inverno & Noites Góticas) — Ato III (*Mini-Chefe Invocável*)
+*Uma criatura folclórica aterrorizante que assola as noites frias, punindo exploradores gananciosos e guardando tesouros ancestrais do mod Born in Chaos.*
+
+- **Como Invocar (O Ritual da Oferenda Sinistra):**
+  1. Forje a **Oferenda Sinistra ao Krampus** na bancada de trabalho unindo:
+     * 1x Carvão / Carvão Vegetal TFC
+     * 1x Carne Podre
+     * 1x Doce Festivo (*Holiday Candy*)
+     * 1x Graveto TFC
+     * 1x Osso
+  2. Com a oferenda na mão, clique agachado (**Shift + Botão Direito**) no chão ou diretamente sobre uma fogueira ativa.
+  3. O céu escurece imediatamente e o Krampus surge acompanhado de sua vanguarda de servos agressivos!
+
+- **Estratégia de Combate:**
+  - O Krampus possui alta mobilidade, investidas com chicote e tenta desarmar o jogador se você se descuidar no combate corpo a corpo.
+  - Mantenha distância usando arcos e flechas ou lanças longas de ferro forjado/bronze.
+  - Lute em terreno amplo e plano para não ser encurralado por seus lacaios invocados.
+
+- **Recompensas & O Mítico Doce Eterno:**
+  - **Sacola de Krampus (*Krampus Bag*):** Clique com o botão direito para abrir e recolher gemas lapidadas, barras de ouro e metais raros.
+  - **O Doce Eterno (*Eternal Candy*):** Uma das relíquias mais desejadas de todo o modpack!
+    * **Usos Infinitos:** Nunca acaba, permitindo mastigar e se alimentar infinitamente.
+    * **Imune à Degradação:** Jamais apodrece com o tempo (100% imune à mecânica de *Decay* do TFC).
+    * **Bênçãos Dinâmicas:** Cada mordida concede buffs aleatórios de Força, Velocidade e Regeneração!
+
+---
 
 ---
 

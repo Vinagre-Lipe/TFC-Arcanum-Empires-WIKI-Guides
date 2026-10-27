@@ -42,7 +42,8 @@ description: "AVISO — MODPACK EM ESTÁGIO BETA FECHADO DE DESENVOLVIMENTO :"
 27. [👑 Endgame Supremo & Chaos Guardian (Ato VI)](#27-endgame-supremo--chaos-guardian-ato-vi)
 28. [🔮 Alquimia do Eclipse, Joias Arcanas & Expedição](#28-alquimia-do-eclipse-joias-arcanas--expedição)
 29. [✈️ Aviação Dieselpunk, Vassouras & Arcaria (v1.3.0)](#29-aviação-dieselpunk-vassouras--arcaria-v130)
-30. [🚫 Receitas Desativadas / Removidas (Anti-Exploit)](#30-receitas-desativadas--removidas-anti-exploit)
+30. [👹 Rituais do Krampus & Relíquias Sombrias (Born in Chaos)](#30-rituais-do-krampus--relíquias-sombrias-born-in-chaos)
+31. [🚫 Receitas Desativadas / Removidas (Anti-Exploit)](#31-receitas-desativadas--removidas-anti-exploit)
 
 ---
 
@@ -1499,7 +1500,47 @@ Aeronaves do *Immersive Aircraft* e *Create* integradas às caldeiras e chapas d
 
 ---
 
-## 30. Receitas Desativadas / Removidas (Anti-Exploit)
+## 30. Rituais do Krampus & Relíquias Sombrias (Born in Chaos)
+
+Invocação do mini-boss **Krampus, O Flagelo do Inverno**, através de rituais com oferendas macabras e forja de relíquias sombrias que nunca apodrecem.
+
+<div class="mc-grid-gallery">
+
+<div class="mc-card">
+  <div class="mc-card-header"><span class="mc-card-title">Oferenda Sinistra ao Krampus</span><span class="mc-card-badge">Invocação Sombria</span></div>
+  <div class="mc-card-body">
+    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Carvão Mineral (#minecraft:coals)"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/mc_coal.png" alt="Carvão Mineral"></div><div class="mc-slot" data-tip="Doce Festivo (born_in_chaos_v1:holiday_candy)"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/bic_holiday_candy.png" alt="Doce Festivo"></div><div class="mc-slot" data-tip="Carne de Monstro (born_in_chaos_v1:monster_flesh)"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/mc_rotten_flesh.png" alt="Carne de Monstro"></div><div class="mc-slot" data-tip="Vara de Madeira (#c:rods/wooden)"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/mc_stick.png" alt="Vara de Madeira"></div><div class="mc-slot" data-tip="Osso (minecraft:bone)"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/mc_bone.png" alt="Osso"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div></div>
+    <div class="mc-arrow">➜</div>
+    <div class="mc-slot large" data-tip="Oferenda Sinistra ao Krampus (born_in_chaos_v1:creepy_gift)"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/bic_creepy_gift.png" alt="Oferenda Sinistra ao Krampus"></div>
+  </div>
+  <div class="mc-card-footer"><code>tfc_arcanum:born_in_chaos/creepy_gift_offering</code><span>Shift + Botão Direito para invocar o Krampus</span></div>
+</div>
+
+<div class="mc-card">
+  <div class="mc-card-header"><span class="mc-card-title">Chifre de Invocação de Krampus</span><span class="mc-card-badge">Forja de Ritual</span></div>
+  <div class="mc-card-body">
+    <div class="mc-grid-3x3"><div class="mc-slot"></div><div class="mc-slot" data-tip="Metal Sombrio (born_in_chaos_v1:pieceofdarkmetal)"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/bic_dark_metal.png" alt="Metal Sombrio"></div><div class="mc-slot" data-tip="Fragmento de Permafrost"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/bic_permafrost_shard.png" alt="Fragmento de Permafrost"></div><div class="mc-slot" data-tip="Metal Sombrio"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/bic_dark_metal.png" alt="Metal Sombrio"></div><div class="mc-slot" data-tip="Chifre de Bode (minecraft:goat_horn)"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/mc_bone.png" alt="Chifre de Bode"></div><div class="mc-slot" data-tip="Metal Sombrio"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/bic_dark_metal.png" alt="Metal Sombrio"></div><div class="mc-slot" data-tip="Fragmento de Permafrost"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/bic_permafrost_shard.png" alt="Fragmento de Permafrost"></div><div class="mc-slot" data-tip="Metal Sombrio"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/bic_dark_metal.png" alt="Metal Sombrio"></div><div class="mc-slot"></div></div>
+    <div class="mc-arrow">➜</div>
+    <div class="mc-slot large" data-tip="Chifre de Krampus (born_in_chaos_v1:krampus_horn)"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/bic_krampus_horn.png" alt="Chifre de Krampus"></div>
+  </div>
+  <div class="mc-card-footer"><code>tfc_arcanum:born_in_chaos/krampus_horn_forge</code><span>Instrumento místico de invocação e gelo</span></div>
+</div>
+
+<div class="mc-card">
+  <div class="mc-card-header"><span class="mc-card-title">Doce Eterno (Eternal Candy)</span><span class="mc-card-badge">Alquimia Lendária</span></div>
+  <div class="mc-card-body">
+    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Doce Festivo Mágico"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/bic_magical_holiday_candy.png" alt="Doce Festivo Mágico"></div><div class="mc-slot" data-tip="Coração de Chocolate"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/bic_holiday_candy.png" alt="Coração de Chocolate"></div><div class="mc-slot" data-tip="Pimenta de Caramelo"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/bic_holiday_candy.png" alt="Pimenta de Caramelo"></div><div class="mc-slot" data-tip="Fragmento de Permafrost"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/bic_permafrost_shard.png" alt="Fragmento de Permafrost"></div><div class="mc-slot" data-tip="Gema Fonte (ars_nouveau:source_gem)"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/tfc_gem_diamond.png" alt="Gema Fonte"></div><div class="mc-slot" data-tip="Dentes de Goma de Vampiro"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/bic_holiday_candy.png" alt="Dentes de Goma"></div><div class="mc-slot" data-tip="Doce de Menta"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/bic_holiday_candy.png" alt="Doce de Menta"></div><div class="mc-slot" data-tip="Doce de Café"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/bic_holiday_candy.png" alt="Doce de Café"></div><div class="mc-slot" data-tip="Vara de Blaze"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/mc_blaze_rod.png" alt="Vara de Blaze"></div></div>
+    <div class="mc-arrow">➜</div>
+    <div class="mc-slot large" data-tip="Doce Eterno (born_in_chaos_v1:eternal_candy)"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/bic_eternal_candy.png" alt="Doce Eterno"></div>
+  </div>
+  <div class="mc-card-footer"><code>tfc_arcanum:born_in_chaos/eternal_candy_arcanum_master</code><span>Comida infinita imune ao apodrecimento</span></div>
+</div>
+
+</div>
+
+---
+
+## 31. Receitas Desativadas / Removidas (Anti-Exploit)
 
 | Categoria | Itens Bloqueados | Motivo |
 |---|---|---|

@@ -80,7 +80,10 @@ graph LR
 | 🧀 **Laticínios** | Leite ordenhado, queijos maturados em barril | **Poder & Reserva Arcana** | Amplia a resistência contra magias hostis e regenera Mana velozmente. |
 
 > [!IMPORTANT]
-> **A Regra de Ouro da Sobrevivência:** Um jogador alimentado apenas com carne terá muita vida máxima, mas sofrerá de lentidão e fome rápida por falta de grãos e frutas. Mantenha os 5 indicadores nutricionais equilibrados pressionando **[N]** para inspecionar seu gráfico de nutrição.
+> **Fisiologia da Alimentação e Saturação:**
+> - **Mastigação Contínua:** No TerraFirmaCraft, comer exige **manter o Botão Direito pressionado** continuamente enquanto seu personagem mastiga e engole bocado por bocado.
+> - **Estômago Cheio (Trava de Saciedade 20/20):** Quando sua saciedade atinge a capacidade total (20/20), o personagem recusa-se a engolir mais alimentos, prevenindo o desperdício de rações nobres e pratos preparados.
+> - **Dieta Balanceada (5 Grupos Nutricionais):** Um jogador alimentado exclusivamente por carnes terá muito vigor inicial, mas sofrerá com baixa estamina por falta de grãos e frutas. Manter os 5 grupos nutricionais em equilíbrio eleva seu limite de vida de **100 HP base** para mais de **500+ HP**, conferindo vigor titânico contra chefes dimensionais. Pressione **[N]** a qualquer momento para abrir o gráfico nutricional do TFC.
 
 ---
 
@@ -101,6 +104,8 @@ Nenhum alimento orgânico é eterno no ecossistema do TFC. A carne crua apodrece
    Câmaras frias escavadas nas profundezas e abastecidas com blocos de Gelo Compacto reduzem a temperatura ambiente a 0 °C, congelando o decaimento.
 4. **Vinagre & Conservas em Barril (*Pickling*):**  
    Mergulhar vegetais em barris selados com vinagre produz picles crocantes com validade quase infinita.
+5. **O Doce Eterno (*Eternal Candy* - Relíquia Imortal):**  
+   Drop lendário contido na *Sacola de Krampus* ao triunfar sobre o temível mini-boss **Krampus** (ou forjado via ritual de doçura arcana). Por ter sido imbuído com éter primordial, o Doce Eterno **nunca apodrece (imunidade absoluta ao *Decay*)**, conta com usos infinitos e concede recarga contínua de saturação acompanhada de bênçãos mágicas de regeneração e resistência.
 
 ---
 
@@ -273,3 +278,16 @@ Para equilibrar comandos utilitários com a sobrevivência canônica, ações m�
     - Efeito de **Mau Presságio (Bad Omen)** por 5 minutos.
     - Todos os monstros em um raio de **35 blocos** entram em fúria imediata e caçam o infrator.
     - Invocação imediata de uma vanguarda sombria (*Dread Hounds* e *Nightmare Stalkers*).
+
+### 11.3 Enciclopédia Ilustrada In-Game & Atalhos Essenciais
+Para não sobrecarregar seu inventário com livros físicos no início da jornada, o modpack integrou guias dinâmicos e enciclopédias ativadas por comando:
+
+| Comando / Tecla | Função no Jogo | Descrição Prática |
+| :--- | :--- | :--- |
+| `/ajuda`, `/guia`, `/wiki` | **Enciclopédia Arcanum (*Patchouli*)** | Abre o tomo interativo ilustrado completo com capítulos sobre mineração, ligas, forja, Krampus e sobrevivência. |
+| `/missoes`, `/quests` | **Árvore de Missões (*FTB Quests*)** | Abre o painel com os 6 Atos canônicos de progressão sem duplicatas. |
+| `[O]` | **Configurar HUD de Inventário** | Ajusta a posição e exibição das armaduras, ferramentas e poções ativas na tela (*Inventory HUD+*). |
+| `[N]` | **Gráfico Nutricional TFC** | Exibe as 5 barras de nutrientes (Grãos, Proteínas, Vegetais, Frutas, Laticínios). |
+| `[K]` | **Habilidades & Atributos** | Painel de perícias e evolução de combate do personagem. |
+| `[V]` | **Diplomacia Millénaire** | Relações com aldeias, reputação de cultura e projetos de construção. |
+| `[M]` | **Mapa Mundial & Marcadores** | Abre o mapa cartográfico para registrar veios de minério e vilas consagradas. |

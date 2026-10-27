@@ -13,14 +13,14 @@ description: "Abaixo está a lista técnica completa de todos os 119 arquivos .j
 | Componente | Mínimo | Recomendado (Com Shaders) |
 |---|---|---|
 | **Minecraft / Loader** | Minecraft `1.21.1` — NeoForge `21.1.249+` | Minecraft `1.21.1` — NeoForge `21.1.249+` |
-|  1  | **Java** | Java 21 (64-bits) | Java 21 (GraalVM ou Eclipse Adoptium) | 
-|  2  | **Memória RAM Alocada** | `6 GB` (6144 MB) | `8 GB a 10 GB` (8192 MB – 10240 MB) | 
-|  3  | **Processador (CPU)** | 4 Núcleos / 3.2 GHz+ | 6+ Núcleos (Ryzen 5 / Core i5 modernos ou superior) | 
-|  4  | **Placa de Vídeo (GPU)** | GTX 1050 Ti / RX 570 ou integrada Vega/Iris | RTX 2060 / RX 6600 ou superior | 
+| **Java** | Java 21 (64-bits) | Java 21 (GraalVM ou Eclipse Adoptium) |
+| **Memória RAM Alocada** | `6 GB` (6144 MB) | `8 GB a 10 GB` (8192 MB – 10240 MB) |
+| **Processador (CPU)** | 4 Núcleos / 3.2 GHz+ | 6+ Núcleos (Ryzen 5 / Core i5 modernos ou superior) |
+| **Placa de Vídeo (GPU)** | GTX 1050 Ti / RX 570 ou integrada Vega/Iris | RTX 2060 / RX 6600 ou superior | 
 
 ---
 
-## 📦 2. Lista A–Z de Todos os 119 Mods do Pacote
+## 📦 2. Lista A–Z de Todos os 126 Mods do Pacote
 
 | # | Nome do Mod | Versão Instalada | Função / Categoria |
 |:---:|---|---|---|

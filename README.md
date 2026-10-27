@@ -24,13 +24,16 @@
 
 | Comando / Tecla | Função | Requisito / Custo |
 |---|---|---|
+| `/ajuda`, `/guia`, `/wiki` | Abre a Enciclopédia Ilustrada (*Patchouli*) | Sem custo / In-Game |
+| `/missoes`, `/quests` | Painel de Missões dos 6 Atos (*FTB Quests*) | Sem custo / In-Game |
 | `/consagrar` ou `/proteger_vila` | Ergue um santuário com Waystone aos seus pés | 100 de Mana (ou 4 XP) |
 | `/home` / `/sethome` | Marca e teleporta para seu abrigo pessoal | 50 de Mana |
 | `/tpa` / `/tpaccept` | Solicitação mútua de teleporte entre jogadores | 50 de Mana |
 | `/back` | Retorna ao local da morte ou teleporte anterior | 50 de Mana |
-| `/ftbquests open` | Abre o livro de missões dos 6 Atos | Tecla padrão ou livro |
-| `[K]` | Árvore de habilidades (Puffish Skills) | Nível de experiência |
-| `[V]` | Informações diplomáticas e comércio (Millénaire) | Dentro de território |
+| `[O]` | Configura HUD de armaduras e poções (*Inventory HUD+*) | Tecla de atalho |
+| `[N]` | Gráfico das 5 barras de nutrição TFC | Tecla de atalho |
+| `[K]` | Árvore de habilidades (*Puffish Skills*) | Nível de experiência |
+| `[V]` | Informações diplomáticas e comércio (*Millénaire*) | Dentro de território |
 
 ---
 
