@@ -83,7 +83,7 @@ graph LR
 > **Fisiologia da Alimentação e Saturação:**
 > - **Mastigação Contínua:** No TerraFirmaCraft, comer exige **manter o Botão Direito pressionado** continuamente enquanto seu personagem mastiga e engole bocado por bocado.
 > - **Estômago Cheio (Trava de Saciedade 20/20):** Quando sua saciedade atinge a capacidade total (20/20), o personagem recusa-se a engolir mais alimentos, prevenindo o desperdício de rações nobres e pratos preparados.
-> - **Dieta Balanceada (5 Grupos Nutricionais):** Um jogador alimentado exclusivamente por carnes terá muito vigor inicial, mas sofrerá com baixa estamina por falta de grãos e frutas. Manter os 5 grupos nutricionais em equilíbrio eleva seu limite de vida de **100 HP base** para mais de **500+ HP**, conferindo vigor titânico contra chefes dimensionais. Pressione **[N]** a qualquer momento para abrir o gráfico nutricional do TFC.
+> - **Teto de Vida Destravado (1.0x a 5.0x — Até 5.000+ HP):** O multiplicador nutricional inicial é de **1.0x (100% da vida base)** e escala até **5.0x** com as 5 barras de nutrição cheias (`nutritionMaximumHealthModifier = 5.0`), permitindo que bônus de **Relíquias (Relics)**, **Afixos Míticos do Apotheosis** e da **Skill Tree (84 Nós)** se multipliquem livremente sem bater em tetos artificiais e sem perder vida ao relogar! Pressione **[N]** a qualquer momento para abrir o gráfico nutricional do TFC.
 
 ---
 

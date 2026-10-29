@@ -98,6 +98,7 @@ export default defineConfig({
           label: 'Ofícios, Forjas & Catálogo JEI',
           items: [
             { label: '🌟 Todos os Crafts (Painel JEI)', link: '/crafts/todos-os-crafts/' },
+            { label: '⚗️ Alquimia Wixie & Drusa (Tabela)', link: '/crafts/26-alquimia-wixie-e-drusa-ametista/' },
             { label: '🏗️ Estruturas Multiblocos', link: '/crafts/estruturas-multiblocos/' },
             { label: '🔨 Processos Físicos & Forjas', link: '/crafts/processos-fisicos/' },
             { label: '🔥 Fornalhas & Multiblocos', link: '/crafts/forjas-multiblocos-processos/' },
@@ -127,6 +128,7 @@ export default defineConfig({
           collapsed: true,
           items: [
             { label: 'Catalisador Arcano & Pilões', link: '/guias/02-magia-piloes/' },
+            { label: '⚗️ Alquimia da Wixie & Drusa Geológica', link: '/crafts/26-alquimia-wixie-e-drusa-ametista/' },
             { label: 'Civilizações do Millénaire', link: '/guias/01-vilas-millenaire/' },
             { label: 'Consagração de Vilas (Waystones)', link: '/crafts/04-millenaire/' },
             { label: 'Millager & Exércitos Mercenários', link: '/crafts/15-millager-exercitos/' },
