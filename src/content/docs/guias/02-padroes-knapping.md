@@ -32,3 +32,35 @@ description: "Padrão da Faca: Remova as 3 colunas da direita, mantendo a lâmin
 
 **Padrão da Jarra (Clay):** Esculpa as argilas no formato de garrafa estreita.
 
+
+## ⛏️ Cabeça de Picareta de Pedra (3 Padrões Aceitos)
+
+O modpack implementou 3 padrões distintos de lascamento 5×5 para esculpir a **Cabeça de Picareta de Pedra (`tfc_arcanum:stone_pickaxe_head`)**:
+
+### Padrão 1: Clássico Reto
+```text
+[#] [#] [#] [#] [#]
+[#] [ ] [#] [ ] [#]
+[ ] [ ] [#] [ ] [ ]
+[ ] [ ] [ ] [ ] [ ]
+[ ] [ ] [ ] [ ] [ ]
+```
+
+### Padrão 2: Curvado
+```text
+[#] [#] [#] [#] [#]
+[#] [ ] [ ] [ ] [#]
+[ ] [ ] [#] [ ] [ ]
+[ ] [ ] [ ] [ ] [ ]
+[ ] [ ] [ ] [ ] [ ]
+```
+
+### Padrão 3: Formato T Robusto
+```text
+[#] [#] [#] [#] [#]
+[ ] [ ] [#] [ ] [ ]
+[ ] [ ] [#] [ ] [ ]
+[ ] [ ] [ ] [ ] [ ]
+[ ] [ ] [ ] [ ] [ ]
+```
+

@@ -1,0 +1,737 @@
+<!DOCTYPE html><html lang="pt-BR" dir="ltr" data-theme="dark" data-has-toc data-has-sidebar class="astro-o3lnpecw"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title>⚗️ Alquimia da Wixie & Drusa Geológica (Tabela de Conversão) | TFC: Arcanum & Empires</title><link rel="canonical" href="https://vinagre-lipe.github.io/TFC-Arcanum-Empires-WIKI-Guides/crafts/26-alquimia-wixie-e-drusa-ametista/"/><link rel="sitemap" href="/TFC-Arcanum-Empires-WIKI-Guides/sitemap-index.xml"/><script>
+            if (window.location.hash && window.location.hash.startsWith('#/')) {
+              var p = window.location.hash.slice(2).replace(/\.md$/, '').replace(/^\/+/, '');
+              var base = '/TFC-Arcanum-Empires-WIKI-Guides/';
+              if (p && p !== '/') {
+                window.location.replace(base + p + '/');
+              } else {
+                window.location.replace(base);
+              }
+            }
+            document.addEventListener('click', function(e) {
+              var a = e.target.closest('a');
+              if (!a) return;
+              var href = a.getAttribute('href');
+              if (href && href.startsWith('/') && !href.startsWith('/TFC-Arcanum-Empires-WIKI-Guides') && !href.startsWith('//')) {
+                e.preventDefault();
+                window.location.href = '/TFC-Arcanum-Empires-WIKI-Guides' + href;
+              }
+            }, true);
+          </script><script src="/TFC-Arcanum-Empires-WIKI-Guides/assets/jei-modal.js" defer></script><script type="module">
+            import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+            mermaid.initialize({ startOnLoad: false, theme: 'dark' });
+            async function renderMermaid() {
+              const els = document.querySelectorAll('pre[data-language="mermaid"], pre.mermaid, code.language-mermaid');
+              for (const el of els) {
+                const pre = el.tagName === 'CODE' ? el.parentElement : el;
+                if (pre.dataset.mermaidProcessed) continue;
+                pre.dataset.mermaidProcessed = 'true';
+                const code = el.textContent;
+                const container = document.createElement('div');
+                container.className = 'mermaid-container';
+                const id = 'mermaid-' + Math.random().toString(36).substring(2, 9);
+                try {
+                  const { svg } = await mermaid.render(id, code);
+                  container.innerHTML = svg;
+                  pre.replaceWith(container);
+                } catch (err) {
+                  console.error('Mermaid render error:', err);
+                }
+              }
+            }
+            document.addEventListener('DOMContentLoaded', renderMermaid);
+            document.addEventListener('astro:page-load', renderMermaid);
+          </script><link rel="shortcut icon" href="/TFC-Arcanum-Empires-WIKI-Guides/favicon.svg" type="image/svg+xml"/><meta name="generator" content="Astro v7.4.2"/><meta name="generator" content="Starlight v0.42.7"/><meta property="og:title" content="⚗️ Alquimia da Wixie &amp; Drusa Geológica (Tabela de Conversão)"/><meta property="og:type" content="article"/><meta property="og:url" content="https://vinagre-lipe.github.io/TFC-Arcanum-Empires-WIKI-Guides/crafts/26-alquimia-wixie-e-drusa-ametista/"/><meta property="og:locale" content="pt-BR"/><meta property="og:description" content="Sistema de Transmutação Alquímica por Pergaminho no Pedestal Arcano e Cristalização Mineral de Golems de Ametista no TFC: Arcanum &amp; Empires."/><meta property="og:site_name" content="TFC: Arcanum &amp; Empires"/><meta name="twitter:card" content="summary_large_image"/><meta name="description" content="Sistema de Transmutação Alquímica por Pergaminho no Pedestal Arcano e Cristalização Mineral de Golems de Ametista no TFC: Arcanum &amp; Empires."/><script>
+	window.StarlightThemeProvider = (() => {
+		const storedTheme =
+			typeof localStorage !== 'undefined' && localStorage.getItem('starlight-theme');
+		const theme =
+			storedTheme ||
+			(window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+		document.documentElement.dataset.theme = theme === 'light' ? 'light' : 'dark';
+		return {
+			updatePickers(theme = storedTheme || 'auto') {
+				document.querySelectorAll('starlight-theme-select').forEach((picker) => {
+					const select = picker.querySelector('select');
+					if (select) select.value = theme;
+					/** @type {HTMLTemplateElement | null} */
+					const tmpl = document.querySelector(`#theme-icons`);
+					const newIcon = tmpl && tmpl.content.querySelector('.' + theme);
+					if (newIcon) {
+						const oldIcon = picker.querySelector('svg.label-icon');
+						if (oldIcon) {
+							oldIcon.replaceChildren(...newIcon.cloneNode(true).childNodes);
+						}
+					}
+				});
+			},
+		};
+	})();
+</script><template id="theme-icons"><svg aria-hidden="true" class="light astro-fqxqqhdy" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M5 12a1 1 0 0 0-1-1H3a1 1 0 0 0 0 2h1a1 1 0 0 0 1-1Zm.64 5-.71.71a1 1 0 0 0 0 1.41 1 1 0 0 0 1.41 0l.71-.71A1 1 0 0 0 5.64 17ZM12 5a1 1 0 0 0 1-1V3a1 1 0 0 0-2 0v1a1 1 0 0 0 1 1Zm5.66 2.34a1 1 0 0 0 .7-.29l.71-.71a1 1 0 1 0-1.41-1.41l-.66.71a1 1 0 0 0 0 1.41 1 1 0 0 0 .66.29Zm-12-.29a1 1 0 0 0 1.41 0 1 1 0 0 0 0-1.41l-.71-.71a1.004 1.004 0 1 0-1.43 1.41l.73.71ZM21 11h-1a1 1 0 0 0 0 2h1a1 1 0 0 0 0-2Zm-2.64 6A1 1 0 0 0 17 18.36l.71.71a1 1 0 0 0 1.41 0 1 1 0 0 0 0-1.41l-.76-.66ZM12 6.5a5.5 5.5 0 1 0 5.5 5.5A5.51 5.51 0 0 0 12 6.5Zm0 9a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7Zm0 3.5a1 1 0 0 0-1 1v1a1 1 0 0 0 2 0v-1a1 1 0 0 0-1-1Z"/></svg><svg aria-hidden="true" class="dark astro-fqxqqhdy" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M21.64 13a1 1 0 0 0-1.05-.14 8.049 8.049 0 0 1-3.37.73 8.15 8.15 0 0 1-8.14-8.1 8.59 8.59 0 0 1 .25-2A1 1 0 0 0 8 2.36a10.14 10.14 0 1 0 14 11.69 1 1 0 0 0-.36-1.05Zm-9.5 6.69A8.14 8.14 0 0 1 7.08 5.22v.27a10.15 10.15 0 0 0 10.14 10.14 9.784 9.784 0 0 0 2.1-.22 8.11 8.11 0 0 1-7.18 4.32v-.04Z"/></svg><svg aria-hidden="true" class="auto astro-fqxqqhdy" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M21 14h-1V7a3 3 0 0 0-3-3H7a3 3 0 0 0-3 3v7H3a1 1 0 0 0-1 1v2a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-2a1 1 0 0 0-1-1ZM6 7a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v7H6V7Zm14 10a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-1h16v1Z"/></svg></template><link rel="stylesheet" href="/TFC-Arcanum-Empires-WIKI-Guides/_astro/print.ehPL0gv-.css" media="print"><link rel="stylesheet" href="/TFC-Arcanum-Empires-WIKI-Guides/_astro/common.BS8n4PiD.css"><script type="module" src="/TFC-Arcanum-Empires-WIKI-Guides/_astro/page.cNngjUgL.js"></script></head><body class="astro-o3lnpecw"><a class="sl-skip-link astro-hhc2svly" href="#_top">Pular para o conteúdo</a><div class="page sl-flex astro-47qwzgdq"><header class="header astro-47qwzgdq"><div class="header astro-eql7qchf"><div class="title-wrapper sl-flex astro-eql7qchf"><a href="/TFC-Arcanum-Empires-WIKI-Guides/" class="site-title sl-flex astro-a6ytwuqe"><img class="astro-a6ytwuqe" alt="Selo de TFC: Arcanum &amp; Empires" src="/TFC-Arcanum-Empires-WIKI-Guides/_astro/arcanum-mark.BihVlKLM.png" width="256" height="256"><span class="astro-a6ytwuqe" translate="no">TFC: Arcanum &amp; Empires</span></a></div><div class="sl-flex print:hidden astro-eql7qchf"><site-search class="astro-eql7qchf astro-jd5q2voe" data-translations="{&quot;placeholder&quot;:&quot;Pesquisar&quot;}"><button data-open-modal disabled aria-label="Pesquisar" aria-keyshortcuts="Control+K" class="astro-jd5q2voe"><svg aria-hidden="true" class="astro-jd5q2voe astro-fqxqqhdy" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M21.71 20.29 18 16.61A9 9 0 1 0 16.61 18l3.68 3.68a.999.999 0 0 0 1.42 0 1 1 0 0 0 0-1.39ZM11 18a7 7 0 1 1 0-14 7 7 0 0 1 0 14Z"/></svg><span class="sl-hidden md:sl-block astro-jd5q2voe" aria-hidden="true">Pesquisar</span><kbd class="sl-hidden md:sl-flex astro-jd5q2voe" style="display: none;"><kbd class="astro-jd5q2voe">Ctrl</kbd><kbd class="astro-jd5q2voe">K</kbd></kbd></button><dialog style="padding:0" aria-label="Pesquisar" class="astro-jd5q2voe"><div class="dialog-frame sl-flex astro-jd5q2voe"><button data-close-modal class="sl-flex md:sl-hidden astro-jd5q2voe">Cancelar</button><div class="search-container astro-jd5q2voe"><div id="starlight__search" class="astro-jd5q2voe"></div></div></div></dialog></site-search><script>
+	(() => {
+		const openBtn = document.querySelector('button[data-open-modal]');
+		const shortcut = openBtn?.querySelector('kbd');
+		if (!openBtn || !(shortcut instanceof HTMLElement)) return;
+		const platformKey = shortcut.querySelector('kbd');
+		if (platformKey && /(Mac|iPhone|iPod|iPad)/i.test(navigator.platform)) {
+			platformKey.textContent = '⌘';
+			openBtn.setAttribute('aria-keyshortcuts', 'Meta+K');
+		}
+		shortcut.style.display = '';
+	})();
+</script><script type="module" src="/TFC-Arcanum-Empires-WIKI-Guides/_astro/Search.astro_astro_type_script_index_0_lang.Dz8br82X.js"></script></div><div class="sl-hidden md:sl-flex print:hidden right-group astro-eql7qchf"><div class="sl-flex social-icons astro-eql7qchf"><a href="https://github.com/Vinagre-Lipe/TFC-Arcanum-Empires-WIKI-Guides" rel="me" class="sl-flex astro-6dnnmvp7"><span class="sr-only astro-6dnnmvp7">Repositório GitHub</span><svg aria-hidden="true" class="astro-6dnnmvp7 astro-fqxqqhdy" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M12 .3a12 12 0 0 0-3.8 23.38c.6.12.83-.26.83-.57L9 21.07c-3.34.72-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.08-.74.09-.73.09-.73 1.2.09 1.83 1.24 1.83 1.24 1.08 1.83 2.81 1.3 3.5 1 .1-.78.42-1.31.76-1.61-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.14-.3-.54-1.52.1-3.18 0 0 1-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.28-1.55 3.29-1.23 3.29-1.23.64 1.66.24 2.88.12 3.18a4.65 4.65 0 0 1 1.23 3.22c0 4.61-2.8 5.63-5.48 5.92.42.36.81 1.1.81 2.22l-.01 3.29c0 .31.2.69.82.57A12 12 0 0 0 12 .3Z"/></svg></a></div><starlight-theme-select><label style="--sl-select-width: 6.25em" class="astro-pggh4mc4"><span class="sr-only astro-pggh4mc4">Selecionar tema</span><svg aria-hidden="true" class="icon label-icon astro-pggh4mc4 astro-fqxqqhdy" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M21 14h-1V7a3 3 0 0 0-3-3H7a3 3 0 0 0-3 3v7H3a1 1 0 0 0-1 1v2a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-2a1 1 0 0 0-1-1ZM6 7a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v7H6V7Zm14 10a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-1h16v1Z"/></svg><select autocomplete="off" class="astro-pggh4mc4"><option value="dark" class="astro-pggh4mc4">Escuro</option><option value="light" class="astro-pggh4mc4">Claro</option><option value="auto" selected class="astro-pggh4mc4">Auto</option></select><svg aria-hidden="true" class="icon caret astro-pggh4mc4 astro-fqxqqhdy" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M17 9.17a1 1 0 0 0-1.41 0L12 12.71 8.46 9.17a1 1 0 1 0-1.41 1.42l4.24 4.24a1.002 1.002 0 0 0 1.42 0L17 10.59a1.002 1.002 0 0 0 0-1.42Z"/></svg></label></starlight-theme-select><script>
+	StarlightThemeProvider.updatePickers();
+</script><script type="module">var e=`starlight-theme`,t=e=>e===`auto`||e===`dark`||e===`light`?e:`auto`,n=()=>t(typeof localStorage<`u`&&localStorage.getItem(e));function r(t){typeof localStorage<`u`&&localStorage.setItem(e,t===`light`||t===`dark`?t:``)}var i=()=>matchMedia(`(prefers-color-scheme: light)`).matches?`light`:`dark`;function a(e){StarlightThemeProvider.updatePickers(e),document.documentElement.dataset.theme=e===`auto`?i():e,r(e)}matchMedia(`(prefers-color-scheme: light)`).addEventListener(`change`,()=>{n()===`auto`&&a(`auto`)});var o=class extends HTMLElement{constructor(){super(),a(n()),this.querySelector(`select`)?.addEventListener(`change`,e=>{e.currentTarget instanceof HTMLSelectElement&&a(t(e.currentTarget.value))})}};customElements.define(`starlight-theme-select`,o);</script><script type="module">var e=class extends HTMLElement{constructor(){super();let e=this.querySelector(`select`);e&&(e.addEventListener(`change`,e=>{e.currentTarget instanceof HTMLSelectElement&&(window.location.pathname=e.currentTarget.value)}),window.addEventListener(`pageshow`,t=>{if(!t.persisted)return;let n=e.querySelector(`option[selected]`)?.index;n!==e.selectedIndex&&(e.selectedIndex=n??0)}))}};customElements.define(`starlight-lang-select`,e);</script></div></div></header><nav class="sidebar print:hidden astro-47qwzgdq" aria-label="Principal"><button popovertarget="starlight__sidebar" class="sl-menu-button sl-flex md:sl-hidden print:hidden astro-ts7kidad"><svg aria-hidden="true" class="open-menu astro-ts7kidad astro-fqxqqhdy" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M3 8h18a1 1 0 1 0 0-2H3a1 1 0 0 0 0 2Zm18 8H3a1 1 0 0 0 0 2h18a1 1 0 0 0 0-2Zm0-5H3a1 1 0 0 0 0 2h18a1 1 0 0 0 0-2Z"/></svg><svg aria-hidden="true" class="close-menu astro-ts7kidad astro-fqxqqhdy" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="m13.41 12 6.3-6.29a1.004 1.004 0 1 0-1.42-1.42L12 10.59l-6.29-6.3a1.004 1.004 0 0 0-1.42 1.42l6.3 6.29-6.3 6.29a1 1 0 0 0 0 1.42.998.998 0 0 0 1.42 0l6.29-6.3 6.29 6.3a.999.999 0 0 0 1.42 0 1 1 0 0 0 0-1.42L13.41 12Z"/></svg><span class="sr-only astro-ts7kidad">Menu</span></button><script type="module">var e=class extends HTMLElement{constructor(){super();let e=matchMedia(`(min-width: 50em)`),t=()=>{this.popover=e.matches?null:`auto`};t(),e.addEventListener(`change`,()=>t()),this.addEventListener(`toggle`,({newState:e})=>this.trapFocus(e===`open`))}trapFocus(e){document.querySelectorAll(`.main-frame, .sl-skip-link`).forEach(t=>{t.toggleAttribute(`inert`,e)})}};customElements.define(`sl-sidebar-pane`,e);</script><sl-sidebar-pane popover id="starlight__sidebar" class="sidebar-pane astro-47qwzgdq"><div class="sidebar-content sl-flex astro-47qwzgdq"><sl-sidebar-state-persist data-hash="0gq4xfc" class="astro-bajgck2j"><script aria-hidden="true">
+		(() => {
+			try {
+				if (!matchMedia('(min-width: 50em)').matches) return;
+				/** @type {HTMLElement | null} */
+				const target = document.querySelector('sl-sidebar-state-persist');
+				const state = JSON.parse(sessionStorage.getItem('sl-sidebar-state') || '0');
+				if (!target || !state || target.dataset.hash !== state.hash) return;
+				window._starlightScrollRestore = state.scroll;
+				customElements.define(
+					'sl-sidebar-restore',
+					class SidebarRestore extends HTMLElement {
+						connectedCallback() {
+							try {
+								const idx = parseInt(this.dataset.index || '');
+								const details = this.closest('details');
+								if (details && typeof state.open[idx] === 'boolean') details.open = state.open[idx];
+							} catch {}
+						}
+					}
+				);
+			} catch {}
+		})();
+	</script><ul class="top-level astro-qkyiv5t4"><li class="astro-qkyiv5t4"><details open class="astro-qkyiv5t4"><summary class="astro-qkyiv5t4"><span class="group-label astro-qkyiv5t4"><span class="large astro-qkyiv5t4">Comece sua Jornada</span></span><svg aria-hidden="true" class="caret astro-qkyiv5t4 astro-fqxqqhdy" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.25rem;"><path d="m14.83 11.29-4.24-4.24a1 1 0 1 0-1.42 1.41L12.71 12l-3.54 3.54a1 1 0 0 0 0 1.41 1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.24-4.24a1.002 1.002 0 0 0 0-1.42Z"/></svg></summary><sl-sidebar-restore data-index="0"></sl-sidebar-restore><ul class="astro-qkyiv5t4"><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">🏠 Portal da Wiki</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/guias/01-primeiros-passos/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">🌲 Primeiros Minutos no TFC</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/guias/mecanicas-do-modpack/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">⚙️ Mecânicas Gerais &amp; Fisiologia</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/guias/worldgen-vigas-trocas/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">🌍 Mundo, Vigas &amp; Trocas (World Gen)</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/guias/01-arvore-habilidades/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">🔮 Árvore de Habilidades</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/guias/progressao-6-atos/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">🗺️ Progressão: Os 6 Atos</span></a></li></ul></details></li><li class="astro-qkyiv5t4"><details open class="astro-qkyiv5t4"><summary class="astro-qkyiv5t4"><span class="group-label astro-qkyiv5t4"><span class="large astro-qkyiv5t4">Ofícios, Forjas &amp; Catálogo JEI</span></span><svg aria-hidden="true" class="caret astro-qkyiv5t4 astro-fqxqqhdy" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.25rem;"><path d="m14.83 11.29-4.24-4.24a1 1 0 1 0-1.42 1.41L12.71 12l-3.54 3.54a1 1 0 0 0 0 1.41 1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.24-4.24a1.002 1.002 0 0 0 0-1.42Z"/></svg></summary><sl-sidebar-restore data-index="1"></sl-sidebar-restore><ul class="astro-qkyiv5t4"><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/todos-os-crafts/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">🌟 Todos os Crafts (Painel JEI)</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/26-alquimia-wixie-e-drusa-ametista/" aria-current="page" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">⚗️ Alquimia Wixie &amp; Drusa (Tabela)</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/estruturas-multiblocos/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">🏗️ Estruturas Multiblocos</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/processos-fisicos/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">🔨 Processos Físicos &amp; Forjas</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/forjas-multiblocos-processos/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">🔥 Fornalhas &amp; Multiblocos</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/cozinha-culinaria/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">🍳 Cozinha, Gastronomia &amp; Culinária</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/itens-comerciais/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">🪙 Itens Comerciais &amp; Millénaire</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/22-expansao-v130-aviacao-arcaria-vassouras/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">✈️ Aviação, Vassouras &amp; Arcaria (v1.3.0)</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/portabilidade-viabilidade/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">📋 Planilha Mestra de Portabilidade</span></a></li></ul></details></li><li class="astro-qkyiv5t4"><details class="astro-qkyiv5t4"><summary class="astro-qkyiv5t4"><span class="group-label astro-qkyiv5t4"><span class="large astro-qkyiv5t4">Sobrevivência Primitiva (Guias)</span></span><svg aria-hidden="true" class="caret astro-qkyiv5t4 astro-fqxqqhdy" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.25rem;"><path d="m14.83 11.29-4.24-4.24a1 1 0 1 0-1.42 1.41L12.71 12l-3.54 3.54a1 1 0 0 0 0 1.41 1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.24-4.24a1.002 1.002 0 0 0 0-1.42Z"/></svg></summary><sl-sidebar-restore data-index="2"></sl-sidebar-restore><ul class="astro-qkyiv5t4"><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/guias/02-knapping-ferramentas/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">Talhando Pedras (Knapping)</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/guias/02-padroes-knapping/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">Padrões de Knapping</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/guias/03-palha-fogo/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">Palha, Fogueira &amp; Comida</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/guias/04-agua-sede/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">Água Doce &amp; Sede</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/guias/05-clima-imersao-e-vulcoes/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">🌋 Clima, Vestimentas &amp; Vulcões</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/guias/01-ferramentas-pedra/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">Ferramentas de Pedra</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/guias/03-fogo-e-tochas/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">Fogo &amp; Tochas</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/guias/01-argila-pitkiln/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">Argila &amp; Pit Kiln</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/guias/04-estruturas-primitivas/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">Cerâmica &amp; Pit Kiln (Passo a Passo)</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/guias/02-armazenamento-fisica/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">Armazenamento &amp; Cavernas</span></a></li></ul></details></li><li class="astro-qkyiv5t4"><details class="astro-qkyiv5t4"><summary class="astro-qkyiv5t4"><span class="group-label astro-qkyiv5t4"><span class="large astro-qkyiv5t4">Magia &amp; Impérios</span></span><svg aria-hidden="true" class="caret astro-qkyiv5t4 astro-fqxqqhdy" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.25rem;"><path d="m14.83 11.29-4.24-4.24a1 1 0 1 0-1.42 1.41L12.71 12l-3.54 3.54a1 1 0 0 0 0 1.41 1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.24-4.24a1.002 1.002 0 0 0 0-1.42Z"/></svg></summary><sl-sidebar-restore data-index="3"></sl-sidebar-restore><ul class="astro-qkyiv5t4"><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/guias/02-magia-piloes/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">Catalisador Arcano &amp; Pilões</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/26-alquimia-wixie-e-drusa-ametista/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">⚗️ Alquimia da Wixie &amp; Drusa Geológica</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/guias/01-vilas-millenaire/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">Civilizações do Millénaire</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/04-millenaire/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">Consagração de Vilas (Waystones)</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/15-millager-exercitos/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">Millager &amp; Exércitos Mercenários</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/13-teleporte-mana/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">Teleporte por Mana (/home, /tpa)</span></a></li></ul></details></li><li class="astro-qkyiv5t4"><details open class="astro-qkyiv5t4"><summary class="astro-qkyiv5t4"><span class="group-label astro-qkyiv5t4"><span class="large astro-qkyiv5t4">Chefes &amp; Expedições</span></span><svg aria-hidden="true" class="caret astro-qkyiv5t4 astro-fqxqqhdy" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.25rem;"><path d="m14.83 11.29-4.24-4.24a1 1 0 1 0-1.42 1.41L12.71 12l-3.54 3.54a1 1 0 0 0 0 1.41 1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.24-4.24a1.002 1.002 0 0 0 0-1.42Z"/></svg></summary><sl-sidebar-restore data-index="4"></sl-sidebar-restore><ul class="astro-qkyiv5t4"><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/guias/chefes-essenciais-progresso/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">⚔️ Chefes Essenciais &amp; Lendários</span></a></li></ul></details></li><li class="astro-qkyiv5t4"><details class="astro-qkyiv5t4"><summary class="astro-qkyiv5t4"><span class="group-label astro-qkyiv5t4"><span class="large astro-qkyiv5t4">História &amp; Crônicas</span></span><svg aria-hidden="true" class="caret astro-qkyiv5t4 astro-fqxqqhdy" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.25rem;"><path d="m14.83 11.29-4.24-4.24a1 1 0 1 0-1.42 1.41L12.71 12l-3.54 3.54a1 1 0 0 0 0 1.41 1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.24-4.24a1.002 1.002 0 0 0 0-1.42Z"/></svg></summary><sl-sidebar-restore data-index="5"></sl-sidebar-restore><ul class="astro-qkyiv5t4"><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/historia/01-a-era-primordial/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">I. A Criação e o Selo Primordial</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/historia/02-o-rompimento-do-selo/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">II. A Fratura e a Lua de Sangue</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/historia/03-os-seis-atos/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">III. Os Pilões e os Seis Atos</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/historia/04-o-chaos-guardian/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">IV. O Chaos Guardian</span></a></li></ul></details></li><li class="astro-qkyiv5t4"><details class="astro-qkyiv5t4"><summary class="astro-qkyiv5t4"><span class="group-label astro-qkyiv5t4"><span class="large astro-qkyiv5t4">Integrações &amp; Scripts KubeJS</span></span><svg aria-hidden="true" class="caret astro-qkyiv5t4 astro-fqxqqhdy" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.25rem;"><path d="m14.83 11.29-4.24-4.24a1 1 0 1 0-1.42 1.41L12.71 12l-3.54 3.54a1 1 0 0 0 0 1.41 1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.24-4.24a1.002 1.002 0 0 0 0-1.42Z"/></svg></summary><sl-sidebar-restore data-index="6"></sl-sidebar-restore><ul class="astro-qkyiv5t4"><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">Visão Geral das Integrações</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/01-knapping/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">01 — Knapping, Cerâmica &amp; Millénaire</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/02-kit-inicial/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">02 — Kit Inicial e Guia</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/05-vulcoes/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">05 — Vulcões Vivos</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/06-spawns-noturnos/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">06 — Criaturas Noturnas &amp; Safezones</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/07-tfc-vanilla/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">07 — Integração TFC ➔ Vanilla</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/08-expansao/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">08 — Expansão, Farms &amp; Alquimia</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/09-grande-integracao/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">09 — Grande Integração</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/10-fauna/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">10 — Fauna, Pesca e Culinária</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/11-chaos-guardian/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">11 — Chaos Guardian e Endgame (Ato VI)</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/12-sculk-warden/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">12 — Sculk Fossilizado e Warden</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/14-utilidades-vanilla/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">14 — Utilidades Vanilla &amp; Redstone</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/14-cliente/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">14b — Otimizações de Cliente</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/16-cliente-tooltips/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">16 — Pente Fino &amp; Tooltips</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/19-alquimia-proibida/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">19 — Alquimia Proibida &amp; Metais do Eclipse</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/20-transmutacao-xp-expedicao/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">20 — Transmutação de Restos em XP</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/21-fogueira-coccao-avancos/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">21 — Fogueira Vanilla &amp; Avanços FTB</span></a></li></ul></details></li><li class="astro-qkyiv5t4"><details open class="astro-qkyiv5t4"><summary class="astro-qkyiv5t4"><span class="group-label astro-qkyiv5t4"><span class="large astro-qkyiv5t4">Documentação Técnica</span></span><svg aria-hidden="true" class="caret astro-qkyiv5t4 astro-fqxqqhdy" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.25rem;"><path d="m14.83 11.29-4.24-4.24a1 1 0 1 0-1.42 1.41L12.71 12l-3.54 3.54a1 1 0 0 0 0 1.41 1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.24-4.24a1.002 1.002 0 0 0 0-1.42Z"/></svg></summary><sl-sidebar-restore data-index="7"></sl-sidebar-restore><ul class="astro-qkyiv5t4"><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/documentacao/arquitetura/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">Visão Geral &amp; Mods por Categoria</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/documentacao/mods-compatibilidade/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">Catálogo A–Z (126 Mods) &amp; Requisitos</span></a></li><li class="astro-qkyiv5t4"><a href="/TFC-Arcanum-Empires-WIKI-Guides/documentacao/distribuicao-automodpack-e-mods-client/" class="astro-qkyiv5t4"><span class="astro-qkyiv5t4">📦 Distribuição AutoModpack &amp; Mods Client-Side</span></a></li></ul></details></li></ul><script aria-hidden="true">
+		(() => {
+			const scroller = document.getElementById('starlight__sidebar');
+			if (!window._starlightScrollRestore || !scroller) return;
+			scroller.scrollTop = window._starlightScrollRestore;
+			delete window._starlightScrollRestore;
+		})();
+	</script></sl-sidebar-state-persist><div class="md:sl-hidden"><div class="mobile-preferences sl-flex astro-ltj6auun"><div class="social-icons astro-ltj6auun"><a href="https://github.com/Vinagre-Lipe/TFC-Arcanum-Empires-WIKI-Guides" rel="me" class="sl-flex astro-6dnnmvp7"><span class="sr-only astro-6dnnmvp7">Repositório GitHub</span><svg aria-hidden="true" class="astro-6dnnmvp7 astro-fqxqqhdy" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M12 .3a12 12 0 0 0-3.8 23.38c.6.12.83-.26.83-.57L9 21.07c-3.34.72-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.08-.74.09-.73.09-.73 1.2.09 1.83 1.24 1.83 1.24 1.08 1.83 2.81 1.3 3.5 1 .1-.78.42-1.31.76-1.61-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.14-.3-.54-1.52.1-3.18 0 0 1-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.28-1.55 3.29-1.23 3.29-1.23.64 1.66.24 2.88.12 3.18a4.65 4.65 0 0 1 1.23 3.22c0 4.61-2.8 5.63-5.48 5.92.42.36.81 1.1.81 2.22l-.01 3.29c0 .31.2.69.82.57A12 12 0 0 0 12 .3Z"/></svg></a></div><starlight-theme-select><label style="--sl-select-width: 6.25em" class="astro-pggh4mc4"><span class="sr-only astro-pggh4mc4">Selecionar tema</span><svg aria-hidden="true" class="icon label-icon astro-pggh4mc4 astro-fqxqqhdy" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M21 14h-1V7a3 3 0 0 0-3-3H7a3 3 0 0 0-3 3v7H3a1 1 0 0 0-1 1v2a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-2a1 1 0 0 0-1-1ZM6 7a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v7H6V7Zm14 10a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-1h16v1Z"/></svg><select autocomplete="off" class="astro-pggh4mc4"><option value="dark" class="astro-pggh4mc4">Escuro</option><option value="light" class="astro-pggh4mc4">Claro</option><option value="auto" selected class="astro-pggh4mc4">Auto</option></select><svg aria-hidden="true" class="icon caret astro-pggh4mc4 astro-fqxqqhdy" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1em;"><path d="M17 9.17a1 1 0 0 0-1.41 0L12 12.71 8.46 9.17a1 1 0 1 0-1.41 1.42l4.24 4.24a1.002 1.002 0 0 0 1.42 0L17 10.59a1.002 1.002 0 0 0 0-1.42Z"/></svg></label></starlight-theme-select><script>
+	StarlightThemeProvider.updatePickers();
+</script></div></div></div></sl-sidebar-pane></nav><div class="main-frame astro-47qwzgdq"><script type="module">var e=document.getElementById(`starlight__sidebar`),t=e?.querySelector(`sl-sidebar-state-persist`),n=`sl-sidebar-state`,r=()=>{let r=[],i=t?.dataset.hash||``;try{let e=sessionStorage.getItem(n),t=JSON.parse(e||`{}`);Array.isArray(t.open)&&t.hash===i&&(r=t.open)}catch{}return{hash:i,open:r,scroll:e?.scrollTop||0}},i=e=>{try{sessionStorage.setItem(n,JSON.stringify(e))}catch{}},a=()=>i(r()),o=(e,t)=>{let n=r();n.open[t]=e,i(n)};t?.addEventListener(`click`,e=>{if(!(e.target instanceof Element))return;let t=e.target.closest(`summary`)?.closest(`details`);if(!t)return;let n=t.querySelector(`sl-sidebar-restore`),r=parseInt(n?.dataset.index||``);isNaN(r)||o(!t.open,r)}),addEventListener(`visibilitychange`,()=>{document.visibilityState===`hidden`&&a()});</script><div class="lg:sl-flex astro-pinujozt"><aside class="right-sidebar-container print:hidden astro-pinujozt"><div class="right-sidebar astro-pinujozt"><div class="lg:sl-hidden astro-d4r3nttl"><mobile-starlight-toc data-min-h="2" data-max-h="3" class="astro-sy3i5rvm"><nav aria-labelledby="starlight__on-this-page--mobile" class="astro-sy3i5rvm"><details id="starlight__mobile-toc" class="astro-sy3i5rvm"><summary id="starlight__on-this-page--mobile" class="sl-flex astro-sy3i5rvm"><span class="toggle sl-flex astro-sy3i5rvm">Nesta página<svg aria-hidden="true" class="caret astro-sy3i5rvm astro-fqxqqhdy" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1rem;"><path d="m14.83 11.29-4.24-4.24a1 1 0 1 0-1.42 1.41L12.71 12l-3.54 3.54a1 1 0 0 0 0 1.41 1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.24-4.24a1.002 1.002 0 0 0 0-1.42Z"/></svg></span><span class="display-current astro-sy3i5rvm"></span></summary><div class="dropdown astro-sy3i5rvm"><ul class="isMobile astro-r7oszrrb" style="--depth: 0;"><li style="--depth: 0;" class="astro-r7oszrrb"><a href="#_top" style="--depth: 0;" class="astro-r7oszrrb"><span style="--depth: 0;" class="astro-r7oszrrb">Visão geral</span></a></li><li style="--depth: 0;" class="astro-r7oszrrb"><a href="#-1-como-funciona-a-alquimia-da-wixie-pergaminho-no-pedestal" style="--depth: 0;" class="astro-r7oszrrb"><span style="--depth: 0;" class="astro-r7oszrrb">📜 1. Como Funciona a Alquimia da Wixie (Pergaminho no Pedestal)</span></a><ul class="isMobile astro-r7oszrrb" style="--depth: 1;"><li style="--depth: 1;" class="astro-r7oszrrb"><a href="#passo-a-passo-de-montagem" style="--depth: 1;" class="astro-r7oszrrb"><span style="--depth: 1;" class="astro-r7oszrrb">Passo a Passo de Montagem:</span></a></li></ul></li><li style="--depth: 0;" class="astro-r7oszrrb"><a href="#-2-tabela-mestra-de-conversão-alquímica-da-wixie-58-fórmulas" style="--depth: 0;" class="astro-r7oszrrb"><span style="--depth: 0;" class="astro-r7oszrrb">📊 2. Tabela Mestra de Conversão Alquímica da Wixie (58 Fórmulas)</span></a><ul class="isMobile astro-r7oszrrb" style="--depth: 1;"><li style="--depth: 1;" class="astro-r7oszrrb"><a href="#categoria-i--geologia-rara-refratários--pós-químicos-12-fórmulas" style="--depth: 1;" class="astro-r7oszrrb"><span style="--depth: 1;" class="astro-r7oszrrb">Categoria I — Geologia Rara, Refratários &amp; Pós Químicos (12 Fórmulas)</span></a></li><li style="--depth: 1;" class="astro-r7oszrrb"><a href="#categoria-ii--minérios--metalurgia-tfc-11-fórmulas" style="--depth: 1;" class="astro-r7oszrrb"><span style="--depth: 1;" class="astro-r7oszrrb">Categoria II — Minérios &amp; Metalurgia TFC (11 Fórmulas)</span></a></li><li style="--depth: 1;" class="astro-r7oszrrb"><a href="#categoria-iii--gemas-cristais--essências-arcanas-15-fórmulas" style="--depth: 1;" class="astro-r7oszrrb"><span style="--depth: 1;" class="astro-r7oszrrb">Categoria III — Gemas, Cristais &amp; Essências Arcanas (15 Fórmulas)</span></a></li><li style="--depth: 1;" class="astro-r7oszrrb"><a href="#categoria-iv--rochas-argilas--construção-8-fórmulas" style="--depth: 1;" class="astro-r7oszrrb"><span style="--depth: 1;" class="astro-r7oszrrb">Categoria IV — Rochas, Argilas &amp; Construção (8 Fórmulas)</span></a></li><li style="--depth: 1;" class="astro-r7oszrrb"><a href="#categoria-v--botânica-fibras-madeiras--sementes-tfc-16-fórmulas" style="--depth: 1;" class="astro-r7oszrrb"><span style="--depth: 1;" class="astro-r7oszrrb">Categoria V — Botânica, Fibras, Madeiras &amp; Sementes TFC (16 Fórmulas)</span></a></li><li style="--depth: 1;" class="astro-r7oszrrb"><a href="#categoria-vi--fauna-couro--reagentes-de-criaturas-12-fórmulas" style="--depth: 1;" class="astro-r7oszrrb"><span style="--depth: 1;" class="astro-r7oszrrb">Categoria VI — Fauna, Couro &amp; Reagentes de Criaturas (12 Fórmulas)</span></a></li></ul></li><li style="--depth: 0;" class="astro-r7oszrrb"><a href="#-3-drusa-geológica-do-golem-de-ametista" style="--depth: 0;" class="astro-r7oszrrb"><span style="--depth: 0;" class="astro-r7oszrrb">💎 3. Drusa Geológica do Golem de Ametista</span></a></li></ul></div></details></nav></mobile-starlight-toc><script type="module" src="/TFC-Arcanum-Empires-WIKI-Guides/_astro/MobileTableOfContents.astro_astro_type_script_index_0_lang.C3fM4Kra.js"></script></div><div class="right-sidebar-panel sl-hidden lg:sl-block astro-d4r3nttl"><div class="sl-container astro-d4r3nttl"><starlight-toc data-min-h="2" data-max-h="3"><nav aria-labelledby="starlight__on-this-page"><h2 id="starlight__on-this-page">Nesta página</h2><ul class="astro-r7oszrrb" style="--depth: 0;"><li style="--depth: 0;" class="astro-r7oszrrb"><a href="#_top" style="--depth: 0;" class="astro-r7oszrrb"><span style="--depth: 0;" class="astro-r7oszrrb">Visão geral</span></a></li><li style="--depth: 0;" class="astro-r7oszrrb"><a href="#-1-como-funciona-a-alquimia-da-wixie-pergaminho-no-pedestal" style="--depth: 0;" class="astro-r7oszrrb"><span style="--depth: 0;" class="astro-r7oszrrb">📜 1. Como Funciona a Alquimia da Wixie (Pergaminho no Pedestal)</span></a><ul class="astro-r7oszrrb" style="--depth: 1;"><li style="--depth: 1;" class="astro-r7oszrrb"><a href="#passo-a-passo-de-montagem" style="--depth: 1;" class="astro-r7oszrrb"><span style="--depth: 1;" class="astro-r7oszrrb">Passo a Passo de Montagem:</span></a></li></ul></li><li style="--depth: 0;" class="astro-r7oszrrb"><a href="#-2-tabela-mestra-de-conversão-alquímica-da-wixie-58-fórmulas" style="--depth: 0;" class="astro-r7oszrrb"><span style="--depth: 0;" class="astro-r7oszrrb">📊 2. Tabela Mestra de Conversão Alquímica da Wixie (58 Fórmulas)</span></a><ul class="astro-r7oszrrb" style="--depth: 1;"><li style="--depth: 1;" class="astro-r7oszrrb"><a href="#categoria-i--geologia-rara-refratários--pós-químicos-12-fórmulas" style="--depth: 1;" class="astro-r7oszrrb"><span style="--depth: 1;" class="astro-r7oszrrb">Categoria I — Geologia Rara, Refratários &amp; Pós Químicos (12 Fórmulas)</span></a></li><li style="--depth: 1;" class="astro-r7oszrrb"><a href="#categoria-ii--minérios--metalurgia-tfc-11-fórmulas" style="--depth: 1;" class="astro-r7oszrrb"><span style="--depth: 1;" class="astro-r7oszrrb">Categoria II — Minérios &amp; Metalurgia TFC (11 Fórmulas)</span></a></li><li style="--depth: 1;" class="astro-r7oszrrb"><a href="#categoria-iii--gemas-cristais--essências-arcanas-15-fórmulas" style="--depth: 1;" class="astro-r7oszrrb"><span style="--depth: 1;" class="astro-r7oszrrb">Categoria III — Gemas, Cristais &amp; Essências Arcanas (15 Fórmulas)</span></a></li><li style="--depth: 1;" class="astro-r7oszrrb"><a href="#categoria-iv--rochas-argilas--construção-8-fórmulas" style="--depth: 1;" class="astro-r7oszrrb"><span style="--depth: 1;" class="astro-r7oszrrb">Categoria IV — Rochas, Argilas &amp; Construção (8 Fórmulas)</span></a></li><li style="--depth: 1;" class="astro-r7oszrrb"><a href="#categoria-v--botânica-fibras-madeiras--sementes-tfc-16-fórmulas" style="--depth: 1;" class="astro-r7oszrrb"><span style="--depth: 1;" class="astro-r7oszrrb">Categoria V — Botânica, Fibras, Madeiras &amp; Sementes TFC (16 Fórmulas)</span></a></li><li style="--depth: 1;" class="astro-r7oszrrb"><a href="#categoria-vi--fauna-couro--reagentes-de-criaturas-12-fórmulas" style="--depth: 1;" class="astro-r7oszrrb"><span style="--depth: 1;" class="astro-r7oszrrb">Categoria VI — Fauna, Couro &amp; Reagentes de Criaturas (12 Fórmulas)</span></a></li></ul></li><li style="--depth: 0;" class="astro-r7oszrrb"><a href="#-3-drusa-geológica-do-golem-de-ametista" style="--depth: 0;" class="astro-r7oszrrb"><span style="--depth: 0;" class="astro-r7oszrrb">💎 3. Drusa Geológica do Golem de Ametista</span></a></li></ul></nav></starlight-toc><script type="module" src="/TFC-Arcanum-Empires-WIKI-Guides/_astro/TableOfContents.astro_astro_type_script_index_0_lang.BpJaGz7G.js"></script></div></div></div></aside><div class="main-pane astro-pinujozt"><main data-pagefind-body class="astro-o3lnpecw" lang="pt-BR" dir="ltr"><div class="content-panel astro-3w3bx7vf"><div class="sl-container astro-3w3bx7vf"><h1 id="_top" class="astro-robhj4nk">⚗️ Alquimia da Wixie &amp; Drusa Geológica (Tabela de Conversão)</h1></div></div><div class="content-panel astro-3w3bx7vf"><div class="sl-container astro-3w3bx7vf"><div class="sl-markdown-content"><blockquote>
+<p><em>“Na natureza nada se cria, nada se perde, tudo se transforma.”</em> — <strong>Lei da Equivalência Alquímica de Lavoisier Arcano</strong></p>
+</blockquote>
+<p>No <strong>TFC: Arcanum &amp; Empires</strong>, a convergência entre a geologia realista do <em>TerraFirmaCraft</em> e as artes místicas do <em>Ars Nouveau</em> permite sintetizar recursos geológicos, minérios, gemas, sementes e reagentes através de dois sistemas complementares de automação mágica:</p>
+<ol>
+<li><strong>Alquimia da Wixie via Pergaminho Gravado no Pedestal Arcano</strong> (<code dir="auto">58 Fórmulas de Transmutação</code>).</li>
+<li><strong>Drusa Geológica do Golem de Ametista</strong> (Cristalização de minérios do TFC baseada na rocha-mãe).</li>
+</ol>
+<hr>
+<div class="sl-heading-wrapper level-h2"><h2 id="-1-como-funciona-a-alquimia-da-wixie-pergaminho-no-pedestal">📜 1. Como Funciona a Alquimia da Wixie (Pergaminho no Pedestal)</h2><a class="sl-anchor-link" href="#-1-como-funciona-a-alquimia-da-wixie-pergaminho-no-pedestal"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Seção intitulada “📜 1. Como Funciona a Alquimia da Wixie (Pergaminho no Pedestal)”</span></a></div>
+<p>Diferente da criação convencional, você <strong>não precisa possuir uma amostra prévia do item raro</strong> (como <em>Kaolin Clay</em>, <em>Grafite</em> ou <em>Criolita</em>) para ordenar que sua Wixie o produza!</p>
+<div class="expressive-code"><link rel="stylesheet" href="/TFC-Arcanum-Empires-WIKI-Guides/_astro/ec.w36nc.css"><script type="module" src="/TFC-Arcanum-Empires-WIKI-Guides/_astro/ec.0vx5m.js"></script><figure class="frame not-content"><figcaption class="header"></figcaption><pre data-language="mermaid"><code><div class="ec-line"><div class="code"><span style="--0:#C792EA;--1:#8844AE">flowchart</span><span style="--0:#D6DEEB;--1:#403F53"> </span><span style="--0:#82AAFF;--1:#3B61B0">LR</span></div></div><div class="ec-line"><div class="code"><span class="indent">    </span><span style="--0:#C5E478;--1:#3B61B0">P</span><span style="--0:#C792EA;--1:#8844AE">[</span><span style="--0:#ECC48D;--1:#3B61B0">"📜 Pergaminho em Branco no Pedestal Arcano\n(Grava a Fórmula via /alquimia — NÃO É GASTO)"</span><span style="--0:#C792EA;--1:#8844AE">]</span><span style="--0:#D6DEEB;--1:#403F53"> </span><span style="--0:#C792EA;--1:#8844AE">--&gt;</span><span style="--0:#D6DEEB;--1:#403F53"> </span><span style="--0:#C5E478;--1:#3B61B0">W</span><span style="--0:#C792EA;--1:#8844AE">[</span><span style="--0:#ECC48D;--1:#3B61B0">"🧙‍♀️ Caldeirão da Wixie\n(ars_nouveau:wixie_cauldron)"</span><span style="--0:#C792EA;--1:#8844AE">]</span></div></div><div class="ec-line"><div class="code"><span class="indent">    </span><span style="--0:#C5E478;--1:#3B61B0">B</span><span style="--0:#C792EA;--1:#8844AE">[</span><span style="--0:#ECC48D;--1:#3B61B0">"📦 Baú Adjacente\n(Insumos Brutos + 1x Source Gem)"</span><span style="--0:#C792EA;--1:#8844AE">]</span><span style="--0:#D6DEEB;--1:#403F53"> </span><span style="--0:#C792EA;--1:#8844AE">--&gt;</span><span style="--0:#D6DEEB;--1:#403F53"> </span><span style="--0:#C5E478;--1:#3B61B0">W</span></div></div><div class="ec-line"><div class="code"><span class="indent">    </span><span style="--0:#C5E478;--1:#3B61B0">S</span><span style="--0:#C792EA;--1:#8844AE">[</span><span style="--0:#ECC48D;--1:#3B61B0">"🏺 Jarro de Source\n(100 a 600 Source)"</span><span style="--0:#C792EA;--1:#8844AE">]</span><span style="--0:#D6DEEB;--1:#403F53"> </span><span style="--0:#C792EA;--1:#8844AE">--&gt;</span><span style="--0:#D6DEEB;--1:#403F53"> </span><span style="--0:#C5E478;--1:#3B61B0">W</span></div></div><div class="ec-line"><div class="code"><span class="indent">    </span><span style="--0:#C5E478;--1:#3B61B0">W </span><span style="--0:#C792EA;--1:#8844AE">--&gt;</span><span style="--0:#D6DEEB;--1:#403F53"> </span><span style="--0:#C5E478;--1:#3B61B0">O</span><span style="--0:#C792EA;--1:#8844AE">[</span><span style="--0:#ECC48D;--1:#3B61B0">"✨ Recurso Transmutado\n(Depositado no Baú a cada 5s)"</span><span style="--0:#C792EA;--1:#8844AE">]</span></div></div></code></pre><div class="copy"><div aria-live="polite"></div><button title="Copiar para área de transferência" data-copied="Copiado!" data-code="flowchart LR    P[&quot;📜 Pergaminho em Branco no Pedestal Arcano\n(Grava a Fórmula via /alquimia — NÃO É GASTO)&quot;] --> W[&quot;🧙‍♀️ Caldeirão da Wixie\n(ars_nouveau:wixie_cauldron)&quot;]    B[&quot;📦 Baú Adjacente\n(Insumos Brutos + 1x Source Gem)&quot;] --> W    S[&quot;🏺 Jarro de Source\n(100 a 600 Source)&quot;] --> W    W --> O[&quot;✨ Recurso Transmutado\n(Depositado no Baú a cada 5s)&quot;]"><div></div></button></div></figure></div>
+<div class="sl-heading-wrapper level-h3"><h3 id="passo-a-passo-de-montagem">Passo a Passo de Montagem:</h3><a class="sl-anchor-link" href="#passo-a-passo-de-montagem"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Seção intitulada “Passo a Passo de Montagem:”</span></a></div>
+<ol>
+<li><strong>Posicione o Caldeirão e o Pedestal:</strong> Coloque um <strong>Caldeirão da Wixie (<code dir="auto">ars_nouveau:wixie_cauldron</code>)</strong> e, a até 3 blocos dele, um <strong>Pedestal Arcano (<code dir="auto">ars_nouveau:arcane_pedestal</code>)</strong>.</li>
+<li><strong>Coloque o Pergaminho em Branco:</strong> Ponha <strong>1x Pergaminho em Branco (<code dir="auto">ars_nouveau:blank_parchment</code>)</strong> sobre o Pedestal Arcano. <strong>O pergaminho jamais será consumido!</strong></li>
+<li><strong>Grave a Fórmula Alquímica:</strong>
+<ul>
+<li>Digite <strong><code dir="auto">/alquimia</code></strong> no chat (ou clique com <strong>Shift + Botão Direito</strong> de mão vazia no Pedestal) para abrir o <strong>Grimório Interativo de Fórmulas</strong> e clique em <code dir="auto">[Gravar]</code> na receita desejada; <strong>OU</strong></li>
+<li>Clique no Pedestal usando qualquer item que possua fórmula para gravá-la instantaneamente.</li>
+</ul>
+</li>
+<li><strong>Abasteça o Baú e o Source Jar:</strong> Coloque um Baú a até 4 blocos do Caldeirão contendo os <strong>Insumos Brutos + 1x Gema da Fonte (<code dir="auto">ars_nouveau:source_gem</code>)</strong> por operação, e mantenha um <strong>Jarro de Source (<code dir="auto">ars_nouveau:source_jar</code>)</strong> próximo abastecido.</li>
+<li><strong>Consulta no JEI / EMI:</strong> Todas as 58 receitas também estão registradas no JEI/EMI! Basta pressionar <strong>[U]</strong> sobre o <code dir="auto">ars_nouveau:blank_parchment</code> ou <code dir="auto">ars_nouveau:source_gem</code> (ou <strong>[R]</strong> sobre qualquer minério/item do TFC).</li>
+</ol>
+<hr>
+<div class="sl-heading-wrapper level-h2"><h2 id="-2-tabela-mestra-de-conversão-alquímica-da-wixie-58-fórmulas">📊 2. Tabela Mestra de Conversão Alquímica da Wixie (58 Fórmulas)</h2><a class="sl-anchor-link" href="#-2-tabela-mestra-de-conversão-alquímica-da-wixie-58-fórmulas"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Seção intitulada “📊 2. Tabela Mestra de Conversão Alquímica da Wixie (58 Fórmulas)”</span></a></div>
+<blockquote>
+<p>[!TIP]
+Em <strong>todas</strong> as fórmulas abaixo:</p>
+<ul>
+<li><strong>Catalisador Consumido:</strong> <code dir="auto">1x ars_nouveau:source_gem</code> (retirado do baú).</li>
+<li><strong>Foco no Pedestal (Não Consumido):</strong> <code dir="auto">1x ars_nouveau:blank_parchment</code> (permanece eternamente no pedestal).</li>
+</ul>
+</blockquote>
+<div class="sl-heading-wrapper level-h3"><h3 id="categoria-i--geologia-rara-refratários--pós-químicos-12-fórmulas">Categoria I — Geologia Rara, Refratários &amp; Pós Químicos (12 Fórmulas)</h3><a class="sl-anchor-link" href="#categoria-i--geologia-rara-refratários--pós-químicos-12-fórmulas"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Seção intitulada “Categoria I — Geologia Rara, Refratários &amp; Pós Químicos (12 Fórmulas)”</span></a></div>
+<table>
+<thead>
+<tr>
+<th style="text-align: left">ID (<code dir="auto">/alquimia_gravar</code>)</th>
+<th style="text-align: left">Produto Transmutado</th>
+<th style="text-align: left">Insumos Exigidos no Baú (+ <code dir="auto">1x Source Gem</code>)</th>
+<th style="text-align: center">Custo de Source</th>
+<th style="text-align: left">Aplicação Principal</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left"><code dir="auto">kaolin_clay</code></td>
+<td style="text-align: left"><strong>4x Kaolin Clay</strong> (<code dir="auto">tfc:kaolin_clay</code>)</td>
+<td style="text-align: left"><code dir="auto">4x Argila</code> + <code dir="auto">1x Fluxo</code> + <code dir="auto">1x Farinha de Osso</code></td>
+<td style="text-align: center"><code dir="auto">200</code></td>
+<td style="text-align: left">Cadinhos e Tijolos Refratários</td>
+</tr>
+<tr>
+<td style="text-align: left"><code dir="auto">graphite</code></td>
+<td style="text-align: left"><strong>2x Grafite</strong> (<code dir="auto">tfc:ore/graphite</code>)</td>
+<td style="text-align: left"><code dir="auto">4x Pó de Carvão Vegetal</code> + <code dir="auto">1x Sílex (Flint)</code></td>
+<td style="text-align: center"><code dir="auto">250</code></td>
+<td style="text-align: left">Argila Refratária e Aço</td>
+</tr>
+<tr>
+<td style="text-align: left"><code dir="auto">fire_clay</code></td>
+<td style="text-align: left"><strong>2x Fire Clay</strong> (<code dir="auto">tfc:fire_clay</code>)</td>
+<td style="text-align: left"><code dir="auto">2x Argila</code> + <code dir="auto">2x Pó de Carvão</code> + <code dir="auto">1x Fluxo</code></td>
+<td style="text-align: center"><code dir="auto">250</code></td>
+<td style="text-align: left">Síntese refratária direta</td>
+</tr>
+<tr>
+<td style="text-align: left"><code dir="auto">cryolite</code></td>
+<td style="text-align: left"><strong>1x Criolita</strong> (<code dir="auto">tfc:ore/cryolite</code>)</td>
+<td style="text-align: left"><code dir="auto">1x Quartzo</code> + <code dir="auto">2x Sal</code> + <code dir="auto">1x Fluxo</code></td>
+<td style="text-align: center"><code dir="auto">400</code></td>
+<td style="text-align: left">Fundição de Redstone Alloy</td>
+</tr>
+<tr>
+<td style="text-align: left"><code dir="auto">sulfur</code></td>
+<td style="text-align: left"><strong>4x Pó de Enxofre</strong> (<code dir="auto">tfc:powder/sulfur</code>)</td>
+<td style="text-align: left"><code dir="auto">2x Pó de Carvão</code> + <code dir="auto">1x Carne Podre</code></td>
+<td style="text-align: center"><code dir="auto">150</code></td>
+<td style="text-align: left">Pólvora, Ácidos e Vulcanização</td>
+</tr>
+<tr>
+<td style="text-align: left"><code dir="auto">saltpeter</code></td>
+<td style="text-align: left"><strong>4x Salitre</strong> (<code dir="auto">tfc:powder/saltpeter</code>)</td>
+<td style="text-align: left"><code dir="auto">2x Farinha de Osso</code> + <code dir="auto">2x Areia</code></td>
+<td style="text-align: center"><code dir="auto">150</code></td>
+<td style="text-align: left">Pólvora e Fertilizantes</td>
+</tr>
+<tr>
+<td style="text-align: left"><code dir="auto">flux</code></td>
+<td style="text-align: left"><strong>8x Fluxo Metalúrgico</strong> (<code dir="auto">tfc:powder/flux</code>)</td>
+<td style="text-align: left"><code dir="auto">4x Pedregulho</code> + <code dir="auto">1x Farinha de Osso</code></td>
+<td style="text-align: center"><code dir="auto">100</code></td>
+<td style="text-align: left">Solda na Bigorna, Alto-Forno e Couro</td>
+</tr>
+<tr>
+<td style="text-align: left"><code dir="auto">salt</code></td>
+<td style="text-align: left"><strong>6x Sal Marinho</strong> (<code dir="auto">tfc:powder/salt</code>)</td>
+<td style="text-align: left"><code dir="auto">2x Areia</code> + <code dir="auto">1x Alga (Kelp)</code></td>
+<td style="text-align: center"><code dir="auto">100</code></td>
+<td style="text-align: left">Salga e Preservação de Carnes</td>
+</tr>
+<tr>
+<td style="text-align: left"><code dir="auto">redstone</code></td>
+<td style="text-align: left"><strong>6x Redstone</strong> (<code dir="auto">minecraft:redstone</code>)</td>
+<td style="text-align: left"><code dir="auto">2x Enxofre</code> + <code dir="auto">1x Fluxo</code> + <code dir="auto">1x Lingote de Cobre</code></td>
+<td style="text-align: center"><code dir="auto">200</code></td>
+<td style="text-align: left">Automação Create e Circuitos</td>
+</tr>
+<tr>
+<td style="text-align: left"><code dir="auto">borax</code></td>
+<td style="text-align: left"><strong>2x Bórax</strong> (<code dir="auto">tfc:ore/borax</code>)</td>
+<td style="text-align: left"><code dir="auto">2x Sal</code> + <code dir="auto">2x Fluxo</code></td>
+<td style="text-align: center"><code dir="auto">200</code></td>
+<td style="text-align: left">Fluxo Nobre e Vidraçaria</td>
+</tr>
+<tr>
+<td style="text-align: left"><code dir="auto">gypsum</code></td>
+<td style="text-align: left"><strong>4x Gipsita</strong> (<code dir="auto">tfc:ore/gypsum</code>)</td>
+<td style="text-align: left"><code dir="auto">2x Fluxo</code> + <code dir="auto">2x Argila</code></td>
+<td style="text-align: center"><code dir="auto">150</code></td>
+<td style="text-align: left">Alabastro e Gesso Arquitetônico</td>
+</tr>
+<tr>
+<td style="text-align: left"><code dir="auto">mortar</code></td>
+<td style="text-align: left"><strong>16x Argamassa</strong> (<code dir="auto">tfc:mortar</code>)</td>
+<td style="text-align: left"><code dir="auto">4x Areia</code> + <code dir="auto">2x Fluxo</code></td>
+<td style="text-align: center"><code dir="auto">100</code></td>
+<td style="text-align: left">Alvenaria e Tijolos TFC</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<div class="sl-heading-wrapper level-h3"><h3 id="categoria-ii--minérios--metalurgia-tfc-11-fórmulas">Categoria II — Minérios &amp; Metalurgia TFC (11 Fórmulas)</h3><a class="sl-anchor-link" href="#categoria-ii--minérios--metalurgia-tfc-11-fórmulas"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Seção intitulada “Categoria II — Minérios &amp; Metalurgia TFC (11 Fórmulas)”</span></a></div>
+<table>
+<thead>
+<tr>
+<th style="text-align: left">ID (<code dir="auto">/alquimia_gravar</code>)</th>
+<th style="text-align: left">Produto Transmutado</th>
+<th style="text-align: left">Insumos Exigidos no Baú (+ <code dir="auto">1x Source Gem</code>)</th>
+<th style="text-align: center">Custo de Source</th>
+<th style="text-align: left">Metal / Liga Resultante</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left"><code dir="auto">native_copper</code></td>
+<td style="text-align: left"><strong>2x Cobre Nativo Normal</strong> (<code dir="auto">tfc:ore/normal_native_copper</code>)</td>
+<td style="text-align: left"><code dir="auto">3x Pepitas de Cobre</code> + <code dir="auto">1x Fluxo</code></td>
+<td style="text-align: center"><code dir="auto">200</code></td>
+<td style="text-align: left">Cobre Base (50 mB)</td>
+</tr>
+<tr>
+<td style="text-align: left"><code dir="auto">cassiterite</code></td>
+<td style="text-align: left"><strong>2x Cassiterita Normal</strong> (<code dir="auto">tfc:ore/normal_cassiterite</code>)</td>
+<td style="text-align: left"><code dir="auto">2x Cobre Normal</code> + <code dir="auto">1x Farinha de Osso</code> + <code dir="auto">1x Fluxo</code></td>
+<td style="text-align: center"><code dir="auto">250</code></td>
+<td style="text-align: left">Estanho / Bronze Padrão</td>
+</tr>
+<tr>
+<td style="text-align: left"><code dir="auto">sphalerite</code></td>
+<td style="text-align: left"><strong>2x Esfalerita Normal</strong> (<code dir="auto">tfc:ore/normal_sphalerite</code>)</td>
+<td style="text-align: left"><code dir="auto">2x Cobre Normal</code> + <code dir="auto">1x Enxofre</code></td>
+<td style="text-align: center"><code dir="auto">250</code></td>
+<td style="text-align: left">Zinco / Latão (<em>Brass</em> do Create)</td>
+</tr>
+<tr>
+<td style="text-align: left"><code dir="auto">bismuthinite</code></td>
+<td style="text-align: left"><strong>2x Bismutinita Normal</strong> (<code dir="auto">tfc:ore/normal_bismuthinite</code>)</td>
+<td style="text-align: left"><code dir="auto">2x Cobre Normal</code> + <code dir="auto">1x Argila</code> + <code dir="auto">1x Fluxo</code></td>
+<td style="text-align: center"><code dir="auto">250</code></td>
+<td style="text-align: left">Bismuto / Bronze de Bismuto</td>
+</tr>
+<tr>
+<td style="text-align: left"><code dir="auto">hematite</code></td>
+<td style="text-align: left"><strong>2x Hematita Normal</strong> (<code dir="auto">tfc:ore/normal_hematite</code>)</td>
+<td style="text-align: left"><code dir="auto">2x Cobre Normal</code> + <code dir="auto">1x Redstone</code> + <code dir="auto">1x Pó de Carvão</code></td>
+<td style="text-align: center"><code dir="auto">300</code></td>
+<td style="text-align: left">Ferro Forjado e Aço</td>
+</tr>
+<tr>
+<td style="text-align: left"><code dir="auto">magnetite</code></td>
+<td style="text-align: left"><strong>2x Magnetita Normal</strong> (<code dir="auto">tfc:ore/normal_magnetite</code>)</td>
+<td style="text-align: left"><code dir="auto">2x Hematita Normal</code> + <code dir="auto">1x Redstone</code></td>
+<td style="text-align: center"><code dir="auto">300</code></td>
+<td style="text-align: left">Ferro Magnético</td>
+</tr>
+<tr>
+<td style="text-align: left"><code dir="auto">limonite</code></td>
+<td style="text-align: left"><strong>2x Limonita Normal</strong> (<code dir="auto">tfc:ore/normal_limonite</code>)</td>
+<td style="text-align: left"><code dir="auto">2x Hematita Normal</code> + <code dir="auto">1x Argila</code></td>
+<td style="text-align: center"><code dir="auto">300</code></td>
+<td style="text-align: left">Ferro Sedimentar</td>
+</tr>
+<tr>
+<td style="text-align: left"><code dir="auto">garnierite</code></td>
+<td style="text-align: left"><strong>2x Garnierita Normal</strong> (<code dir="auto">tfc:ore/normal_garnierite</code>)</td>
+<td style="text-align: left"><code dir="auto">2x Hematita Normal</code> + <code dir="auto">1x Fluxo</code> + <code dir="auto">1x Slime</code></td>
+<td style="text-align: center"><code dir="auto">400</code></td>
+<td style="text-align: left">Níquel / Aço Negro (<em>Black Steel</em>)</td>
+</tr>
+<tr>
+<td style="text-align: left"><code dir="auto">native_silver</code></td>
+<td style="text-align: left"><strong>2x Prata Nativa Normal</strong> (<code dir="auto">tfc:ore/normal_native_silver</code>)</td>
+<td style="text-align: left"><code dir="auto">2x Esfalerita Normal</code> + <code dir="auto">1x Quartzo</code> + <code dir="auto">1x Sal</code></td>
+<td style="text-align: center"><code dir="auto">400</code></td>
+<td style="text-align: left">Prata / Sterling Silver / Blue Steel</td>
+</tr>
+<tr>
+<td style="text-align: left"><code dir="auto">native_gold</code></td>
+<td style="text-align: left"><strong>2x Ouro Nativo Normal</strong> (<code dir="auto">tfc:ore/normal_native_gold</code>)</td>
+<td style="text-align: left"><code dir="auto">2x Cobre Normal</code> + <code dir="auto">2x Enxofre</code> + <code dir="auto">1x Glowstone</code></td>
+<td style="text-align: center"><code dir="auto">450</code></td>
+<td style="text-align: left">Ouro / Rose Gold / Red Steel</td>
+</tr>
+<tr>
+<td style="text-align: left"><code dir="auto">bituminous_coal</code></td>
+<td style="text-align: left"><strong>4x Carvão Betuminoso</strong> (<code dir="auto">tfc:ore/bituminous_coal</code>)</td>
+<td style="text-align: left"><code dir="auto">4x Carvão Vegetal</code> + <code dir="auto">1x Enxofre</code> + <code dir="auto">1x Pedregulho</code></td>
+<td style="text-align: center"><code dir="auto">200</code></td>
+<td style="text-align: left">Combustível de Forja e Coque</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<div class="sl-heading-wrapper level-h3"><h3 id="categoria-iii--gemas-cristais--essências-arcanas-15-fórmulas">Categoria III — Gemas, Cristais &amp; Essências Arcanas (15 Fórmulas)</h3><a class="sl-anchor-link" href="#categoria-iii--gemas-cristais--essências-arcanas-15-fórmulas"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Seção intitulada “Categoria III — Gemas, Cristais &amp; Essências Arcanas (15 Fórmulas)”</span></a></div>
+<table>
+<thead>
+<tr>
+<th style="text-align: left">ID (<code dir="auto">/alquimia_gravar</code>)</th>
+<th style="text-align: left">Produto Transmutado</th>
+<th style="text-align: left">Insumos Exigidos no Baú (+ <code dir="auto">1x Source Gem</code>)</th>
+<th style="text-align: center">Custo de Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left"><code dir="auto">gem_amethyst</code></td>
+<td style="text-align: left"><strong>2x Ametista TFC</strong> (<code dir="auto">tfc:gem/amethyst</code>)</td>
+<td style="text-align: left"><code dir="auto">2x Quartzo</code> + <code dir="auto">1x Redstone</code></td>
+<td style="text-align: center"><code dir="auto">200</code></td>
+</tr>
+<tr>
+<td style="text-align: left"><code dir="auto">gem_opal</code></td>
+<td style="text-align: left"><strong>2x Opala TFC</strong> (<code dir="auto">tfc:gem/opal</code>)</td>
+<td style="text-align: left"><code dir="auto">2x Quartzo</code> + <code dir="auto">1x Argila</code></td>
+<td style="text-align: center"><code dir="auto">250</code></td>
+</tr>
+<tr>
+<td style="text-align: left"><code dir="auto">gem_pyrite</code></td>
+<td style="text-align: left"><strong>2x Pirita TFC</strong> (<code dir="auto">tfc:gem/pyrite</code>)</td>
+<td style="text-align: left"><code dir="auto">1x Hematita Normal</code> + <code dir="auto">2x Enxofre</code></td>
+<td style="text-align: center"><code dir="auto">200</code></td>
+</tr>
+<tr>
+<td style="text-align: left"><code dir="auto">gem_lapis</code></td>
+<td style="text-align: left"><strong>4x Lápis-Lazúli TFC</strong> (<code dir="auto">tfc:gem/lapis_lazuli</code>)</td>
+<td style="text-align: left"><code dir="auto">2x Fluxo</code> + <code dir="auto">1x Quartzo</code> + <code dir="auto">1x Sal</code></td>
+<td style="text-align: center"><code dir="auto">250</code></td>
+</tr>
+<tr>
+<td style="text-align: left"><code dir="auto">gem_topaz</code></td>
+<td style="text-align: left"><strong>1x Topázio TFC</strong> (<code dir="auto">tfc:gem/topaz</code>)</td>
+<td style="text-align: left"><code dir="auto">2x Pirita TFC</code> + <code dir="auto">1x Fluxo</code></td>
+<td style="text-align: center"><code dir="auto">350</code></td>
+</tr>
+<tr>
+<td style="text-align: left"><code dir="auto">gem_ruby</code></td>
+<td style="text-align: left"><strong>1x Rubi TFC</strong> (<code dir="auto">tfc:gem/ruby</code>)</td>
+<td style="text-align: left"><code dir="auto">1x Ametista TFC</code> + <code dir="auto">2x Redstone</code> + <code dir="auto">1x Fluxo</code></td>
+<td style="text-align: center"><code dir="auto">400</code></td>
+</tr>
+<tr>
+<td style="text-align: left"><code dir="auto">gem_sapphire</code></td>
+<td style="text-align: left"><strong>1x Safira TFC</strong> (<code dir="auto">tfc:gem/sapphire</code>)</td>
+<td style="text-align: left"><code dir="auto">1x Ametista TFC</code> + <code dir="auto">2x Lápis-Lazúli TFC</code> + <code dir="auto">1x Fluxo</code></td>
+<td style="text-align: center"><code dir="auto">400</code></td>
+</tr>
+<tr>
+<td style="text-align: left"><code dir="auto">gem_emerald</code></td>
+<td style="text-align: left"><strong>1x Esmeralda TFC</strong> (<code dir="auto">tfc:gem/emerald</code>)</td>
+<td style="text-align: left"><code dir="auto">1x Opala TFC</code> + <code dir="auto">2x Slime</code> + <code dir="auto">1x Fluxo</code></td>
+<td style="text-align: center"><code dir="auto">450</code></td>
+</tr>
+<tr>
+<td style="text-align: left"><code dir="auto">gem_diamond</code></td>
+<td style="text-align: left"><strong>1x Diamante TFC</strong> (<code dir="auto">tfc:gem/diamond</code>)</td>
+<td style="text-align: left"><code dir="auto">4x Grafite</code> + <code dir="auto">2x Fluxo</code> + <code dir="auto">1x Pó de Blaze</code></td>
+<td style="text-align: center"><code dir="auto">600</code></td>
+</tr>
+<tr>
+<td style="text-align: left"><code dir="auto">quartz</code></td>
+<td style="text-align: left"><strong>4x Quartzo</strong> (<code dir="auto">minecraft:quartz</code>)</td>
+<td style="text-align: left"><code dir="auto">4x Areia</code> + <code dir="auto">1x Fluxo</code></td>
+<td style="text-align: center"><code dir="auto">150</code></td>
+</tr>
+<tr>
+<td style="text-align: left"><code dir="auto">source_gem_mult</code></td>
+<td style="text-align: left"><strong>3x Gema da Fonte</strong> (<code dir="auto">ars_nouveau:source_gem</code>)</td>
+<td style="text-align: left"><code dir="auto">2x Fragmento de Ametista</code> + <code dir="auto">2x Quartzo</code></td>
+<td style="text-align: center"><code dir="auto">300</code></td>
+</tr>
+<tr>
+<td style="text-align: left"><code dir="auto">fire_essence</code></td>
+<td style="text-align: left"><strong>1x Essência do Fogo</strong> (<code dir="auto">ars_nouveau:fire_essence</code>)</td>
+<td style="text-align: left"><code dir="auto">1x Enxofre</code> + <code dir="auto">1x Carvão Vegetal</code> + <code dir="auto">1x Sílex</code></td>
+<td style="text-align: center"><code dir="auto">200</code></td>
+</tr>
+<tr>
+<td style="text-align: left"><code dir="auto">water_essence</code></td>
+<td style="text-align: left"><strong>1x Essência da Água</strong> (<code dir="auto">ars_nouveau:water_essence</code>)</td>
+<td style="text-align: left"><code dir="auto">1x Alga (Kelp)</code> + <code dir="auto">1x Sal</code> + <code dir="auto">1x Argila</code></td>
+<td style="text-align: center"><code dir="auto">200</code></td>
+</tr>
+<tr>
+<td style="text-align: left"><code dir="auto">earth_essence</code></td>
+<td style="text-align: left"><strong>1x Essência da Terra</strong> (<code dir="auto">ars_nouveau:earth_essence</code>)</td>
+<td style="text-align: left"><code dir="auto">2x Terra</code> + <code dir="auto">1x Farinha de Osso</code> + <code dir="auto">1x Sílex</code></td>
+<td style="text-align: center"><code dir="auto">200</code></td>
+</tr>
+<tr>
+<td style="text-align: left"><code dir="auto">air_essence</code></td>
+<td style="text-align: left"><strong>1x Essência do Ar</strong> (<code dir="auto">ars_nouveau:air_essence</code>)</td>
+<td style="text-align: left"><code dir="auto">1x Pena</code> + <code dir="auto">2x Palha TFC</code></td>
+<td style="text-align: center"><code dir="auto">200</code></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<div class="sl-heading-wrapper level-h3"><h3 id="categoria-iv--rochas-argilas--construção-8-fórmulas">Categoria IV — Rochas, Argilas &amp; Construção (8 Fórmulas)</h3><a class="sl-anchor-link" href="#categoria-iv--rochas-argilas--construção-8-fórmulas"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Seção intitulada “Categoria IV — Rochas, Argilas &amp; Construção (8 Fórmulas)”</span></a></div>
+<table>
+<thead>
+<tr>
+<th style="text-align: left">ID (<code dir="auto">/alquimia_gravar</code>)</th>
+<th style="text-align: left">Produto Transmutado</th>
+<th style="text-align: left">Insumos Exigidos no Baú (+ <code dir="auto">1x Source Gem</code>)</th>
+<th style="text-align: center">Custo de Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left"><code dir="auto">clay_ball</code></td>
+<td style="text-align: left"><strong>8x Argila Comum</strong> (<code dir="auto">minecraft:clay_ball</code>)</td>
+<td style="text-align: left"><code dir="auto">2x Terra</code> + <code dir="auto">2x Areia</code></td>
+<td style="text-align: center"><code dir="auto">100</code></td>
+</tr>
+<tr>
+<td style="text-align: left"><code dir="auto">sand</code></td>
+<td style="text-align: left"><strong>8x Areia Sílica</strong> (<code dir="auto">minecraft:sand</code>)</td>
+<td style="text-align: left"><code dir="auto">4x Cascalho</code> + <code dir="auto">1x Fluxo</code></td>
+<td style="text-align: center"><code dir="auto">100</code></td>
+</tr>
+<tr>
+<td style="text-align: left"><code dir="auto">gravel</code></td>
+<td style="text-align: left"><strong>8x Cascalho</strong> (<code dir="auto">minecraft:gravel</code>)</td>
+<td style="text-align: left"><code dir="auto">4x Pedregulho</code> + <code dir="auto">1x Sílex</code></td>
+<td style="text-align: center"><code dir="auto">100</code></td>
+</tr>
+<tr>
+<td style="text-align: left"><code dir="auto">granite_raw</code></td>
+<td style="text-align: left"><strong>4x Granito Bruto TFC</strong> (<code dir="auto">tfc:rock/raw/granite</code>)</td>
+<td style="text-align: left"><code dir="auto">4x Pedregulho</code> + <code dir="auto">1x Quartzo</code></td>
+<td style="text-align: center"><code dir="auto">100</code></td>
+</tr>
+<tr>
+<td style="text-align: left"><code dir="auto">basalt_raw</code></td>
+<td style="text-align: left"><strong>4x Basalto Bruto TFC</strong> (<code dir="auto">tfc:rock/raw/basalt</code>)</td>
+<td style="text-align: left"><code dir="auto">4x Pedregulho</code> + <code dir="auto">1x Pó de Carvão</code></td>
+<td style="text-align: center"><code dir="auto">100</code></td>
+</tr>
+<tr>
+<td style="text-align: left"><code dir="auto">limestone_raw</code></td>
+<td style="text-align: left"><strong>4x Calcário Bruto TFC</strong> (<code dir="auto">tfc:rock/raw/limestone</code>)</td>
+<td style="text-align: left"><code dir="auto">4x Pedregulho</code> + <code dir="auto">1x Fluxo</code></td>
+<td style="text-align: center"><code dir="auto">100</code></td>
+</tr>
+<tr>
+<td style="text-align: left"><code dir="auto">marble_raw</code></td>
+<td style="text-align: left"><strong>4x Mármore Bruto TFC</strong> (<code dir="auto">tfc:rock/raw/marble</code>)</td>
+<td style="text-align: left"><code dir="auto">4x Calcário Bruto</code> + <code dir="auto">1x Farinha de Osso</code></td>
+<td style="text-align: center"><code dir="auto">150</code></td>
+</tr>
+<tr>
+<td style="text-align: left"><code dir="auto">obsidian</code></td>
+<td style="text-align: left"><strong>2x Obsidiana</strong> (<code dir="auto">minecraft:obsidian</code>)</td>
+<td style="text-align: left"><code dir="auto">4x Basalto Bruto</code> + <code dir="auto">1x Pó de Blaze</code></td>
+<td style="text-align: center"><code dir="auto">300</code></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<div class="sl-heading-wrapper level-h3"><h3 id="categoria-v--botânica-fibras-madeiras--sementes-tfc-16-fórmulas">Categoria V — Botânica, Fibras, Madeiras &amp; Sementes TFC (16 Fórmulas)</h3><a class="sl-anchor-link" href="#categoria-v--botânica-fibras-madeiras--sementes-tfc-16-fórmulas"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Seção intitulada “Categoria V — Botânica, Fibras, Madeiras &amp; Sementes TFC (16 Fórmulas)”</span></a></div>
+<table>
+<thead>
+<tr>
+<th style="text-align: left">ID (<code dir="auto">/alquimia_gravar</code>)</th>
+<th style="text-align: left">Produto Transmutado</th>
+<th style="text-align: left">Insumos Exigidos no Baú (+ <code dir="auto">1x Source Gem</code>)</th>
+<th style="text-align: center">Custo de Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left"><code dir="auto">jute_fiber</code></td>
+<td style="text-align: left"><strong>4x Fibra de Juta</strong> (<code dir="auto">tfc:jute_fiber</code>)</td>
+<td style="text-align: left"><code dir="auto">4x Palha</code> + <code dir="auto">1x Linha</code> + <code dir="auto">1x Farinha de Osso</code></td>
+<td style="text-align: center"><code dir="auto">100</code></td>
+</tr>
+<tr>
+<td style="text-align: left"><code dir="auto">wool_yarn</code></td>
+<td style="text-align: left"><strong>4x Fio de Lã</strong> (<code dir="auto">tfc:wool_yarn</code>)</td>
+<td style="text-align: left"><code dir="auto">4x Linha</code> + <code dir="auto">1x Palha</code></td>
+<td style="text-align: center"><code dir="auto">100</code></td>
+</tr>
+<tr>
+<td style="text-align: left"><code dir="auto">burlap_cloth</code></td>
+<td style="text-align: left"><strong>2x Estopa</strong> (<code dir="auto">tfc:burlap_cloth</code>)</td>
+<td style="text-align: left"><code dir="auto">4x Fibra de Juta</code> + <code dir="auto">1x Fluxo</code></td>
+<td style="text-align: center"><code dir="auto">150</code></td>
+</tr>
+<tr>
+<td style="text-align: left"><code dir="auto">silk_cloth</code></td>
+<td style="text-align: left"><strong>2x Tecido de Seda</strong> (<code dir="auto">tfc:silk_cloth</code>)</td>
+<td style="text-align: left"><code dir="auto">4x Linha</code> + <code dir="auto">1x Sal</code></td>
+<td style="text-align: center"><code dir="auto">150</code></td>
+</tr>
+<tr>
+<td style="text-align: left"><code dir="auto">hickory_log</code></td>
+<td style="text-align: left"><strong>4x Tora de Nogueira</strong> (<code dir="auto">tfc:wood/log/hickory</code>)</td>
+<td style="text-align: left"><code dir="auto">4x Tora de Carvalho</code> + <code dir="auto">1x Farinha de Osso</code> + <code dir="auto">1x Pó de Carvão</code></td>
+<td style="text-align: center"><code dir="auto">150</code></td>
+</tr>
+<tr>
+<td style="text-align: left"><code dir="auto">kapok_log</code></td>
+<td style="text-align: left"><strong>4x Tora de Sumaúma</strong> (<code dir="auto">tfc:wood/log/kapok</code>)</td>
+<td style="text-align: left"><code dir="auto">4x Tora de Carvalho</code> + <code dir="auto">2x Palha</code> + <code dir="auto">1x Farinha de Osso</code></td>
+<td style="text-align: center"><code dir="auto">150</code></td>
+</tr>
+<tr>
+<td style="text-align: left"><code dir="auto">rosewood_log</code></td>
+<td style="text-align: left"><strong>4x Tora de Pau-Rosa</strong> (<code dir="auto">tfc:wood/log/rosewood</code>)</td>
+<td style="text-align: left"><code dir="auto">4x Tora de Bétula</code> + <code dir="auto">1x Redstone</code> + <code dir="auto">1x Farinha de Osso</code></td>
+<td style="text-align: center"><code dir="auto">150</code></td>
+</tr>
+<tr>
+<td style="text-align: left"><code dir="auto">blackwood_log</code></td>
+<td style="text-align: left"><strong>4x Tora de Madeira Negra</strong> (<code dir="auto">tfc:wood/log/blackwood</code>)</td>
+<td style="text-align: left"><code dir="auto">4x Tora de Pinheiro</code> + <code dir="auto">1x Pó de Carvão</code> + <code dir="auto">1x Farinha de Osso</code></td>
+<td style="text-align: center"><code dir="auto">150</code></td>
+</tr>
+<tr>
+<td style="text-align: left"><code dir="auto">seeds_wheat</code></td>
+<td style="text-align: left"><strong>2x Sementes de Trigo</strong> (<code dir="auto">tfc:seeds/wheat</code>)</td>
+<td style="text-align: left"><code dir="auto">2x Palha</code> + <code dir="auto">1x Farinha de Osso</code></td>
+<td style="text-align: center"><code dir="auto">150</code></td>
+</tr>
+<tr>
+<td style="text-align: left"><code dir="auto">seeds_rice</code></td>
+<td style="text-align: left"><strong>2x Sementes de Arroz</strong> (<code dir="auto">tfc:seeds/rice</code>)</td>
+<td style="text-align: left"><code dir="auto">2x Palha</code> + <code dir="auto">1x Alga (Kelp)</code> + <code dir="auto">1x Farinha de Osso</code></td>
+<td style="text-align: center"><code dir="auto">150</code></td>
+</tr>
+<tr>
+<td style="text-align: left"><code dir="auto">seeds_maize</code></td>
+<td style="text-align: left"><strong>2x Sementes de Milho</strong> (<code dir="auto">tfc:seeds/maize</code>)</td>
+<td style="text-align: left"><code dir="auto">2x Palha</code> + <code dir="auto">1x Enxofre</code> + <code dir="auto">1x Farinha de Osso</code></td>
+<td style="text-align: center"><code dir="auto">150</code></td>
+</tr>
+<tr>
+<td style="text-align: left"><code dir="auto">seeds_potato</code></td>
+<td style="text-align: left"><strong>2x Sementes de Batata</strong> (<code dir="auto">tfc:seeds/potato</code>)</td>
+<td style="text-align: left"><code dir="auto">2x Palha</code> + <code dir="auto">1x Terra</code> + <code dir="auto">1x Farinha de Osso</code></td>
+<td style="text-align: center"><code dir="auto">150</code></td>
+</tr>
+<tr>
+<td style="text-align: left"><code dir="auto">seeds_cabbage</code></td>
+<td style="text-align: left"><strong>2x Sementes de Repolho</strong> (<code dir="auto">tfc:seeds/cabbage</code>)</td>
+<td style="text-align: left"><code dir="auto">2x Palha</code> + <code dir="auto">1x Argila</code> + <code dir="auto">1x Farinha de Osso</code></td>
+<td style="text-align: center"><code dir="auto">150</code></td>
+</tr>
+<tr>
+<td style="text-align: left"><code dir="auto">seeds_soybean</code></td>
+<td style="text-align: left"><strong>2x Sementes de Soja</strong> (<code dir="auto">tfc:seeds/soybean</code>)</td>
+<td style="text-align: left"><code dir="auto">2x Palha</code> + <code dir="auto">1x Fluxo</code> + <code dir="auto">1x Farinha de Osso</code></td>
+<td style="text-align: center"><code dir="auto">150</code></td>
+</tr>
+<tr>
+<td style="text-align: left"><code dir="auto">seeds_jute</code></td>
+<td style="text-align: left"><strong>2x Sementes de Juta</strong> (<code dir="auto">tfc:seeds/jute</code>)</td>
+<td style="text-align: left"><code dir="auto">2x Palha</code> + <code dir="auto">1x Linha</code></td>
+<td style="text-align: center"><code dir="auto">150</code></td>
+</tr>
+<tr>
+<td style="text-align: left"><code dir="auto">seeds_sugarcane</code></td>
+<td style="text-align: left"><strong>2x Sementes de Cana</strong> (<code dir="auto">tfc:seeds/sugarcane</code>)</td>
+<td style="text-align: left"><code dir="auto">2x Palha</code> + <code dir="auto">1x Areia</code> + <code dir="auto">1x Farinha de Osso</code></td>
+<td style="text-align: center"><code dir="auto">150</code></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<div class="sl-heading-wrapper level-h3"><h3 id="categoria-vi--fauna-couro--reagentes-de-criaturas-12-fórmulas">Categoria VI — Fauna, Couro &amp; Reagentes de Criaturas (12 Fórmulas)</h3><a class="sl-anchor-link" href="#categoria-vi--fauna-couro--reagentes-de-criaturas-12-fórmulas"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Seção intitulada “Categoria VI — Fauna, Couro &amp; Reagentes de Criaturas (12 Fórmulas)”</span></a></div>
+<table>
+<thead>
+<tr>
+<th style="text-align: left">ID (<code dir="auto">/alquimia_gravar</code>)</th>
+<th style="text-align: left">Produto Transmutado</th>
+<th style="text-align: left">Insumos Exigidos no Baú (+ <code dir="auto">1x Source Gem</code>)</th>
+<th style="text-align: center">Custo de Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left"><code dir="auto">prepared_hide</code></td>
+<td style="text-align: left"><strong>1x Pele Grande Preparada</strong> (<code dir="auto">tfc:large_prepared_hide</code>)</td>
+<td style="text-align: left"><code dir="auto">2x Carne Podre</code> + <code dir="auto">2x Fluxo</code> + <code dir="auto">1x Sal</code></td>
+<td style="text-align: center"><code dir="auto">200</code></td>
+</tr>
+<tr>
+<td style="text-align: left"><code dir="auto">leather</code></td>
+<td style="text-align: left"><strong>3x Couro Curtido</strong> (<code dir="auto">minecraft:leather</code>)</td>
+<td style="text-align: left"><code dir="auto">1x Pele Grande Preparada</code> + <code dir="auto">1x Fluxo</code></td>
+<td style="text-align: center"><code dir="auto">150</code></td>
+</tr>
+<tr>
+<td style="text-align: left"><code dir="auto">slime_ball</code></td>
+<td style="text-align: left"><strong>4x Bola de Slime</strong> (<code dir="auto">minecraft:slime_ball</code>)</td>
+<td style="text-align: left"><code dir="auto">2x Argila</code> + <code dir="auto">1x Alga (Kelp)</code> + <code dir="auto">1x Fluxo</code></td>
+<td style="text-align: center"><code dir="auto">150</code></td>
+</tr>
+<tr>
+<td style="text-align: left"><code dir="auto">string</code></td>
+<td style="text-align: left"><strong>6x Linha / Fio</strong> (<code dir="auto">minecraft:string</code>)</td>
+<td style="text-align: left"><code dir="auto">4x Palha</code> + <code dir="auto">1x Farinha de Osso</code></td>
+<td style="text-align: center"><code dir="auto">100</code></td>
+</tr>
+<tr>
+<td style="text-align: left"><code dir="auto">feather</code></td>
+<td style="text-align: left"><strong>4x Penas</strong> (<code dir="auto">minecraft:feather</code>)</td>
+<td style="text-align: left"><code dir="auto">2x Linha</code> + <code dir="auto">1x Palha</code></td>
+<td style="text-align: center"><code dir="auto">100</code></td>
+</tr>
+<tr>
+<td style="text-align: left"><code dir="auto">bone</code></td>
+<td style="text-align: left"><strong>4x Ossos</strong> (<code dir="auto">minecraft:bone</code>)</td>
+<td style="text-align: left"><code dir="auto">2x Carne Podre</code> + <code dir="auto">2x Fluxo</code></td>
+<td style="text-align: center"><code dir="auto">150</code></td>
+</tr>
+<tr>
+<td style="text-align: left"><code dir="auto">gunpowder</code></td>
+<td style="text-align: left"><strong>6x Pólvora Negra</strong> (<code dir="auto">minecraft:gunpowder</code>)</td>
+<td style="text-align: left"><code dir="auto">2x Salitre</code> + <code dir="auto">1x Enxofre</code> + <code dir="auto">1x Pó de Carvão</code></td>
+<td style="text-align: center"><code dir="auto">150</code></td>
+</tr>
+<tr>
+<td style="text-align: left"><code dir="auto">blaze_powder</code></td>
+<td style="text-align: left"><strong>2x Pó de Blaze</strong> (<code dir="auto">minecraft:blaze_powder</code>)</td>
+<td style="text-align: left"><code dir="auto">2x Enxofre</code> + <code dir="auto">1x Redstone</code> + <code dir="auto">1x Pó de Carvão</code></td>
+<td style="text-align: center"><code dir="auto">300</code></td>
+</tr>
+<tr>
+<td style="text-align: left"><code dir="auto">glowstone_dust</code></td>
+<td style="text-align: left"><strong>4x Pó de Glowstone</strong> (<code dir="auto">minecraft:glowstone_dust</code>)</td>
+<td style="text-align: left"><code dir="auto">2x Redstone</code> + <code dir="auto">1x Enxofre</code> + <code dir="auto">1x Quartzo</code></td>
+<td style="text-align: center"><code dir="auto">200</code></td>
+</tr>
+<tr>
+<td style="text-align: left"><code dir="auto">ender_pearl</code></td>
+<td style="text-align: left"><strong>1x Pérola do Fim</strong> (<code dir="auto">minecraft:ender_pearl</code>)</td>
+<td style="text-align: left"><code dir="auto">2x Fragmento de Ametista</code> + <code dir="auto">1x Lápis-Lazúli</code> + <code dir="auto">1x Carne Podre</code></td>
+<td style="text-align: center"><code dir="auto">400</code></td>
+</tr>
+<tr>
+<td style="text-align: left"><code dir="auto">honeycomb</code></td>
+<td style="text-align: left"><strong>3x Favo de Mel</strong> (<code dir="auto">minecraft:honeycomb</code>)</td>
+<td style="text-align: left"><code dir="auto">2x Palha</code> + <code dir="auto">1x Farinha de Osso</code> + <code dir="auto">1x Argila</code></td>
+<td style="text-align: center"><code dir="auto">150</code></td>
+</tr>
+<tr>
+<td style="text-align: left"><code dir="auto">prismarine_shard</code></td>
+<td style="text-align: left"><strong>4x Prismarinho</strong> (<code dir="auto">minecraft:prismarine_shard</code>)</td>
+<td style="text-align: left"><code dir="auto">2x Quartzo</code> + <code dir="auto">2x Sal</code> + <code dir="auto">1x Alga (Kelp)</code></td>
+<td style="text-align: center"><code dir="auto">200</code></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<div class="sl-heading-wrapper level-h2"><h2 id="-3-drusa-geológica-do-golem-de-ametista">💎 3. Drusa Geológica do Golem de Ametista</h2><a class="sl-anchor-link" href="#-3-drusa-geológica-do-golem-de-ametista"><span aria-hidden="true" class="sl-anchor-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="m12.11 15.39-3.88 3.88a2.52 2.52 0 0 1-3.5 0 2.47 2.47 0 0 1 0-3.5l3.88-3.88a1 1 0 1 0-1.42-1.42l-3.88 3.89a4.48 4.48 0 0 0 6.33 6.33l3.89-3.88a1 1 0 0 0-1.42-1.42m8.58-12.08a4.49 4.49 0 0 0-6.33 0l-3.89 3.88a1 1 0 1 0 1.42 1.42l3.88-3.88a2.52 2.52 0 0 1 3.5 0 2.47 2.47 0 0 1 0 3.5l-3.88 3.88a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l3.88-3.89a4.49 4.49 0 0 0 0-6.33M8.83 15.17a1 1 0 0 0 .71.29 1 1 0 0 0 .71-.29l4.92-4.92a1 1 0 1 0-1.42-1.42l-4.92 4.92a1 1 0 0 0 0 1.42"></path></svg></span><span class="sr-only" data-pagefind-ignore>Seção intitulada “💎 3. Drusa Geológica do Golem de Ametista”</span></a></div>
+<p>O <strong>Golem de Ametista (<code dir="auto">ars_nouveau:amethyst_golem</code>)</strong> atua como um cristalizador geológico vivo quando trabalha próximo a um bloco de <strong>Drusa de Ametista (<code dir="auto">minecraft:budding_amethyst</code>)</strong> apoiado sobre uma <strong>Rocha Bruta do TFC (<code dir="auto">tfc:rock/raw/*</code>)</strong> e abastecido por um <strong>Jarro de Source</strong> (<code dir="auto">250 Source</code> por cristalização):</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left">Família Geológica (Rocha Bruta Adjacente à Drusa)</th>
+<th style="text-align: left">Rochas do TFC Compatíveis</th>
+<th style="text-align: left">Minérios &amp; Cristais Gerados (Pesos)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left"><strong>Félsica / Ígnea Ácida</strong></td>
+<td style="text-align: left"><code dir="auto">granite</code>, <code dir="auto">rhyolite</code>, <code dir="auto">diorite</code>, <code dir="auto">dacite</code></td>
+<td style="text-align: left"><strong>Cassiterita Normal</strong> (<code dir="auto">40%</code>), <strong>Hematita Normal</strong> (<code dir="auto">30%</code>), <strong>Grafite</strong> (<code dir="auto">20%</code>), <strong>Topázio</strong> (<code dir="auto">10%</code>)</td>
+</tr>
+<tr>
+<td style="text-align: left"><strong>Máfica / Ígnea Básica</strong></td>
+<td style="text-align: left"><code dir="auto">basalt</code>, <code dir="auto">gabbro</code>, <code dir="auto">andesite</code></td>
+<td style="text-align: left"><strong>Cobre Nativo Normal</strong> (<code dir="auto">40%</code>), <strong>Garnierita / Níquel</strong> (<code dir="auto">30%</code>), <strong>Ouro Nativo Normal</strong> (<code dir="auto">20%</code>), <strong>Rubi</strong> (<code dir="auto">10%</code>)</td>
+</tr>
+<tr>
+<td style="text-align: left"><strong>Sedimentar</strong></td>
+<td style="text-align: left"><code dir="auto">limestone</code>, <code dir="auto">dolomite</code>, <code dir="auto">chalk</code>, <code dir="auto">chert</code>, <code dir="auto">shale</code>, <code dir="auto">claystone</code>, <code dir="auto">conglomerate</code></td>
+<td style="text-align: left"><strong>Limonita Normal</strong> (<code dir="auto">35%</code>), <strong>Fluxo</strong> (<code dir="auto">30%</code>), <strong>Kaolin Clay</strong> (<code dir="auto">20%</code>), <strong>Carvão Betuminoso</strong> (<code dir="auto">15%</code>)</td>
+</tr>
+<tr>
+<td style="text-align: left"><strong>Metamórfica</strong></td>
+<td style="text-align: left"><code dir="auto">marble</code>, <code dir="auto">gneiss</code>, <code dir="auto">schist</code>, <code dir="auto">phyllite</code>, <code dir="auto">slate</code>, <code dir="auto">quartzite</code></td>
+<td style="text-align: left"><strong>Esfalerita / Zinco</strong> (<code dir="auto">35%</code>), <strong>Prata Nativa Normal</strong> (<code dir="auto">25%</code>), <strong>Grafite</strong> (<code dir="auto">25%</code>), <strong>Safira</strong> (<code dir="auto">15%</code>)</td>
+</tr>
+</tbody>
+</table>
+</div><footer class="sl-flex astro-oyxnlawr"><div class="meta sl-flex astro-oyxnlawr"></div><div class="pagination-links print:hidden astro-clyp4uqs" dir="ltr"><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/todos-os-crafts/" rel="prev" class="astro-clyp4uqs"><svg aria-hidden="true" class="astro-clyp4uqs astro-fqxqqhdy" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.5rem;"><path d="M17 11H9.41l3.3-3.29a1.004 1.004 0 1 0-1.42-1.42l-5 5a1 1 0 0 0-.21.33 1 1 0 0 0 0 .76 1 1 0 0 0 .21.33l5 5a1.002 1.002 0 0 0 1.639-.325 1 1 0 0 0-.219-1.095L9.41 13H17a1 1 0 0 0 0-2Z"/></svg><span class="astro-clyp4uqs">Anterior<br class="astro-clyp4uqs"><span class="link-title astro-clyp4uqs">🌟 Todos os Crafts (Painel JEI)</span></span></a><a href="/TFC-Arcanum-Empires-WIKI-Guides/crafts/estruturas-multiblocos/" rel="next" class="astro-clyp4uqs"><svg aria-hidden="true" class="astro-clyp4uqs astro-fqxqqhdy" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.5rem;"><path d="M17.92 11.62a1.001 1.001 0 0 0-.21-.33l-5-5a1.003 1.003 0 1 0-1.42 1.42l3.3 3.29H7a1 1 0 0 0 0 2h7.59l-3.3 3.29a1.002 1.002 0 0 0 .325 1.639 1 1 0 0 0 1.095-.219l5-5a1 1 0 0 0 .21-.33 1 1 0 0 0 0-.76Z"/></svg><span class="astro-clyp4uqs">Próximo<br class="astro-clyp4uqs"><span class="link-title astro-clyp4uqs">🏗️ Estruturas Multiblocos</span></span></a></div></footer></div></div></main></div></div></div></div></body></html>

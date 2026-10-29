@@ -45,6 +45,7 @@ Com 2 pedras soltas do mesmo tipo na mão, clique com o **Botão Direito no ar**
 2. **Cabeça de Machado:** Una com 1 graveto na bancada de 2×2 do inventário. Derrube sua primeira árvore cortando o bloco da base!
 3. **Cabeça de Martelo:** Indispensável para quebrar pedras em brita, moldar forjas e operar na bigorna.
 4. **Pá de Pedra:** Para cavar argila e criar covas de queima (*Pit Kiln*).
+5. **Cabeça de Picareta de Pedra (`tfc_arcanum:stone_pickaxe_head`):** Lasque o topo das rochas em formato de picareta e una com 1 graveto — ou combine **3 pedras soltas + 1 graveto** diretamente na grade 2×2 do inventário para obter uma **Picareta de Pedra (`minecraft:stone_pickaxe`)** imediatamente! Isso permite aos novatos minerar carvão mineral, pedregulhos e afloramentos rochosos sem precisar esperar a fusão do cobre.
 
 ---
 

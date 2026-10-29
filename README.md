@@ -11,10 +11,13 @@
 
 ## 🌟 Recursos & Destaques da Wiki
 
-- **Painel Visual JEI Interativo**: 135 receitas visuais completas com grades 3×3, Knapping 5×5 e pop-ups dinâmicos.
-- **Fisiologia & Sobrevivência Realista**: Guias detalhados de águas termais geotérmicas, nutrição celular de 5 grupos, termorregulação e desabamentos sísmicos.
+- **Painel Visual JEI Interativo**: 145+ receitas visuais completas com grades 3×3, Knapping 5×5, vestimentas térmicas Curios e pop-ups dinâmicos.
+- **Alquimia da Wixie (58 Fórmulas)**: Tabela mestra de transmutação via pergaminho no pedestal arcano e cristalização de ametista.
+- **Civilizações Millénaire & Engenharia TFC**: Suprimento de obras diretamente com materiais TFC (`/suprir_vila`) e bloqueio de blocos Vanilla para preservar a física.
+- **Clima, Vestimentas & Vulcões**: Áudio espacial 3D, vestimentas sob a armadura no Curios (Gibão, Túnica, Coifa, Chapéu de Palha) e erupções vulcânicas cinematográficas.
+- **Fisiologia & Sobrevivência Realista**: Nutrição celular de 5 grupos (100 a 500+ HP), picareta de pedra acessível no early-game e mastigação contínua.
 - **Geração de Mundo & Engenharia**: Cálculo de alcance de vigas de madeira (13 blocos), mecânica de colapso e tabelas de trocas TFC com aldeões.
-- **Chefes & Expedições**: Estratégias, biomas e preparativos para enfrentar os chefes da história (incluindo o Warden e o Chaos Guardian).
+- **Chefes & Expedições**: Estratégias, biomas e preparativos para chefes (Krampus, Warden e Chaos Guardian).
 - **Crônicas & Lore**: A história dos Seis Atos, a Fratura do Selo Primordial e os Pilões de Proteção.
 - **Busca Instantânea**: Mecanismo de pesquisa Pagefind offline integrado no cabeçalho (`Ctrl + K`).
 
@@ -32,6 +35,9 @@
 | `/back` | Retorna ao local da morte ou teleporte anterior | 50 de Mana |
 | `[O]` | Configura HUD de armaduras e poções (*Inventory HUD+*) | Tecla de atalho |
 | `[N]` | Gráfico das 5 barras de nutrição TFC | Tecla de atalho |
+| `/suprir_vila` | Abastece projetos de obras do Millénaire com materiais TFC | Reputação na vila |
+| `/alquimia` | Abre o Grimório Interativo de Fórmulas da Wixie | Sem custo / In-Game |
+| `/vulcao_status` | Consulta a estabilidade sismológica e magmática local | Sem custo / In-Game |
 | `[K]` | Árvore de habilidades (*Puffish Skills*) | Nível de experiência |
 | `[V]` | Informações diplomáticas e comércio (*Millénaire*) | Dentro de território |
 

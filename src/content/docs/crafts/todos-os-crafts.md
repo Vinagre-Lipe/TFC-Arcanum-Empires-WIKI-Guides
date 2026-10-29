@@ -43,7 +43,8 @@ description: "AVISO — MODPACK EM ESTÁGIO BETA FECHADO DE DESENVOLVIMENTO :"
 28. [🔮 Alquimia do Eclipse, Joias Arcanas & Expedição](#28-alquimia-do-eclipse-joias-arcanas--expedição)
 29. [✈️ Aviação Dieselpunk, Vassouras & Arcaria (v1.3.0)](#29-aviação-dieselpunk-vassouras--arcaria-v130)
 30. [👹 Rituais do Krampus & Relíquias Sombrias (Born in Chaos)](#30-rituais-do-krampus--relíquias-sombrias-born-in-chaos)
-31. [🚫 Receitas Desativadas / Removidas (Anti-Exploit)](#31-receitas-desativadas--removidas-anti-exploit)
+31. [🧥 Vestimentas Térmicas & Conforto Climático (Curios)](#31-vestimentas-térmicas--conforto-climático-curios)
+32. [🚫 Receitas Desativadas / Removidas (Anti-Exploit)](#32-receitas-desativadas--removidas-anti-exploit)
 
 ---
 
@@ -1036,6 +1037,34 @@ Substitutos realistas das fornalhas automáticas: covas de queima (*Pit Kiln*), 
   </div>
   <div class="mc-card-footer"><code>tfc_arcanum:torch_relight</code><span>Reacende tochas</span></div>
 </div>
+<div class="mc-card">
+  <div class="mc-card-header"><span class="mc-card-title">Cabeça de Picareta de Pedra</span><span class="mc-card-badge">Rock Knapping 5×5</span></div>
+  <div class="mc-card-body">
+    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Pedra Solta TFC (#tfc:rock_knapping)"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/tfc_flint.png" alt="Pedra Solta TFC"></div><div class="mc-slot" data-tip="Pedra Solta TFC"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/tfc_flint.png" alt="Pedra Solta TFC"></div><div class="mc-slot" data-tip="Pedra Solta TFC"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/tfc_flint.png" alt="Pedra Solta TFC"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Pedra Solta TFC"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/tfc_flint.png" alt="Pedra Solta TFC"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div></div>
+    <div class="mc-arrow">➜</div>
+    <div class="mc-slot large" data-tip="Cabeça de Picareta de Pedra (tfc_arcanum:stone_pickaxe_head)"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/tfc_arcanum_stone_pickaxe_head.png" alt="Cabeça de Picareta de Pedra"></div>
+  </div>
+  <div class="mc-card-footer"><code>tfc_arcanum:knapping/rock/stone_pickaxe_head</code><span>Lascamento de rocha 5x5</span></div>
+</div>
+<div class="mc-card">
+  <div class="mc-card-header"><span class="mc-card-title">Picareta de Pedra (Montagem Rústica)</span><span class="mc-card-badge">Shapeless 2×2</span></div>
+  <div class="mc-card-body">
+    <div class="mc-slot large" data-tip="Cabeça de Picareta de Pedra"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/tfc_arcanum_stone_pickaxe_head.png" alt="Cabeça de Picareta de Pedra"></div>
+    <div class="mc-slot large" data-tip="Graveto (#c:rods/wooden)"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/tfc_twig.png" alt="Graveto"></div>
+    <div class="mc-arrow">➜</div>
+    <div class="mc-slot large" data-tip="Picareta de Pedra (minecraft:stone_pickaxe)"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/mc_stone_pickaxe.png" alt="Picareta de Pedra"></div>
+  </div>
+  <div class="mc-card-footer"><code>tfc_arcanum:crafting/stone_pickaxe_from_head_shapeless</code><span>Mineração inicial imediata</span></div>
+</div>
+<div class="mc-card">
+  <div class="mc-card-header"><span class="mc-card-title">Picareta de Pedra Direta (Inventário 2×2)</span><span class="mc-card-badge">Shapeless Rápido</span></div>
+  <div class="mc-card-body">
+    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Pedra Solta TFC"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/tfc_flint.png" alt="Pedra Solta TFC"></div><div class="mc-slot" data-tip="Pedra Solta TFC"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/tfc_flint.png" alt="Pedra Solta TFC"></div><div class="mc-slot" data-tip="Pedra Solta TFC"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/tfc_flint.png" alt="Pedra Solta TFC"></div><div class="mc-slot" data-tip="Graveto (#c:rods/wooden)"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/tfc_twig.png" alt="Graveto"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div></div>
+    <div class="mc-arrow">➜</div>
+    <div class="mc-slot large" data-tip="Picareta de Pedra (minecraft:stone_pickaxe)"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/mc_stone_pickaxe.png" alt="Picareta de Pedra"></div>
+  </div>
+  <div class="mc-card-footer"><code>tfc_arcanum:crafting/stone_pickaxe_quick_inventory</code><span>3 pedras soltas + 1 graveto</span></div>
+</div>
 </div>
 
 ---
@@ -1540,7 +1569,57 @@ Invocação do mini-boss **Krampus, O Flagelo do Inverno**, através de rituais 
 
 ---
 
-## 31. Receitas Desativadas / Removidas (Anti-Exploit)
+## 31. 🧥 Vestimentas Térmicas & Conforto Climático (Curios)
+
+Vestimentas leves equipadas nos slots do **Curios API** (`curios:body` e `curios:head`) para serem usadas sob qualquer elmo ou peitoral metálico, garantindo conforto térmico em biomas extremos de frio ou calor sem perder armadura física.
+
+<div class="mc-grid-gallery">
+
+<div class="mc-card">
+  <div class="mc-card-header"><span class="mc-card-title">Chapéu de Palha TFC</span><span class="mc-card-badge">Curios: Cabeça</span></div>
+  <div class="mc-card-body">
+    <div class="mc-grid-3x3"><div class="mc-slot"></div><div class="mc-slot" data-tip="Palha TFC (tfc:straw)"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/tfc_straw.png" alt="Palha TFC"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Palha TFC"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/tfc_straw.png" alt="Palha TFC"></div><div class="mc-slot" data-tip="Palha TFC"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/tfc_straw.png" alt="Palha TFC"></div><div class="mc-slot" data-tip="Palha TFC"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/tfc_straw.png" alt="Palha TFC"></div><div class="mc-slot" data-tip="Linha de Costura (#tfc:sewing_threads)"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/tfc_string.png" alt="Linha de Costura"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Linha de Costura"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/tfc_string.png" alt="Linha de Costura"></div></div>
+    <div class="mc-arrow">➜</div>
+    <div class="mc-slot large" data-tip="Chapéu de Palha (tfc_arcanum:straw_hat)"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/tfc_arcanum_straw_hat.png" alt="Chapéu de Palha"></div>
+  </div>
+  <div class="mc-card-footer"><code>tfc_arcanum:crafting/straw_hat</code><span>Proteção solar refrescante no rosto</span></div>
+</div>
+
+<div class="mc-card">
+  <div class="mc-card-header"><span class="mc-card-title">Coifa Acolchoada de Lã</span><span class="mc-card-badge">Curios: Cabeça</span></div>
+  <div class="mc-card-body">
+    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Tecido de Lã TFC (tfc:wool_cloth)"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/tfc_wool_yarn.png" alt="Tecido de Lã TFC"></div><div class="mc-slot" data-tip="Tecido de Lã TFC"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/tfc_wool_yarn.png" alt="Tecido de Lã TFC"></div><div class="mc-slot" data-tip="Tecido de Lã TFC"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/tfc_wool_yarn.png" alt="Tecido de Lã TFC"></div><div class="mc-slot" data-tip="Tecido de Lã TFC"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/tfc_wool_yarn.png" alt="Tecido de Lã TFC"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Tecido de Lã TFC"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/tfc_wool_yarn.png" alt="Tecido de Lã TFC"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Linha de Costura (#tfc:sewing_threads)"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/tfc_string.png" alt="Linha de Costura"></div><div class="mc-slot"></div></div>
+    <div class="mc-arrow">➜</div>
+    <div class="mc-slot large" data-tip="Coifa Acolchoada (tfc_arcanum:padded_coif)"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/tfc_arcanum_padded_coif.png" alt="Coifa Acolchoada"></div>
+  </div>
+  <div class="mc-card-footer"><code>tfc_arcanum:crafting/padded_coif</code><span>Isola cabeça e nuca contra geadas</span></div>
+</div>
+
+<div class="mc-card">
+  <div class="mc-card-header"><span class="mc-card-title">Túnica Leve do Deserto</span><span class="mc-card-badge">Curios: Corpo</span></div>
+  <div class="mc-card-body">
+    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Tecido de Estopa / Seda (tfc:burlap_cloth)"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/tfc_burlap.png" alt="Tecido de Estopa"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Tecido de Estopa / Seda"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/tfc_burlap.png" alt="Tecido de Estopa"></div><div class="mc-slot" data-tip="Tecido de Estopa / Seda"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/tfc_burlap.png" alt="Tecido de Estopa"></div><div class="mc-slot" data-tip="Linha de Costura (#tfc:sewing_threads)"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/tfc_string.png" alt="Linha de Costura"></div><div class="mc-slot" data-tip="Tecido de Estopa / Seda"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/tfc_burlap.png" alt="Tecido de Estopa"></div><div class="mc-slot" data-tip="Tecido de Estopa / Seda"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/tfc_burlap.png" alt="Tecido de Estopa"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Tecido de Estopa / Seda"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/tfc_burlap.png" alt="Tecido de Estopa"></div></div>
+    <div class="mc-arrow">➜</div>
+    <div class="mc-slot large" data-tip="Túnica do Deserto (tfc_arcanum:desert_tunic)"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/tfc_arcanum_desert_tunic.png" alt="Túnica do Deserto"></div>
+  </div>
+  <div class="mc-card-footer"><code>tfc_arcanum:crafting/desert_tunic</code><span>Tecido respirável contra insolação (+5% Vel.)</span></div>
+</div>
+
+<div class="mc-card">
+  <div class="mc-card-header"><span class="mc-card-title">Gibão Acolchoado (Gambeson)</span><span class="mc-card-badge">Curios: Corpo</span></div>
+  <div class="mc-card-body">
+    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Tecido de Lã TFC (tfc:wool_cloth)"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/tfc_wool_yarn.png" alt="Tecido de Lã TFC"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Tecido de Lã TFC"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/tfc_wool_yarn.png" alt="Tecido de Lã TFC"></div><div class="mc-slot" data-tip="Tecido de Lã TFC"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/tfc_wool_yarn.png" alt="Tecido de Lã TFC"></div><div class="mc-slot" data-tip="Tecido de Estopa / Fio"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/tfc_burlap.png" alt="Tecido de Estopa"></div><div class="mc-slot" data-tip="Tecido de Lã TFC"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/tfc_wool_yarn.png" alt="Tecido de Lã TFC"></div><div class="mc-slot" data-tip="Tecido de Lã TFC"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/tfc_wool_yarn.png" alt="Tecido de Lã TFC"></div><div class="mc-slot" data-tip="Tecido de Estopa / Fio"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/tfc_burlap.png" alt="Tecido de Estopa"></div><div class="mc-slot" data-tip="Tecido de Lã TFC"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/tfc_wool_yarn.png" alt="Tecido de Lã TFC"></div></div>
+    <div class="mc-arrow">➜</div>
+    <div class="mc-slot large" data-tip="Gibão Acolchoado (tfc_arcanum:gambeson)"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/tfc_arcanum_gambeson.png" alt="Gibão Acolchoado"></div>
+  </div>
+  <div class="mc-card-footer"><code>tfc_arcanum:crafting/gambeson</code><span>Forro térmico sob armaduras (+1 Armadura)</span></div>
+</div>
+
+</div>
+
+---
+
+## 32. Receitas Desativadas / Removidas (Anti-Exploit)
 
 | Categoria | Itens Bloqueados | Motivo |
 |---|---|---|
