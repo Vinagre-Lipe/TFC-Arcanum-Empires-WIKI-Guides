@@ -116,6 +116,7 @@ export default defineConfig({
             { label: 'Padrões de Knapping', link: '/guias/02-padroes-knapping/' },
             { label: 'Palha, Fogueira & Comida', link: '/guias/03-palha-fogo/' },
             { label: 'Água Doce & Sede', link: '/guias/04-agua-sede/' },
+            { label: '🌋 Clima, Vestimentas & Vulcões', link: '/guias/05-clima-imersao-e-vulcoes/' },
             { label: 'Ferramentas de Pedra', link: '/guias/01-ferramentas-pedra/' },
             { label: 'Fogo & Tochas', link: '/guias/03-fogo-e-tochas/' },
             { label: 'Argila & Pit Kiln', link: '/guias/01-argila-pitkiln/' },
@@ -179,6 +180,7 @@ export default defineConfig({
           items: [
             { label: 'Visão Geral & Mods por Categoria', link: '/documentacao/arquitetura/' },
             { label: 'Catálogo A–Z (126 Mods) & Requisitos', link: '/documentacao/mods-compatibilidade/' },
+            { label: '📦 Distribuição AutoModpack & Mods Client-Side', link: '/documentacao/distribuicao-automodpack-e-mods-client/' },
           ],
         },
       ],
