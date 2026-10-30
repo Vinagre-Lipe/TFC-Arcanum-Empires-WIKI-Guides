@@ -11,12 +11,14 @@
 
 ## 🌟 Recursos & Destaques da Wiki
 
-- **Painel Visual JEI Interativo**: 145+ receitas visuais completas com grades 3×3, Knapping 5×5, vestimentas térmicas Curios e pop-ups dinâmicos.
+- **Painel Visual JEI Interativo**: 160+ receitas visuais completas com grades 3×3, Knapping 5×5, armazéns Sophisticated Storage, Netherite TFC e pop-ups dinâmicos.
+- **Armazenamento Massivo & Gavetas (*Limited Barrels*)**: Infraestrutura contra lag com tiers de Cobre até Aço Negro e terminal inteligente *Storage Lectern* (Ars Nouveau).
+- **Alquimia de Argila & Fire Clay**: 5 rotas de obtenção (Alquimia Rústica, Decantação em Barril, Síntese Química e Alquimia da Fonte) para sobreviver em biomas secos.
+- **Nether & The End no TFC**: *Amplified Nether*, comércio com Piglins via Ouro TFC, forja de Netherite com Ouro Rosa, Chorus Fruit purificadora e Shulker Boxes de Aço.
 - **Alquimia da Wixie (58 Fórmulas)**: Tabela mestra de transmutação via pergaminho no pedestal arcano e cristalização de ametista.
 - **Civilizações Millénaire & Engenharia TFC**: Suprimento de obras diretamente com materiais TFC (`/suprir_vila`) e bloqueio de blocos Vanilla para preservar a física.
 - **Clima, Vestimentas & Vulcões**: Áudio espacial 3D, vestimentas sob a armadura no Curios (Gibão, Túnica, Coifa, Chapéu de Palha) e erupções vulcânicas cinematográficas.
 - **Fisiologia & Sobrevivência Realista**: Nutrição celular de 5 grupos (100 a 500+ HP), picareta de pedra acessível no early-game e mastigação contínua.
-- **Geração de Mundo & Engenharia**: Cálculo de alcance de vigas de madeira (13 blocos), mecânica de colapso e tabelas de trocas TFC com aldeões.
 - **Chefes & Expedições**: Estratégias, biomas e preparativos para chefes (Krampus, Warden e Chaos Guardian).
 - **Crônicas & Lore**: A história dos Seis Atos, a Fratura do Selo Primordial e os Pilões de Proteção.
 - **Busca Instantânea**: Mecanismo de pesquisa Pagefind offline integrado no cabeçalho (`Ctrl + K`).

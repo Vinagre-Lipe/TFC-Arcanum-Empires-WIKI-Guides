@@ -119,9 +119,9 @@ export default defineConfig({
             { label: '🌋 Clima, Vestimentas & Vulcões', link: '/guias/05-clima-imersao-e-vulcoes/' },
             { label: 'Ferramentas de Pedra', link: '/guias/01-ferramentas-pedra/' },
             { label: 'Fogo & Tochas', link: '/guias/03-fogo-e-tochas/' },
-            { label: 'Argila & Pit Kiln', link: '/guias/01-argila-pitkiln/' },
+            { label: '🏺 Argila, Alquimia & Pit Kiln', link: '/guias/01-argila-pitkiln/' },
             { label: 'Cerâmica & Pit Kiln (Passo a Passo)', link: '/guias/04-estruturas-primitivas/' },
-            { label: 'Armazenamento & Cavernas', link: '/guias/02-armazenamento-fisica/' },
+            { label: '📦 Armazenamento, Gavetas & Cavernas', link: '/guias/02-armazenamento-fisica/' },
           ],
         },
         {
@@ -140,6 +140,7 @@ export default defineConfig({
           label: 'Chefes & Expedições',
           items: [
             { label: '⚔️ Chefes Essenciais & Lendários', link: '/guias/chefes-essenciais-progresso/' },
+            { label: '🔥 O Nether, The End & Dimensões', link: '/guias/06-nether-e-end-tfc/' },
           ],
         },
         {

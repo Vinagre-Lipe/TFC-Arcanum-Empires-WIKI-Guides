@@ -44,7 +44,10 @@ description: "AVISO — MODPACK EM ESTÁGIO BETA FECHADO DE DESENVOLVIMENTO :"
 29. [✈️ Aviação Dieselpunk, Vassouras & Arcaria (v1.3.0)](#29-aviação-dieselpunk-vassouras--arcaria-v130)
 30. [👹 Rituais do Krampus & Relíquias Sombrias (Born in Chaos)](#30-rituais-do-krampus--relíquias-sombrias-born-in-chaos)
 31. [🧥 Vestimentas Térmicas & Conforto Climático (Curios)](#31-vestimentas-térmicas--conforto-climático-curios)
-32. [🚫 Receitas Desativadas / Removidas (Anti-Exploit)](#32-receitas-desativadas--removidas-anti-exploit)
+32. [🏺 Alquimia Rústica de Argila & Decantação em Barril](#32-alquimia-rústica-de-argila--decantação-em-barril)
+33. [📦 Sophisticated Storage, Gavetas & Armazém Místico (Ars Nouveau)](#33-sophisticated-storage-gavetas--armazém-místico-ars-nouveau)
+34. [🔥 Metalurgia de Netherite, Piglin Barter & The End](#34-metalurgia-de-netherite-piglin-barter--the-end)
+35. [🚫 Receitas Desativadas / Removidas (Anti-Exploit)](#35-receitas-desativadas--removidas-anti-exploit)
 
 ---
 
@@ -1619,7 +1622,158 @@ Vestimentas leves equipadas nos slots do **Curios API** (`curios:body` e `curios
 
 ---
 
-## 32. Receitas Desativadas / Removidas (Anti-Exploit)
+## 32. 🏺 Alquimia Rústica de Argila & Decantação em Barril
+
+Rotas físicas e orgânicas para obter **Argila Comum**, **Argila Refratária (*Fire Clay*)** e **Kaolin Clay** mesmo em biomas secos com pluviosidade baixa no TFC.
+
+<div class="mc-grid-gallery">
+
+<div class="mc-card">
+  <div class="mc-card-header"><span class="mc-card-title">Argila Rústica (Terra + Cinzas + Água)</span><span class="mc-card-badge">Shapeless 2×2</span></div>
+  <div class="mc-card-body">
+    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Terra TFC (#tfc:dirt)"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/mill_mud_brick.png" alt="Terra TFC"></div><div class="mc-slot" data-tip="Cinzas de Madeira (tfc:powder/wood_ash)"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/tfc_powder_wood_ash.png" alt="Cinzas de Madeira"></div><div class="mc-slot" data-tip="Jarra Cerâmica com Água (100mB)"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/tfc_clay_ball.png" alt="Jarra Cerâmica com Água"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div></div>
+    <div class="mc-arrow">➜</div>
+    <div class="mc-slot large" data-tip="4x Bolas de Argila (tfc:clay_ball)"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/tfc_clay_ball.png" alt="4x Bolas de Argila"></div>
+  </div>
+  <div class="mc-card-footer"><code>tfc_arcanum:primitive_clay_from_dirt_ash_water</code><span>Devolve a jarra cerâmica intacta</span></div>
+</div>
+
+<div class="mc-card">
+  <div class="mc-card-header"><span class="mc-card-title">Argila Rústica com Lama (Sem Gasto d'Água)</span><span class="mc-card-badge">Shapeless 2×2</span></div>
+  <div class="mc-card-body">
+    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Lama TFC (#tfc:mud)"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/mill_mud_brick.png" alt="Lama TFC"></div><div class="mc-slot" data-tip="Cinzas de Madeira (tfc:powder/wood_ash)"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/tfc_powder_wood_ash.png" alt="Cinzas de Madeira"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div></div>
+    <div class="mc-arrow">➜</div>
+    <div class="mc-slot large" data-tip="4x Bolas de Argila (tfc:clay_ball)"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/tfc_clay_ball.png" alt="4x Bolas de Argila"></div>
+  </div>
+  <div class="mc-card-footer"><code>tfc_arcanum:primitive_clay_from_mud_ash</code><span>Aproveita a umidade natural da lama</span></div>
+</div>
+
+<div class="mc-card">
+  <div class="mc-card-header"><span class="mc-card-title">Argila Refratária Química (Sem Grafite)</span><span class="mc-card-badge">Shapeless 2×2</span></div>
+  <div class="mc-card-body">
+    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Bola de Argila TFC"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/tfc_clay_ball.png" alt="Bola de Argila"></div><div class="mc-slot" data-tip="Bola de Argila TFC"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/tfc_clay_ball.png" alt="Bola de Argila"></div><div class="mc-slot" data-tip="Pó de Carvão Vegetal"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/tfc_powder_charcoal.png" alt="Pó de Carvão"></div><div class="mc-slot" data-tip="Pó de Fluxo TFC"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/tfc_powder_flux.png" alt="Pó de Fluxo"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div></div>
+    <div class="mc-arrow">➜</div>
+    <div class="mc-slot large" data-tip="2x Argila Refratária (tfc:fire_clay)"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/tfc_clay_ball.png" alt="2x Fire Clay"></div>
+  </div>
+  <div class="mc-card-footer"><code>tfc_arcanum:chemical_fire_clay_craft</code><span>Insumo para cadinhos de fundição</span></div>
+</div>
+
+<div class="mc-card">
+  <div class="mc-card-header"><span class="mc-card-title">Argila Caulinita Rústica (Kaolin Clay)</span><span class="mc-card-badge">Shapeless 2×2</span></div>
+  <div class="mc-card-body">
+    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Bola de Argila TFC"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/tfc_clay_ball.png" alt="Bola de Argila"></div><div class="mc-slot" data-tip="Bola de Argila TFC"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/tfc_clay_ball.png" alt="Bola de Argila"></div><div class="mc-slot" data-tip="Pó de Fluxo TFC"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/tfc_powder_flux.png" alt="Pó de Fluxo"></div><div class="mc-slot" data-tip="Farinha de Osso"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/mc_bone_meal.png" alt="Farinha de Osso"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div></div>
+    <div class="mc-arrow">➜</div>
+    <div class="mc-slot large" data-tip="2x Kaolin Clay (tfc:kaolin_clay)"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/tfc_clay_ball.png" alt="2x Kaolin Clay"></div>
+  </div>
+  <div class="mc-card-footer"><code>tfc_arcanum:kaolin_clay_from_common_clay</code><span>Porcelana e tijolos refratários brancos</span></div>
+</div>
+
+</div>
+
+---
+
+## 33. 📦 Sophisticated Storage, Gavetas & Armazém Místico (Ars Nouveau)
+
+Contêineres de alta capacidade integrados às madeiras e metais forjados do TFC, gavetas compactas (*Limited Barrels*) e terminais mágicos de busca.
+
+<div class="mc-grid-gallery">
+
+<div class="mc-card">
+  <div class="mc-card-header"><span class="mc-card-title">Barril Sophisticated Storage</span><span class="mc-card-badge">Marpintaria TFC</span></div>
+  <div class="mc-card-body">
+    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Tábua TFC (#tfc:lumber)"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/tfc_lumber.png" alt="Tábua TFC"></div><div class="mc-slot" data-tip="Barril TFC (#tfc:barrels)"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/tfc_barrel.png" alt="Barril TFC"></div><div class="mc-slot" data-tip="Tábua TFC"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/tfc_lumber.png" alt="Tábua TFC"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div></div>
+    <div class="mc-arrow">➜</div>
+    <div class="mc-slot large" data-tip="Barril Sophisticated (sophisticatedstorage:barrel)"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/mc_barrel.png" alt="Barril Sophisticated"></div>
+  </div>
+  <div class="mc-card-footer"><code>sophisticatedstorage:barrel</code><span>27 slots com suporte a upgrades</span></div>
+</div>
+
+<div class="mc-card">
+  <div class="mc-card-header"><span class="mc-card-title">Gaveta Simples Compacta (1 Slot)</span><span class="mc-card-badge">Armazenamento Massivo</span></div>
+  <div class="mc-card-body">
+    <div class="mc-grid-3x3"><div class="mc-slot large" data-tip="Barril Sophisticated Storage"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/mc_barrel.png" alt="Barril Sophisticated"></div><div class="mc-slot large" data-tip="Tábua TFC (#tfc:lumber)"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/tfc_lumber.png" alt="Tábua TFC"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div></div>
+    <div class="mc-arrow">➜</div>
+    <div class="mc-slot large" data-tip="Gaveta Simples (sophisticatedstorage:limited_barrel_1)"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/mc_barrel.png" alt="Gaveta Simples"></div>
+  </div>
+  <div class="mc-card-footer"><code>sophisticatedstorage:limited_barrel_1</code><span>Armazena 32x Stacks de 1 único item</span></div>
+</div>
+
+<div class="mc-card">
+  <div class="mc-card-header"><span class="mc-card-title">Stack Upgrade Tier 1 (2x Capacidade)</span><span class="mc-card-badge">Chapas de Cobre</span></div>
+  <div class="mc-card-body">
+    <div class="mc-grid-3x3"><div class="mc-slot"></div><div class="mc-slot" data-tip="Chapa de Cobre TFC"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/tfc_sheet_copper.png" alt="Chapa de Cobre"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Chapa de Cobre TFC"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/tfc_sheet_copper.png" alt="Chapa de Cobre"></div><div class="mc-slot" data-tip="Base de Upgrade"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/tfc_lumber.png" alt="Base de Upgrade"></div><div class="mc-slot" data-tip="Chapa de Cobre TFC"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/tfc_sheet_copper.png" alt="Chapa de Cobre"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Chapa de Cobre TFC"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/tfc_sheet_copper.png" alt="Chapa de Cobre"></div><div class="mc-slot"></div></div>
+    <div class="mc-arrow">➜</div>
+    <div class="mc-slot large" data-tip="Stack Upgrade Tier 1 (sophisticatedstorage:stack_upgrade_tier_1)"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/sb_copper.png" alt="Stack Upgrade Tier 1"></div>
+  </div>
+  <div class="mc-card-footer"><code>sophisticatedstorage:stack_upgrade_tier_1</code><span>Dobra o limite por slot para 128 itens</span></div>
+</div>
+
+<div class="mc-card">
+  <div class="mc-card-header"><span class="mc-card-title">Terminal Atril de Armazenamento</span><span class="mc-card-badge">Ars Nouveau</span></div>
+  <div class="mc-card-body">
+    <div class="mc-grid-3x3"><div class="mc-slot"></div><div class="mc-slot" data-tip="Baú TFC (#c:chests)"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/tfc_chest_oak.png" alt="Baú TFC"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Tábua TFC"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/tfc_lumber.png" alt="Tábua TFC"></div><div class="mc-slot" data-tip="Gema da Fonte"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/tfc_gem_diamond.png" alt="Gema da Fonte"></div><div class="mc-slot" data-tip="Tábua TFC"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/tfc_lumber.png" alt="Tábua TFC"></div><div class="mc-slot" data-tip="Tora TFC"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/tfc_log.png" alt="Tora TFC"></div><div class="mc-slot" data-tip="Tora TFC"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/tfc_log.png" alt="Tora TFC"></div><div class="mc-slot" data-tip="Tora TFC"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/tfc_log.png" alt="Tora TFC"></div></div>
+    <div class="mc-arrow">➜</div>
+    <div class="mc-slot large" data-tip="Storage Lectern (ars_nouveau:storage_lectern)"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/mc_lectern.png" alt="Storage Lectern"></div>
+  </div>
+  <div class="mc-card-footer"><code>tfc_arcanum:early_storage_lectern_direct</code><span>Terminal de busca num raio de 64 blocos</span></div>
+</div>
+
+</div>
+
+---
+
+## 34. 🔥 Metalurgia de Netherite, Piglin Barter & The End
+
+Conexão entre as ligas de Aço Negro e Ouro Rosa do TFC com a dimensão infernal do Nether e as relíquias de Shulker do The End.
+
+<div class="mc-grid-gallery">
+
+<div class="mc-card">
+  <div class="mc-card-header"><span class="mc-card-title">Britagem de Detritos Ancestrais</span><span class="mc-card-badge">Esmagamento TFC</span></div>
+  <div class="mc-card-body">
+    <div class="mc-slot large" data-tip="Detrito Ancestral (minecraft:ancient_debris)"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/bic_dark_metal.png" alt="Detrito Ancestral"></div>
+    <div class="mc-slot large" data-tip="Martelo TFC (#c:tools/hammer)"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/tfc_flint.png" alt="Martelo TFC"></div>
+    <div class="mc-arrow">➜</div>
+    <div class="mc-slot large" data-tip="2x Sucata de Netherite (minecraft:netherite_scrap)"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/mc_netherite_ingot.png" alt="2x Sucata de Netherite"></div>
+  </div>
+  <div class="mc-card-footer"><code>tfc_arcanum:crush_ancient_debris_with_hammer</code><span>Extração direta sem queima em fornalha</span></div>
+</div>
+
+<div class="mc-card">
+  <div class="mc-card-header"><span class="mc-card-title">Lingote de Netherite Nobre (Ouro Rosa)</span><span class="mc-card-badge">Shapeless 2×2</span></div>
+  <div class="mc-card-body">
+    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="4x Sucata de Netherite"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/mc_netherite_ingot.png" alt="Sucata de Netherite"></div><div class="mc-slot" data-tip="3x Lingote de Ouro Rosa TFC"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/tfc_ingot_gold.png" alt="Lingote de Ouro Rosa"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div><div class="mc-slot"></div></div>
+    <div class="mc-arrow">➜</div>
+    <div class="mc-slot large" data-tip="Lingote de Netherite (minecraft:netherite_ingot)"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/mc_netherite_ingot.png" alt="Lingote de Netherite"></div>
+  </div>
+  <div class="mc-card-footer"><code>tfc_arcanum:netherite_ingot_from_tfc_rose_gold</code><span>Economiza 1 lingote de ouro puro</span></div>
+</div>
+
+<div class="mc-card">
+  <div class="mc-card-header"><span class="mc-card-title">Molde de Ferraria de Netherite</span><span class="mc-card-badge">Aço Negro & Cursecoal</span></div>
+  <div class="mc-card-body">
+    <div class="mc-grid-3x3"><div class="mc-slot" data-tip="Chapa de Aço Negro TFC"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/tfc_sheet_black_steel.png" alt="Chapa de Aço Negro"></div><div class="mc-slot" data-tip="Cursecoal (beneath:cursecoal)"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/mc_coal.png" alt="Cursecoal"></div><div class="mc-slot" data-tip="Chapa de Aço Negro TFC"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/tfc_sheet_black_steel.png" alt="Chapa de Aço Negro"></div><div class="mc-slot" data-tip="Diamante"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/tfc_gem_diamond.png" alt="Diamante"></div><div class="mc-slot" data-tip="Netherrack"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/mill_mud_brick.png" alt="Netherrack"></div><div class="mc-slot" data-tip="Diamante"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/tfc_gem_diamond.png" alt="Diamante"></div><div class="mc-slot" data-tip="Netherrack"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/mill_mud_brick.png" alt="Netherrack"></div><div class="mc-slot" data-tip="Netherrack"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/mill_mud_brick.png" alt="Netherrack"></div><div class="mc-slot" data-tip="Netherrack"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/mill_mud_brick.png" alt="Netherrack"></div></div>
+    <div class="mc-arrow">➜</div>
+    <div class="mc-slot large" data-tip="Molde de Ferraria (minecraft:netherite_upgrade_smithing_template)"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/apoth_sigil_socketing.png" alt="Molde de Ferraria"></div>
+  </div>
+  <div class="mc-card-footer"><code>tfc_arcanum:craft_netherite_upgrade_template</code><span>Forja garantida sem depender de baús de bastião</span></div>
+</div>
+
+<div class="mc-card">
+  <div class="mc-card-header"><span class="mc-card-title">Shulker Box de Aço Azul TFC</span><span class="mc-card-badge">Ato VI Endgame</span></div>
+  <div class="mc-card-body">
+    <div class="mc-grid-3x3"><div class="mc-slot"></div><div class="mc-slot" data-tip="Casca de Shulker"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/mc_popped_chorus_fruit.png" alt="Casca de Shulker"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Chapa de Aço Azul TFC"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/tfc_sheet_steel.png" alt="Chapa de Aço Azul"></div><div class="mc-slot" data-tip="Baú TFC (#c:chests)"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/tfc_chest_oak.png" alt="Baú TFC"></div><div class="mc-slot" data-tip="Chapa de Aço Azul TFC"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/tfc_sheet_steel.png" alt="Chapa de Aço Azul"></div><div class="mc-slot"></div><div class="mc-slot" data-tip="Casca de Shulker"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/mc_popped_chorus_fruit.png" alt="Casca de Shulker"></div><div class="mc-slot"></div></div>
+    <div class="mc-arrow">➜</div>
+    <div class="mc-slot large" data-tip="Shulker Box (minecraft:shulker_box)"><img src="/TFC-Arcanum-Empires-WIKI-Guides/assets/icons/mc_chest.png" alt="Shulker Box"></div>
+  </div>
+  <div class="mc-card-footer"><code>tfc_arcanum:shulker_box_blue_steel</code><span>Armazenamento dimensional supremo</span></div>
+</div>
+
+</div>
+
+---
+
+## 35. Receitas Desativadas / Removidas (Anti-Exploit)
 
 | Categoria | Itens Bloqueados | Motivo |
 |---|---|---|
