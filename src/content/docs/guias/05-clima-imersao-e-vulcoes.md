@@ -136,3 +136,27 @@ sequenceDiagram
 ### Comandos de Sismologia
 - `/vulcao_status` — Permite que qualquer jogador consulte o sismógrafo local para verificar a estabilidade da crosta no bioma atual.
 - `/vulcao_erupcao` — Comando administrativo para disparar a erupção cinematográfica na posição atual (útil para testes ou rituais de clã).
+
+
+---
+
+## 🌪️ 5. Furacões, Ciclones & Chuva de Granizo (Weather2)
+
+O modpack conta com o clássico **Weather, Storms & Tornadoes (Weather2)**, criando um sistema de frentes meteorológicas vivas com dinâmica de nuvens, supercélulas e tempestades severas.
+
+### Fenômenos Atmosféricos Ativos
+- **Chuva de Granizo (Hailstorm):** Em tempestades ativas sobre biomas frios ou montanhosos, pedras de gelo despencam em alta velocidade, fazendo forte barulho em telhados. Abrigue-se sob teto ou use capacete para não sofrer pequenas contusões.
+- **Vendavais & Ventania (High Wind):** Correntes de ar velozes empurram jogadores e criaturas ao longo do terreno, dificultando a mira de arcos e a movimentação rápida.
+- **Trombas d'Água e Ciclones Oceânicos:** Vórtices de vento que se erguem sobre mares e oceanos, erguendo barcos e criaturas marinhas.
+- **Tornados Funil 3D (F0 a F4):** Funis volumétricos colossais que tocam o chão com ventos giratórios e arremessam monstros e animais pelos ares.
+
+> [!IMPORTANT]
+> **Proteção Absoluta de Vilas & Casas (No Griefing):**
+> O Weather2 foi configurado no servidor com Storm_Tornado_grabBlocks = false e Storm_Tornado_grabVillagers = false. O tornado gera todo o espetáculo visual, sonoro e físico de arremessar criaturas e jogadores, **mas não arranca nenhum bloco de construções e não mata os aldeões das vilas Millénaire**.
+
+### Aparelhos de Defesa Civil & Meteorologia
+Você pode confeccionar instrumentos para monitorar e defender seu império contra tempestades:
+- **Sirene de Tornado (weather2:tornado_siren):** Detecta a aproximação de ciclones e tornados em um raio de 256 blocos e toca uma sirene de emergência sonora real para alertar toda a vila.
+- **Sensor de Tempestade (weather2:tornado_sensor):** Emite sinal de redstone quando uma tempestade severa estiver próxima (ótimo para fechar portões automáticos com Create).
+- **Radar Meteorológico (weather2:weather_forecast):** Uma tela interativa que rastreia frentes frias, massas de ar e tempestades no mapa em tempo real.
+- **Cata-Vento & Anemômetro (weather2:wind_vane / nemometer):** Medem a direção e a velocidade atual das correntes de ar.
